@@ -10,6 +10,11 @@ export const getData = async () => {
   return data;
 };
 
+export const getRandomPhrase = async () => {
+  const data = await db.select().from(phrase).orderBy(sql`random()`).limit(1);
+  return data[0];
+}
+
 export const addPhrase = async (
   id: number,
   author: string,

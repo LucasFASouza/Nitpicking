@@ -1,6 +1,6 @@
 export type PhraseType = {
   id: number;
-  author: string;
+  author: string | null;
   category: string;
   phrase_text: string;
   error: string;
