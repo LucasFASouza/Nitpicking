@@ -1,3 +1,21 @@
+## TODO:
+- Store ids from past phrases and likes/dislikes.
+    - Add past ids to except and make like and dislike a toggle.
+
+- Add go back button
+    - Visit past ids
+    - keep a separate record of historic maybe?
+    - or make the links store the id and just go back
+
+- Add new pages
+    - about
+    - how to play
+    - suggestions
+
+- Styles
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
