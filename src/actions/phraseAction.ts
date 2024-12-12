@@ -10,10 +10,15 @@ export const getData = async () => {
   return data;
 };
 
-export const getRandomPhrase = async () => {
-  const data = await db.select().from(phrase).orderBy(sql`random()`).limit(1);
+export const getRandomPhrase = async (except: number[] = []) => {
+  const data = await db
+    .select()
+    .from(phrase)
+    .where(except.length > 0 ? sql`id NOT IN (${except})` : sql`true`)
+    .orderBy(sql`random()`)
+    .limit(1);
   return data[0];
-}
+};
 
 export const addPhrase = async (
   id: number,
