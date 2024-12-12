@@ -1,18 +1,12 @@
-import {
-  getRandomPhrase,
-  likePhrase,
-  dislikePhrase,
-} from "@/actions/phraseAction";
-import Phrase from "@/components/phrase";
+import { getRandomPhrase } from "@/actions/phraseAction";
+import { redirect } from "next/navigation";
 
 export default async function Home() {
-  const data = await getRandomPhrase();
+  const phrase = await getRandomPhrase();
 
-  return (
-    <Phrase
-      phrase={data}
-      likePhrase={likePhrase}
-      dislikePhrase={dislikePhrase}
-    />
-  );
+  if (!phrase) {
+    return <div>No phrases found</div>;
+  }
+
+  redirect(`/${phrase.id}`);
 }

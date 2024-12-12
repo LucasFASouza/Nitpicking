@@ -1,4 +1,5 @@
 "use server";
+
 import { eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { db } from "@/db/drizzle";
@@ -10,7 +11,7 @@ export const getData = async () => {
   return data;
 };
 
-export const getRandomPhrase = async (except: number[] = []) => {
+export const getRandomPhrase = async (except: string[] = []) => {
   const data = await db
     .select()
     .from(phrase)
@@ -18,6 +19,21 @@ export const getRandomPhrase = async (except: number[] = []) => {
     .orderBy(sql`random()`)
     .limit(1);
   return data[0];
+};
+
+export const getPhraseById = async (id: number) => {
+  try {
+    const data = await db
+      .select()
+      .from(phrase)
+      .where(eq(phrase.id, id))
+      .limit(1);
+
+    return data[0] || null;
+  } catch (error) {
+    console.error("Error fetching phrase:", error);
+    return null;
+  }
 };
 
 export const addPhrase = async (
@@ -52,7 +68,7 @@ export const likePhrase = async (id: number) => {
     })
     .where(eq(phrase.id, id));
 
-  revalidatePath("/");
+  revalidatePath(`/${id}`);
 };
 
 export const dislikePhrase = async (id: number) => {
@@ -63,5 +79,5 @@ export const dislikePhrase = async (id: number) => {
     })
     .where(eq(phrase.id, id));
 
-  revalidatePath("/");
+  revalidatePath(`/${id}`);
 };

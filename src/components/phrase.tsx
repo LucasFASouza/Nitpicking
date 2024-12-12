@@ -29,14 +29,24 @@ const Phrase: FC<Props> = ({ phrase, likePhrase, dislikePhrase }) => {
         </>
       )}
 
+      <br />
+
       <p>Likes: {phrase.likes}</p>
       <p>Dislikes: {phrase.dislikes}</p>
+
+      <br />
 
       <button onClick={handleToggleDetails}>
         {showDetails ? "Hide Details" : "Show Details"}
       </button>
 
+      <br />
+      <br />
+
       <button onClick={() => likePhrase(phrase.id)}>Like</button>
+
+      <br />
+
       <button onClick={() => dislikePhrase(phrase.id)}>Dislike</button>
     </div>
   );
