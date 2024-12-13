@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import {
   getPhraseById,
   likePhrase,
@@ -18,7 +17,6 @@ export async function generateMetadata(props: {
   searchParams: SearchParams;
 }) {
   const params = await props.params;
-  const searchParams = await props.searchParams;
   const id = params.id;
 
   return {
