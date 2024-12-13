@@ -17,13 +17,6 @@ export const addSuggestion = async (
   correction: string,
   notes: string
 ) => {
-  const headersList = await headers();
-  const origin = headersList.get("origin");
-
-  if (!origin?.includes(process.env.NEXT_PUBLIC_DOMAIN!)) {
-    throw new Error("Invalid origin");
-  }
-
   if (
     !validateInput({ author, category, phrase_text, error, correction, notes })
   ) {
