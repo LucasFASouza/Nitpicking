@@ -10,33 +10,29 @@ import {
 import Phrase from "@/components/phrase";
 import { notFound } from "next/navigation";
 
-async function resolveParams(params: { id: string }) {
-  return Promise.resolve(params);
-}
+type Params = Promise<{ id: string }>;
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { id: string };
-}): Promise<Metadata> {
-  const resolvedParams = await resolveParams(params);
-  const phrase = await getPhraseById(Number(resolvedParams.id));
+export async function generateMetadata(props: {
+  params: Params;
+  searchParams: SearchParams;
+}) {
+  const params = await props.params;
+  const searchParams = await props.searchParams;
+  const id = params.id;
 
   return {
-    title: phrase
-      ? `Nitipicking #${phrase.id} - ${phrase.category}`
-      : "Nitipicking - Sentence Not Found",
-    description: phrase?.phrase_text || "Sentence Not Found",
+    title: `Nitipicking #${id}`,
+    description: "Find and correct the error",
   };
 }
 
-export default async function PhrasePage({
-  params,
-}: {
-  params: { id: string };
+export default async function PhrasePage(props: {
+  params: Params;
+  searchParams: SearchParams;
 }) {
-  const resolvedParams = await resolveParams(params);
-  const id = Number(resolvedParams.id);
+  const params = await props.params;
+  const id = Number(params.id);
 
   if (isNaN(id)) {
     notFound();
