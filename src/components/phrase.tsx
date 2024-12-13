@@ -238,6 +238,9 @@ const Phrase: FC<Props> = ({
             <h2 className="pt-6 sm:pt-12 text-sm sm:text-base">
               #{phrase.id} - {phrase.category}
             </h2>
+            <p>
+              {phrase.author}
+            </p>
           </div>
         </div>
       </div>
