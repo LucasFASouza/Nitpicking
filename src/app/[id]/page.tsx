@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   getPhraseById,
   likePhrase,
@@ -9,14 +10,17 @@ import {
 import Phrase from "@/components/phrase";
 import { notFound } from "next/navigation";
 
-interface Props {
-  params: { id: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
-}
+type PageProps = {
+  params: {
+    id: string;
+  };
+  searchParams: Record<string, string | string[] | undefined>;
+};
 
-export async function generateMetadata({ params }: Props) {
-  const resolvedParams = await Promise.resolve(params);
-  const phrase = await getPhraseById(Number(resolvedParams.id));
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const phrase = await getPhraseById(Number(params.id));
 
   return {
     title: phrase
@@ -26,9 +30,8 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function PhrasePage({ params }: Props) {
-  const resolvedParams = await Promise.resolve(params);
-  const id = Number(resolvedParams.id);
+export default async function PhrasePage({ params }: PageProps) {
+  const id = Number(params.id);
 
   if (isNaN(id)) {
     notFound();
