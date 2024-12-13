@@ -11,7 +11,7 @@ export const getData = async () => {
   return data;
 };
 
-export const getRandomPhrase = async (except: string[] = []) => {
+export const getRandomPhrase = async (except: string[]) => {
   const data = await db
     .select()
     .from(phrase)

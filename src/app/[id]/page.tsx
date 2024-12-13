@@ -2,20 +2,13 @@ import {
   getPhraseById,
   likePhrase,
   dislikePhrase,
-  getData,
+  getRandomPhrase,
 } from "@/actions/phraseAction";
 import Phrase from "@/components/phrase";
 import { notFound } from "next/navigation";
 
 interface Props {
   params: Promise<{ id: string }> | { id: string };
-}
-
-export async function generateStaticParams() {
-  const phrases = await getData();
-  return phrases.map((phrase) => ({
-    id: phrase.id.toString(),
-  }));
 }
 
 export async function generateMetadata({ params }: Props) {
@@ -49,6 +42,7 @@ export default async function PhrasePage({ params }: Props) {
         phrase={phrase}
         likePhrase={likePhrase}
         dislikePhrase={dislikePhrase}
+        getRandomPhrase={getRandomPhrase}
       />
     </main>
   );
