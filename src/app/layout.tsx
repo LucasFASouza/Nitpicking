@@ -4,6 +4,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Analytics } from "@vercel/analytics/next";
 
 config.autoAddCss = false;
 
@@ -42,6 +43,7 @@ export default function RootLayout({
         </header>
 
         <section className="pt-12">{children}</section>
+        <Analytics />
 
         <footer className="text-center pt-24 pb-4">
           <p className="text-sm">
