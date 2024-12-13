@@ -10,7 +10,8 @@ import Phrase from "@/components/phrase";
 import { notFound } from "next/navigation";
 
 interface Props {
-  params: Promise<{ id: string }> | { id: string };
+  params: { id: string };
+  searchParams?: { [key: string]: string | string[] | undefined };
 }
 
 export async function generateMetadata({ params }: Props) {
