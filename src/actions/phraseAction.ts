@@ -36,28 +36,6 @@ export const getPhraseById = async (id: number) => {
   }
 };
 
-export const addPhrase = async (
-  author: string,
-  category: string,
-  phrase_text: string,
-  error: string,
-  correction: string
-) => {
-  await db.insert(phrase).values({
-    author: author,
-    category: category,
-    phrase_text: phrase_text,
-    error: error,
-    correction: correction,
-  });
-};
-
-export const deletePhrase = async (id: number) => {
-  await db.delete(phrase).where(eq(phrase.id, id));
-
-  revalidatePath("/");
-};
-
 export const likePhrase = async (id: number) => {
   await db
     .update(phrase)
