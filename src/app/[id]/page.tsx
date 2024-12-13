@@ -10,17 +10,17 @@ import {
 import Phrase from "@/components/phrase";
 import { notFound } from "next/navigation";
 
-type PageProps = {
-  params: {
-    id: string;
-  };
-  searchParams: Record<string, string | string[] | undefined>;
-};
+async function resolveParams(params: { id: string }) {
+  return Promise.resolve(params);
+}
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
-  const phrase = await getPhraseById(Number(params.id));
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  const resolvedParams = await resolveParams(params);
+  const phrase = await getPhraseById(Number(resolvedParams.id));
 
   return {
     title: phrase
@@ -30,8 +30,13 @@ export async function generateMetadata({
   };
 }
 
-export default async function PhrasePage({ params }: PageProps) {
-  const id = Number(params.id);
+export default async function PhrasePage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const resolvedParams = await resolveParams(params);
+  const id = Number(resolvedParams.id);
 
   if (isNaN(id)) {
     notFound();
