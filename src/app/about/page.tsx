@@ -1,8 +1,7 @@
-// app/about/page.tsx
 export const metadata = {
   title: "About Nitpicking",
   description:
-    "Learn about Nitpicking - Find and correct common English errors",
+    "Nitpicking is a trivia game inspired by Um, Actually. Find and correct the error in each sentence.",
 };
 
 export default function AboutPage() {
