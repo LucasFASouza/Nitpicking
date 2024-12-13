@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
@@ -40,6 +42,31 @@ export default function RootLayout({
         </header>
 
         <section className="pt-12">{children}</section>
+
+        <footer className="text-center pt-24 pb-4">
+          <p className="text-sm">
+            Made with{" "}
+            <FontAwesomeIcon icon={faHeart} className="text-red-500 mx-1" /> by{" "}
+            <a
+              href="https://github.com/lucasfstmd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="highlight-link font-semibold"
+            >
+              Lucas F. Souza
+            </a>
+            <br />
+            Inspired by the show{" "}
+            <a
+              href="https://www.dropout.tv/um-actually"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="highlight-link font-semibold"
+            >
+              Um, Actually
+            </a>
+          </p>
+        </footer>
       </body>
     </html>
   );

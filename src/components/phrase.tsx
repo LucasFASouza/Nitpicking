@@ -126,7 +126,7 @@ const Phrase: FC<Props> = ({
     );
 
     return (
-      <p className="text-2xl italic">
+      <p className="text-2xl italic pb-12">
         {beforeError}
         <span
           className={
@@ -151,7 +151,6 @@ const Phrase: FC<Props> = ({
 
         <div className="border-black border-2 p-6 w-2/3">
           {renderText()}
-          <br />
 
           <div className="text-end">
             <div
@@ -168,8 +167,7 @@ const Phrase: FC<Props> = ({
               </div>
             </div>
 
-            <br />
-            <h2>
+            <h2 className="pt-12">
               #{phrase.id} - {phrase.category}
             </h2>
           </div>
@@ -193,11 +191,6 @@ const Phrase: FC<Props> = ({
           onClick={() => handleLike(phrase.id)}
         />
       </div>
-
-      <p>
-        DELETE ME <br />
-        Likes: {phrase.likes} - Dislikes: {phrase.dislikes}
-      </p>
     </div>
   );
 };

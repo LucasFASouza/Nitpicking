@@ -11,7 +11,6 @@ export const getData = async () => {
 };
 
 export const addSuggestion = async (
-  id: number,
   author: string,
   category: string,
   phrase_text: string,
@@ -20,7 +19,6 @@ export const addSuggestion = async (
   notes: string
 ) => {
   await db.insert(suggestion).values({
-    id: id,
     author: author,
     category: category,
     phrase_text: phrase_text,

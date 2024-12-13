@@ -1,8 +1,8 @@
-import { integer, text, pgTable, pgEnum } from "drizzle-orm/pg-core";
+import { integer, text, pgTable, serial } from "drizzle-orm/pg-core";
 
 
 export const phrase = pgTable("phrase", {
-  id: integer("id").primaryKey(),
+  id: serial("id").primaryKey(),
   author: text("author"),
   category: text("category").notNull(),
   phrase_text: text("phrase_text").notNull(),
@@ -13,7 +13,7 @@ export const phrase = pgTable("phrase", {
 });
 
 export const suggestion = pgTable("suggestion", {
-  id: integer("id").primaryKey(),
+  id: serial("id").primaryKey(),
   author: text("author"),
   category: text("category").notNull(),
   phrase_text: text("phrase_text").notNull(),

@@ -1,5 +1,5 @@
 CREATE TABLE "phrase" (
-	"id" integer PRIMARY KEY NOT NULL,
+	"id" serial PRIMARY KEY NOT NULL,
 	"author" text,
 	"category" text NOT NULL,
 	"phrase_text" text NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE "phrase" (
 );
 --> statement-breakpoint
 CREATE TABLE "suggestion" (
-	"id" integer PRIMARY KEY NOT NULL,
+	"id" serial PRIMARY KEY NOT NULL,
 	"author" text,
 	"category" text NOT NULL,
 	"phrase_text" text NOT NULL,

@@ -37,7 +37,6 @@ export const getPhraseById = async (id: number) => {
 };
 
 export const addPhrase = async (
-  id: number,
   author: string,
   category: string,
   phrase_text: string,
@@ -45,7 +44,6 @@ export const addPhrase = async (
   correction: string
 ) => {
   await db.insert(phrase).values({
-    id: id,
     author: author,
     category: category,
     phrase_text: phrase_text,
