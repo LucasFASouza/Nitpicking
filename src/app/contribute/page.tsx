@@ -4,8 +4,6 @@ import { useState } from "react";
 import { addSuggestion } from "@/actions/suggestionAction";
 import Button from "@/components/button";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
-import { redirect } from "next/navigation";
-
 
 const categories = [
   "Others",
@@ -49,7 +47,7 @@ export default function ContributePage() {
       });
 
       alert("Thank you for your contribution!");
-      redirect("/");
+      window.location.href = "/";
     } catch (error) {
       console.error("Error submitting suggestion:", error);
       alert("Error submitting your suggestion. Please try again.");
