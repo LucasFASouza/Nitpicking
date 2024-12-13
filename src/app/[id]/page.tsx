@@ -10,12 +10,13 @@ import Phrase from "@/components/phrase";
 import { notFound } from "next/navigation";
 
 interface Props {
-  params: Promise<{ id: string }> | { id: string };
+  params: {
+    id: string;
+  };
 }
 
 export async function generateMetadata({ params }: Props) {
-  const resolvedParams = await Promise.resolve(params);
-  const phrase = await getPhraseById(Number(resolvedParams.id));
+  const phrase = await getPhraseById(Number(params.id));
 
   return {
     title: phrase
@@ -26,8 +27,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function PhrasePage({ params }: Props) {
-  const resolvedParams = await Promise.resolve(params);
-  const id = Number(resolvedParams.id);
+  const id = Number(params.id);
 
   if (isNaN(id)) {
     notFound();
