@@ -56,17 +56,20 @@ export default function ContributePage() {
 
   return (
     <main>
-      <div className="flex items-center gap-6 py-4">
-        <div className="border-black border-2 p-6 w-2/3 mx-auto">
-          <h1 className="mb-2">Contribute</h1>
+      <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4">
+        <div className="border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3 mx-auto">
+          <h1 className="text-xl sm:text-2xl mb-2 sm:mb-4">Contribute</h1>
 
-          <div className="space-y-4 text-lg py-4">
+          <div className="space-y-4 text-base sm:text-lg py-2 sm:py-4">
             <p>
               Found an interesting mistake in pop culture? Help us grow our
               collection by submitting your own nitpick!
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-6 mt-6">
+            <form
+              onSubmit={handleSubmit}
+              className="space-y-4 sm:space-y-6 mt-4 sm:mt-6"
+            >
               <div>
                 <label htmlFor="author" className="block mb-2">
                   Your username (optional)
@@ -78,7 +81,7 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, author: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2"
+                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
                 />
               </div>
 
@@ -93,7 +96,7 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, category: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2"
+                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
                 >
                   {categories.map((category) => (
                     <option key={category} value={category}>
@@ -114,7 +117,7 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, phrase_text: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 h-24"
+                  className="w-full border-2 border-black p-2 sm:p-3 h-20 sm:h-24 text-sm sm:text-base"
                 />
               </div>
 
@@ -130,7 +133,7 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, error: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2"
+                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
                 />
               </div>
 
@@ -146,7 +149,7 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, correction: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2"
+                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
                 />
               </div>
 
@@ -160,15 +163,15 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, notes: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 h-24"
+                  className="w-full border-2 border-black p-2 sm:p-3 h-20 sm:h-24 text-sm sm:text-base"
                 />
               </div>
 
-              <div className="flex justify-end items-end pt-4">
+              <div className="flex justify-end items-end pt-4 sm:pt-6">
                 <Button
                   icon={faPaperPlane}
                   onClick={() => {}}
-                  className="submit-button"
+                  className="text-lg sm:text-xl"
                 />
               </div>
             </form>

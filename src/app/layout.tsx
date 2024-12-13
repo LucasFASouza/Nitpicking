@@ -21,13 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="mx-24 my-8">
-        <header className="flex justify-between items-center">
+      <body className="px-4 sm:px-8 md:px-16 lg:px-24 my-4 sm:my-8">
+        <header className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
           <Link href="/" className="highlight-link px-2">
-            <h1>Nitpicking</h1>
+            <h1 className="text-2xl sm:text-3xl">Nitpicking</h1>
           </Link>
 
-          <nav className="flex justify-between gap-6 text-lg">
+          <nav className="flex flex-wrap justify-center sm:justify-between gap-3 sm:gap-6 text-base sm:text-lg">
             <Link href="/" className="highlight-link px-2">
               Home
             </Link>
@@ -43,11 +43,11 @@ export default function RootLayout({
           </nav>
         </header>
 
-        <section className="pt-12">{children}</section>
+        <section className="pt-8 sm:pt-12">{children}</section>
         <Analytics />
 
-        <footer className="text-center pt-24 pb-4">
-          <p className="text-sm">
+        <footer className="text-center pt-6 sm:pt-8 pb-4">
+          <p className="text-xs sm:text-sm">
             Made with{" "}
             <FontAwesomeIcon icon={faHeart} className="text-red-500 mx-1" /> by{" "}
             <a
@@ -58,7 +58,8 @@ export default function RootLayout({
             >
               Lucas F. Souza
             </a>
-            <br />
+            <br className="block sm:hidden" />
+            <span className="hidden sm:inline"> · </span>
             Inspired by the show{" "}
             <a
               href="https://www.dropout.tv/um-actually"
@@ -74,3 +75,4 @@ export default function RootLayout({
     </html>
   );
 }
+

@@ -5,6 +5,7 @@ import Button from "@/components/button";
 import { PhraseType } from "@/types/phraseType";
 import {
   faArrowLeft,
+  faArrowRight,
   faShuffle,
   faThumbsDown as faThumbsDownSolid,
   faThumbsUp as faThumbsUpSolid,
@@ -23,6 +24,7 @@ interface Props {
   removeLike: (id: number) => void;
   removeDislike: (id: number) => void;
   getRandomPhrase: (except: string[]) => Promise<PhraseType | null>;
+  getIds: () => Promise<number[]>;
 }
 
 const Phrase: FC<Props> = ({
@@ -32,20 +34,44 @@ const Phrase: FC<Props> = ({
   getRandomPhrase,
   removeLike,
   removeDislike,
+  getIds,
 }) => {
+  const [isLoading, setIsLoading] = useState(true);
   const [showDetails, setShowDetails] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
+  const [allIds, setAllIds] = useState<number[]>([]);
   const [likedIds, setLikedIds] = useState<number[]>([]);
   const [dislikedIds, setDislikedIds] = useState<number[]>([]);
 
   const router = useRouter();
 
   useEffect(() => {
-    const savedLikedIds = localStorage.getItem("likedIds");
-    const savedDislikedIds = localStorage.getItem("dislikedIds");
+    let mounted = true;
 
-    if (savedLikedIds) setLikedIds(JSON.parse(savedLikedIds));
-    if (savedDislikedIds) setDislikedIds(JSON.parse(savedDislikedIds));
+    const fetchData = async () => {
+      try {
+        const ids = await getIds();
+        if (mounted) setAllIds(ids);
+
+        const savedLikedIds = localStorage.getItem("likedIds");
+        const savedDislikedIds = localStorage.getItem("dislikedIds");
+
+        if (mounted) {
+          if (savedLikedIds) setLikedIds(JSON.parse(savedLikedIds));
+          if (savedDislikedIds) setDislikedIds(JSON.parse(savedDislikedIds));
+        }
+      } catch (error) {
+        console.error("Error loading data:", error);
+      }
+
+      if (mounted) setIsLoading(false);
+    };
+
+    fetchData();
+
+    return () => {
+      mounted = false;
+    };
   }, []);
 
   const handleLike = async (id: number) => {
@@ -103,7 +129,7 @@ const Phrase: FC<Props> = ({
     setShowDetails(!showDetails);
   };
 
-  const nextPhrase = async () => {
+  const randomPhrase = async () => {
     try {
       const newPhrase = await getRandomPhrase([phrase.id.toString()]);
       if (newPhrase) {
@@ -116,6 +142,20 @@ const Phrase: FC<Props> = ({
       console.error("Error fetching next phrase:", error);
       router.push(`/${phrase.id}`);
     }
+  };
+
+  const navigatePhrase = async (next: boolean) => {
+    console.log("All ids", allIds);
+    console.log("Current index", phrase.id);
+    console.log(next ? "Next" : "Previous");
+
+    let newIndex = next ? phrase.id + 1 : phrase.id - 1;
+    if (newIndex < 1) newIndex = allIds[allIds.length - 1];
+    if (newIndex > allIds[allIds.length - 1]) newIndex = 1;
+
+    console.log("New index", newIndex);
+
+    router.push(`/${newIndex}`);
   };
 
   const renderText = () => {
@@ -147,12 +187,37 @@ const Phrase: FC<Props> = ({
     );
   };
 
-  return (
-    <div>
-      <div className="flex items-center py-4 justify-around">
-        <Button icon={faArrowLeft} onClick={() => router.back()} />
+  if (isLoading)
+    return <div className="text-2xl text-center py-24">Loading...</div>;
 
-        <div className="border-black border-2 p-6 w-2/3">
+  return (
+    <div className="container mx-auto px-4">
+      {/* Navigation Buttons */}
+      <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4 justify-center">
+        <Button
+          icon={faArrowLeft}
+          onClick={() => {
+            navigatePhrase(false);
+          }}
+          className="text-lg sm:text-xl"
+        />
+        <Button
+          icon={faShuffle}
+          onClick={randomPhrase}
+          className="text-lg sm:text-xl"
+        />
+        <Button
+          icon={faArrowRight}
+          onClick={() => {
+            navigatePhrase(true);
+          }}
+          className="text-lg sm:text-xl"
+        />
+      </div>
+
+      {/* Main Content */}
+      <div className="flex items-center py-2 sm:py-4 justify-around">
+        <div className="border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3">
           {renderText()}
 
           <div className="text-end">
@@ -164,34 +229,37 @@ const Phrase: FC<Props> = ({
               }`}
             >
               <div className="overflow-hidden">
-                <p className="transition-all duration-300 ease-out text-xl">
+                <p className="transition-all duration-300 ease-out text-base sm:text-xl">
                   {phrase.correction}
                 </p>
               </div>
             </div>
 
-            <h2 className="pt-12">
+            <h2 className="pt-6 sm:pt-12 text-sm sm:text-base">
               #{phrase.id} - {phrase.category}
             </h2>
           </div>
         </div>
-        <Button icon={faShuffle} onClick={nextPhrase} />
       </div>
 
-      <div className="flex items-center gap-6 py-4 justify-center">
+      {/* Action Buttons */}
+      <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4 justify-center">
         <Button
           icon={
             dislikedIds.includes(phrase.id) ? faThumbsDownSolid : faThumbsDown
           }
           onClick={() => handleDislike(phrase.id)}
+          className="text-lg sm:text-xl"
         />
         <Button
           icon={showDetails ? faEyeSlash : faEye}
           onClick={handleToggleDetails}
+          className="text-lg sm:text-xl"
         />
         <Button
           icon={likedIds.includes(phrase.id) ? faThumbsUpSolid : faThumbsUp}
           onClick={() => handleLike(phrase.id)}
+          className="text-lg sm:text-xl"
         />
       </div>
     </div>

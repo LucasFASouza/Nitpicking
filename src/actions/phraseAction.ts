@@ -5,11 +5,20 @@ import { revalidatePath } from "next/cache";
 import { db } from "@/db/drizzle";
 import { phrase } from "@/db/schema";
 import { sql } from "drizzle-orm/sql";
+import { cache } from "react";
 
-export const getData = async () => {
+export const getData = cache(async () => {
   const data = await db.select().from(phrase);
   return data;
-};
+});
+
+export const getIds = cache(async () => {
+  const data = await db
+    .select()
+    .from(phrase)
+    .orderBy(sql`id`);
+  return data.map((p) => p.id);
+});
 
 export const getRandomPhrase = async (except: string[]) => {
   const data = await db
@@ -21,7 +30,7 @@ export const getRandomPhrase = async (except: string[]) => {
   return data[0];
 };
 
-export const getPhraseById = async (id: number) => {
+export const getPhraseById = cache(async (id: number) => {
   try {
     const data = await db
       .select()
@@ -34,7 +43,7 @@ export const getPhraseById = async (id: number) => {
     console.error("Error fetching phrase:", error);
     return null;
   }
-};
+});
 
 export const likePhrase = async (id: number) => {
   await db

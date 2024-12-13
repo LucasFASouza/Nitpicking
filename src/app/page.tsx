@@ -7,7 +7,7 @@ export default async function Home() {
   const phrase = await getRandomPhrase([]);
 
   if (!phrase) {
-    return <div>No phrases found</div>;
+    return <div className="text-2xl text-center py-24">No sentences found</div>;
   }
 
   redirect(`/${phrase.id}`);
