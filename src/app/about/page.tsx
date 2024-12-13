@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Nitpicking",
+  title: "About - Nitpicking",
   description:
     "Nitpicking is a trivia game inspired by Um, Actually. Find and correct the error in each sentence.",
 };

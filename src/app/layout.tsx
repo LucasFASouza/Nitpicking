@@ -10,7 +10,7 @@ import Link from "next/link";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
-  title: "Nitpicking",
+  title: "Contribute - Nitpicking",
   description: "Find and correct the error",
 };
 
