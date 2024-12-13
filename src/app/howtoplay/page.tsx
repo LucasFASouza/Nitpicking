@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "How to Play - Nitpicking",
   description: "Learn how to play Nitpicking - Find and correct nerdy errors",
@@ -14,15 +16,15 @@ export default function HowToPlayPage() {
             <p>
               Each round presents you with a sentence about pop culture,
               science, or general nerd knowledge. While the sentence might seem
-              correct at first glance, there's always one sneaky error hiding in
-              plain sight.
+              correct at first glance, there&apos;s always one sneaky error
+              hiding in plain sight.
             </p>
 
             <h2 className="mt-6 mb-2">Playing Solo</h2>
             <ol className="list-decimal list-inside space-y-2 ml-4">
               <li>Read the sentence carefully</li>
               <li>
-                Click the eye icon when you think you've found the mistake
+                Click the eye icon when you think you&apos;ve found the mistake
               </li>
               <li>
                 The incorrect part will be highlighted in yellow and the
@@ -41,7 +43,7 @@ export default function HowToPlayPage() {
               </li>
               <li>
                 The other players must interrupt the host when they think
-                they've spotted the error
+                they&apos;ve spotted the error
               </li>
               <li>
                 The first player to identify the mistake and explain the
@@ -68,9 +70,9 @@ export default function HowToPlayPage() {
 
             <p className="mt-4">
               Ready to start nitpicking? Head back to the{" "}
-              <a href="/" className="highlight-link font-bold">
+              <Link href="/" className="highlight-link font-bold">
                 home page
-              </a>{" "}
+              </Link>{" "}
               and show off your knowledge!
             </p>
           </div>

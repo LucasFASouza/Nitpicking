@@ -5,6 +5,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Analytics } from "@vercel/analytics/next";
+import Link from "next/link";
 
 config.autoAddCss = false;
 
@@ -22,23 +23,23 @@ export default function RootLayout({
     <html lang="en">
       <body className="mx-24 my-8">
         <header className="flex justify-between items-center">
-          <a href="/" className="highlight-link px-2">
+          <Link href="/" className="highlight-link px-2">
             <h1>Nitpicking</h1>
-          </a>
+          </Link>
 
           <nav className="flex justify-between gap-6 text-lg">
-            <a href="/" className="highlight-link px-2">
+            <Link href="/" className="highlight-link px-2">
               Home
-            </a>
-            <a href="/about" className="highlight-link px-2">
+            </Link>
+            <Link href="/about" className="highlight-link px-2">
               About
-            </a>
-            <a href="/howtoplay" className="highlight-link px-2">
+            </Link>
+            <Link href="/howtoplay" className="highlight-link px-2">
               How to play
-            </a>
-            <a href="/contribute" className="highlight-link px-2">
+            </Link>
+            <Link href="/contribute" className="highlight-link px-2">
               Contribute
-            </a>
+            </Link>
           </nav>
         </header>
 

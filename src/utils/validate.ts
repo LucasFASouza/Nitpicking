@@ -1,4 +1,11 @@
-export const validateInput = (input: any) => {
+export const validateInput = (input: {
+  author: string;
+  category: string;
+  phrase_text: string;
+  error: string;
+  correction: string;
+  notes: string;
+}) => {
   const maxLength = {
     author: 50,
     category: 30,

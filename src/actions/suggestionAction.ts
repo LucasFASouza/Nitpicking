@@ -2,7 +2,6 @@
 import { db } from "@/db/drizzle";
 import { suggestion } from "@/db/schema";
 import { validateInput } from "@/utils/validate";
-import { headers } from "next/headers";
 
 export const getData = async () => {
   const data = await db.select().from(suggestion);

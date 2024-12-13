@@ -48,6 +48,7 @@ export default function ContributePage() {
       });
 
       alert("Thank you for your contribution!");
+      window.location.href = "/";
     } catch (error) {
       console.error("Error submitting suggestion:", error);
       alert("Error submitting your suggestion. Please try again.");
