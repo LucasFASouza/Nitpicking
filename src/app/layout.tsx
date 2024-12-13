@@ -5,6 +5,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Link from "next/link";
 
 config.autoAddCss = false;
@@ -45,6 +46,7 @@ export default function RootLayout({
 
         <section className="pt-8 sm:pt-12">{children}</section>
         <Analytics />
+        <SpeedInsights />
 
         <footer className="text-center pt-6 sm:pt-8 pb-4">
           <p className="text-xs sm:text-sm">
