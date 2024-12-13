@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "About Nitpicking",
   description:
@@ -43,12 +45,9 @@ export default function AboutPage() {
               and set the record straight. You can play on your own, challenge a
               friend, or even form teams for a bit of competitive fun. For more
               details, check out our{" "}
-              <a
-                className="highlight-link font-bold"
-                href="/howtoplay"
-              >
+              <Link className="highlight-link font-bold" href="/howtoplay">
                 How to Play
-              </a>{" "}
+              </Link>{" "}
               page.
             </p>
 
@@ -65,14 +64,14 @@ export default function AboutPage() {
               </a>{" "}
               to contribute with code, suggest improvements or nitpick our
               typos. And don’t forget to visit our{" "}
-              <a
+              <Link
                 className="highlight-link font-bold"
                 href="/contribute"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Contribute
-              </a>{" "}
+              </Link>{" "}
               page to share your own tricky sentences with the world!
             </p>
           </div>
