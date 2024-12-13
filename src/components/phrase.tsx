@@ -1,5 +1,6 @@
 "use client";
 import { FC, useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Button from "@/components/button";
 import { PhraseType } from "@/types/phraseType";
 import {
@@ -36,6 +37,8 @@ const Phrase: FC<Props> = ({
   const [hasInteracted, setHasInteracted] = useState(false);
   const [likedIds, setLikedIds] = useState<number[]>([]);
   const [dislikedIds, setDislikedIds] = useState<number[]>([]);
+
+  const router = useRouter();
 
   useEffect(() => {
     const savedLikedIds = localStorage.getItem("likedIds");
@@ -104,14 +107,14 @@ const Phrase: FC<Props> = ({
     try {
       const newPhrase = await getRandomPhrase([phrase.id.toString()]);
       if (newPhrase) {
-        window.location.href = `/${newPhrase.id}`;
+        router.push(`/${newPhrase.id}`);
       } else {
         console.error("No new phrase found");
-        window.location.href = `/${phrase.id}`;
+        router.push(`/${phrase.id}`);
       }
     } catch (error) {
       console.error("Error fetching next phrase:", error);
-      window.location.href = `/${phrase.id}`;
+      router.push(`/${phrase.id}`);
     }
   };
 
@@ -147,7 +150,7 @@ const Phrase: FC<Props> = ({
   return (
     <div>
       <div className="flex items-center py-4 justify-around">
-        <Button icon={faArrowLeft} onClick={() => window.history.back()} />
+        <Button icon={faArrowLeft} onClick={() => router.back()} />
 
         <div className="border-black border-2 p-6 w-2/3">
           {renderText()}

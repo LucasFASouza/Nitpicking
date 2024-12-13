@@ -46,8 +46,6 @@ export default function AboutPage() {
               <a
                 className="highlight-link font-bold"
                 href="/howtoplay"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 How to Play
               </a>{" "}

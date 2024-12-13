@@ -71,9 +71,9 @@ export default function HowToPlayPage() {
             <p className="mt-4">
               Ready to start nitpicking? Head back to the{" "}
               <Link href="/" className="highlight-link font-bold">
-                home page
+                Home
               </Link>{" "}
-              and show off your knowledge!
+              page and show off your knowledge!
             </p>
           </div>
         </div>
