@@ -2,6 +2,8 @@ import {
   getPhraseById,
   likePhrase,
   dislikePhrase,
+  removeLike,
+  removeDislike,
   getRandomPhrase,
 } from "@/actions/phraseAction";
 import Phrase from "@/components/phrase";
@@ -17,7 +19,7 @@ export async function generateMetadata({ params }: Props) {
 
   return {
     title: phrase
-      ? `Nitipicking - ${phrase.category} #${phrase.id}`
+      ? `Nitipicking #${phrase.id} - ${phrase.category}`
       : "Nitipicking - Sentence Not Found",
     description: phrase?.phrase_text || "Sentence Not Found",
   };
@@ -43,6 +45,8 @@ export default async function PhrasePage({ params }: Props) {
         likePhrase={likePhrase}
         dislikePhrase={dislikePhrase}
         getRandomPhrase={getRandomPhrase}
+        removeLike={removeLike}
+        removeDislike={removeDislike}
       />
     </main>
   );

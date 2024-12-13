@@ -81,3 +81,25 @@ export const dislikePhrase = async (id: number) => {
 
   revalidatePath(`/${id}`);
 };
+
+export const removeLike = async (id: number) => {
+  await db
+    .update(phrase)
+    .set({
+      likes: sql`${phrase.likes} - 1`,
+    })
+    .where(eq(phrase.id, id));
+
+  revalidatePath(`/${id}`);
+};
+
+export const removeDislike = async (id: number) => {
+  await db
+    .update(phrase)
+    .set({
+      dislikes: sql`${phrase.dislikes} - 1`,
+    })
+    .where(eq(phrase.id, id));
+
+  revalidatePath(`/${id}`);
+};
