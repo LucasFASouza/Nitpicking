@@ -217,7 +217,7 @@ const Phrase: FC<Props> = ({
 
       {/* Main Content */}
       <div className="flex items-center py-2 sm:py-4 justify-around">
-        <div className="border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3">
+        <div className="box-shadowed border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3">
           {renderText()}
 
           <div className="text-end">

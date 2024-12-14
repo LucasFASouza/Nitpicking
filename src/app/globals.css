@@ -82,3 +82,22 @@ h2 {
 .highlight-link:hover {
   background-position: 0% 0;
 }
+
+.button-shadowed {
+  box-shadow: 5px 5px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.button-shadowed:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px;
+}
+
+.button-shadowed:active {
+  transform: translate(5px, 5px);
+  box-shadow: 0px 0px;
+}
+
+.box-shadowed {
+  box-shadow: 7px 7px;
+}
