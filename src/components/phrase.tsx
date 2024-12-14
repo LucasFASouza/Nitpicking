@@ -16,7 +16,6 @@ import {
   faEye,
   faEyeSlash,
 } from "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface Props {
   phrase: PhraseType;
