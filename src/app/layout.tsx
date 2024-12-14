@@ -53,7 +53,7 @@ export default function RootLayout({
             Made with{" "}
             <FontAwesomeIcon icon={faHeart} className="text-red-500 mx-1" /> by{" "}
             <a
-              href="https://github.com/lucasfstmd"
+              href="https://github.com/LucasFASouza"
               target="_blank"
               rel="noopener noreferrer"
               className="highlight-link font-semibold"
