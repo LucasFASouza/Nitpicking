@@ -21,7 +21,7 @@ export async function generateMetadata(props: {
   const id = params.id;
 
   return {
-    title: `Nitipicking #${id}`,
+    title: `Nitpicking #${id}`,
     description: "Find and correct the error",
   };
 }

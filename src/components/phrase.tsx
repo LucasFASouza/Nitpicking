@@ -16,6 +16,7 @@ import {
   faEye,
   faEyeSlash,
 } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface Props {
   phrase: PhraseType;
@@ -238,6 +239,7 @@ const Phrase: FC<Props> = ({
             <h2 className="pt-6 sm:pt-12 text-sm sm:text-base">
               #{phrase.id} - {phrase.category}
             </h2>
+
             <p>{phrase.author}</p>
           </div>
         </div>
