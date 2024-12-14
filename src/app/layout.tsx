@@ -44,7 +44,7 @@ export default function RootLayout({
           </nav>
         </header>
 
-        <section className="pt-8 sm:pt-12">{children}</section>
+        <section className="pt-8 sm:pt-4">{children}</section>
         <Analytics />
         <SpeedInsights />
 

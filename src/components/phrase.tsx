@@ -238,32 +238,35 @@ const Phrase: FC<Props> = ({
             <h2 className="pt-6 sm:pt-12 text-sm sm:text-base">
               #{phrase.id} - {phrase.category}
             </h2>
-            <p>
-              {phrase.author}
-            </p>
+            <p>{phrase.author}</p>
           </div>
         </div>
       </div>
 
       {/* Action Buttons */}
-      <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4 justify-center">
-        <Button
-          icon={
-            dislikedIds.includes(phrase.id) ? faThumbsDownSolid : faThumbsDown
-          }
-          onClick={() => handleDislike(phrase.id)}
-          className="text-lg sm:text-xl"
-        />
-        <Button
-          icon={showDetails ? faEyeSlash : faEye}
-          onClick={handleToggleDetails}
-          className="text-lg sm:text-xl"
-        />
-        <Button
-          icon={likedIds.includes(phrase.id) ? faThumbsUpSolid : faThumbsUp}
-          onClick={() => handleLike(phrase.id)}
-          className="text-lg sm:text-xl"
-        />
+      <div className="flex items-start gap-4 sm:gap-6 py-2 sm:py-4 justify-center">
+        <div className="flex flex-col items-center gap-2">
+          <Button
+            icon={
+              dislikedIds.includes(phrase.id) ? faThumbsDownSolid : faThumbsDown
+            }
+            onClick={() => handleDislike(phrase.id)}
+          />
+          {phrase.dislikes}
+        </div>
+
+          <Button
+            icon={showDetails ? faEyeSlash : faEye}
+            onClick={handleToggleDetails}
+          />
+
+        <div className="flex flex-col items-center gap-2">
+          <Button
+            icon={likedIds.includes(phrase.id) ? faThumbsUpSolid : faThumbsUp}
+            onClick={() => handleLike(phrase.id)}
+          />
+          {phrase.likes}
+        </div>
       </div>
     </div>
   );

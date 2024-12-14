@@ -14,7 +14,10 @@ const Button: FC<Props> = ({ icon, onClick, className = "" }) => {
       onClick={onClick}
       className={`border-black border-2 p-4 aspect-square hover:bg-neutral-100 ${className}`}
     >
-      <FontAwesomeIcon icon={icon} className="fa-fw text-3xl" />
+      <FontAwesomeIcon
+        icon={icon}
+        className="fa-fw text-2xl"
+      />
     </button>
   );
 };
