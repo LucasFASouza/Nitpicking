@@ -22,8 +22,8 @@ Each round presents a sentence about nerdy topics like pop culture or science. W
 
 ## Open Source Contributions
 Nitpicking is an open-source project—your input helps make it better! Here’s how you can contribute:
-- **Development**: Check out the [GitHub repository](https://github.com/yourusername/nitpicking) to report issues, suggest features, or submit pull requests.
-- **Sentence Contributions**: Submit your own sentences via the [contribution page](#).
+- **Development**: Check out the [GitHub repository](https://github.com/LucasFASouza/nitpicking) to report issues, suggest features, or submit pull requests.
+- **Sentence Contributions**: Submit your own sentences via the [contribution page]([#](https://nitpicking.vercel.app/howtoplay)).
 
 ## Legal Disclaimer
 This project is not affiliated with or endorsed by *Um, Actually* or Dropout. It’s simply a fan-made project inspired by the show’s format. Sam Reich, if you’re reading this, please don’t sue us (but also, where are you from?).
