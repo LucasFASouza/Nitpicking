@@ -2,7 +2,7 @@ import { integer, text, pgTable, serial } from "drizzle-orm/pg-core";
 
 export const phrase = pgTable("phrase", {
   id: serial("id").primaryKey(),
-  title: text("title").notNull(),
+  title: text("title").notNull().default("Um, Actually..."),
   author: text("author"),
   category: text("category").notNull(),
   phrase_text: text("phrase_text").notNull(),
@@ -14,7 +14,7 @@ export const phrase = pgTable("phrase", {
 
 export const suggestion = pgTable("suggestion", {
   id: serial("id").primaryKey(),
-  title: text("title").notNull(),
+  title: text("title").notNull().default("Um, Actually..."),
   author: text("author"),
   category: text("category").notNull(),
   phrase_text: text("phrase_text").notNull(),

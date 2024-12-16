@@ -37,11 +37,16 @@ This project is not affiliated with or endorsed by *Um, Actually* or Dropout. It
    ```bash
    npm install
    ```
-3. Run the development server:
+3. Create a `.env` file in the root directory and add the following environment variables:
+   ```bash
+   NEXT_PUBLIC_DATABASE_URL=your_neon_database_url
+   ```
+   Replace `your_neon_database_url` with your own Neon database URL.
+4. Run the development server:
    ```bash
    npm run dev
    ```
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
