@@ -1,5 +1,8 @@
+import { title } from "process";
+
 export const validateInput = (input: {
   author: string;
+  title: string;
   category: string;
   phrase_text: string;
   error: string;
@@ -8,6 +11,7 @@ export const validateInput = (input: {
 }) => {
   const maxLength = {
     author: 50,
+    title: 100,
     category: 30,
     phrase_text: 500,
     error: 100,
@@ -16,6 +20,7 @@ export const validateInput = (input: {
   };
 
   if (input.author?.length > maxLength.author) return false;
+  if (input.title.length > maxLength.title) return false;
   if (input.phrase_text.length > maxLength.phrase_text) return false;
   if (input.error.length > maxLength.error) return false;
   if (input.correction.length > maxLength.correction) return false;

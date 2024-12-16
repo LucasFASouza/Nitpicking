@@ -5,6 +5,7 @@ import { validateInput } from "@/utils/validate";
 
 export const addSuggestion = async (
   author: string,
+  title: string,
   category: string,
   phrase_text: string,
   error: string,
@@ -12,7 +13,7 @@ export const addSuggestion = async (
   notes: string
 ) => {
   if (
-    !validateInput({ author, category, phrase_text, error, correction, notes })
+    !validateInput({ author, title, category, phrase_text, error, correction, notes })
   ) {
     throw new Error("Invalid input");
   }
@@ -20,6 +21,7 @@ export const addSuggestion = async (
   try {
     await db.insert(suggestion).values({
       author: author.slice(0, 50),
+      title: title.slice(0, 100),
       category: category,
       phrase_text: phrase_text.trim(),
       error: error.trim(),

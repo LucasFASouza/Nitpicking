@@ -14,7 +14,7 @@ const Button: FC<Props> = ({ icon, onClick, className = "" }) => {
       onClick={onClick}
       className={`button-shadowed border-black border-2 p-4 aspect-square active:bg-neutral-200 ${className}`}
     >
-      <FontAwesomeIcon icon={icon} className="fa-fw text-2xl" />
+      <FontAwesomeIcon icon={icon} className="fa-fw text-base sm:text-2xl" />
     </button>
   );
 };

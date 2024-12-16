@@ -161,7 +161,12 @@ const Phrase: FC<Props> = ({
   const renderText = () => {
     const errorIndex = phrase.phrase_text.indexOf(phrase.error);
     if (errorIndex === -1)
-      return <p className="text-2xl italic">{phrase.phrase_text}</p>;
+      return (
+        <p className="text-base sm:text-2xl italic pb-12">
+          <span className="font-bold">Title — </span>
+          {phrase.phrase_text}
+        </p>
+      );
 
     const beforeError = phrase.phrase_text.slice(0, errorIndex);
     const afterError = phrase.phrase_text.slice(
@@ -169,7 +174,8 @@ const Phrase: FC<Props> = ({
     );
 
     return (
-      <p className="text-2xl italic pb-12">
+      <p className="text-base sm:text-2xl italic pb-12">
+        <span className="font-bold">Title — </span>
         {beforeError}
         <span
           className={
@@ -199,19 +205,13 @@ const Phrase: FC<Props> = ({
           onClick={() => {
             navigatePhrase(false);
           }}
-          className="text-lg sm:text-xl"
         />
-        <Button
-          icon={faShuffle}
-          onClick={randomPhrase}
-          className="text-lg sm:text-xl"
-        />
+        <Button icon={faShuffle} onClick={randomPhrase} />
         <Button
           icon={faArrowRight}
           onClick={() => {
             navigatePhrase(true);
           }}
-          className="text-lg sm:text-xl"
         />
       </div>
 
@@ -239,13 +239,13 @@ const Phrase: FC<Props> = ({
               #{phrase.id} - {phrase.category}
             </h2>
 
-            <p>{phrase.author}</p>
+            <p className="text-sm sm:text-base">{phrase.author}</p>
           </div>
         </div>
       </div>
 
       {/* Action Buttons */}
-      <div className="flex items-start gap-4 sm:gap-6 py-2 sm:py-4 justify-center">
+      <div className="flex items-start gap-4 sm:gap-6 py-4 justify-center">
         <div className="flex flex-col items-center gap-2">
           <Button
             icon={
@@ -256,10 +256,10 @@ const Phrase: FC<Props> = ({
           {phrase.dislikes}
         </div>
 
-          <Button
-            icon={showDetails ? faEyeSlash : faEye}
-            onClick={handleToggleDetails}
-          />
+        <Button
+          icon={showDetails ? faEyeSlash : faEye}
+          onClick={handleToggleDetails}
+        />
 
         <div className="flex flex-col items-center gap-2">
           <Button

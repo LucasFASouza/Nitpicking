@@ -28,7 +28,7 @@ export default function RootLayout({
             <h1 className="text-2xl sm:text-3xl">Nitpicking</h1>
           </Link>
 
-          <nav className="flex flex-wrap justify-center sm:justify-between gap-3 sm:gap-6 text-base sm:text-lg">
+          <nav className="flex flex-wrap justify-center sm:justify-between gap-3 sm:gap-6 text-sm sm:text-lg">
             <Link href="/" className="highlight-link px-2">
               Home
             </Link>

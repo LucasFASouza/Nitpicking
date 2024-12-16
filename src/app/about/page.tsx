@@ -52,8 +52,9 @@ export default function AboutPage() {
             </p>
 
             <p>
-              Nitpicking is an open-source labor of love, and we’re always
-              looking for ways to make it better. Check out our{" "}
+              The project is open-source and build with Next.js, Tailwind CSS,
+              Drizzle ORM and TypeScript. If you know any of that stuff and want
+              to help, we would love to have you on board. Check out our{" "}
               <a
                 className="highlight-link font-bold"
                 href="https://github.com/LucasFASouza/Nitpicking"
@@ -62,8 +63,22 @@ export default function AboutPage() {
               >
                 Github
               </a>{" "}
-              to contribute with code, suggest improvements or nitpick our
-              typos. And don’t forget to visit our{" "}
+              to know more. If you’re not a developer, you can still nitpick our
+              typos, bugs, incorrect statements and suggest new features.{" "}
+              <a
+                className="highlight-link font-bold"
+                href="https://github.com/LucasFASouza/Nitpicking/issues/new/choose"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open an issue
+              </a>{" "}
+              and let us know!
+            </p>
+
+            <p>
+              Finally, if you have your own nitpickable statements to share with
+              the world, we would love to hear from you. Visit our{" "}
               <Link
                 className="highlight-link font-bold"
                 href="/contribute"
