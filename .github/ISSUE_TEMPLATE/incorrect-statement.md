@@ -1,5 +1,5 @@
 ---
-name: Incorrect Statement
+name: Incorrect statement
 about: Report a incorrect statement to help us improve
 title: 'Incorrect Statement #[ID]'
 labels: ''
