@@ -1,5 +1,6 @@
 export type SuggestionType = {
   id: number;
+  title: string;
   author: string;
   category: string;
   phrase_text: string;

@@ -18,6 +18,7 @@ const categories = [
 export default function ContributePage() {
   const [formData, setFormData] = useState({
     author: "",
+    title: "",
     category: "",
     phrase_text: "",
     error: "",
@@ -30,6 +31,7 @@ export default function ContributePage() {
     try {
       await addSuggestion(
         formData.author,
+        formData.title,
         formData.category,
         formData.phrase_text,
         formData.error,
@@ -39,6 +41,7 @@ export default function ContributePage() {
 
       setFormData({
         author: "",
+        title: "",
         category: "",
         phrase_text: "",
         error: "",
@@ -107,6 +110,23 @@ export default function ContributePage() {
               </div>
 
               <div>
+                <label htmlFor="title" className="block mb-2">
+                  Title (what is this statement about? E.g., "Star Wars",
+                  "Naruto" etc.) *
+                </label>
+                <input
+                  type="text"
+                  id="title"
+                  required
+                  value={formData.title}
+                  onChange={(e) =>
+                    setFormData({ ...formData, title: e.target.value })
+                  }
+                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
+                />
+              </div>
+
+              <div>
                 <label htmlFor="phrase_text" className="block mb-2">
                   Sentence *
                 </label>
@@ -123,7 +143,7 @@ export default function ContributePage() {
 
               <div>
                 <label htmlFor="error" className="block mb-2">
-                  Error (What part of the sentence is wrong?) *
+                  Error (what part of the sentence is wrong?) *
                 </label>
                 <input
                   type="text"
