@@ -162,7 +162,7 @@ const Phrase: FC<Props> = ({
     const errorIndex = phrase.phrase_text.indexOf(phrase.error);
     if (errorIndex === -1)
       return (
-        <p className="text-base sm:text-2xl italic pb-12">
+        <p className="text-base sm:text-xl italic pb-12">
           <span className="font-bold">{phrase.title} — </span>
           {phrase.phrase_text}
         </p>
@@ -174,7 +174,7 @@ const Phrase: FC<Props> = ({
     );
 
     return (
-      <p className="text-base sm:text-2xl italic pb-12">
+      <p className="text-base sm:text-xl italic pb-12">
         <span className="font-bold">{phrase.title} — </span>
         {beforeError}
         <span
