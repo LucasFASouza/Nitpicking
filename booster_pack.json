@@ -767,7 +767,6 @@
     "error": "including W. W. Jacobs’ “The Monkey’s Paw”, H. G. Wells’ “The Island of Doctor Moreau”, Edgar Allen Poe’s “The Tell-tale Heart”,",
     "correction": "Um, actually, Treehouse of Horror never referenced “The Tell-tale Heart”. The Tell-tale Heart was referenced in the episode \"Lisa's Rival\", but never as part of Treehouse of Horror"
   },
-  // CONTINUAR A PARTIR DAQUI
   {
     "author": "By Peter the Human",
     "title": "Super Mario Bros. 3",
@@ -782,7 +781,7 @@
     "category": "Eighties & Nineties",
     "phrase_text": "Truman Burbank is unknowingly the star of a reality TV show that's been following him from birth. To prevent him from ever leaving the enormous studio of Seahaven Island, the show's creator Cristof discourages exploration - broadcasting messages about the dangers of air travel, preventing Truman ever learning how to swim to make leaving by water impossible, and preventing a spontaneous road trip by orchestrating a forest fire and a nuclear plant leak.",
     "error": "preventing Truman ever learning how to swim to make leaving by water impossible,",
-    "correction": "Um, actually, truman isn't prevented from learning how to swim. Truman develops an intense fear of water after his \"father\" supposedly dies at sea."
+    "correction": "Um, actually, Truman isn't prevented from learning how to swim. Truman develops an intense fear of water after his \"father\" supposedly dies at sea."
   },
   {
     "author": "By Peter the Human",
@@ -790,7 +789,7 @@
     "category": "Eighties & Nineties",
     "phrase_text": "In WarGames, a NORAD supercomputer called War Operation Plan and Response (or WOPR [pr: “whopper”] for short) goes awry and prepares to launch missiles at the Soviet Union after obtaining the nuclear launch codes. AI researcher Stephen Falken and teenage hacker David Lightman prevent the strike after directing WOPR to play itself at chess. After numerous stalemates, WOPR begins to understand mutually assured destruction, and concludes that “the only winning move is not to play”.",
     "error": "prevent the strike after directing WOPR to play itself at chess. After numerous stalemates, WOPR begins to understand mutually assured destruction,",
-    "correction": "Um, actually, wOPR doesn't play itself at chess. WOPR plays Tic-Tac-Toe - after which it relinquishes control of NORAD and instead offers to play “a nice game of chess” instead."
+    "correction": "Um, actually, WOPR doesn't play itself at chess. WOPR plays Tic-Tac-Toe - after which it relinquishes control of NORAD and instead offers to play “a nice game of chess” instead."
   },
   {
     "author": "By Peter Svensson",
@@ -806,7 +805,7 @@
     "category": "Fantasy",
     "phrase_text": "Barbarians in “Dungeons & Dragons” are archetypically strong fighters, defined by their primal instincts and their unbridled rage. Although players have little control over their character's rage, it offers several advantages in combat, including advantage on Strength checks and saving throws and resistance to bludgeoning, piercing and slashing damage.",
     "error": "Although players have little control over their character's rage, it offers several advantages in combat,",
-    "correction": "Um, actually, barbarians can control their rage. They can enter a rage during combat as a Bonus Action during combat."
+    "correction": "Um, actually, Barbarians can control their rage. They can enter a rage during combat as a Bonus Action during combat."
   },
   {
     "author": "By Peter the Human",
@@ -814,11 +813,11 @@
     "category": "Fantasy",
     "phrase_text": "Set in the Forgotten Realms setting of D&D, “Honor Among Thieves” opens with a scenario familiar to all D&D players. The bard Edgin Darvis recounts his backstory to the uninterested Absolution Council of the prison Revel's End while waiting on an absent member - the aarakocra, Jarnathan. After he is denied parole, he escapes (along with the barbarian Holga Kilgore) when Jarnathan arrives by grabbing him and jumping through a window.",
     "error": "After he is denied parole, he escapes (along with the barbarian Holga Kilgore)",
-    "correction": "Um, actually, edgin and Holga aren't denied parole. They escape before they're read the verdict on their parole - which was approved."
+    "correction": "Um, actually, Edgin and Holga aren't denied parole. They escape before they're read the verdict on their parole - which was approved."
   },
   {
     "author": "By Peter the Human",
-    "title": "Game of Thrones",
+    "title": "A Song of Ice and Fire",
     "category": "Fantasy",
     "phrase_text": "Wildfire is a flammable liquid that burns with a distinctive bright green flame. The Mad King's uncle Prince Aerion Targaryen perished in a Wildfire blast during Robert’s Rebellion, Stannis Baratheon’s fleet was damaged by a Wildfire explosion at the Battle of the Blackwater, and Cersei Lannister and Qyburn used Wildfire to destroy the Great Sept of Baelor.",
     "error": "The Mad King's uncle Prince Aerion Targaryen perished in a Wildfire blast during Robert’s Rebellion,",
@@ -854,7 +853,7 @@
     "category": "Fantasy",
     "phrase_text": "Set in an alternate history of 19th Century England, the novel opens with The Learned Society of York Magicians, whose members are \"theoretical magicians\" who study magical texts and history. The group is stunned to learn of a \"practical magician\", Mr. Gilbert Norrell. Mr. Norrell proves his skill as a magician by making a statue in York Cathedral disappear, thereafter compelling the society to disband.",
     "error": "Mr. Norrell proves his skill as a magician by making a statue in York Cathedral disappear, thereafter compelling the society to disband.",
-    "correction": "Um, actually, mr. Norrell doesn't make the statue disappear. He makes the statues in York Cathedral speak."
+    "correction": "Um, actually, Mr. Norrell doesn't make the statue disappear. He makes the statues in York Cathedral speak."
   },
   {
     "author": "By Peter the Human",
@@ -862,7 +861,7 @@
     "category": "Fantasy",
     "phrase_text": "As the Fellowship of the Ring leaves Lothlórien, Lady Galadriel gives each member present a gift. These include Frodo’s gift of The Light of Eärendil, a phial that emits light in the darkness; Legolas’ gift of the Bow of the Galadhrim; and Gimli’s gift of a silver belt as a token of good will between Dwarves and Elves.",
     "error": "and Gimli’s gift of a silver belt as a token of good will between Dwarves and Elves.",
-    "correction": "Um, actually, gimli's gift was not a belt. Gimli's gift was three of Galadriel's hairs which he wishes to preserve in the finest crystal."
+    "correction": "Um, actually, Gimli's gift was not a belt. Gimli's gift was three of Galadriel's hairs which he wishes to preserve in the finest crystal."
   },
   {
     "author": "By Peter the Human",
@@ -870,7 +869,7 @@
     "category": "Fantasy",
     "phrase_text": "Gandalf is a wizard of the Istari order. As a member of the Fellowship of the Ring, he was one of the companions Elrond chose to aid Frodo's quest to destroy the One Ring. After Gandalf the Grey died falling from a ledge in the Mines of Moria while fighting the Balrog known as Durin’s Bane; he later returned as Gandalf the White.",
     "error": "After Gandalf the Grey died falling from a ledge in the Mines of Moria while fighting the Balrog",
-    "correction": "Um, actually, gandalf doesn't die from the fall in the Mines of Moria. He survives the fall and dies ten days later after fighting the Balrog."
+    "correction": "Um, actually, Gandalf doesn't die from the fall in the Mines of Moria. He survives the fall and dies ten days later after fighting the Balrog."
   },
   {
     "author": "By Peter the Human",
@@ -886,7 +885,7 @@
     "category": "Fantasy",
     "phrase_text": "Westley, the farm-boy turned Dread Pirate Roberts, rescues Buttercup from her kidnapping by defeating three outlaws. He knocks out Inigo after defeating him in a fencing duel, chokes the giant Fezzik into unconsciousness, and drinks the poison-free goblet in his “Battle of Wits” against Vizzini.",
     "error": "and drinks the poison-free goblet in his “Battle of Wits” against Vizzini.",
-    "correction": "Um, actually, westley's goblet wasn't poison free. Westley poisoned both goblets, but had built up a resistance to the poisonous iocane powder."
+    "correction": "Um, actually, Westley's goblet wasn't poison free. Westley poisoned both goblets, but had built up a resistance to the poisonous iocane powder."
   },
   {
     "author": "By Peter the Human",
@@ -918,7 +917,7 @@
     "category": "Fantasy",
     "phrase_text": "The “Spellsinger” novel series follows the misadventures of law student Jonathan Thomas \"Jon-Tom\" Meriweather, who is transported to a fantasy world mostly populated by talking anthropomorphic animals. Although he initially believes he has become schizophrenic and is hallucinating, Jon-Tom eventually accepts his new reality and discovers he can wield the power of a spellsinger: a mage who can use songs to cast spells.",
     "error": "Although he initially believes he has become schizophrenic and is hallucinating, Jon-Tom eventually accepts his new reality",
-    "correction": "Um, actually, jon-Tom doesn't think he's schizophrenic. He was high on marijuana when he got transported, and initially assumes he's tripping."
+    "correction": "Um, actually, Jon-Tom doesn't think he's schizophrenic. He was high on marijuana when he got transported, and initially assumes he's tripping."
   },
   {
     "author": "By Peter the Human",
@@ -926,7 +925,7 @@
     "category": "Fantasy",
     "phrase_text": "Time travel doesn't always have to be high-tech! In “Outlander”, Claire Randall is transported back in time by the standing stones at Craigh na Dun to the year 1743. In “Kindred”, Dana meets her enslaved ancestors after she is transported back in time by a voodoo priestess. And in “Army of Darkness”, Ash is transported back in time to the Middle Ages through a portal opened by an incantation in the Necronomicon.",
     "error": "In “Kindred”, Dana meets her enslaved ancestors after she is transported back in time by a voodoo priestess.",
-    "correction": "Um, actually, dana wasn't transported back in time by a voodoo priestess. In the 1979 book, it's never explained how or why the time travel occurs. In the 2022 TV miniseries, it's caused by Dana experiencing fear."
+    "correction": "Um, actually, Dana wasn't transported back in time by a voodoo priestess. In the 1979 book, it's never explained how or why the time travel occurs. In the 2022 TV miniseries, it's caused by Dana experiencing fear."
   },
   {
     "author": "By Peter the Human",
@@ -942,7 +941,7 @@
     "category": "Fantasy",
     "phrase_text": "As well as playing the titular character, Jenna Ortega also played Goody Addams, who Wednesday sees in her visions. A distant ancestor of her father Gomez; Goody Addams also had similar psychic powers to Wednesday and killed the villainous founder of the town of Jericho, Joseph Crackstone.",
     "error": "A distant ancestor of her father Gomez; Goody Addams also had similar psychic powers to Wednesday",
-    "correction": "Um, actually, goody Addams isn't an ancestor of Gomez. She's an ancestor of Morticia."
+    "correction": "Um, actually, Goody Addams isn't an ancestor of Gomez. She's an ancestor of Morticia."
   },
   {
     "author": "By Peter the Human",
@@ -950,7 +949,7 @@
     "category": "Fantasy",
     "phrase_text": "Hunting down the Chosen One is difficult - especially if you're not sure who they are. Such is the problem faced by Moiraine Damodred in \"The Eye of the World\". After an army of orcs in the service of The Dark One attacks the town of Emond's Field, three boys who live in the town are forced to flee. Moiraine deduces that one of the three boys - Rand, Mat and Perrin - is the Dragon Reborn; but she is initially unsure who it is.",
     "error": "After an army of orcs in the service of The Dark One attacks the town of Emond's Field,",
-    "correction": "Um, actually, emond's Field wasn't attacked by orcs. Orcs are from Lord of the Rings - The Dark One's army are called Trollocs or Shadowspawn."
+    "correction": "Um, actually, Emond's Field wasn't attacked by orcs. Orcs are from Lord of the Rings - The Dark One's army are called Trollocs or Shadowspawn."
   },
   {
     "author": "By Peter the Human",
@@ -990,7 +989,7 @@
     "category": "Games",
     "phrase_text": "Have you got a “Clue”? In 2023, Hasbro released a new version of the classic board game. Prior to this, the British edition of the game (titled “Cluedo”, shortened from the original title of “Cluedunnit?”) differed slightly from the American version - the British version had Reverend Green and the deceased Dr. Black; while some American editions had Mr. Green and Mr. Boddy. The 2023 game, in both the UK and America, now have Mayor Green and Boden 'Boddy' Black Jr.",
     "error": "the British edition of the game (titled “Cluedo”, shortened from the original title of “Cluedunnit?”)",
-    "correction": "Um, actually, cluedo isn't short for Cluedunnit. The title Cluedo comes from a combination of “Clue” and “Ludo” - the British name for Parcheesi."
+    "correction": "Um, actually, Cluedo isn't short for Cluedunnit. The title Cluedo comes from a combination of “Clue” and “Ludo” - the British name for Parcheesi."
   },
   {
     "author": "By Peter the Human",
@@ -1006,7 +1005,7 @@
     "category": "Games",
     "phrase_text": "“Hellblade: Senua’s Sacrifice” follows the story Senua, a Pict warrior venturing into Helheim to save her dead lover Dillion from the goddess of death Hela by using his pendant as a vessel for his soul. The game's developers worked closely with neuroscientists to accurately represent psychosis: Senua hears voices in her head and is haunted by an entity known as the \"Darkness\" - symptoms that she interprets as a curse.",
     "error": "to save her dead lover Dillion from the goddess of death Hela by using his pendant as a vessel for his soul.",
-    "correction": "Um, actually, senua doesn't use a pendant as a vessel. She uses Dillion's severed head."
+    "correction": "Um, actually, Senua doesn't use a pendant as a vessel. She uses Dillion's severed head."
   },
   {
     "author": "By Peter the Human",
@@ -1022,7 +1021,7 @@
     "category": "Games",
     "phrase_text": "In “The Legend of Zelda: Ocarina of Time”, Link uses the titular ocarina to travel through time between the “child” and “adult” timelines. Link must travel back and forth across the two times, set 7 years apart, in order to awaken the sages and ultimately defeat Ganondorf.",
     "error": "Link uses the titular ocarina to travel through time between the “child” and “adult” timelines.",
-    "correction": "Um, actually, link doesn't use the Ocarina to travel through time. Link uses the Ocarina to open the Temple of Time which contains the Master Sword - which allows him to travel through time."
+    "correction": "Um, actually, Link doesn't use the Ocarina to travel through time. Link uses the Ocarina to open the Temple of Time which contains the Master Sword - which allows him to travel through time."
   },
   {
     "author": "By Peter the Human",
@@ -1030,7 +1029,7 @@
     "category": "Games",
     "phrase_text": "Rainbow Road has featured in every Mario Kart game throughout the series, being the final course of the Special Cup each time. Despite its iconic nature, it has never been featured in a Nintendo game outside of the Kart series: although it was seen in the background of Rosalina’s announcement trailer for “Super Smash Bros. Ultimate”, it was not a playable stage within the game.",
     "error": "Despite its iconic nature, it has never been featured in a Nintendo game outside of the Kart series:",
-    "correction": "Um, actually, rainbow Road has appeared outside of the Mario Kart series. It has also featured in Mario Hoops 3-on-3, Super Mario Galaxy 2, Super Smash Bros. for Nintendo 3DS and Paper Mario: Color Splash"
+    "correction": "Um, actually, Rainbow Road has appeared outside of the Mario Kart series. It has also featured in Mario Hoops 3-on-3, Super Mario Galaxy 2, Super Smash Bros. for Nintendo 3DS and Paper Mario: Color Splash"
   },
   {
     "author": "By Shinitenshi",
@@ -1038,7 +1037,7 @@
     "category": "Games",
     "phrase_text": "In the mission “A House Divided”, Shepard faces off against a faction of Geth, a race of sentient machines. This faction, called the Heretics, are set to annihilate organic life. To stop them, Shepard must choose between peacefully negotiating with the Heretics, which awards Paragon points, or destroying the Heretics base using an antimatter bomb, which awards Renegade points.",
     "error": "Shepard must choose between peacefully negotiating with the Heretics, which awards Paragon points,",
-    "correction": "Um, actually, shepherd doesn't peacefully negotiate with the Geth in the \"Paragon\" route. The option that earns you Paragon Points is releasing an EMP that forcibly rewrites their minds."
+    "correction": "Um, actually, Shepherd doesn't peacefully negotiate with the Geth in the \"Paragon\" route. The option that earns you Paragon Points is releasing an EMP that forcibly rewrites their minds."
   },
   {
     "author": "By Shinitenshi",
@@ -1046,7 +1045,7 @@
     "category": "Games",
     "phrase_text": "In “Metal Gear Solid”, Solid Snake battles FOXHOUND, a former US Black Ops Unit who overtakes a base in Alaska. Their members include Revolver Ocelot, an interrogator who uses six-shooters in combat, the disguise artist Decoy Octopus who is killed by Snake in hand-to-hand combat, and Psycho Mantis – a psychic who breaks the fourth wall and reads the memory of the system the game is played on.",
     "error": "the disguise artist Decoy Octopus who is killed by Snake in hand-to-hand combat,",
-    "correction": "Um, actually, decoy Octopus wasn’t killed in hand-to-hand combat. Snake was unknowingly infected with a virus called FOXDIE – Decoy Octopus, while disguised as DARPA Chief Donald Anderson, was exposed to the virus and died of a heart attack."
+    "correction": "Um, actually, Decoy Octopus wasn’t killed in hand-to-hand combat. Snake was unknowingly infected with a virus called FOXDIE – Decoy Octopus, while disguised as DARPA Chief Donald Anderson, was exposed to the virus and died of a heart attack."
   },
   {
     "author": "By Peter the Human",
@@ -1062,7 +1061,7 @@
     "category": "Games",
     "phrase_text": "Let’s talk about Pokémon evolution chains! Geodude evolves into Graveler who evolves into Golem. Slowpoke evolves into Slowbro, who evolves into Slowking. Elekid evolves into Electabuzz, who evolves into Electivire. Cleffa evolves into Clefairy, who evolves into Cleafable. And, of course, Igglybuff evolves into Jigglypuff, who evolves into Wigglytuff.",
     "error": "Slowpoke evolves into Slowbro, who evolves into Slowking.",
-    "correction": "Um, actually, slowbro doesn't evolve into Slowking. Slowpoke can either evolve into Slowbro or Slowking, but it's not an evolution chain like the other three listed here."
+    "correction": "Um, actually, Slowbro doesn't evolve into Slowking. Slowpoke can either evolve into Slowbro or Slowking, but it's not an evolution chain like the other three listed here."
   },
   {
     "author": "By Peter the Human",
@@ -1070,7 +1069,7 @@
     "category": "Games",
     "phrase_text": "Cubone is a Generation I Ground Type Pokémon, which evolves into Marowak at level 28. A small, bipedal, dinosaur-like creature; it wields a bone as a weapon (allowing it to learn the unique moves Bone Club and Bonemerang), and has a tough, skull-like exoskeleton attached to its head, which may explain its Battle Armour ability.",
     "error": "and has a tough, skull-like exoskeleton attached to its head,",
-    "correction": "Um, actually, cubone doesn't have an exoskeleton. Cubone wears its dead mother's head as a helmet."
+    "correction": "Um, actually, Cubone doesn't have an exoskeleton. Cubone wears its dead mother's head as a helmet."
   },
   {
     "author": "By Peter the Human",
@@ -1086,7 +1085,7 @@
     "category": "Games",
     "phrase_text": "The “Professor Layton” series consists of several games where the titular criminology professor and his young (self-proclaimed) apprentice Luke Triton solve mysteries; as well as a crossover game with Ace Attorney, and 2 games centred on Layton's children: a 3DS game with his adopted daughter Katrielle, and a mobile game featuring his biological son Alfendi.",
     "error": "the titular criminology professor and his young (self-proclaimed) apprentice Luke Triton solve mysteries;",
-    "correction": "Um, actually, layton isn't a criminology professor. He's an archaeology professor - a fact that never has any real relevance in the games."
+    "correction": "Um, actually, Layton isn't a criminology professor. He's an archaeology professor - a fact that never has any real relevance in the games."
   },
   {
     "author": "By Peter the Human",
@@ -1094,7 +1093,7 @@
     "category": "Games",
     "phrase_text": "In the original “Civilization”, Gandhi (the in-game leader of India) was rumored to suddenly become extremely aggressive and likely to use nuclear weapons if he adopted a “peaceful” form of government such as Democracy. When Gandhi returned as a leader in Civilization V, his personality was better reflected: he is the leader least likely to declare war and has the lowest statistics for “Nuke Production” and “Use of Nukes” in the game.",
     "error": "he is the leader least likely to declare war and has the lowest statistics for “Nuke Production” and “Use of Nukes” in the game.",
-    "correction": "Um, actually, gandhi doesn't have the lowest statistics for \"Nuke Production\" or \"Use of Nukes\" in Civ 5. As a nod to the original game, his stats for those are actually the highest."
+    "correction": "Um, actually, Gandhi doesn't have the lowest statistics for \"Nuke Production\" or \"Use of Nukes\" in Civ 5. As a nod to the original game, his stats for those are actually the highest."
   },
   {
     "author": "By Peter the Human",
@@ -1110,7 +1109,7 @@
     "category": "Games",
     "phrase_text": "Toriel, the motherly, goat-like figure that players encounter early on in “Undertale” serves as a tutorial: teaching the player the mechanics of the game and encouraging them to show mercy to their enemies rather than attack them. After giving the player a phone with which to contact her, Toriel gleefully encourages the player to leave the Ruins and explore the world.",
     "error": "Toriel gleefully encourages the player to leave the Ruins and explore the world.",
-    "correction": "Um, actually, toriel doesn't encourage the player to leave. Toriel actively tries to stop you from leaving the ruins."
+    "correction": "Um, actually, Toriel doesn't encourage the player to leave. Toriel actively tries to stop you from leaving the ruins."
   },
   {
     "author": "By Peter the Human",
@@ -1126,7 +1125,7 @@
     "category": "Horror",
     "phrase_text": "After an alien burst from Executive Officer Kane's chest, the android Ash was secretly instructed by the Weylan-Yutani corporation to return the alien, with the crew considered expendable. Dallas, Parker, Lambert and Brett were all killed by the xenomorph; but Warrant Officer Ripley deactivated Ash and blasted the xenomorph into space, leaving her as the sole survivor of the Nostromo.",
     "error": "leaving her as the sole survivor of the Nostromo.",
-    "correction": "Um, actually, ripley wasn't the sole survivor of the Nostromo. The ship's cat, Jones, also survives."
+    "correction": "Um, actually, Ripley wasn't the sole survivor of the Nostromo. The ship's cat, Jones, also survives."
   },
   {
     "author": "By Peter the Human",
@@ -1134,7 +1133,7 @@
     "category": "Horror",
     "phrase_text": "In order to become The Supreme, the living embodiment of magic itself, a witch must master seven distinct magical abilities known as “The Seven Wonders”. These include Concilium (controlling someone’s mind through willpower), Descensum (projecting one’s soul into Hell, portrayed on the show as a fiery realm of evil and chaos), and Vitalum Vitalis (the power to balance the scales of life and death).",
     "error": "Descensum (projecting one’s soul into Hell, portrayed on the show as a fiery realm of evil and chaos),",
-    "correction": "Um, actually, hell isn't a fiery realm of evil. Hell in American Horror Story is unique to each person."
+    "correction": "Um, actually, Hell isn't a fiery realm of evil. Hell in American Horror Story is unique to each person."
   },
   {
     "author": "By Peter the Human",
@@ -1142,7 +1141,7 @@
     "category": "Horror",
     "phrase_text": "You like Huey Lewis and the News? In an iconic scene, Patrick Bateman dons a raincoat to murder his co-worker Paul Allen with an axe. Oblivious, Allen asks, \"Hey Bateman - why are there copies of the style section all over the place?\", shortly before Bateman turns on his stereo and hacks Paul to death to the sound of \"Hip to Be Square\".",
     "error": "Oblivious, Allen asks, \"Hey Bateman - why are there copies of the style section all over the place?\",",
-    "correction": "Um, actually, paul doesn't refer to Patrick as Bateman. He refers to him as \"Halberstram\" - one of many instances throughout the film people mistake Patrick for someone else."
+    "correction": "Um, actually, Paul doesn't refer to Patrick as Bateman. He refers to him as \"Halberstram\" - one of many instances throughout the film people mistake Patrick for someone else."
   },
   {
     "author": "By Peter the Human",
@@ -1166,7 +1165,7 @@
     "category": "Horror",
     "phrase_text": "In indie horror game “Choo-Choo Charles”, the player controls a monster-hunting archivist. Players must upgrade their train's defences in order to fight and defeat the titular character, Charles; an evil spider-train hybrid monster that lives on the Isle of Sodor and wanders the landscape looking for people to eat.",
     "error": "an evil spider-train hybrid monster that lives on the Isle of Sodor and wanders the landscape looking for people to eat.",
-    "correction": "Um, actually, charles doesn't live on the Isle of Sodor. The Isle of Sodor is where Thomas the Tank Engine lives. Charles lives on the island of Aranearum."
+    "correction": "Um, actually, Charles doesn't live on the Isle of Sodor. The Isle of Sodor is where Thomas the Tank Engine lives. Charles lives on the island of Aranearum."
   },
   {
     "author": "By Peter the Human",
@@ -1174,7 +1173,7 @@
     "category": "Horror",
     "phrase_text": "Send in the clowns! While some evil clowns are just serial killers who dress as clowns, like Twisty from “American Horror Story” or Captain Spaulding from “House of 1000 Corpses”; others are undead like the titular “Stitches”, aliens like the “Killer Klowns from Outer Space” or more eldritch or demonic beings who assume the form of clowns like Pennywise from “It”, Slappy from “Poltergeist”, The Violator from “Spawn” and Art the Clown from “Terrifier”.",
     "error": "demonic beings who assume the form of clowns like Pennywise from “It”, Slappy from “Poltergeist”, The Violator from “Spawn”",
-    "correction": "Um, actually, slappy isn't an eldritch clown. While Robbie does own an unnamed clown doll in Poltergeist which becomes possessed, Slappy was the name of the doll in the Goosebumps book “Night of the Living Dummy”."
+    "correction": "Um, actually, Slappy isn't an eldritch clown. While Robbie does own an unnamed clown doll in Poltergeist which becomes possessed, Slappy was the name of the doll in the Goosebumps book “Night of the Living Dummy”."
   },
   {
     "author": "By Peter the Human",
@@ -1190,7 +1189,7 @@
     "category": "Horror",
     "phrase_text": "“Halloween III: Season of the Witch” is the only film in the Halloween franchise where Michael Meyers doesn't appear. An attempt to turn the franchise into an anthology series; the plot instead centers around an evil company known as Silver Shamrock, who plans to channel the power of Stonehenge via Halloween masks, turning childrens’ heads into snakes.",
     "error": "“Halloween III: Season of the Witch” is the only film in the Halloween franchise where Michael Meyers doesn't appear.",
-    "correction": "Um, actually, michael Myers does appear in Halloween III. In one scene, a clip of Michael Meyers from the original Halloween film can be seen on a TV in the background - Michael's mask is next to the TV in the same scene."
+    "correction": "Um, actually, Michael Myers does appear in Halloween III. In one scene, a clip of Michael Meyers from the original Halloween film can be seen on a TV in the background - Michael's mask is next to the TV in the same scene."
   },
   {
     "author": "By Peter the Human",
@@ -1206,7 +1205,7 @@
     "category": "Horror",
     "phrase_text": "The stage musical, loosely based on the 1960 low-budget movie “The Little Shop of Horrors”, follows Seymour Krelborn, who finds a strange plant that he names Audrey II after his co-worker. Audrey II must consume blood to survive and eventually plans world domination, but is defeated when Seymour electrocutes Audrey II, blowing it up.",
     "error": "but is defeated when Seymour electrocutes Audrey II, blowing it up.",
-    "correction": "Um, actually, seymour doesn't defeat Audrey II. The film adaptation ends with Audrey II's electrocution - but in the musical, it's implied that it succeeds in eating all of humanity."
+    "correction": "Um, actually, Seymour doesn't defeat Audrey II. The film adaptation ends with Audrey II's electrocution - but in the musical, it's implied that it succeeds in eating all of humanity."
   },
   {
     "author": "By Peter the Human",
@@ -1214,7 +1213,7 @@
     "category": "Horror",
     "phrase_text": "Celebrity chef Julian Slowik invites guests to a private island to enact revenge on the people who made him lose passion for his craft, or who profit from artisans like him. His victims include the food critic Lillian Bloom, angel investor Doug Verrick who made Julian relinquish control of his restaurant, and the actor George Diaz who left a negative Yelp review for one of Julian's restaurants.",
     "error": "and the actor George Diaz who left a negative Yelp review for one of Julian's restaurants.",
-    "correction": "Um, actually, george didn't leave Julian a bad Yelp review. Slovik enacts his revenge on George because of how much he hated a movie he starred in and seeing him phone in his performance ruined his one day off in months."
+    "correction": "Um, actually, George didn't leave Julian a bad Yelp review. Slovik enacts his revenge on George because of how much he hated a movie he starred in and seeing him phone in his performance ruined his one day off in months."
   },
   {
     "author": "By Peter the Human",
@@ -1246,7 +1245,7 @@
     "category": "Horror",
     "phrase_text": "\"Signs\" follows Episcopal priest Graham and his family amidst an alien invasion. The movie's director M. Night Shyamalan cameos as Ray Reddy, a vet responsible for the accidental death of Graham's wife. Ray subtly foreshadows the aliens' weakness by saying that he is fleeing \"over the rainbow\" - both the aliens and the Wicked Witch of the West can be killed by water.",
     "error": "Ray subtly foreshadows the aliens' weakness by saying that he is fleeing \"over the rainbow\" - both the aliens and the Wicked Witch of the West can be killed by water.",
-    "correction": "Um, actually, ray doesn't say he's fleeing “over the rainbow”. Ray says that he's fleeing to a lakeside, and straight up says “I don't think they like water”."
+    "correction": "Um, actually, Ray doesn't say he's fleeing “over the rainbow”. Ray says that he's fleeing to a lakeside, and straight up says “I don't think they like water”."
   },
   {
     "author": "By Peter the Human",
@@ -1294,7 +1293,7 @@
     "category": "Sci-Fi",
     "phrase_text": "The episode “San Junipero” follows the burgeoning relationship of two women: the vivacious party girl Kelly and the shier, more reserved Yorkie. Although the two appear to meet in 1987 at a nightclub called Tucker’s, it's later revealed that San Junipero is a simulated reality where the deceased can live and the elderly can visit, inhabiting the bodies of their younger selves - and Yorkie is in fact dead.",
     "error": "the deceased can live and the elderly can visit, inhabiting the bodies of their younger selves - and Yorkie is in fact dead.",
-    "correction": "Um, actually, yorkie isn't dead when she meets Kelly. Yorkie was paralyzed in a car accident and is looking to be euthanised to live in San Junipero permanently."
+    "correction": "Um, actually, Yorkie isn't dead when she meets Kelly. Yorkie was paralyzed in a car accident and is looking to be euthanised to live in San Junipero permanently."
   },
   {
     "author": "By Peter the Human",
@@ -1326,7 +1325,7 @@
     "category": "Sci-Fi",
     "phrase_text": "The Silurians are an alien species that first appeared in the classic “Doctor Who” episode “Doctor Who and the Silurians”, and frequently feature in plotlines with an anti-war sentiment. Their advanced technology includes genetic modification, hibernation units, spaceships (which they used to preserve dinosaur species) and candles which could induce lucid dreams, allowing people to communicate across time and space.",
     "error": "The Silurians are an alien species that first appeared in the classic “Doctor Who” episode “Doctor Who and the Silurians”,",
-    "correction": "Um, actually, silurians aren't an alien species. Silurians live underground on Earth and predate humanity."
+    "correction": "Um, actually, Silurians aren't an alien species. Silurians live underground on Earth and predate humanity."
   },
   {
     "author": "By Peter the Human",
@@ -1342,7 +1341,7 @@
     "category": "Sci-Fi",
     "phrase_text": "Evelyn Wang discovers that an alternate universe version of herself developed \"verse-jumping\" technology that grants access to the skills and memories of a person's parallel universe counterpart. Evelyn is the only person in the multiverse who has the unique skillset needed to stop Jobu Tupaki (an alternate universe version of her daughter) who has created an \"everything bagel\" - a singularity that can potentially destroy the multiverse.",
     "error": "Evelyn is the only person in the multiverse who has the unique skillset needed to stop Jobu Tupaki",
-    "correction": "Um, actually, evelyn doesn't have a unique skillset. Evelyn is uniquely unskilled. The fact that she's the worst possible version of herself lets access other universes more easily."
+    "correction": "Um, actually, Evelyn doesn't have a unique skillset. Evelyn is uniquely unskilled. The fact that she's the worst possible version of herself lets access other universes more easily."
   },
   {
     "author": "By Peter the Human",
@@ -1350,7 +1349,7 @@
     "category": "Sci-Fi",
     "phrase_text": "“Ex_Machina” follows programmer Caleb Smith, who is invited by his company's CEO to his luxurious mansion to administer the Turing Test to the intelligent android Ava. After Nathan reveals Ava is his first prototype and that he intends to \"upgrade\" her, Ava and Caleb hatch a plan to flee.",
     "error": "After Nathan reveals Ava is his first prototype and that he intends to \"upgrade\" her,",
-    "correction": "Um, actually, ava wasn't Nathan's first prototype. There were many others - including Nathan's \"servant\" Kyoko."
+    "correction": "Um, actually, Ava wasn't Nathan's first prototype. There were many others - including Nathan's \"servant\" Kyoko."
   },
   {
     "author": "By Peter the Human",
@@ -1358,7 +1357,7 @@
     "category": "Sci-Fi",
     "phrase_text": "Sci-Fi may have a drug problem... In “Star Trek: Deep Space Nine”, the Jem'Hadar use the drug Ketracel White to unlock telekinetic powers. In Frank Herbert’s “Dune” series, the drug melange (sometimes called \"spice\") is used by Navigators to guide space ships through fold space. And in the film “Limitless”, the nootropic drug NZT-48 massively increases users' brainpower.",
     "error": "In “Star Trek: Deep Space Nine”, the Jem'Hadar use the drug Ketracel White to unlock telekinetic powers.",
-    "correction": "Um, actually, ketracel White doesn't give telekinetic abilities. Ketracel White is extremely addictive and is used as a control mechanism"
+    "correction": "Um, actually, Ketracel White doesn't give telekinetic abilities. Ketracel White is extremely addictive and is used as a control mechanism"
   },
   {
     "author": "By Peter the Human",
@@ -1374,7 +1373,7 @@
     "category": "Sci-Fi",
     "phrase_text": "Katniss Everdeen, and her love interests Peeta Mellark and Gale Hawthorne all hail from District 12 of Panem. Having only produced 2 winners before the events of the first book and its film adaptation (Haymitch Abernathy and another unnamed winner who died of natural causes); Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "error": "Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
-    "correction": "Um, actually, katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose."
+    "correction": "Um, actually, Katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose."
   },
   {
     "author": "By Peter the Human",
@@ -1398,7 +1397,7 @@
     "category": "Sci-Fi",
     "phrase_text": "In “Rogue One: A Star Wars Story”, a group of rebels steal the schematics of the Death Star, detailing its secret vulnerability, from the planet Scarif. During the raid, most of Rogue One’s crew dies: including blind warrior Chirrut Îmwe, former Imperial pilot Bodhi Rook and sarcastic droid K-2SO. However, Jyn Erso and Rebel captain Cassian Andor survive, and successfully deliver the schematics to the Rebel command ship.",
     "error": "Jyn Erso and Rebel captain Cassian Andor survive, and successfully deliver the schematics to the Rebel command ship.",
-    "correction": "Um, actually, jyn and Cassian don't survive. Scarif is blown up by the Death Star, killing Jyn and Cassian as well."
+    "correction": "Um, actually, Jyn and Cassian don't survive. Scarif is blown up by the Death Star, killing Jyn and Cassian as well."
   },
   {
     "author": "By Peter the Human",
@@ -1406,7 +1405,7 @@
     "category": "Sci-Fi",
     "phrase_text": "“Slaughterhouse-Five” follows WW2 veteran Billy Pilgrim who becomes \"unstuck in time\". The novel's title refers to the name of the enclosure where Billy was kept as a zoo exhibit by aliens called Tralfamadorians. Death is meaningless to Tralfamadorians, because they are able to see in four-dimensions, observing all points in the space-time continuum simultaneously.",
     "error": "The novel's title refers to the name of the enclosure where Billy was kept as a zoo exhibit by aliens called Tralfamadorians.",
-    "correction": "Um, actually, slaughterhouse-Five isn't the name of the alien zoo. It's a literal slaughterhouse where Billy was kept as a POW during the Dresden bombing"
+    "correction": "Um, actually, Slaughterhouse-Five isn't the name of the alien zoo. It's a literal slaughterhouse where Billy was kept as a POW during the Dresden bombing"
   },
   {
     "author": "By Peter the Human",
@@ -1414,7 +1413,7 @@
     "category": "Sci-Fi",
     "phrase_text": "In the two-part episode “Chain of Command”, Captain Picard is captured and taken prisoner by the Cardassians. To gain insight into the Federation’s plans, he is tortured by Gul Madred with sensory depravation, forced nakedness, stress positions and starvation. When all his other tortures fail, Gul Madred asks Picard what two plus two is, subjecting him to intense pain every time he does not answer \"five\".",
     "error": "When all his other tortures fail, Gul Madred asks Picard what two plus two is, subjecting him to intense pain every time he does not answer \"five\".",
-    "correction": "Um, actually, picard wasn't asked to say that 2 + 2 = 5. Picard is asked to stare at four lights and is subject to pain if he does not say there are \"five\"."
+    "correction": "Um, actually, Picard wasn't asked to say that 2 + 2 = 5. Picard is asked to stare at four lights and is subject to pain if he does not say there are \"five\"."
   },
   {
     "author": "By Peter the Human",
@@ -1422,7 +1421,7 @@
     "category": "Sci-Fi",
     "phrase_text": "Supreme Chancellor Palpatine tempted Anakin Skywalker over to the Dark Side of the Force by telling him the tragedy of Darth Plagueis the Wise - a Sith Lord with the ability to prevent death and create life. This later prompts Anakin to betray his fellow Jedi Master Mace Windu: Anakin severs his hand, allowing Palpatine to blast Mace Windu through a window to his death with Force lightning.",
     "error": "This later prompts Anakin to betray his fellow Jedi Master Mace Windu:",
-    "correction": "Um, actually, anakin Skywalker isn't a Jedi Master. Anakin was appointed to the Jedi Council, but was not granted the rank of Master."
+    "correction": "Um, actually, Anakin Skywalker isn't a Jedi Master. Anakin was appointed to the Jedi Council, but was not granted the rank of Master."
   },
   {
     "author": "By Peter the Human",
@@ -1438,6 +1437,6 @@
     "category": "Sci-Fi",
     "phrase_text": "The episode “Time Enough at Last” features bankteller Henry Bemis, who is chastised for reading too much. After surviving an H-bomb explosion by hiding in his bank’s vault, he finds that everyone has died. Thankfully for him, the books at the library survive and he has canned food to last him a life time. While he's happy to read to his heart’s content, he falls into despair because books can’t replace human connections.",
     "error": "While he's happy to read to his heart’s content, he falls into despair because books can’t replace human connections.",
-    "correction": "Um, actually, henry can’t read the books in the library. Henry falls into despair because his spectacles break, leaving him unable to read the books."
+    "correction": "Um, actually, Henry can’t read the books in the library. Henry falls into despair because his spectacles break, leaving him unable to read the books."
   }
 ]
