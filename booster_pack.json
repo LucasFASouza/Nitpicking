@@ -162,7 +162,7 @@
   {
     "author": "By Peter the Human",
     "title": "Adventure Time",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "Marceline the Vampire Queen is a half-vampire/half-demon who plays a bass guitar, which she crafted from her family's heirloom battle-axe. At a little over a thousand years old, her immortality is sustained by drinking blood; and she has gained several supernatural powers from absorbing the essence of powerful vampires - including the powers of flight, invisibility, shape-shifting and rapid healing.",
     "error": "t a little over a thousand years old, her immortality is sustained by drinking blood;",
     "correction": "Um, actually, Marceline's immortality isn't sustained by drinking blood. Marceline can drink the color red instead of blood."
@@ -170,7 +170,7 @@
   {
     "author": "By Peter the Human",
     "title": "Animaniacs",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "“Animaniacs” followed (among others) the Warner Brothers, Yakko and Wakko, and the Warner Sister Dot - anthropomorphic cartoon dogs that were created in the 1930s. After the trio ran amok throughout Warner Bros. Studios creating chaos, they were locked in the studio water tower until they escaped in the 90s. Frequently, the Warners were joined by Dr. Otto von Scratchansniff and Hello Nurse, who fruitlessly attempted to force the siblings to be “less zany”.",
     "error": "“Animaniacs” followed (among others) the Warner Brothers, Yakko and Wakko, and the Warner Sister Dot - anthropomorphic cartoon dogs that were created in the 1930s.",
     "correction": "Um, actually, the Warner Siblings aren’t dogs. Their species was never made clear. This fact was lampshaded in the song “What Are We?” where the siblings reached the conclusion that they were ‘cute’."
@@ -178,7 +178,7 @@
   {
     "author": "By Peter the Human",
     "title": "Beauty and the Beast",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The Beast's castle may seem nice, with sixty rooms and Baroque architecture (according to Cogsworth), but it was cursed by an enchantress as punishment for the young prince's cruelty. Despite the Beast's warnings, Belle enters the castle's forbidden West Wing and discovers the Beast's magnificent library. After the Beast orders her to \"Get out!\" she flees into the woods and is ambushed by a pack of wolves. Fortunately, the Beast rescues her.",
     "error": "Despite the Beast's warnings, Belle enters the castle's forbidden West Wing and discovers the Beast's magnificent library.",
     "correction": "Um, actually, the library isn't in the West Wing of the castle. Belle discovers the Enchanted Rose in the West Wing. The beast offers Belle the library as a \"surprise\" later."
@@ -186,7 +186,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Boondocks",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "Uncle Ruckus is a self-loathing black man who holds extremely racist views towards all non-white people. Frequently antagonistic towards the Freeman family, he lives in a one-room shack on the outskirts of Woodcrest. At various times he has claimed to be a Caucasian man with \"re-vitiligo\"; and uses his French and Irish ancestry (confirmed in his DNA test) as evidence of his whiteness.",
     "error": "and uses his French and Irish ancestry (confirmed in his DNA test) as evidence of his whiteness.",
     "correction": "Um, actually, the DNA test didn't confirm Ruckus’ French or Irish ancestry. Uncle Ruckus' DNA test told him he's 102% African with a 2% margin of error."
@@ -194,7 +194,7 @@
   {
     "author": "By Peter the Human",
     "title": "Futurama",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The Brain Spawn are a species of sentient, flying brains that were responsible for the extinction of the dinosaurs, and invaded planet Earth during the 31st century. The species has the ability to render nearly all humans stupid - the sole exception being Fry; who is immune to this power because he lacks the delta brainwave, as a result of being cryogenically frozen.",
     "error": "who is immune to this power because he lacks the delta brainwave, as a result of being cryogenically frozen.",
     "correction": "Um, actually, Fry doesn't lack the delta brainwave because of being frozen. He lacks the brainwave because he is his own grandfather (due to some \"nasty in the past-y\")"
@@ -202,7 +202,7 @@
   {
     "author": "By Peter the Human",
     "title": "Gravity Falls",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The town of Gravity Falls is home to all kinds of peculiar creatures: including the hyper-masculine Manotaurs, the Trickster that emerges every Halloween to punish children who don't show respect to the Halloween spirit, the Lilliputtians (small, golf-ball headed hominids who secretly run Ye Royal Discount Putt Hutt) and gnomes who can stack themselves together to form a giant, gnome-like monster.",
     "error": "the Trickster that emerges every Halloween to punish children who don't show respect to the Halloween spirit,",
     "correction": "Um, actually, the Trickster doesn't come out on Halloween. The Trickster comes out on Summerween - a summer festival that uses jack-o-melons instead of jack-o-lanterns."
@@ -210,7 +210,7 @@
   {
     "author": "By Peter the Human",
     "title": "He-Man and the Masters of the Universe",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "Prince Adam is endowed with fabulous secret powers whenever he holds the Sword of Power aloft and proclaims, “By the Power of Grayskull!”, transforming him into He-Man. He uses this power to defend the planet Etheria from the forces of the villainous Skeletor, who seeks to conquer Castle Grayskull and become powerful enough to rule the Universe.",
     "error": "He uses this power to defend the planet Etheria from the forces of the villainous Skeletor,",
     "correction": "Um, actually, He-Man doesn’t live on Etheria. He-Man's planet is called Eternia. His sister She-Ra's planet is called Etheria."
@@ -218,7 +218,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Incredibles",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "Years after being rejected as a sidekick by Bob Parr (AKA Mr. Incredible), Buddy Pine (AKA Syndrome) lures Mr. Incredible to an island to fight his robotic Omnidroid. There, he learns that Syndrome has been perfecting his Omnidroid in order to stage an attack, by hiring different superheroes to fight it, resulting in the deaths of many of Bob’s former colleagues – including Thunderhead, Stratogale, Meta Man, Dynaguy and Splashdown.",
     "error": "resulting in the deaths of many of Bob’s former colleagues – including Thunderhead, Stratogale, Meta Man, Dynaguy and Splashdown.",
     "correction": "Um, actually, the dead superheroes listed here didn't die fighting the Omnidroid. They all died in cape-related accidents, shown in a montage during Edna Mode’s supersuit redesign for Mr. Incredible"
@@ -226,7 +226,7 @@
   {
     "author": "By Peter the Human",
     "title": "Inside Job",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "“Inside Job” is a workplace comedy set in a world where many conspiracy theories are real. The series follows Reagan Ridley, a scientist working at Cognito Inc. - one of six organizations that secretly control the world. The other five organizations are the Atlanteans, the Reptoids, the Catholic Church, Vampires (such as Keanu Reeves) and the Illuminati (whose members include Jay-Z and Beyoncé).",
     "error": "Vampires (such as Keanu Reeves) and the Illuminati (whose members include Jay-Z and Beyoncé).",
     "correction": "Um, actually, vampires aren't one of the organizations that control the world. The fifth group not mentioned here are the Juggalos – fans of the band Insane Clown Posse who control all the world’s finances."
@@ -234,7 +234,7 @@
   {
     "author": "By Peter the Human",
     "title": "Kim Possible",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "Kim Possible, the title character of the animated show, was based on the daughters of creators Bob Schooley and Mark McCorkle, and their childhood hero James Bond. Kim's nemeses are appropriately Bond-esque, including the mad scientist Dr. Drakken and his sidekick, the martial artist Shego - both of whom have discolored skin as a result of being hit by a mysterious rainbow “comet”.",
     "error": "Dr. Drakken and his sidekick, the martial artist Shego - both of whom have discolored skin as a result of being hit by a mysterious rainbow “comet”.",
     "correction": "Um, actually, Dr. Drakken's skin isn't discoloured due to the comet. That's why Shego has green skin, but we never find out why Dr. Drakken has blue skin. The only explanation he gives is that “It was a Tuesday”."
@@ -242,7 +242,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Little Mermaid",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The character designs in the 1989 film The Little Mermaid came from a wide variety of sources: the sea witch Ursula’s design was based on drag performer Divine, Ariel’s father King Neptune was based on the mythological figure of the same name, and supervising animator Glen Keane once joked that his wife looked exactly like Ariel “without the fins”.",
     "error": "Ariel’s father King Neptune was based on the mythological figure of the same name,",
     "correction": "Um, actually, Ariel's father isn't called King Neptune. Ariel's father is called King Triton - King Neptune is from SpongeBob SquarePants."
@@ -250,7 +250,7 @@
   {
     "author": "By Peter the Human",
     "title": "Metalocalypse",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "“Metalocalypse” follows the misadventures of Dethklok, a death metal band so popular, at one point they rank as the seventh-largest economy on Earth. Several Dethklok songs feature throughout the series, including: “Hammer Smashed Face”, “Briefcase Full of Guts”, “I Tamper With The Evidence at the Murder Site of Odin”, “Murmaider”, “Murmaider II: The Water God” and “I Ejaculate Fire”.",
     "error": "Several Dethklok songs feature throughout the series, including: “Hammer Smashed Face”, “Briefcase Full of Guts”, “I Tamper With The Evidence at the Murder Site of Odin”,",
     "correction": "Um, actually, “Hammer Smashed Face” isn't a Dethklok song. It's a song by the real, flesh-and-blood death metal band Cannibal Corpse."
@@ -258,7 +258,7 @@
   {
     "author": "By Peter the Human",
     "title": "Pixar",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The timeframe of Pixar’s prequels and sequels varies a lot: “Monsters University” takes place years before the titular university was mentioned in “Monsters Inc.”, whereas “The Incredibles 2” picks up immediately where the first film left off. “Finding Dory” takes place a year after the events of “Finding Nemo”, and “Toy Story 3” takes place a full decade after “Toy Story 2”, with a now 17-year-old Andy leaving for college.",
     "error": "“Monsters University” takes place years before the titular university was mentioned in “Monsters Inc.”,",
     "correction": "Um, actually, Monster's University wasn't mentioned in Monsters Inc. This caused an unintentional plot hole: Mike says that Sully’s been jealous of his good looks since fourth grade in “Monsters Inc”."
@@ -266,7 +266,7 @@
   {
     "author": "By Peter the Human",
     "title": "Rick and Morty",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "In the episode “Pickle Rick”, Rick turns himself into a pickle to avoid going to family therapy. A series of bizarre events leads to Rick, as a pickle in an exo-suit made from rat parts, doing battle with a group of Russian agents who mistake him for the legendary assassin Baba Yaga. Rick ultimately defeats the Agency Director by teaming up with a fighter known as Jaguar, that had been sent to kill him.",
     "error": "doing battle with a group of Russian agents who mistake him for the legendary assassin Baba Yaga.",
     "correction": "Um, actually, the agents didn't mistake Rick for Baba Yaga. Baba Yaga was the nickname given to John Wick, which this episode is partly an homage to. Pickle Rick was actually called “Solen'ya” – a pickle man who crawls from bowls of soup and steals the dreams of wasteful children."
@@ -274,7 +274,7 @@
   {
     "author": "By Peter the Human",
     "title": "She-Ra and the Princesses of Power",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The various Princesses in “She-Ra” are not necessarily all rulers or heirs of a kingdom, but they do all derive magical abilities from runestones: such as Perfuma’s runestone Heart Blossom which gives her the ability to control plants, Mermista’s runestone Pearl which gives her control of water, and Scorpia’s runestone Black Garnet which gives her control of electricity.",
     "error": "but they do all derive magical abilities from runestones:",
     "correction": "Um, actually, the princesses don't all use magical abilities. One of the princesses, Entrapta, has no runestone or magical abilities – she is the monarch of Dryl, and she’s just very good with technology."
@@ -282,7 +282,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Simpsons",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The episode “A Star Is Burns”, a crossover episode with “The Critic”, follows the Springfield Film Festival – judged by titular critic Jay Sherman, alongside Krusty, Mayor Quimby, Marge and Homer. Homer struggles to choose a contest winner between his boss Mr. Burns’ self-aggrandising project \"A Burns For All Seasons\" and Barney’s more introspective film about his alcoholism, \"Pukahontas\".",
     "error": "Homer struggles to choose a contest winner between his boss Mr. Burns’ self-aggrandising project \"A Burns For All Seasons\" ",
     "correction": "Um, actually, Homer didn't think A Burns for All Seasons should win. He was conflicted between \"Pukahontas\" and Hans Moleman's film \"Man Getting Hit By Football\" - where Moleman gets hit in the groin with a football."
@@ -290,7 +290,7 @@
   {
     "author": "By Peter the Human",
     "title": "Steven Universe",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The Crystal Gems are a group of rebels against The Great Diamond Authority on the Gem Homeworld, founded by Pink Diamond under the guise of Rose Quartz. Although others later join the group, at the beginning of the series the Gems consist of Pearl, Amethyst and Garnet (a fusion of Ruby and Sapphire) who all hail from the Gem Homeworld; and Steven - Rose Quartz's half-Gem, half-human son who was born on Earth.",
     "error": "the Gems consist of Pearl, Amethyst and Garnet (a fusion of Ruby and Sapphire) who all hail from the Gem Homeworld;",
     "correction": "Um, actually, Amethyst doesn't hail from the Gem Homeworld. Amethyst was created in an Earth Kindergarten."
@@ -298,7 +298,7 @@
   {
     "author": "By Peter the Human",
     "title": "Teenage Mutant Ninja Turtles",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The Teenage Mutant Ninja Turtles are four turtles who were exposed to a mutagenic \"ooze\" and adopted by Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi. Master Splinter adopts the turtles as his sons: naming them after Italian Renaissance artists and training them in the art of ninjitsu.",
     "error": "Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi.",
     "correction": "Um, actually, Master Splinter wasn't a rat belonging to Hamato Yoshi. This is Splinter's origin in the original comic books and some other adaptations - in the 1987 cartoon, Master Splinter is Hamato Yoshi. He mutated when the ooze combined his DNA with that of sewer rats."
@@ -306,7 +306,7 @@
   {
     "author": "By Peter the Human",
     "title": "Turning Red",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "The female descendants of Sun Yee are afflicted with the ability to transform into giant red pandas when they experience strong emotions - a curse that manifests on a descendant's thirteenth birthday. The red panda spirit can be sealed away by performing a ritual that encases it in an object under a red moon; but protagonist Meilin Lee learns to control her power by thinking about her friends.",
     "error": "a curse that manifests on a descendant's thirteenth birthday.",
     "correction": "Um, actually, the curse doesn't manifest on their 13th birthdays. There’s no clear timescale for when the curse manifests - in fact, the curse manifesting so early catches Meilin's parents off-guard, with her father saying, \"It's happened already?!\""
@@ -314,7 +314,7 @@
   {
     "author": "By Peter the Human",
     "title": "Wallace and Gromit",
-    "category": "Cartoons",
+    "category": "Cartoons & TV",
     "phrase_text": "In “The Wrong Trousers”, Wallace rents out the spare bedroom to a penguin, who turns out to be the wanted criminal Feathers McGraw. After using Wallace’s techno trousers steal a diamond; a high-speed model train chase ensues. The chase ends when Gromit captures Feathers in a milk bottle, and he is sent to prison by the police.",
     "error": "The chase ends when Gromit captures Feathers in a milk bottle, and he is sent to prison by the police.",
     "correction": "Um, actually, Feathers McGraw doesn't go to prison. He’s a penguin – so Feathers McGraw is sent to the zoo!"
@@ -482,7 +482,7 @@
   {
     "author": "By Peter the Human",
     "title": "Black Mirror",
-    "category": "Community - Anglophilia",
+    "category": "Sci-Fi",
     "phrase_text": "In the episode “Fifteen Million Merits”, Bing Madsen buys a ticket so his friend Abi can enter the talent contest Hot Shot. After Abi fails to impress the judges, but is cast for a porn channel, Bing saves up to purchase another ticket and enter Hot Shot himself. The episode concludes with Bing slitting his own throat onstage with a shard of broken glass, and a judge declaring that it was the greatest act in the show's history.",
     "error": "The episode concludes with Bing slitting his own throat onstage with a shard of broken glass, and a judge declaring that it was the greatest act in the show's history.",
     "correction": "Um, actually, Bing doesn't kill himself. He is given his own show where he rants against the cruelty of the system – but has increased his social status significantly."
@@ -490,7 +490,7 @@
   {
     "author": "By Peter the Human",
     "title": "Blake's 7",
-    "category": "Community - Anglophilia",
+    "category": "Sci-Fi",
     "phrase_text": "In sci-fi series “Blake’s 7”, the titular dissident Roj Blake is deported from Earth to a penal colony, following his arrest for inciting a rebellion against the totalitarian Terran Federation. While en route, Blake and his fellow prisoners Jenna Stannis and Kerr Avon break free and escape on a technologically advanced alien spacecraft, which its central computer 'Zen' informs them is named Liberator.",
     "error": "following his arrest for inciting a rebellion against the totalitarian Terran Federation.",
     "correction": "Um, actually, Blake wasn't deported for inciting a rebellion. Blake did incite a rebellion - but he was brainwashed into making a confession and denouncing the rebellion. His memory of those years was then blocked. When he started to remember, he was arrested on false charges."
@@ -498,7 +498,7 @@
   {
     "author": "By Peter the Human",
     "title": "Doctor Who",
-    "category": "Community - Anglophilia",
+    "category": "Sci-Fi",
     "phrase_text": "The episode “Blink” focuses on Sally Sparrow, who discovers messages from the Doctor under wallpaper and in Easter Eggs in her DVDs. Trapped in 1969, he gives Sally these messages to help her return the TARDIS before it falls into the hands of the Weeping Angels: predatory creatures that turn to stone when observed but can instantly kill their victims the second they stop looking at them.",
     "error": "predatory creatures that turn to stone when observed but can instantly kill their victims the second they stop looking at them.",
     "correction": "Um, actually, the Weeping Angels don't instantly kill their victims. They send them back in time and make them 'live to death’."
@@ -506,7 +506,7 @@
   {
     "author": "By Peter the Human",
     "title": "Don't Hug Me I'm Scared",
-    "category": "Community - Anglophilia",
+    "category": "Horror",
     "phrase_text": "The webseries “Don't Hug Me I'm Scared” and the TV series of the same name are surreal-musical-comedy-horror shows which combine puppetry with animation. In both the web and TV series, series co-creator Joseph Pelling plays 'Red Guy': a tall red creature who usually speaks in a monotone, inexpressive voice despite the horrific events that unfold around him - making it even more jarring when we hear him raise his voice for the first time in the opening theme of Episode 4 of the TV series, screaming, \"And we live in an ACTUAL NIGHTMARE!\"",
     "error": "making it even more jarring when we hear him raise his voice for the first time in the opening theme of Episode 4 of the TV series,",
     "correction": "Um, actually, that isn’t the first time Red Guy raises his voice. Three episodes beforehand, in the series premiere ‘Jobs’, Red Guy learns how to scream down the phone to deal with customers."
@@ -514,7 +514,7 @@
   {
     "author": "By Peter the Human",
     "title": "Life on Mars",
-    "category": "Community - Anglophilia",
+    "category": "Sci-Fi",
     "phrase_text": "After detective Sam Tyler has a car accident in the year 2006 and wakes up in 1973, he questions if he's mad, in a coma or has gone back in time. While continuing his police work, he contends with outdated methods and attitudes of DCI Gene Hunt - and in a memorable finale, chooses to return to 2006 by gathering incriminating evidence on Hunt.",
     "error": "and in a memorable finale, chooses to return to 2006 by gathering incriminating evidence on Hunt.",
     "correction": "Um, actually, Sam doesn't submit the evidence against Gene Hunt. Sam wakes up from a gunfight in 1973 to find his brain tumor has been removed in 2006 - but then chooses to return to 1973 by jumping off the top of his police station."
@@ -522,7 +522,7 @@
   {
     "author": "By Peter the Human",
     "title": "Misfits",
-    "category": "Community - Anglophilia",
+    "category": "Fantasy",
     "phrase_text": "The first season of “Misfits” follows a group of young offenders who gain special abilities after an electrical storm. While most of the group gain superpowers - such as Kelly who becomes telepathic and Alisha who sends people into a sexual frenzy when they touch her skin - Nathan Young does not gain superpowers, and eventually dies fighting superpowered cult leader Rachel.",
     "error": "Nathan Young does not gain superpowers, and eventually dies fighting superpowered cult leader Rachel.",
     "correction": "Um, actually, Nathan does have a superpower. After he wakes up in his coffin, alive, he realizes his superpower is immortality."
@@ -530,7 +530,7 @@
   {
     "author": "By Shinitenshi",
     "title": "Monty Python's Life of Brian",
-    "category": "Community - Anglophilia",
+    "category": "Fantasy",
     "phrase_text": "In a famous scene, the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea. This prompts resistance members to start suggesting things the Romans have given them, including the aqueduct, sanitation, the roads, irrigation, medicine, education, wine, public order and bringing peace.",
     "error": "the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea.",
     "correction": "Um, actually, the question wasn't asked by the leader of the Judean People's Front. It was asked by the leader of the People's Front of Judea - who hates the Judean People's Front."
@@ -538,7 +538,7 @@
   {
     "author": "By Peter the Human",
     "title": "Raven",
-    "category": "Community - Anglophilia",
+    "category": "Cartoons & TV",
     "phrase_text": "In kids’ game show “Raven”, the titular character leads his young warriors to do battle with his nemesis, Nevar. If the warriors lose too many lives during challenges such as Deep Loch, Blasted Mountain or Riddle Bridge and find themselves in last place; they may have to face The Way of the Warrior – an intense obstacle course that remained unbeaten throughout the show's original ten seasons.",
     "error": "an intense obstacle course that remained unbeaten throughout the show's original ten seasons.",
     "correction": "Um, actually, the Way of the Warrior wasn't unbeaten. The course was only ever beaten four times in ten seasons – by the warriors Ishal, Varna, Worjo and Kinsa."
@@ -546,7 +546,7 @@
   {
     "author": "By Peter the Human",
     "title": "Sherlock",
-    "category": "Community - Anglophilia",
+    "category": "Cartoons & TV",
     "phrase_text": "The BBC series “Sherlock” gave us updated versions of the classic Conan Doyle characters, including a flirtatious Irene Adler played by Lara Pulver in the episode \"A Scandal in Belgravia\". Sherlock deduces that the password to her smartphone (which contains compromising photos of her and a member of the royal family) is “221B” - his house number - after reading her pulse and determining her affections for him.",
     "error": "Sherlock deduces that the password to her smartphone (which contains compromising photos of her and a member of the royal family) is “221B”",
     "correction": "Um, actually, the password isn't 221B. The password is \"SHER\" to spell out \"I Am SHERLocked\" on her lockscreen."
@@ -554,7 +554,7 @@
   {
     "author": "By Peter the Human",
     "title": "Thunderbirds",
-    "category": "Community - Anglophilia",
+    "category": "Cartoons & TV",
     "phrase_text": "The titular Thunderbirds are \"miracle machines\" piloted by the five sons of astronaut Jeff Tracy, consisting of two supersonic planes, a rocket, a minisubmarine and a space station. The \"supermarionation\" series also featured various other vehicles - including Lady Penelope Parker's car The Compact Pussycat (a Pink Rolls-Royce equipped with machine cannons, harpoon cables and bulletproof tires), the hypersonic airliner Fireflash, and Thunderbird 6 -  a restored Tiger Moth biplane.",
     "error": "including Lady Penelope Parker's car The Compact Pussycat (a Pink Rolls-Royce equipped with machine cannons, harpoon cables and bulletproof tires),",
     "correction": "Um, actually, Lady Penelope's car isn't called The Compact Pussycat. Penelope Parker's car is called FAB 1. The Compact Pussycat is driven by Penelope Pitstop in Wacky Races."
@@ -562,7 +562,7 @@
   {
     "author": "By Peter the Human",
     "title": "Beowulf",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "Beowulf is a young warrior from Geatland who leaves his homeland to assist Hrothgar, king of the Danes, in defending his great hall from Grendel: a troll-like monster said to be descended from the biblical figure Cain. Beowulf engages in a violent battle with Grendel, eventually slaying him by stabbing him through the heart with his legendary sword Næġling.",
     "error": "eventually slaying him by stabbing him through the heart with his legendary sword Næġling.",
     "correction": "Um, actually, Beowulf doesn't slay Grendel with a sword. Since Grendel is unarmed, Beowulf chooses to fight without any weapons. He defeats Grendel by tearing off Grendel's arm at the shoulder."
@@ -570,7 +570,7 @@
   {
     "author": "By Peter the Human",
     "title": "Dante's Inferno",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "In the epic poem Inferno, Dante finds himself being guided through Hell by the Roman poet Virgil. The pair venture through the nine circles of hell, encountering mythological characters and historical figures such as Helen of Troy, the Minotaur, Medusa, Alexander the Great, Attila the Hun and Judas Iscariot before reaching the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "error": "the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "correction": "Um, actually, Satan isn't burning in a lake of fire. He is frozen in a lake of ice."
@@ -578,7 +578,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Frog Prince",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "After a princess loses her golden ball in a well, a frog offers to retrieve it if the princess promises to love him, let him eat from her golden plate and sleep in her bed. The frog retrieves the ball, and (at her father's encouragement), the princess keeps her promises. When she kisses the frog, it breaks a curse, and he transforms back into a prince. The prince's servant Faithful Heinrich arrives the following morning to return the prince to his kingdom.",
     "error": "When she kisses the frog, it breaks a curse, and he transforms back into a prince.",
     "correction": "Um, actually, the frog wasn't transformed by a kiss. In the Grimm's Fairy Tale version, the frog is transformed after the princess throws him against a wall."
@@ -586,7 +586,7 @@
   {
     "author": "By Peter the Human",
     "title": "Journey to the West",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "Sun Wukong, the Monkey King, possesses enormous strength and power. According to the legend, he is able to support the weight of two celestial mountains and can travel over 30,000 miles with a single somersault. He also possesses a magical circlet gifted to him from the Buddha, which gives him the power to freeze people in place.",
     "error": "He also possesses a magical circlet gifted to him from the Buddha, which gives him the power to freeze people in place.",
     "correction": "Um, actually, the magical circlet doesn't give Sun Wukong powers. Although Sun Wukong does have the power to freeze people, the magical circlet was given to Sun Wukong so the monk Tang Seng could discipline him by giving him headaches."
@@ -594,7 +594,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Minotaur",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "The Minotaur was a part-man, part-bull monster that dwelt at the centre of a labyrinth. It was created after the King Minos refused to sacrifice a beautiful snow-white bull to Poseidon, causing Poseidon to transform the bull into the hideous Minotaur. The Minotaur was killed by Theseus, aided by Minos’ daughter Ariadne, who gave Theseus a ball of thread to help him navigate the maze.",
     "error": "causing Poseidon to transform the bull into the hideous Minotaur.",
     "correction": "Um, actually, the minotaur wasn't a cursed bull. Poseidon asked Aphrodite to curse Minos' wife Pasiphaë to fall in love with the bull... and thus, the Minotaur was born."
@@ -602,7 +602,7 @@
   {
     "author": "By Peter the Human",
     "title": "Osiris",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "A jealous Set murdered his brother Osiris by tricking him into getting into a sarcophagus that Set sealed shut and threw into the Nile. Osiris' wife Isis gathered the fourteen scattered pieces of his corpse, reconstituting the body to make it whole again. This allowed Isis to briefly revive Osiris and conceive their son Horus; with Osiris living on as God of the underworld thereafter.",
     "error": "Osiris' wife Isis gathered the fourteen scattered pieces of his corpse, reconstituting the body to make it whole again.",
     "correction": "Um, actually, Isis didn't reassemble Osiris' whole body. She found thirteen pieces, but was missing his genitals; so she had to make a temporary replacement."
@@ -610,7 +610,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Questing Beast",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "The Questing Beast is a creature with the head of a snake, the body of a leopard, the haunches of a lion and the feet of a hart. The Beast appeared to Arthur after he conceived Mordred in an affair with his half-sister Morgause; and although King Pellinore attempted futile quests to hunt the beast, it was finally slain by Arthur after he chased it into a lake.",
     "error": "it was finally slain by Arthur after he chased it into a lake.",
     "correction": "Um, actually, Arthur didn't slay the Questing Beast. It was slain by Sir Palamedes."
@@ -618,7 +618,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Snow Queen",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "In Hans Christian Andersen's fairy tale, the young boy Kai is captured by the Snow Queen after splinters of a troll's magic mirror get lodged into his heart and eye. Kai's friend Gerda searches for him, and with the help of two crows, a little robber girl, the reindeer Bae and a Finn woman who gives Gerda a potion that grants her \"the strength of twelve men\"; Gerda saves Kai.",
     "error": "a Finn woman who gives Gerda a potion that grants her \"the strength of twelve men\"; Gerda saves Kai.",
     "correction": "Um, actually, the Finn woman didn't give Gerda a potion. Bae asked for a potion, but the Finn said \"She cannot receive any power from me greater than she now has, which consists in her own purity and innocence of heart.\""
@@ -626,7 +626,7 @@
   {
     "author": "By Peter the Human",
     "title": "Valhalla",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "One of the nine realms surrounding the world tree Yggdrasil in Norse cosmology, Asgard is the home of the Aesir tribe of gods, and also the site of Valhalla – a majestic, enormous hall presided over by Odin, where all warriors who die in combat will be led by Valkyries to prepare for the apocalyptic events of Ragnarök.",
     "error": "where all warriors who die in combat will be led by Valkyries to prepare for the apocalyptic events of Ragnarök.",
     "correction": "Um, actually, not all warriors who die in battle go to Valhalla Only half the warriors that die in battle go to Valhalla. The other half go to Freyja's field Folkvangr."
@@ -634,7 +634,7 @@
   {
     "author": "By Peter the Human",
     "title": "Zeus' Lovers",
-    "category": "Community - Mythology",
+    "category": "Mythology",
     "phrase_text": "Zeus often used his shapeshifting ability in his pursuit of lovers. Some examples include him turning into a cuckoo to seduce his wife Hera, a swan to seduce Aetolian princess Leda, an eagle to abduct the Trojan boy Ganymede, and a bull to seduce the princesses Io and Europa.",
     "error": "and a bull to seduce the princesses Io and Europa.",
     "correction": "Um, actually, Zeus didn't turn into a bull to seduce Io. Although he did turn into a bull to seduce Europa, he turned Io into a bull to disguise her from a jealous Hera."
@@ -642,7 +642,7 @@
   {
     "author": "By Peter the Human",
     "title": "Banjo Kazooie",
-    "category": "Eighties & Nineties",
+    "category": "Games",
     "phrase_text": " “Banjo Kazooie” sees the titular pair of Banjo and Kazooie gathering musical notes and puzzle pieces (called \"Jiggies\") to defeat the witch Gruntilda, who kidnapped Banjo's sister Tooty in order to harvest her youth and gain eternal life. The game culminates with a trivia game hosted by Gruntilda (similar to British game show “The Adventure Game”), followed by a final boss fight against her.",
     "error": "who kidnapped Banjo's sister Tooty in order to harvest her youth and gain eternal life.",
     "correction": "Um, actually, gruntilda isn't looking for eternal life. She wants to steal Tooty's beauty and become beautiful herself."
@@ -650,7 +650,7 @@
   {
     "author": "By Peter the Human",
     "title": "Batman",
-    "category": "Eighties & Nineties",
+    "category": "Comics & Superheroes",
     "phrase_text": "When Bruce Wayne visits photojournalist Vicki Vale’s apartment intending to reveal his secret identity, the Joker interrupts and asks Bruce “Have you ever danced with the devil in the pale moonlight?” before shooting him. Fortunately, the bullet is stopped by a concealed Batarang, allowing Bruce to escape to the Batcave; where he remembers that the mugger who killed his parents asked a similar question and was, in fact, the Joker.",
     "error": "Fortunately, the bullet is stopped by a concealed Batarang, allowing Bruce to escape to the Batcave;",
     "correction": "Um, actually, the bullet wasn't stopped by a Batarang. Bruce Wayne had a tea tray he got from the gala Joker crashed hidden under his shirt, which deflected the bullet."
@@ -658,7 +658,7 @@
   {
     "author": "By Peter the Human",
     "title": "Buffy the Vampire Slayer",
-    "category": "Eighties & Nineties",
+    "category": "Cartoons & TV",
     "phrase_text": "In the episode “Hush”, Sunnydale is terrorised by a group of ghoulish figures with metal-toothed grins and black suits known as ‘The Gentlemen’ that render the townspeople unable to speak – allowing them to carve their victims’ hearts out in near silence. Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone’s stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "error": "Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone’s stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "correction": "Um, actually, the Gentlemen aren't defeated with a stake through the heart. The Gentlemen are killed by Buffy screaming."
@@ -666,7 +666,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Fifth Element",
-    "category": "Eighties & Nineties",
+    "category": "Sci-Fi",
     "phrase_text": "“The Fifth Element” begins in 1914, with aliens known as Mondoshawans taking a weapon for safekeeping. The weapon is designed to destroy a fireball set to collide with Earth, known as the Wolf-Beiderman comet; and consists of four classical elements as four engraved ‘stones’, and the titular fifth element contained in a sarcophagus. In 2263, this ‘fifth element’ is recreated using biotechnology as Milla Jovovich’s character Leelo.",
     "error": "The weapon is designed to destroy a fireball set to collide with Earth, known as the Wolf-Beiderman comet;",
     "correction": "Um, actually, the fireball isn't called the Wolf-Beiderman comet. The comet is simply known as \"The Great Evil\". The Wolf-Beiderman comet is from Deep Impact"
@@ -674,7 +674,7 @@
   {
     "author": "By Peter the Human",
     "title": "Fight Club",
-    "category": "Eighties & Nineties",
+    "category": "Cartoons & TV",
     "phrase_text": "You probably know the first and second rules of Fight Club - but what about the others? Among Fight Club's other six rules are “Only two guys to a fight”, “No biting, no gouging”, “Fights will go on as long as they have to” and “If this is your first night at Fight Club, you have to fight”.",
     "error": "Among Fight Club's other six rules are “Only two guys to a fight”, “No biting, no gouging”,",
     "correction": "Um, actually, “No biting, no gouging” is not a rule of Fight Club. That's a rule of Ancient Greek wrestling"
@@ -682,7 +682,7 @@
   {
     "author": "By Peter the Human",
     "title": "For Your Eyes Only",
-    "category": "Eighties & Nineties",
+    "category": "Cartoons & TV",
     "phrase_text": "In the twelfth Bond film, Bond films himself captured by Cuban hitman Hector Gonzales; but escapes after Gonzales is shot by a crossbow bolt. The bolt was shot by Melina Havelock, the daughter of an intelligence operative Gonzales had assassinated. Melina and Bond escape Gonzales' villa in a thrilling car chase in Bond's Lotus Esprit.",
     "error": "Melina and Bond escape Gonzales' villa in a thrilling car chase in Bond's Lotus Esprit.",
     "correction": "Um, actually, they don't escape in the Lotus Esprit. The Lotus was destroyed - so the pair escape in Melina's small 2CV."
@@ -690,7 +690,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Greatest American Hero",
-    "category": "Eighties & Nineties",
+    "category": "Cartoons & TV",
     "phrase_text": " In “The Greatest American Hero”, substitute teacher Ralph Hinkley encounters extra-terrestrials who give him a suit which endows him with superhuman abilities. Shortly thereafter, Ralph meets FBI Special Agent Bill Maxwell. Bill uses his FBI connections to change Ralph's surname to \"Hanley\" to preserve his secret identity, and Ralph uses the suit to fight crime and injustice, per the aliens' instructions.",
     "error": "Bill uses his FBI connections to change Ralph's surname to \"Hanley\" to preserve his secret identity,",
     "correction": "Um, actually, Ralph's surname wasn't changed to preserve a secret identity. The surname \"Hinkley\" was temporarily changed to \"Hanley\", following the assassination attempt of Ronald Reagan by John Hinckley Jr."
@@ -698,7 +698,7 @@
   {
     "author": "By Peter the Human",
     "title": "Jurassic Park",
-    "category": "Eighties & Nineties",
+    "category": "Fantasy",
     "phrase_text": "Some of the most dangerous dinosaurs in Jurassic Park were the Velociraptors. According to Muldoon, raptors are lethal at eight months old, able to reach speeds of 60 mph, and are astonishing jumpers. They also proved to be smart enough set traps and learn how to open doors, so if you encounter one of these ‘clever girls’, your best strategy is to keep absolutely still, as their vision is based on movement.",
     "error": "your best strategy is to keep absolutely still, as their vision is based on movement.",
     "correction": "Um, actually, velociraptors don't have vision-based movement. T-Rexes have vision-based movement. If you encounter a raptor... just hide!"
@@ -706,7 +706,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Land Before Time",
-    "category": "Eighties & Nineties",
+    "category": "Fantasy",
     "phrase_text": "On their way to the Great Valley, Littlefoot and friends encounter the Tyrannosaurus - or “sharptooth” - that killed Littlefoot's mother several times. The group eventually defeats the sharptooth by using the tar pits in the Mountains that Burn to make themselves resemble a tar monster, scaring the sharptooth away.",
     "error": "The group eventually defeats the sharptooth by using the tar pits in the Mountains that Burn to make themselves resemble a tar monster,",
     "correction": "Um, actually, that isn't how they defeat the sharptooth. The group disguises themselves as a tar monster to scare away the \"domeheads\"; but Cera defeats the sharptooth by headbutting a boulder into him causing him to drown."
@@ -714,7 +714,7 @@
   {
     "author": "By Peter the Human",
     "title": "Legend",
-    "category": "Eighties & Nineties",
+    "category": "Fantasy",
     "phrase_text": "“Legend” featured a memorable performance by Tim Curry as the Lord of Darkness. An imposing figure with hooves and devil horns; he says some of the film's most memorable quotes, including: “The dreams of youth are the regrets of maturity”, “We are all animals, my lady”, “There are hundreds of parasites out there armed to the teeth” and “What is light without dark?”",
     "error": "“There are hundreds of parasites out there armed to the teeth” and “What is light without dark?”",
     "correction": "Um, actually, “There are hundreds of parasites out there armed to the teeth” was never said by Darkness That is a quote from Mr. Hector, Tim Curry's character in “Home Alone 2: Lost in New York” about New York City."
@@ -722,7 +722,7 @@
   {
     "author": "By Peter the Human",
     "title": "Magic: the Gathering",
-    "category": "Eighties & Nineties",
+    "category": "Games",
     "phrase_text": "The ‘Power Nine’ are a set of nine Magic cards which are considered so powerful as to break the game if used, and as such are only used in Vintage tournaments. The cards include Ancestral Recall, which allows a player to steal three of their opponent's cards; Time Walk, which allows a player to take an extra turn; and Black Lotus, which adds three mana of a single color of the players’ choice to their mana pool.",
     "error": "The cards include Ancestral Recall, which allows a player to steal three of their opponent's cards;",
     "correction": "Um, actually, Ancestral Recall doesn't let you steal your opponent's cards. It just lets you draw 3 more of your own cards."
@@ -730,7 +730,7 @@
   {
     "author": "By Peter the Human",
     "title": "Matilda",
-    "category": "Eighties & Nineties",
+    "category": "Fantasy",
     "phrase_text": "Telekinetic tyke Matilda Wormwood often got revenge on the adults in her life by playing practical jokes. She tormented her father by bleaching his hair and putting glue into his hat; and pranked villainous headmistress Miss Trunchball by putting a newt in her drinking water and using her telekinetic powers to pose as the vengeful spirit of Miss Honey's father Magnus.",
     "error": "and pranked villainous headmistress Miss Trunchball by putting a newt in her drinking water",
     "correction": "Um, actually, Matilda didn't put a newt into Miss Trunchball's water. Matilda's friend Lavender put the newt there - but Matilda used her powers to tip the water and newt onto Miss Trunchball."
@@ -738,7 +738,7 @@
   {
     "author": "By Sierra, Mayor of Frog City",
     "title": "Mighty Morphin' Power Rangers",
-    "category": "Eighties & Nineties",
+    "category": "Comics & Superheroes",
     "phrase_text": "Mighty Morphin’ Power Rangers featured teenagers with attitude being summoned by Zordon and Alpha-5 to fight off against the evil Rita Repulsa. The six initially summoned were Zack, Trini, Billy, Tommy, Kimberly and Jason; with Rocky, Adam and Aisha replacing Jason, Zack and Trini as the Red, Black and Yellow rangers respectively during Season 2, after the original rangers were selected to represent Angel Grove at the World Peace Conference in Geneva.",
     "error": "The six initially summoned were Zack, Trini, Billy, Tommy, Kimberly and Jason;",
     "correction": "Um, actually, Tommy was not summoned by Zordon. Tommy was a teenager who was kidnapped and brainwashed by Rita Repulsa, becoming the Green Ranger. He later defected and joined the Power Rangers."
@@ -746,7 +746,7 @@
   {
     "author": "By Peter the Human",
     "title": "Mortal Kombat",
-    "category": "Eighties & Nineties",
+    "category": "Games",
     "phrase_text": "1992’s “Mortal Kombat” was the first game in the Mortal Kombat fighting game series by Midway. All seven playable characters – Johnny Cage, Liu Kang, Sub-Zero, Scorpion, Raiden, Chun-Li and Kano – were all derived from motion capture performances from five actors. The game also introduced the ‘Fatality’ – a special finishing move that allowed a player to kill their opponent in a gruesome fashion.",
     "error": "All seven playable characters – Johnny Cage, Liu Kang, Sub-Zero, Scorpion, Raiden, Chun-Li and Kano",
     "correction": "Um, actually, Chun-Li wasn't in Mortal Kombat. Chun-Li is from the “Street Fighter” series. Mortal Kombat's female character was Sonya Blade."
@@ -754,7 +754,7 @@
   {
     "author": "By Peter the Human",
     "title": "Saturday Morning Cartoons",
-    "category": "Eighties & Nineties",
+    "category": "Cartoons & TV",
     "phrase_text": "80s & 90s cartoons had a strange way of dealing with politically incorrect Asian characters - by making their skin green! Asian-coded characters who had green skin in their adaptations include Oddjob in “James Bond Jr.”, The Mandarin in 1994’s “Iron Man”, and Ming the Merciless in “Defenders of the Earth”. The 1996 “Flash Gordon” cartoon took this design choice one step further, making Ming a lizard-man.",
     "error": "Asian-coded characters who had green skin in their adaptations include Oddjob in “James Bond Jr.”,",
     "correction": "Um, actually, Oddjob's skin wasn't green. But Dr. No's skin was! He also had pointy ears and a long, grey Fu Manchu mustache."
@@ -762,7 +762,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Simpsons",
-    "category": "Eighties & Nineties",
+    "category": "Cartoons & TV",
     "phrase_text": "Springfield might not strike you as the first place you’d go for a primer on classic and modern literature, but many of The Simpsons’ Treehouse of Horror episodes have referenced literary works; including W. W. Jacobs’ “The Monkey’s Paw”, H. G. Wells’ “The Island of Doctor Moreau”, Edgar Allen Poe’s “The Tell-tale Heart”, Mary Shelly’s “Frankenstein”, Stephen King’s “The Shining” and Ray Bradbury’s “A Sound of Thunder”.",
     "error": "including W. W. Jacobs’ “The Monkey’s Paw”, H. G. Wells’ “The Island of Doctor Moreau”, Edgar Allen Poe’s “The Tell-tale Heart”,",
     "correction": "Um, actually, Treehouse of Horror never referenced “The Tell-tale Heart”. The Tell-tale Heart was referenced in the episode \"Lisa's Rival\", but never as part of Treehouse of Horror"
@@ -770,7 +770,7 @@
   {
     "author": "By Peter the Human",
     "title": "Super Mario Bros. 3",
-    "category": "Eighties & Nineties",
+    "category": "Games",
     "phrase_text": "The NES game “Super Mario Bros. 3” gave players a series of brand-new power-ups: the “Frog Suit” increases Mario’s jumping height as well as his underwater speed and agility. The “Super Leaf” suit gives Mario the ability fly for a short period of time and turn into a statue to ‘ground pound’ enemies; and the “Hammer Suit” allows Mario to throw hammers at enemies and resist fire attacks when crouching.",
     "error": "The “Super Leaf” suit gives Mario the ability fly for a short period of time and turn into a statue to ‘ground pound’ enemies;",
     "correction": "Um, actually, the Super Leaf Suit doesn't let Mario ground pound. The Tanooki Suit allows Mario to ground pound, the Super Leaf suit only gives him the ability to fly."
@@ -778,7 +778,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Truman Show",
-    "category": "Eighties & Nineties",
+    "category": "Sci-Fi",
     "phrase_text": "Truman Burbank is unknowingly the star of a reality TV show that's been following him from birth. To prevent him from ever leaving the enormous studio of Seahaven Island, the show's creator Cristof discourages exploration - broadcasting messages about the dangers of air travel, preventing Truman ever learning how to swim to make leaving by water impossible, and preventing a spontaneous road trip by orchestrating a forest fire and a nuclear plant leak.",
     "error": "preventing Truman ever learning how to swim to make leaving by water impossible,",
     "correction": "Um, actually, Truman isn't prevented from learning how to swim. Truman develops an intense fear of water after his \"father\" supposedly dies at sea."
@@ -786,7 +786,7 @@
   {
     "author": "By Peter the Human",
     "title": "WarGames",
-    "category": "Eighties & Nineties",
+    "category": "Sci-Fi",
     "phrase_text": "In WarGames, a NORAD supercomputer called War Operation Plan and Response (or WOPR [pr: “whopper”] for short) goes awry and prepares to launch missiles at the Soviet Union after obtaining the nuclear launch codes. AI researcher Stephen Falken and teenage hacker David Lightman prevent the strike after directing WOPR to play itself at chess. After numerous stalemates, WOPR begins to understand mutually assured destruction, and concludes that “the only winning move is not to play”.",
     "error": "prevent the strike after directing WOPR to play itself at chess. After numerous stalemates, WOPR begins to understand mutually assured destruction,",
     "correction": "Um, actually, WOPR doesn't play itself at chess. WOPR plays Tic-Tac-Toe - after which it relinquishes control of NORAD and instead offers to play “a nice game of chess” instead."
@@ -794,7 +794,7 @@
   {
     "author": "By Peter Svensson",
     "title": "Xena: Warrior Princess",
-    "category": "Eighties & Nineties",
+    "category": "Fantasy",
     "phrase_text": "Although usually set in ancient Greece, some episodes of Xena follow the modern-day reincarnations of Xena, Gabrielle and Joxer. “Deja Vu All Over Again” saw these reincarnations remembering events from their past lives. “You Are There” had a tabloid TV reporter interview the reincarnations. And “Soul Possession” featured the reincarnations attending a historical conference and dealing with Ares, the God of War.",
     "error": "“You Are There” had a tabloid TV reporter interview the reincarnations.",
     "correction": "Um, actually, the episode \"You Are There\" didn't follow the reincarnations. With no explanation given, a modern-day TV reporter shows up in ancient times and interviews the three in the episode “You Are There”."
@@ -802,7 +802,7 @@
   {
     "author": "By Peter the Human",
     "title": "Dungeons & Dragons",
-    "category": "Fantasy",
+    "category": "Games",
     "phrase_text": "Barbarians in “Dungeons & Dragons” are archetypically strong fighters, defined by their primal instincts and their unbridled rage. Although players have little control over their character's rage, it offers several advantages in combat, including advantage on Strength checks and saving throws and resistance to bludgeoning, piercing and slashing damage.",
     "error": "Although players have little control over their character's rage, it offers several advantages in combat,",
     "correction": "Um, actually, Barbarians can control their rage. They can enter a rage during combat as a Bonus Action during combat."
@@ -826,7 +826,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Good Place",
-    "category": "Fantasy",
+    "category": "Cartoons & TV",
     "phrase_text": "Janets are anthropomorphized vessels of knowledge that can be found throughout the afterlife. Although there are three distinct varieties of Janets – Good, Bad and Neutral Janets – they all share some common characteristics: they can summon items at will, hide items in their Voids and function as walkie-talkies.",
     "error": "Although there are three distinct varieties of Janets – Good, Bad and Neutral Janets",
     "correction": "Um, actually, there aren't three different varieties of Janets. There is a fourth type of Janet named “Disco Janet”."
@@ -906,7 +906,7 @@
   {
     "author": "By Peter the Human",
     "title": "Skyrim",
-    "category": "Fantasy",
+    "category": "Games",
     "phrase_text": "The Greybeards are an ancient order that are masters of Thu’um – a form of magic which utilises the Dragon Language to form immensely powerful Dragon Shouts. By the time of the Fourth Era, the only Greybeards left are the four monks that dwell in High Hrothgar and Ulfric Stormcloak, who defied the orders’ belief that Thu’um should only be used in the worship of Kynareth.",
     "error": "By the time of the Fourth Era, the only Greybeards left are the four monks that dwell in High Hrothgar and Ulfric Stormcloak,",
     "correction": "Um, actually, those aren't the only remaining Greybeards. The list misses out the dragon Paarthurnax, who is the leader of the Greybeards."
@@ -1194,7 +1194,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Last of Us",
-    "category": "Horror",
+    "category": "Games",
     "phrase_text": "“The Last of Us” takes place in a post-apocalyptic 2033, following the collapse of civilization after an outbreak of a mutant virus transforms its hosts into aggressive, zombie-like creatures known as “the infected”. Survivors live in totalitarian quarantine zones, independent settlements and nomadic groups; and the game largely centers around two survivors - the smuggler Joel and teenage girl Ellie, who appears to be immune to the infected.",
     "error": "following the collapse of civilization after an outbreak of a mutant virus transforms its hosts into aggressive, zombie-like creatures",
     "correction": "Um, actually, the zombies aren't caused by a mutated virus. The zombies are caused by a mutated form of the Cordyceps fungus."
@@ -1234,7 +1234,7 @@
   {
     "author": "By Peter the Human",
     "title": "Resident Evil",
-    "category": "Horror",
+    "category": "Games",
     "phrase_text": "The Umbrella Corporation is a powerful megacorporation responsible for the creation of several volatile mutagens. Umbrella's employee pledge is “Obedience Breeds Discipline, Discipline Breeds Unity, Unity Breeds Power, Power is Life”. Only marginally less sinister are the company's mottos: “More human than human” in the film series, and “Preserving the health of the people” in the game “Resident Evil: Umbrella Chronicles”.",
     "error": "Only marginally less sinister are the company's mottos: “More human than human” in the film series,",
     "correction": "Um, actually, “More human than human” isn't Umbrella's slogan. That's the slogan of the Tyrell Corporation in Blade Runner. In the films, Umbrella's slogan is “Our business is life itself!”"
@@ -1258,7 +1258,7 @@
   {
     "author": "By Peter the Human",
     "title": "Stranger Things",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "Walking experimental ethics violation Eleven has demonstrated her powers many times over the course of Stranger Things. Her powers include telekinesis (such as when she flipped a van), the ability to manipulate others muscles (such as when she made the bully Troy beat himself up after an assembly), and telepathic abilities (such as when she viewed Billy’s memories to find the Mind Flayer’s lair).",
     "error": "the ability to manipulate others muscles (such as when she made the bully Troy beat himself up after an assembly),",
     "correction": "Um, actually, she didn't make Troy beat himself up. She made Troy pee his pants."
@@ -1330,7 +1330,7 @@
   {
     "author": "By Peter the Human",
     "title": "Dune",
-    "category": "Sci-Fi",
+    "category": "Fantasy",
     "phrase_text": "In order to test if an individual's awareness is stronger than their instincts, the Bene Gesserit issue a \"Test of Humanity\" involving the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it. When the Reverend Mother Mohiam tested Paul Atreides, he passed the test despite being exposed to more pain than anyone else before him.",
     "error": "the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it.",
     "correction": "Um, actually, the box isn't called the gom jabbar. The gom jabbar refers to the poison-tipped needle that's held against a person's neck while they put their hand in the box."
@@ -1370,7 +1370,7 @@
   {
     "author": "By Peter the Human",
     "title": "The Hunger Games",
-    "category": "Sci-Fi",
+    "category": "Fantasy",
     "phrase_text": "Katniss Everdeen, and her love interests Peeta Mellark and Gale Hawthorne all hail from District 12 of Panem. Having only produced 2 winners before the events of the first book and its film adaptation (Haymitch Abernathy and another unnamed winner who died of natural causes); Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "error": "Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "correction": "Um, actually, Katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose."
@@ -1394,7 +1394,7 @@
   {
     "author": "By Peter the Human",
     "title": "Rogue One: A Star Wars Story",
-    "category": "Sci-Fi",
+    "category": "Fantasy",
     "phrase_text": "In “Rogue One: A Star Wars Story”, a group of rebels steal the schematics of the Death Star, detailing its secret vulnerability, from the planet Scarif. During the raid, most of Rogue One’s crew dies: including blind warrior Chirrut Îmwe, former Imperial pilot Bodhi Rook and sarcastic droid K-2SO. However, Jyn Erso and Rebel captain Cassian Andor survive, and successfully deliver the schematics to the Rebel command ship.",
     "error": "Jyn Erso and Rebel captain Cassian Andor survive, and successfully deliver the schematics to the Rebel command ship.",
     "correction": "Um, actually, Jyn and Cassian don't survive. Scarif is blown up by the Death Star, killing Jyn and Cassian as well."
@@ -1418,7 +1418,7 @@
   {
     "author": "By Peter the Human",
     "title": "Star Wars: Episode III - Revenge of the Sith",
-    "category": "Sci-Fi",
+    "category": "Fantasy",
     "phrase_text": "Supreme Chancellor Palpatine tempted Anakin Skywalker over to the Dark Side of the Force by telling him the tragedy of Darth Plagueis the Wise - a Sith Lord with the ability to prevent death and create life. This later prompts Anakin to betray his fellow Jedi Master Mace Windu: Anakin severs his hand, allowing Palpatine to blast Mace Windu through a window to his death with Force lightning.",
     "error": "This later prompts Anakin to betray his fellow Jedi Master Mace Windu:",
     "correction": "Um, actually, Anakin Skywalker isn't a Jedi Master. Anakin was appointed to the Jedi Council, but was not granted the rank of Master."
