@@ -1,5 +1,5 @@
 "use client";
-import { FC, useState, useEffect, useCallback } from "react";
+import { FC, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Button from "@/components/button";
 import { PhraseType } from "@/types/phraseType";
@@ -34,6 +34,16 @@ interface EventParams {
   value: number;
 }
 
+declare global {
+  interface Window {
+    gtag: (
+      event: string,
+      action: string,
+      params: { event_category: string; event_label: string; value: number }
+    ) => void;
+  }
+}
+
 const Phrase: FC<Props> = ({
   phrase,
   likePhrase,
@@ -53,7 +63,7 @@ const Phrase: FC<Props> = ({
   const router = useRouter();
 
   const event = ({ action, category, label, value }: EventParams) => {
-    (window as any).gtag("event", action, {
+    window.gtag("event", action, {
       event_category: category,
       event_label: label,
       value: value,
