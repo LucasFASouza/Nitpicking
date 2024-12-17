@@ -1,5 +1,5 @@
 "use client";
-import { FC, useState, useEffect } from "react";
+import { FC, useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Button from "@/components/button";
 import { PhraseType } from "@/types/phraseType";
@@ -19,12 +19,19 @@ import {
 
 interface Props {
   phrase: PhraseType;
-  likePhrase: (id: number) => void;
-  dislikePhrase: (id: number) => void;
-  removeLike: (id: number) => void;
-  removeDislike: (id: number) => void;
+  likePhrase: (id: number) => Promise<void>;
+  dislikePhrase: (id: number) => Promise<void>;
+  removeLike: (id: number) => Promise<void>;
+  removeDislike: (id: number) => Promise<void>;
   getRandomPhrase: (except: string[]) => Promise<PhraseType | null>;
   getIds: () => Promise<number[]>;
+}
+
+interface EventParams {
+  action: string;
+  category: string;
+  label: string;
+  value: number;
 }
 
 const Phrase: FC<Props> = ({
@@ -45,7 +52,7 @@ const Phrase: FC<Props> = ({
 
   const router = useRouter();
 
-  const event = ({ action, category, label, value }: any) => {
+  const event = ({ action, category, label, value }: EventParams) => {
     (window as any).gtag("event", action, {
       event_category: category,
       event_label: label,
@@ -80,7 +87,7 @@ const Phrase: FC<Props> = ({
     return () => {
       mounted = false;
     };
-  }, []);
+  }, [getIds]);
 
   const handleLike = async (id: number) => {
     if (likedIds.includes(id)) {
@@ -178,7 +185,7 @@ const Phrase: FC<Props> = ({
       label: next
         ? "User navigated to next phrase"
         : "User navigated to previous phrase",
-      value: next ? "Next" : "Previous",
+      value: newIndex,
     });
 
     router.push(`/${newIndex}`);
