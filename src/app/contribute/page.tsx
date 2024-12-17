@@ -113,8 +113,8 @@ export default function ContributePage() {
 
               <div>
                 <label htmlFor="title" className="block mb-2">
-                  Title (what is this statement about? E.g., "Star Wars",
-                  "Naruto" etc.) *
+                  Title (what is this statement about? E.g., 'Star Wars',
+                  'Naruto' etc.) *
                 </label>
                 <input
                   type="text"
