@@ -6,13 +6,15 @@ import Button from "@/components/button";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 
 const categories = [
-  "Others",
-  "Cinema and TV",
+  "Anime & Manga",
+  "Cartoons & TV",
+  "Comics & Superheroes",
+  "Fantasy",
   "Games",
-  "Comics",
-  "Books",
-  "Music",
-  "Science",
+  "Sci-Fi",
+  "History & Mythology",
+  "Science & Technology",
+  "Other",
 ] as const;
 
 export default function ContributePage() {
