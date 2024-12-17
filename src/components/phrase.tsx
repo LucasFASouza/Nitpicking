@@ -45,6 +45,14 @@ const Phrase: FC<Props> = ({
 
   const router = useRouter();
 
+  const event = ({ action, category, label, value }: any) => {
+    (window as any).gtag("event", action, {
+      event_category: category,
+      event_label: label,
+      value: value,
+    });
+  };
+
   useEffect(() => {
     let mounted = true;
 
@@ -125,12 +133,27 @@ const Phrase: FC<Props> = ({
   };
 
   const handleToggleDetails = () => {
-    if (!hasInteracted) setHasInteracted(true);
+    if (!hasInteracted) {
+      setHasInteracted(true);
+      event({
+        action: "reveal_error",
+        category: "interaction statement",
+        label: "User revealed the error",
+        value: phrase.id,
+      });
+    }
     setShowDetails(!showDetails);
   };
 
   const randomPhrase = async () => {
     try {
+      event({
+        action: "random_phrase",
+        category: "interaction statement",
+        label: "User navigated to a random phrase",
+        value: phrase.id,
+      });
+
       const newPhrase = await getRandomPhrase([phrase.id.toString()]);
       if (newPhrase) {
         router.push(`/${newPhrase.id}`);
@@ -145,15 +168,18 @@ const Phrase: FC<Props> = ({
   };
 
   const navigatePhrase = async (next: boolean) => {
-    console.log("All ids", allIds);
-    console.log("Current index", phrase.id);
-    console.log(next ? "Next" : "Previous");
-
     let newIndex = next ? phrase.id + 1 : phrase.id - 1;
     if (newIndex < 1) newIndex = allIds[allIds.length - 1];
     if (newIndex > allIds[allIds.length - 1]) newIndex = 1;
 
-    console.log("New index", newIndex);
+    event({
+      action: "navigate_phrase",
+      category: "interaction statement",
+      label: next
+        ? "User navigated to next phrase"
+        : "User navigated to previous phrase",
+      value: next ? "Next" : "Previous",
+    });
 
     router.push(`/${newIndex}`);
   };
