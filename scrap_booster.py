@@ -22,7 +22,7 @@ def main():
         }
         return_file.append(line)
 
-    with open('booster_pack.json', 'w', encoding='utf-8') as f:
+    with open('files/booster_pack.json', 'w', encoding='utf-8') as f:
         f.write(str(return_file))
 
 
