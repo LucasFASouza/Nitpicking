@@ -8,13 +8,13 @@ export const validateInput = (input: {
   notes: string;
 }) => {
   const maxLength = {
-    author: 50,
-    title: 100,
-    category: 30,
-    phrase_text: 500,
-    error: 100,
-    correction: 200,
-    notes: 1000,
+    author: 120,
+    title: 120,
+    category: 120,
+    phrase_text: 960,
+    error: 240,
+    correction: 480,
+    notes: 960,
   };
 
   if (input.author?.length > maxLength.author) return false;
