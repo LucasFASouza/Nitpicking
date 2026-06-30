@@ -1,11 +1,14 @@
 import { FC } from "react";
 import { categories } from "@/lib/categories";
 import { SORT_OPTIONS, SortOption } from "@/lib/searchParams";
+import SearchInput from "@/components/search-input";
 
 interface Props {
+  search: string;
   category: string | null;
   sort: SortOption;
   disabled?: boolean;
+  onSearchChange: (value: string) => void;
   onCategoryChange: (category: string | null) => void;
   onSortChange: (sort: SortOption) => void;
 }
@@ -56,9 +59,11 @@ const ButtonBar: FC<{
 );
 
 const BrowseControls: FC<Props> = ({
+  search,
   category,
   sort,
   disabled,
+  onSearchChange,
   onCategoryChange,
   onSortChange,
 }) => {
@@ -73,6 +78,13 @@ const BrowseControls: FC<Props> = ({
 
   return (
     <div className="flex flex-col gap-4 mb-5 sm:mb-7">
+      <label className="flex flex-col gap-2">
+        <span className={labelClass}>Search</span>
+        <SearchInput value={search} onChange={onSearchChange} />
+      </label>
+
+      <hr className="border-t border-neutral-300" />
+
       <div className="flex flex-col gap-2">
         <span className={labelClass}>Category</span>
         <ButtonBar

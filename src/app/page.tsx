@@ -1,5 +1,9 @@
 import type { SearchParams } from "nuqs/server";
-import { getData, getPhrasesByCategory } from "@/actions/phraseAction";
+import {
+  getData,
+  getPhrasesByCategory,
+  searchPhrases,
+} from "@/actions/phraseAction";
 import BrowseView from "@/components/browse-view";
 import { browseParamsCache, PAGE_SIZE } from "@/lib/searchParams";
 
@@ -10,9 +14,13 @@ export default async function Home({
 }: {
   searchParams: Promise<SearchParams>;
 }) {
-  const { page, category, sort } = await browseParamsCache.parse(searchParams);
+  const { page, category, sort, q } = await browseParamsCache.parse(
+    searchParams
+  );
 
-  const phrases = category
+  const phrases = q
+    ? await searchPhrases(q, sort, category)
+    : category
     ? await getPhrasesByCategory(category, sort)
     : await getData(sort);
 

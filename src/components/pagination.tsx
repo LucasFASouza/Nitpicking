@@ -1,6 +1,4 @@
 import { FC } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
   currentPage: number;
@@ -38,15 +36,6 @@ const Pagination: FC<Props> = ({ currentPage, pageCount, onGo, disabled }) => {
       aria-label="Pagination"
       className="flex flex-wrap items-center justify-center gap-1 sm:gap-3 pt-10 pb-2"
     >
-      <button
-        className={`${cell} ${interactive}`}
-        onClick={() => onGo(currentPage - 1)}
-        disabled={disabled || currentPage <= 1}
-        aria-label="Previous page"
-      >
-        <FontAwesomeIcon icon={faArrowLeft} className="fa-fw" />
-      </button>
-
       {getPageItems(currentPage, pageCount).map((item, i) =>
         item === "ellipsis" ? (
           <span
@@ -75,15 +64,6 @@ const Pagination: FC<Props> = ({ currentPage, pageCount, onGo, disabled }) => {
           </button>
         )
       )}
-
-      <button
-        className={`${cell} ${interactive}`}
-        onClick={() => onGo(currentPage + 1)}
-        disabled={disabled || currentPage >= pageCount}
-        aria-label="Next page"
-      >
-        <FontAwesomeIcon icon={faArrowRight} className="fa-fw" />
-      </button>
     </nav>
   );
 };

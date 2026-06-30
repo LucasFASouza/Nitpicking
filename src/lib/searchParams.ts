@@ -18,6 +18,7 @@ export const browseParsers = {
   page: parseAsInteger.withDefault(1),
   category: parseAsString,
   sort: parseAsStringEnum([...SORT_OPTIONS]).withDefault("id"),
+  q: parseAsString.withDefault(""),
 };
 
 export const browseParamsCache = createSearchParamsCache(browseParsers);

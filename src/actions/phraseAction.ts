@@ -108,24 +108,28 @@ const escapeLike = (term: string) => term.replace(/[\\%_]/g, (c) => `\\${c}`);
 
 // Busca por termos no corpo e no título da frase. Cada termo precisa casar (AND);
 // dentro de um termo, casa em phrase_text OU title (case-insensitive).
-export const searchPhrases = cache(async (query: string) => {
-  const terms = query.trim().split(/\s+/).filter(Boolean);
-  if (terms.length === 0) return [];
+export const searchPhrases = cache(
+  async (query: string, sort: SortOption = "id", category: string | null = null) => {
+    const terms = query.trim().split(/\s+/).filter(Boolean);
+    if (terms.length === 0) return [];
 
-  const conditions = terms.map((term) => {
-    const pattern = `%${escapeLike(term)}%`;
-    return or(ilike(phrase.phrase_text, pattern), ilike(phrase.title, pattern));
-  });
+    const conditions = terms.map((term) => {
+      const pattern = `%${escapeLike(term)}%`;
+      return or(ilike(phrase.phrase_text, pattern), ilike(phrase.title, pattern));
+    });
 
-  const data = await withRetry(() =>
-    db
-      .select()
-      .from(phrase)
-      .where(and(...conditions))
-      .orderBy(sql`id`)
-  );
-  return data;
-});
+    if (category) conditions.push(eq(phrase.category, category));
+
+    const data = await withRetry(() =>
+      db
+        .select()
+        .from(phrase)
+        .where(and(...conditions))
+        .orderBy(...orderByFor(sort))
+    );
+    return data;
+  }
+);
 
 // Lista ordenada de ids de um contexto derivável no servidor (categoria/busca/all).
 // Curtidas/descurtidas vêm do localStorage e são resolvidas no cliente.

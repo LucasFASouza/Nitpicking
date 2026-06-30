@@ -37,7 +37,7 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
   // Um único useTransition cobre todas as navegações (página, categoria, sort),
   // então o skeleton aparece em qualquer mudança.
   const [isPending, startTransition] = useTransition();
-  const [{ category, sort }, setParams] = useQueryStates(browseParsers, {
+  const [{ category, sort, q }, setParams] = useQueryStates(browseParsers, {
     shallow: false,
     scroll: true,
     startTransition,
@@ -49,13 +49,18 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
     setParams({ category: value, page: null });
   const changeSort = (value: typeof sort) =>
     setParams({ sort: value, page: null });
+  // Busca: o debounce vive no SearchInput; aqui só não rolamos pro topo.
+  const changeSearch = (value: string) =>
+    setParams({ q: value || null, page: null }, { scroll: false });
 
   return (
     <>
       <BrowseControls
+        search={q}
         category={category}
         sort={sort}
         disabled={isPending}
+        onSearchChange={changeSearch}
         onCategoryChange={changeCategory}
         onSortChange={changeSort}
       />
@@ -79,6 +84,7 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
                     key={phrase.id}
                     phrase={phrase}
                     href={`/${phrase.id}`}
+                    highlight={q}
                   />
                 ))}
           </div>
