@@ -21,6 +21,7 @@
     "fontawesome-free": "^1.0.4",
     "fortawesome": "^0.0.1-security",
     "next": "15.1.0",
+    "nuqs": "^2.9.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

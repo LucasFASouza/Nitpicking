@@ -4,18 +4,7 @@ import { useState } from "react";
 import { addSuggestion } from "@/actions/suggestionAction";
 import Button from "@/components/button";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
-
-const categories = [
-  "Anime & Manga",
-  "Cartoons & TV",
-  "Comics & Superheroes",
-  "Fantasy",
-  "Games",
-  "Sci-Fi",
-  "History & Mythology",
-  "Science & Technology",
-  "Other",
-] as const;
+import { categories } from "@/lib/categories";
 
 export default function ContributePage() {
   const [formData, setFormData] = useState({

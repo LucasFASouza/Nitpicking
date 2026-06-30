@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 import Link from "next/link";
 
 config.autoAddCss = false;
@@ -45,7 +46,9 @@ export default function RootLayout({
           </nav>
         </header>
 
-        <section className="pt-8 sm:pt-4">{children}</section>
+        <section className="pt-8 sm:pt-4">
+          <NuqsAdapter>{children}</NuqsAdapter>
+        </section>
         <Analytics />
         <SpeedInsights />
         <GoogleAnalytics />

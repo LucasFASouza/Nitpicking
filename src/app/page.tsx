@@ -1,14 +1,33 @@
-import { getRandomPhrase } from "@/actions/phraseAction";
-import { redirect } from "next/navigation";
+import type { SearchParams } from "nuqs/server";
+import { getData, getPhrasesByCategory } from "@/actions/phraseAction";
+import BrowseView from "@/components/browse-view";
+import { browseParamsCache, PAGE_SIZE } from "@/lib/searchParams";
 
 export const dynamic = "force-dynamic";
 
-export default async function Home() {
-  const phrase = await getRandomPhrase([]);
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<SearchParams>;
+}) {
+  const { page, category, sort } = await browseParamsCache.parse(searchParams);
 
-  if (!phrase) {
-    return <div className="text-2xl text-center py-24">No sentences found</div>;
-  }
+  const phrases = category
+    ? await getPhrasesByCategory(category, sort)
+    : await getData(sort);
 
-  redirect(`/${phrase.id}`);
+  const pageCount = Math.max(1, Math.ceil(phrases.length / PAGE_SIZE));
+  const currentPage = Math.min(Math.max(1, page), pageCount);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const pagePhrases = phrases.slice(start, start + PAGE_SIZE);
+
+  return (
+    <main>
+      <BrowseView
+        phrases={pagePhrases}
+        currentPage={currentPage}
+        pageCount={pageCount}
+      />
+    </main>
+  );
 }
