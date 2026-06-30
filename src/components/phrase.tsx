@@ -185,9 +185,14 @@ const Phrase: FC<Props> = ({
   };
 
   const navigatePhrase = async (next: boolean) => {
-    let newIndex = next ? phrase.id + 1 : phrase.id - 1;
-    if (newIndex < 1) newIndex = allIds[allIds.length - 1];
-    if (newIndex > allIds[allIds.length - 1]) newIndex = 1;
+    if (allIds.length === 0) return;
+
+    // Navega pela lista ordenada real (não assume IDs contíguos) com wraparound.
+    const currentIndex = allIds.indexOf(phrase.id);
+    const baseIndex = currentIndex === -1 ? 0 : currentIndex;
+    const nextIndex =
+      (baseIndex + (next ? 1 : -1) + allIds.length) % allIds.length;
+    const newId = allIds[nextIndex];
 
     event({
       action: "navigate_phrase",
@@ -195,10 +200,10 @@ const Phrase: FC<Props> = ({
       label: next
         ? "User navigated to next phrase"
         : "User navigated to previous phrase",
-      value: newIndex,
+      value: newId,
     });
 
-    router.push(`/${newIndex}`);
+    router.push(`/${newId}`);
   };
 
   const renderText = () => {
