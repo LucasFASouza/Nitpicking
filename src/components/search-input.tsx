@@ -51,7 +51,7 @@ const SearchInput: FC<Props> = ({ value, onChange }) => {
   };
 
   return (
-    <div className="relative w-full sm:max-w-md">
+    <div className="relative w-full">
       <input
         type="text"
         value={text}

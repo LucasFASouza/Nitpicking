@@ -78,12 +78,34 @@ const BrowseControls: FC<Props> = ({
 
   return (
     <div className="flex flex-col gap-4 mb-5 sm:mb-7">
-      <label className="flex flex-col gap-2">
-        <span className={labelClass}>Search</span>
-        <SearchInput value={search} onChange={onSearchChange} />
-      </label>
+      <div className="flex flex-col sm:flex-row sm:items-end gap-3 sm:gap-8">
+        <label className="flex flex-col gap-2 w-full sm:max-w-xl">
+          <span className={labelClass}>Search</span>
+          <SearchInput value={search} onChange={onSearchChange} />
+        </label>
 
-      <hr className="border-t border-neutral-300" />
+        <div className="flex flex-col gap-2 shrink-0">
+          <span className={labelClass}>Order by</span>
+          <ButtonBar
+            items={sortItems}
+            current={sort}
+            disabled={disabled}
+            onSelect={(value) => onSortChange(value as SortOption)}
+          />
+          <select
+            className={selectClass}
+            value={sort}
+            disabled={disabled}
+            onChange={(e) => onSortChange(e.target.value as SortOption)}
+          >
+            {SORT_OPTIONS.map((s) => (
+              <option key={s} value={s}>
+                {sortLabels[s]}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
 
       <div className="flex flex-col gap-2">
         <span className={labelClass}>Category</span>
@@ -103,30 +125,6 @@ const BrowseControls: FC<Props> = ({
           {categories.map((c) => (
             <option key={c} value={c}>
               {c}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <hr className="border-t border-neutral-300" />
-
-      <div className="flex flex-col gap-2">
-        <span className={labelClass}>Order by</span>
-        <ButtonBar
-          items={sortItems}
-          current={sort}
-          disabled={disabled}
-          onSelect={(value) => onSortChange(value as SortOption)}
-        />
-        <select
-          className={selectClass}
-          value={sort}
-          disabled={disabled}
-          onChange={(e) => onSortChange(e.target.value as SortOption)}
-        >
-          {SORT_OPTIONS.map((s) => (
-            <option key={s} value={s}>
-              {sortLabels[s]}
             </option>
           ))}
         </select>
