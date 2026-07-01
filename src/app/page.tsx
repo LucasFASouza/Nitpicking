@@ -35,6 +35,7 @@ export default async function Home({
         phrases={pagePhrases}
         currentPage={currentPage}
         pageCount={pageCount}
+        total={phrases.length}
       />
     </main>
   );

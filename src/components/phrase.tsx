@@ -290,11 +290,11 @@ const Phrase: FC<Props> = ({
 
   const currentIndex = contextIds.indexOf(phrase.id);
   const position = currentIndex >= 0 ? currentIndex + 1 : null;
-  const contextLabel = q
-    ? `Search: “${q}”`
-    : category
-    ? `Category: ${category}`
-    : null;
+  // Combina busca E categoria (ex.: “frog” in History & Mythology), como na home.
+  const contextLabel =
+    q || category
+      ? [q ? `“${q}”` : null, category].filter(Boolean).join(" in ")
+      : null;
   const backHref = ctxQuery ? `/?${ctxQuery}` : "/";
 
   return (

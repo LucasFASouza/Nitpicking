@@ -12,6 +12,7 @@ interface Props {
   phrases: PhraseType[];
   currentPage: number;
   pageCount: number;
+  total: number;
 }
 
 // Card vazio pulsante com o mesmo estilo do PhraseCard, exibido durante o loading.
@@ -33,7 +34,7 @@ const SkeletonCard = () => (
   </div>
 );
 
-const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
+const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount, total }) => {
   // Um único useTransition cobre todas as navegações (página, categoria, sort),
   // então o skeleton aparece em qualquer mudança.
   const [isPending, startTransition] = useTransition();
@@ -52,6 +53,15 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
   // Busca: o debounce vive no SearchInput; aqui só não rolamos pro topo.
   const changeSearch = (value: string) =>
     setParams({ q: value || null, page: null }, { scroll: false });
+
+  // Contagem de resultados do filtro/busca atual (conjunto inteiro, não só a página),
+  // combinando busca E categoria quando ambos estão ativos.
+  const countLabel =
+    q || category
+      ? `${total} ${total === 1 ? "result" : "results"}` +
+        (q ? ` for “${q}”` : "") +
+        (category ? ` in ${category}` : "")
+      : `${total} ${total === 1 ? "sentence" : "sentences"}`;
 
   // href do card carregando o contexto atual, para a navegação contextual em /[id].
   const cardHref = (id: number) => {
@@ -82,6 +92,10 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
         </p>
       ) : (
         <>
+          {!isPending && (
+            <p className="text-sm text-neutral-600 mb-3">{countLabel}</p>
+          )}
+
           <div
             aria-busy={isPending}
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
