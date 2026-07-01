@@ -39,7 +39,7 @@ This project is not affiliated with or endorsed by *Um, Actually* or Dropout. It
    ```
 3. Create a `.env` file in the root directory and add the following environment variables:
    ```bash
-   NEXT_PUBLIC_DATABASE_URL=your_neon_database_url
+   DATABASE_URL=your_neon_database_url
    ```
    Replace `your_neon_database_url` with your own Neon database URL.
 4. Run the development server:
