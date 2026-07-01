@@ -310,13 +310,15 @@ const Phrase: FC<Props> = ({
       <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4 justify-center">
         <Button
           icon={faArrowLeft}
+          ariaLabel="Previous phrase"
           onClick={() => {
             navigatePhrase(false);
           }}
         />
-        <Button icon={faShuffle} onClick={randomPhrase} />
+        <Button icon={faShuffle} ariaLabel="Random phrase" onClick={randomPhrase} />
         <Button
           icon={faArrowRight}
+          ariaLabel="Next phrase"
           onClick={() => {
             navigatePhrase(true);
           }}
@@ -359,6 +361,9 @@ const Phrase: FC<Props> = ({
             icon={
               dislikedIds.includes(phrase.id) ? faThumbsDownSolid : faThumbsDown
             }
+            ariaLabel={
+              dislikedIds.includes(phrase.id) ? "Remove dislike" : "Dislike"
+            }
             onClick={() => handleDislike(phrase.id)}
           />
           {phrase.dislikes}
@@ -366,12 +371,14 @@ const Phrase: FC<Props> = ({
 
         <Button
           icon={showDetails ? faEyeSlash : faEye}
+          ariaLabel={showDetails ? "Hide correction" : "Reveal correction"}
           onClick={handleToggleDetails}
         />
 
         <div className="flex flex-col items-center gap-2">
           <Button
             icon={likedIds.includes(phrase.id) ? faThumbsUpSolid : faThumbsUp}
+            ariaLabel={likedIds.includes(phrase.id) ? "Remove like" : "Like"}
             onClick={() => handleLike(phrase.id)}
           />
           {phrase.likes}

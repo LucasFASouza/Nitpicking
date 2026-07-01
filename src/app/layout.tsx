@@ -13,8 +13,8 @@ import Link from "next/link";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
-  title: "Contribute - Nitpicking",
-  description: "Find and correct the error",
+  title: "Nitpicking",
+  description: "Find the error hidden in each pop-culture statement.",
 };
 
 export default function RootLayout({
@@ -41,7 +41,7 @@ export default function RootLayout({
               How to play
             </Link>
             <Link href="/contribute" className="highlight-link px-2">
-              Contribute
+              Suggest
             </Link>
           </nav>
         </header>

@@ -85,7 +85,7 @@ export default function AboutPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Contribute
+                Suggest
               </Link>{" "}
               page to share your own tricky sentences with the world!
             </p>
