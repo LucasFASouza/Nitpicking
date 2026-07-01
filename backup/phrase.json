@@ -347,7 +347,7 @@
     "phrase_text": "After an alien burst from Executive Officer Kane's chest, the android Ash was secretly instructed by the Weylan-Yutani corporation to return the alien, with the crew considered expendable. Dallas, Parker, Lambert and Brett were all killed by the xenomorph; but Warrant Officer Ripley deactivated Ash and blasted the xenomorph into space, leaving her as the sole survivor of the Nostromo.",
     "error": "leaving her as the sole survivor of the Nostromo.",
     "correction": "Um, actually, Ripley wasn't the sole survivor of the Nostromo. The ship's cat, Jones, also survives.",
-    "likes": 8,
+    "likes": 9,
     "dislikes": 3,
     "title": "Alien"
   },
@@ -424,7 +424,7 @@
     "phrase_text": "Supreme Chancellor Palpatine tempted Anakin Skywalker over to the Dark Side of the Force by telling him the tragedy of Darth Plagueis the Wise - a Sith Lord with the ability to prevent death and create life. This later prompts Anakin to betray his fellow Jedi Master Mace Windu: Anakin severs his hand, allowing Palpatine to blast Mace Windu through a window to his death with Force lightning.",
     "error": "This later prompts Anakin to betray his fellow Jedi Master Mace Windu:",
     "correction": "Um, actually, Anakin Skywalker isn't a Jedi Master. Anakin was appointed to the Jedi Council, but was not granted the rank of Master.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 1,
     "title": "Star Wars: Episode III - Revenge of the Sith"
   },
@@ -556,7 +556,7 @@
     "phrase_text": "With the exception of the \"data-dog\" Ein, the crew of the Bebop all had significant life events occur in 2068, three years prior to the events of the series: Spike Spiegel and Jet Black formed their partnership, con artist Faye Valentine was placed into cryofreeze after a space shuttle accident, and juvenile hacker Ed Wong departed from her orphanage.",
     "error": "con artist Faye Valentine was placed into cryofreeze after a space shuttle accident,",
     "correction": "Um, actually, faye wasn't placed into cryofreeze in 2068. She was placed into cryofreeze in 2014 - she was woken in 2068",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Cowboy Bebop"
   },
@@ -699,7 +699,7 @@
     "phrase_text": "\"The Mist\" follows a group of people trapped in a supermarket when a mysterious mist populated by tentacled beings, giant insects and pterodactyl-like creatures descends on their town. Although the supermarkets' patrons descend into religious fervor and begin sacrificing people to the monsters, the protagonist David and four other survivors make it to his car and are saved by the Army when the mist disperses.",
     "error": "the protagonist David and four other survivors make it to his car and are saved by the Army when the mist disperses.",
     "correction": "Um, actually, the four other survivors aren't rescued by the Army. Thinking they're doomed, David mercy kills his fellow survivors before stepping out the car to be killed by the monsters, moments before the Army arrives.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "The Mist"
   },
@@ -721,7 +721,7 @@
     "phrase_text": "In order to test if an individual's awareness is stronger than their instincts, the Bene Gesserit issue a \"Test of Humanity\" involving the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it. When the Reverend Mother Mohiam tested Paul Atreides, he passed the test despite being exposed to more pain than anyone else before him.",
     "error": "the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it.",
     "correction": "Um, actually, the box isn't called the gom jabbar. The gom jabbar refers to the poison-tipped needle that's held against a person's neck while they put their hand in the box.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Dune"
   },
@@ -732,7 +732,7 @@
     "phrase_text": "The Beast's castle may seem nice, with sixty rooms and Baroque architecture (according to Cogsworth), but it was cursed by an enchantress as punishment for the young prince's cruelty. Despite the Beast's warnings, Belle enters the castle's forbidden West Wing and discovers the Beast's magnificent library. After the Beast orders her to \"Get out!\" she flees into the woods and is ambushed by a pack of wolves. Fortunately, the Beast rescues her.",
     "error": "Despite the Beast's warnings, Belle enters the castle's forbidden West Wing and discovers the Beast's magnificent library.",
     "correction": "Um, actually, the library isn't in the West Wing of the castle. Belle discovers the Enchanted Rose in the West Wing. The beast offers Belle the library as a \"surprise\" later.",
-    "likes": 6,
+    "likes": 7,
     "dislikes": 0,
     "title": "Beauty and the Beast"
   },
@@ -765,7 +765,7 @@
     "phrase_text": "The stage musical, loosely based on the 1960 low-budget movie \"The Little Shop of Horrors\", follows Seymour Krelborn, who finds a strange plant that he names Audrey II after his co-worker. Audrey II must consume blood to survive and eventually plans world domination, but is defeated when Seymour electrocutes Audrey II, blowing it up.",
     "error": "but is defeated when Seymour electrocutes Audrey II, blowing it up.",
     "correction": "Um, actually, Seymour doesn't defeat Audrey II. The film adaptation ends with Audrey II's electrocution - but in the musical, it's implied that it succeeds in eating all of humanity.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Little Shop of Horrors"
   },
@@ -941,7 +941,7 @@
     "phrase_text": "The episode \"A Star Is Burns\", a crossover episode with \"The Critic\", follows the Springfield Film Festival - judged by titular critic Jay Sherman, alongside Krusty, Mayor Quimby, Marge and Homer. Homer struggles to choose a contest winner between his boss Mr. Burns' self-aggrandising project \"A Burns For All Seasons\" and Barney's more introspective film about his alcoholism, \"Pukahontas\".",
     "error": "Homer struggles to choose a contest winner between his boss Mr. Burns' self-aggrandising project \"A Burns For All Seasons\" ",
     "correction": "Um, actually, Homer didn't think A Burns for All Seasons should win. He was conflicted between \"Pukahontas\" and Hans Moleman's film \"Man Getting Hit By Football\" - where Moleman gets hit in the groin with a football.",
-    "likes": 4,
+    "likes": 5,
     "dislikes": 0,
     "title": "The Simpsons"
   },
@@ -1227,7 +1227,7 @@
     "phrase_text": "The Crystal Gems are a group of rebels against The Great Diamond Authority on the Gem Homeworld, founded by Pink Diamond under the guise of Rose Quartz. Although others later join the group, at the beginning of the series the Gems consist of Pearl, Amethyst and Garnet (a fusion of Ruby and Sapphire) who all hail from the Gem Homeworld; and Steven - Rose Quartz's half-Gem, half-human son who was born on Earth.",
     "error": "the Gems consist of Pearl, Amethyst and Garnet (a fusion of Ruby and Sapphire) who all hail from the Gem Homeworld;",
     "correction": "Um, actually, Amethyst doesn't hail from the Gem Homeworld. Amethyst was created in an Earth Kindergarten.",
-    "likes": 4,
+    "likes": 5,
     "dislikes": 0,
     "title": "Steven Universe"
   },
@@ -1382,7 +1382,7 @@
     "error": "following his arrest for inciting a rebellion against the totalitarian Terran Federation.",
     "correction": "Um, actually, Blake wasn't deported for inciting a rebellion. Blake did incite a rebellion - but he was brainwashed into making a confession and denouncing the rebellion. His memory of those years was then blocked. When he started to remember, he was arrested on false charges.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Blake's 7"
   },
   {
@@ -1480,7 +1480,7 @@
     "phrase_text": "Katniss Everdeen, and her love interests Peeta Mellark and Gale Hawthorne all hail from District 12 of Panem. Having only produced 2 winners before the events of the first book and its film adaptation (Haymitch Abernathy and another unnamed winner who died of natural causes); Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "error": "Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "correction": "Um, actually, Katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose.",
-    "likes": 9,
+    "likes": 10,
     "dislikes": 5,
     "title": "The Hunger Games"
   },
@@ -1667,7 +1667,7 @@
     "phrase_text": "As the Fellowship of the Ring leaves Lothlórien, Lady Galadriel gives each member present a gift. These include Frodo's gift of The Light of Eärendil, a phial that emits light in the darkness; Legolas' gift of the Bow of the Galadhrim; and Gimli's gift of a silver belt as a token of good will between Dwarves and Elves.",
     "error": "and Gimli's gift of a silver belt as a token of good will between Dwarves and Elves.",
     "correction": "Um, actually, Gimli's gift was not a belt. Gimli's gift was three of Galadriel's hairs which he wishes to preserve in the finest crystal.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 1,
     "title": "Lord of the Rings"
   },
@@ -1722,7 +1722,7 @@
     "phrase_text": "Some of the most dangerous dinosaurs in Jurassic Park were the Velociraptors. According to Muldoon, raptors are lethal at eight months old, able to reach speeds of 60 mph, and are astonishing jumpers. They also proved to be smart enough set traps and learn how to open doors, so if you encounter one of these 'clever girls', your best strategy is to keep absolutely still, as their vision is based on movement.",
     "error": "your best strategy is to keep absolutely still, as their vision is based on movement.",
     "correction": "Um, actually, velociraptors don't have vision-based movement. T-Rexes have vision-based movement. If you encounter a raptor... just hide!",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 0,
     "title": "Jurassic Park"
   },
@@ -1766,7 +1766,7 @@
     "phrase_text": "The Silurians are an alien species that first appeared in the classic \"Doctor Who\" episode \"Doctor Who and the Silurians\", and frequently feature in plotlines with an anti-war sentiment. Their advanced technology includes genetic modification, hibernation units, spaceships (which they used to preserve dinosaur species) and candles which could induce lucid dreams, allowing people to communicate across time and space.",
     "error": "The Silurians are an alien species that first appeared in the classic \"Doctor Who\" episode \"Doctor Who and the Silurians\",",
     "correction": "Um, actually, Silurians aren't an alien species. Silurians live underground on Earth and predate humanity.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Doctor Who"
   },
@@ -1777,7 +1777,7 @@
     "phrase_text": "While the Capitol Wasteland is populated with strange creatures like Deathclaws, Glowing Ones and Radroaches, the humans can be just as bizarre. They include Butch DeLoria, the leader of Vault 101's greaser-gang the Tunnel Snakes, President John Henry Eden, who is prone to telling untrue stories about his idyllic childhood in Kentucky, and a group of clones named 'Gary' who can only say the word 'Gary'.",
     "error": "the humans can be just as bizarre. They include Butch DeLoria, the leader of Vault 101's greaser-gang the Tunnel Snakes, President John Henry Eden,",
     "correction": "Um, actually, president Eden isn't a human. He is a supercomputer.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Fallout 3"
   },
@@ -2108,7 +2108,7 @@
     "error": "Sheev Palpatine was elected as the first Supreme Chancellor of the Republic",
     "correction": "Um, actually, Palpetine was not the first Supreme Chancellor, that title was used for hundreds of years. He was the first given emergency powers.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Star Wars"
   },
   {
@@ -2240,7 +2240,7 @@
     "error": "when Woody, after addressing Sid directly with his internal voice box, turns his head 360 degrees and says to Sid “So play nice.”",
     "correction": "Um, actually, all of Sid’s toys come to life as well to try and scare him. Woody's quote is just the final bit.",
     "likes": 0,
-    "dislikes": 6,
+    "dislikes": 7,
     "title": "Toy Story"
   },
   {
@@ -2517,5 +2517,335 @@
     "likes": 1,
     "dislikes": 0,
     "title": "Uncharted"
+  },
+  {
+    "id": 230,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "The Elder Scrolls V: Skyrim opens with the player, captured alongside a group of Stormcloak prisoners, being taken to the town of Helgen to be executed. As the prisoners are lined up at the chopping block, the dragon Alduin attacks the town, and in the ensuing chaos nobody is beheaded before the player escapes.",
+    "error": "nobody is beheaded before the player escapes",
+    "correction": "Um, actually, one Stormcloak soldier is beheaded first. After mouthing off at the guards, he is dragged to the block and executed moments before Alduin arrives to disrupt the player's own execution.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Skyrim"
+  },
+  {
+    "id": 231,
+    "author": "Fan Submitted",
+    "category": "Sci-Fi",
+    "phrase_text": "Introduced in the Deep Space Nine episode \"The Search, Part I\", the USS Defiant is officially classed as an escort ship and was designed as a prototype warship to fight the Borg - and due to this, only one Defiant-class ship was ever created.",
+    "error": "only one Defiant-class ship was ever created",
+    "correction": "Um, actually, multiple Defiant-class ships have been built. The original Defiant was destroyed by the Breen at the Second Battle of Chin'toka in 2375 and replaced by the USS Sao Paulo, which was renamed Defiant.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Star Trek"
+  },
+  {
+    "id": 232,
+    "author": "By CB Johnny",
+    "category": "Cartoons & TV",
+    "phrase_text": "Prior to becoming a professional recording artist, \"Weird Al\" Yankovic enjoyed submitting amateur home-recorded songs to the comedy radio program \"The Dr. Demento Show.\" There, his future drummer Jon \"Bermuda\" Schwartz met Al outside the sound booth and offered to bang on his accordion case for a live in-studio performance of \"My Bologna.\"",
+    "error": "a live in-studio performance of \"My Bologna.\"",
+    "correction": "Um, actually, that live 1980 studio performance was \"Another One Rides the Bus.\" \"My Bologna\" was an earlier solo demo Al recorded by himself in a college bathroom, not a live in-studio recording.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "\"Weird Al\" Yankovic"
+  },
+  {
+    "id": 233,
+    "author": "By TDean15",
+    "category": "Comics & Superheroes",
+    "phrase_text": "Nimona was originally a web comic made by ND Stevenson that was published in 2015 to great acclaim. After a troubled production, a film adaptation of the same name was released in 2023. The 2 versions have a significantly different story but both focus on self-proclaimed supervillain Ballister, and Nimona, a chaotic shapeshifter who wishes to become his sidekick.",
+    "error": "self-proclaimed supervillain",
+    "correction": "Um, actually, Ballister is not a supervillain in the film version. He is instead an outlaw after he is accused of murdering the Queen.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Nimona"
+  },
+  {
+    "id": 234,
+    "author": "By TDean15",
+    "category": "Cartoons & TV",
+    "phrase_text": "In the Boiling Isles, where most of The Owl House takes place, witches are assigned to covens by being branded with a sigil at an early age. Examples of these are the Bard Coven and the Construction Coven. Any witch not in a coven is known as a wild witch, an outlaw capable of all forms of magic - such as Eda, who does not join a coven throughout the series.",
+    "error": "who does not join a coven throughout the series",
+    "correction": "Um, actually, Eda does join a coven. She is covenless at the start but is branded with a sigil in the final episode of Season 2 as part of a plan to stop a draining spell cast by Emperor Belos.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "The Owl House"
+  },
+  {
+    "id": 235,
+    "author": "By TDean15",
+    "category": "Games",
+    "phrase_text": "Contrary to popular opinion, Princess Peach is not always a damsel in distress. Peach has been a playable character in several games including in \"Super Mario Land\", \"Super Mario 3D World\" and \"Super Mario Bros. Wonder\". She has also received 2 games of her own, \"Super Princess Peach\" for the DS and \"Princess Peach: Showtime!\" for the Nintendo Switch.",
+    "error": "in \"Super Mario Land\"",
+    "correction": "Um, actually, Peach is not playable in \"Super Mario Land\" - she does not appear in it at all. The rescued princess there is Daisy, and Mario is the game's only playable character.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Super Mario"
+  },
+  {
+    "id": 236,
+    "author": "By ChaFerRod",
+    "category": "Anime & Manga",
+    "phrase_text": "While many days are eventful in this series, one of the most is Thursday, July 15, 1999. On this day, Josuke and company face off against 4 significant Stands - Cheap Trick, Highway Star, Enigma, and Superfly.",
+    "error": "Cheap Trick, Highway Star, Enigma, and Superfly",
+    "correction": "Um, actually, Highway Star is not fought that day; its user Yuya Fungami instead helps Josuke defeat Enigma. The real fourth Stand is Killer Queen, unleashing its Bites the Dust ability.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "JoJo's Bizarre Adventure"
+  },
+  {
+    "id": 237,
+    "author": "By Ico",
+    "category": "Games",
+    "phrase_text": "In the game \"Super Mario Sunshine,\" Mario, Princess Peach, Toadsworth, and several Toads crash into Isle Delfino, an island filled with tourist attractions such as Delfino Plaza - the main hub - Sirena Beach, and Pinna Park.",
+    "error": "crash into Isle Delfino",
+    "correction": "Um, actually, they don't crash into Isle Delfino. Their plane, the Toad Express, makes a rough landing on the Delfino Airstrip after goop and a Piranha Plant block the runway.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Super Mario Sunshine"
+  },
+  {
+    "id": 238,
+    "author": "Fan Submitted",
+    "category": "Comics & Superheroes",
+    "phrase_text": "Foster child Billy Batson meets a wizard who grants him the ability to transform into an adult superhero, with powers such as flight and super strength. However, he's still a child at heart, which explains why he likes to shout \"Shazam\" when he transforms, and also why one of the first things he did as a hero was try to buy beer.",
+    "error": "which explains why he likes to shout \"Shazam\" when he transforms",
+    "correction": "Um, actually, that's not why he shouts \"Shazam!\" Shazam is the name of the wizard who granted his powers, and Billy must invoke it to transform - it's also an acronym for Solomon, Hercules, Atlas, Zeus, Achilles, and Mercury.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Shazam!"
+  },
+  {
+    "id": 239,
+    "author": "By Redmin",
+    "category": "Games",
+    "phrase_text": "In Fallout: New Vegas, the player - the Courier - is greeted by Benny with a monologue and a bullet to the head. Benny is the head of the Chairmen, whose family runs the Tops casino, one of the three casinos on the New Vegas Strip that operate under Mr. House. The other two are the Ultra-Luxe, run by the White Glove Society, and the Lucky 38, which serves as Mr. House's base of operations and is closed to the public - except for the Courier.",
+    "error": "three casinos on the New Vegas Strip",
+    "correction": "Um, actually, the New Vegas Strip has four casinos. The fourth is the Gomorrah, run by the Omertas, a family of gangsters who deal in smuggling, prostitution and other vices.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Fallout: New Vegas"
+  },
+  {
+    "id": 240,
+    "author": "By SuperCJM",
+    "category": "Games",
+    "phrase_text": "Among the three hidden opponents in Mortal Kombat II is Noob Saibot. Though his name is that of Mortal Kombat's creator, Tobias Boon, spelled backwards, it would later be revealed in Mortal Kombat: Deception that he is actually the undead wraith form of Bi-Han, the original Sub-Zero.",
+    "error": "Mortal Kombat's creator, Tobias Boon, spelled backwards",
+    "correction": "Um, actually, Mortal Kombat wasn't created by one person named Tobias Boon. It has two creators - Ed Boon and John Tobias - whose surnames spelled backwards form the name Noob Saibot.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Mortal Kombat"
+  },
+  {
+    "id": 241,
+    "author": "By SuperCJM",
+    "category": "Games",
+    "phrase_text": "Among the three hidden opponents in Mortal Kombat II is Noob Saibot. Though his name is that of Mortal Kombat's creator, Tobias Boon, spelled backwards, it would later be revealed in Mortal Kombat: Deception that he is actually the undead Wraith form of Bi-Han, the original Sub-Zero.",
+    "error": "Mortal Kombat's creator, Tobias Boon, spelled backwards",
+    "correction": "Um, actually, Mortal Kombat has two creators, and Noob Saibot combines their surnames reversed. Ed Boon becomes Noob and John Tobias becomes Saibot.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Mortal Kombat"
+  },
+  {
+    "id": 242,
+    "author": "By SuperCJM",
+    "category": "Cartoons & TV",
+    "phrase_text": "Walt Disney holds the record for both the most Oscar nominations and the most Oscar wins of any individual person, at 59 and 22, respectively. Though he was given Honorary Oscars for Snow White and the Seven Dwarfs and Fantasia, all of his competitive nominations were in the Documentary and Short Film categories.",
+    "error": "all of his competitive nominations were in the Documentary and Short Film categories",
+    "correction": "Um, actually, he received one competitive nomination for a feature-length narrative film - a Best Picture nomination for \"Mary Poppins\" at the 1965 Academy Awards.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Academy Awards"
+  },
+  {
+    "id": 243,
+    "author": "By goldpuffle",
+    "category": "Games",
+    "phrase_text": "In Minecraft, many crafted objects take on the texture of the wood used to make them, so an oak chest and a spruce chest look different. Some blocks ignore this entirely - a bookshelf always uses the oak planks texture no matter what wood you craft it from, and a painting's wooden back simply reuses one of the existing wood textures in the game.",
+    "error": "a painting's wooden back simply reuses one of the existing wood textures in the game",
+    "correction": "Um, actually, a painting's back matches none of the game's wood types. It uses its own plank-style texture with a yellowish tint similar to a chest, and it always has.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Minecraft"
+  },
+  {
+    "id": 244,
+    "author": "By Yogsy",
+    "category": "Cartoons & TV",
+    "phrase_text": "In House MD, the titular character Gregory House cycles through many residents. One resident was Amber Volakis, who despite no longer being an employee in the Princeton Plainsboro diagnostics department, returns to the show as the girlfriend of James Wilson before she passes away as a result of taking Zanamivir, a flu medication.",
+    "error": "she passes away as a result of taking Zanamivir, a flu medication.",
+    "correction": "Um, actually, Amber does not die from Zanamivir. She takes amantadine, an antiviral flu drug, and the bus crash leaves her kidneys unable to filter it out, causing fatal toxicity.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "House"
+  },
+  {
+    "id": 245,
+    "author": "By Yogsy",
+    "category": "Cartoons & TV",
+    "phrase_text": "There are 177 episodes of \"House MD,\" following Gregory House, head of the diagnostics department at Princeton Plainsboro Teaching Hospital, and his team. A running joke is that House has never diagnosed a case of lupus, spawning the popular \"it's never lupus\" meme. However, House did diagnose lupus one time in season 4, episode 14, \"Living the Dream,\" when a celebrity that House likes comes down with the disease.",
+    "error": "season 4, episode 14, \"Living the Dream,\" when a celebrity that House likes comes down with the disease.",
+    "correction": "Um, actually, that was not the lupus case. House's only lupus diagnosis came in season 4, episode 8, \"You Don't Want To Know,\" where the patient is an illusionist treated by fellowship candidates Kutner and Cole.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "House MD"
+  },
+  {
+    "id": 246,
+    "author": "By QzMajor",
+    "category": "Cartoons & TV",
+    "phrase_text": "The 2012 Teenage Mutant Ninja Turtles series features many mutant villains alongside its human and alien foes. Bebop and Rocksteady are thieves mutated into a rhinoceros and warthog, Dogpound (later Rahzar) and Fishface were the humans Chris Bradford and Xever Montes before their mutations, and Karai - Shredder's biological daughter - was mutated into a snake.",
+    "error": "Karai - Shredder's biological daughter - was mutated into a snake",
+    "correction": "Um, actually, Karai is not Shredder's biological daughter. She was born Hamato Miwa, the daughter of Hamato Yoshi (Splinter), and was kidnapped as an infant by Oroku Saki - who raised her as his own out of revenge.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Teenage Mutant Ninja Turtles"
+  },
+  {
+    "id": 247,
+    "author": "By DaxAttacks",
+    "category": "Games",
+    "phrase_text": "Sernuks are graceful deer-like creatures that symbolize honor, tradition, and longevity in the world of Palia. Despite being accidentally introduced to the Kilima ecosystem by Kenli - who thought they'd make good pets - The Order has happily accepted them, and now even breeds its own \"Proudhorned Sernuk\" to pull their carriages.",
+    "error": "accidentally introduced to the Kilima ecosystem by Kenli",
+    "correction": "Um, actually, Sernuks are native to Kilima and were never introduced by anyone. The creature Kenli accidentally unleashed on the region - roughly 20 years ago, after they escaped captivity as pets - was the invasive Chapaa.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Palia"
+  },
+  {
+    "id": 248,
+    "author": "By darjella",
+    "category": "Games",
+    "phrase_text": "In the video game Palia, humans are a legendary race that mysteriously went extinct thousands of years ago. As the player, you are the first human to be seen since then when you are located at the Phoenix Shrine by the archaeologist, Jina.",
+    "error": "you are the first human to be seen since then",
+    "correction": "Um, actually, you are just one of many reemerging humans. Palia is an MMO, and canonically every player is a human who has re-emerged - humans have begun appearing all over the world, not just you.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Palia"
+  },
+  {
+    "id": 249,
+    "author": "By Dennish",
+    "category": "Games",
+    "phrase_text": "\"Monster Hunter: World\" is a video game developed and published by the company Bandai Namco. It has been widely debated whether it counts as a JRPG or an action RPG - while it shares some traits with JRPGs, it lacks the strong narrative focus and turn-based combat of titles like \"Dragon Quest,\" \"Yakuza: Like a Dragon\" and \"Persona.\" Instead, it centers on real-time combat and gear-based progression.",
+    "error": "developed and published by the company Bandai Namco",
+    "correction": "Um, actually, Bandai Namco had nothing to do with it. \"Monster Hunter: World\" was developed and published by Capcom, for whom it became the best-selling game in the company's history.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Monster Hunter: World"
+  },
+  {
+    "id": 250,
+    "author": "By Memealicious",
+    "category": "Sci-Fi",
+    "phrase_text": "In the original 1989 run of \"Quantum Leap,\" Scott Bakula plays Dr. Sam Beckett, a scientific prodigy who studies string theory. In an experiment into time travel, he gains the ability for his consciousness to travel to any point in time. He cannot control where he goes and can only transfer into the bodies of other people. Over his adventures he ends up as a Black man in the 1950s South, a person with Down syndrome, and a transgender escort.",
+    "error": "gains the ability for his consciousness to travel to any point in time",
+    "correction": "Um, actually, Sam can only leap within his own lifetime - roughly 1953 to 1989. Traveling to any point in history is a power reserved for Dr. Ben Song, the lead of the 2022 reboot.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Quantum Leap"
+  },
+  {
+    "id": 251,
+    "author": "By Memealicious",
+    "category": "Cartoons & TV",
+    "phrase_text": "The Pixar movie \"Finding Nemo\" has a large scientific inaccuracy. The False Ocellaris Clownfish, which Marlin is based on, is a protogynous hermaphrodite. This means that since Nemo's mother died, Marlin should have biologically changed into a female.",
+    "error": "protogynous hermaphrodite",
+    "correction": "Um, actually, they are not protogynous. Clownfish are protandrous hermaphrodites - they begin life as males and become female, so after his mate died Marlin should have changed into a female.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Finding Nemo"
+  },
+  {
+    "id": 252,
+    "author": "By Memealicious",
+    "category": "Games",
+    "phrase_text": "In the Fallout series, Vault-Tec is the company that produces the vaults to preserve humanity after a nuclear war. However, most of these vaults were actually experiments on the human psyche, such as vaults pumped with hallucinogenic drugs, a vault with a man and a box of puppets, a vault with 999 men and one woman, a vault with 999 women and one man, and a vault where they elect a human sacrifice. The only vault without an experiment was Vault 101, seen in Fallout 3.",
+    "error": "The only vault without an experiment was Vault 101",
+    "correction": "Um, actually, Vault 101 was also an experiment. It was deliberately designed to never open, in order to study the role of the Overseer in a vault that stayed sealed indefinitely.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Fallout"
+  },
+  {
+    "id": 253,
+    "author": "By Memealicious",
+    "category": "Sci-Fi",
+    "phrase_text": "In Douglas Adams' Hitchhiker's Guide to the Galaxy, Arthur Dent and Ford Prefect are taken aboard a Vogon ship. Vogons are known as the bureaucrats of the universe, and they torture captives with poetry - Vogon poetry is the worst poetry in the universe. The pair are subjected to it before being thrown out of an airlock, only to be saved by the Infinite Improbability Drive of the Heart of Gold.",
+    "error": "the worst poetry in the universe",
+    "correction": "Um, actually, Vogon poetry is only the third worst in the universe. The second worst belongs to the Azgoths of Kria, and the very worst was Paula Nancy Millstone Jennings of Sussex, destroyed when Earth was demolished.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    "id": 254,
+    "author": "By Memealicious",
+    "category": "Cartoons & TV",
+    "phrase_text": "In the Smiling Friends episode \"Who Violently Murdered Simon S. Salty\", there is a character named Grease that was originally meant to be played by the internet lolcow Christine Weston Chandler. However, due to their criminal actions, Christine was unable to play the character. It was then played by Harry Partridge doing an impression of Christine.",
+    "error": "due to their criminal actions",
+    "correction": "Um, actually, that wasn't the reason - those negotiations predated her scandal. The role fell through because the show had already blown its cameo budget and feared Chris would leak the surprise.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Smiling Friends"
+  },
+  {
+    "id": 255,
+    "author": "By mantechcc",
+    "category": "Anime & Manga",
+    "phrase_text": "\"Fullmetal Alchemist\" (2003) and \"Fullmetal Alchemist: Brotherhood\" (2009) both adapt the manga, but the 2003 version diverges partway through with its own story and ending. It leans into the emotional weight of human transmutation and loss, introducing anime-original characters such as Nina, Dante, and Lyra.",
+    "error": "such as Nina, Dante, and Lyra",
+    "correction": "Um, actually, Nina Tucker is not exclusive to the 2003 anime. She appears in the manga, the 2003 series, and 2009's \"Brotherhood\" alike - only Dante and Lyra are genuinely original to the 2003 adaptation.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Fullmetal Alchemist"
+  },
+  {
+    "id": 256,
+    "author": "By mantechcc",
+    "category": "Anime & Manga",
+    "phrase_text": "Homunculi are alchemically created humanoids in the Fullmetal Alchemist universe. Fullmetal Alchemist (2003), Fullmetal Alchemist: Brotherhood (2009), and the manga all feature the same seven homunculi, each named after one of the seven deadly sins.",
+    "error": "all feature the same seven homunculi",
+    "correction": "Um, actually, the 2003 anime differs sharply. There, King Bradley is Pride rather than Wrath, and both Sloth and Wrath are entirely different beings - failed transmutations of the Elrics' mother and Izumi's son.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Fullmetal Alchemist"
+  },
+  {
+    "id": 257,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "In Exploding Kittens, players try to avoid drawing the Exploding Kitten using their ability cards, such as See the Future, Attack, Favor, Skip, and most importantly, Defuse. Some card combinations can also help, like two-of-a-kind, three-of-a-kind, and five-of-a-kind.",
+    "error": "five-of-a-kind",
+    "correction": "Um, actually, there is no five-of-a-kind combo. The five-card combo requires five cards of different types, which then lets you take any single card from the discard pile.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Exploding Kittens"
+  },
+  {
+    "id": 258,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "The first trilogy of the \"Ace Attorney\" series follows defense attorney Phoenix Wright as he takes on courtroom cases, most of them involving clients accused of murder. A recurring hallmark across these three games is that every client Phoenix defends ultimately turns out to be innocent, with the true culprit exposed before the trial ends.",
+    "error": "every client Phoenix defends ultimately turns out to be innocent",
+    "correction": "Um, actually, there is one glaring exception. In \"Justice for All,\" the second game, the final case \"Farewell, My Turnabout\" forces Phoenix to defend Matt Engarde - who is genuinely guilty of hiring the assassin Shelly de Killer.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Ace Attorney"
+  },
+  {
+    "id": 259,
+    "author": "By RubyBlue42",
+    "category": "Sci-Fi",
+    "phrase_text": "In the 2006 film \"Idiocracy\", average man Joe is frozen as part of a military experiment, and awakens 500 years later to discover that average intelligence has plummeted and humans are now all crude and moronic. After taking an IQ test in prison, Joe is eventually appointed Secretary of Agriculture by President Dwayne Elizondo Mountain Dew Herbert Camacho, and must improve crop yields nation-wide, or face imprisonment.",
+    "error": "appointed Secretary of Agriculture",
+    "correction": "Um, actually, Joe is appointed Secretary of the Interior, not Agriculture. President Camacho still tasks him with fixing the nation's failing crop yields within a week or face prison.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Idiocracy"
   }
 ]
