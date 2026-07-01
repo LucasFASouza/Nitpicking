@@ -7,7 +7,6 @@ import { withRetry } from "@/db/withRetry";
 import { phrase } from "@/db/schema";
 import { sql } from "drizzle-orm/sql";
 import { cache } from "react";
-import type { NavContext } from "@/types/navContext";
 import type { SortOption } from "@/lib/searchParams";
 
 // Expressão de ordenação da listagem. Padrão: id ascendente.
@@ -131,24 +130,22 @@ export const searchPhrases = cache(
   }
 );
 
-// Lista ordenada de ids de um contexto derivável no servidor (categoria/busca/all).
-// Curtidas/descurtidas vêm do localStorage e são resolvidas no cliente.
-export const getIdsForContext = async (
-  ctx: NavContext
-): Promise<number[]> => {
-  switch (ctx.type) {
-    case "category": {
-      const rows = await getPhrasesByCategory(ctx.value);
-      return rows.map((p) => p.id);
-    }
-    case "search": {
-      const rows = await searchPhrases(ctx.value);
-      return rows.map((p) => p.id);
-    }
-    default:
-      return getIds();
+// Lista ordenada de ids de um contexto (categoria/busca/ordenação), espelhando
+// exatamente a seleção da home — usada pela navegação contextual do detalhe.
+export const getContextIds = cache(
+  async (
+    category: string | null = null,
+    sort: SortOption = "id",
+    q: string = ""
+  ): Promise<number[]> => {
+    const rows = q
+      ? await searchPhrases(q, sort, category)
+      : category
+      ? await getPhrasesByCategory(category, sort)
+      : await getData(sort);
+    return rows.map((p) => p.id);
   }
-};
+);
 
 export const likePhrase = async (id: number) => {
   await withRetry(() =>

@@ -5,7 +5,6 @@ import {
   removeLike,
   removeDislike,
   getRandomPhrase,
-  getIds,
 } from "@/actions/phraseAction";
 import Phrase from "@/components/phrase";
 import { notFound } from "next/navigation";
@@ -51,7 +50,6 @@ export default async function PhrasePage(props: {
         getRandomPhrase={getRandomPhrase}
         removeLike={removeLike}
         removeDislike={removeDislike}
-        getIds={getIds}
       />
     </main>
   );

@@ -53,6 +53,17 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
   const changeSearch = (value: string) =>
     setParams({ q: value || null, page: null }, { scroll: false });
 
+  // href do card carregando o contexto atual, para a navegação contextual em /[id].
+  const cardHref = (id: number) => {
+    const params = new URLSearchParams();
+    if (category) params.set("category", category);
+    if (sort !== "id") params.set("sort", sort);
+    if (q) params.set("q", q);
+    if (currentPage > 1) params.set("page", String(currentPage));
+    const qs = params.toString();
+    return qs ? `/${id}?${qs}` : `/${id}`;
+  };
+
   return (
     <>
       <BrowseControls
@@ -83,7 +94,7 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount }) => {
                   <PhraseCard
                     key={phrase.id}
                     phrase={phrase}
-                    href={`/${phrase.id}`}
+                    href={cardHref(phrase.id)}
                     highlight={q}
                   />
                 ))}
