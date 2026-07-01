@@ -37,9 +37,6 @@ export default function RootLayout({
             <Link href="/about" className="highlight-link px-2">
               About
             </Link>
-            <Link href="/howtoplay" className="highlight-link px-2">
-              How to play
-            </Link>
             <Link href="/contribute" className="highlight-link px-2">
               Suggest
             </Link>
