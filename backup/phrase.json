@@ -90,7 +90,7 @@
   {
     "id": 9,
     "author": "By Shinitenshi",
-    "category": "Fantasy",
+    "category": "Cartoons & TV",
     "phrase_text": "In a famous scene, the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea. This prompts resistance members to start suggesting things the Romans have given them, including the aqueduct, sanitation, the roads, irrigation, medicine, education, wine, public order and bringing peace.",
     "error": "the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea.",
     "correction": "Um, actually, the question wasn't asked by the leader of the Judean People's Front. It was asked by the leader of the People's Front of Judea - who hates the Judean People's Front.",
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "Sun Wukong, the Monkey King, possesses enormous strength and power. According to the legend, he is able to support the weight of two celestial mountains and can travel over 30,000 miles with a single somersault. He also possesses a magical circlet gifted to him from the Buddha, which gives him the power to freeze people in place.",
     "error": "He also possesses a magical circlet gifted to him from the Buddha, which gives him the power to freeze people in place.",
     "correction": "Um, actually, the magical circlet doesn't give Sun Wukong powers. Although Sun Wukong does have the power to freeze people, the magical circlet was given to Sun Wukong so the monk Tang Seng could discipline him by giving him headaches.",
@@ -112,7 +112,7 @@
   {
     "id": 11,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "Universal Pictures arguably began the concept of a shared cinematic universe, with sequels that tell a continuous story and characters that crossover into each others' films. \"Dracula\" was followed by sequels \"Dracula's Daughter\" and \"Son of Dracula\", \"Frankenstein\" was followed by \"Bride of Frankenstein\" and \"Son of Frankenstein\", and \"The Mummy\" was followed by \"The Mummy's Hand\", \"The Mummy's Tomb\", \"The Mummy's Ghost\" and \"The Mummy's Curse\".",
     "error": "and \"The Mummy\" was followed by \"The Mummy's Hand\", \"The Mummy's Tomb\", \"The Mummy's Ghost\" and \"The Mummy's Curse\".",
     "correction": "Um, actually, none of the films listed are sequels to The Mummy. The Mummy's Hand spawned the sequels Tomb, Curse and Ghost; but it is not considered a sequel to The Mummy - sharing none of the cast or plot.",
@@ -123,7 +123,7 @@
   {
     "id": 12,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "The Cenobites are disfigured, humanoid creatures who can no longer differentiate between pain and pleasure. Their leader describes them as \"explorers in the further reaches of experience, demons to some, angels to others\". The Cenobites were summoned when the hedonistic Frank Cotton was revived by his former lover Julia bringing men to her attic, so Frank could drain their life force and regenerate his body.",
     "error": "The Cenobites were summoned when the hedonistic Frank Cotton was revived by his former lover Julia bringing men to her attic,",
     "correction": "Um, actually, the Cenobites weren't summoned by Julia reviving Frank. They were summoned by Julia's step-daughter Kirsty solving the Lament Configuration - a puzzle box that summons the Cenobites.",
@@ -222,7 +222,7 @@
   {
     "id": 21,
     "author": "By Peter the Human",
-    "category": "Cartoons & TV",
+    "category": "Sci-Fi",
     "phrase_text": "The titular Thunderbirds are \"miracle machines\" piloted by the five sons of astronaut Jeff Tracy, consisting of two supersonic planes, a rocket, a minisubmarine and a space station. The \"supermarionation\" series also featured various other vehicles - including Lady Penelope Parker's car The Compact Pussycat (a Pink Rolls-Royce equipped with machine cannons, harpoon cables and bulletproof tires), the hypersonic airliner Fireflash, and Thunderbird 6 -  a restored Tiger Moth biplane.",
     "error": "including Lady Penelope Parker's car The Compact Pussycat (a Pink Rolls-Royce equipped with machine cannons, harpoon cables and bulletproof tires),",
     "correction": "Um, actually, Lady Penelope's car isn't called The Compact Pussycat. Penelope Parker's car is called FAB 1. The Compact Pussycat is driven by Penelope Pitstop in Wacky Races.",
@@ -343,7 +343,7 @@
   {
     "id": 32,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Sci-Fi",
     "phrase_text": "After an alien burst from Executive Officer Kane's chest, the android Ash was secretly instructed by the Weylan-Yutani corporation to return the alien, with the crew considered expendable. Dallas, Parker, Lambert and Brett were all killed by the xenomorph; but Warrant Officer Ripley deactivated Ash and blasted the xenomorph into space, leaving her as the sole survivor of the Nostromo.",
     "error": "leaving her as the sole survivor of the Nostromo.",
     "correction": "Um, actually, Ripley wasn't the sole survivor of the Nostromo. The ship's cat, Jones, also survives.",
@@ -420,7 +420,7 @@
   {
     "id": 39,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "Supreme Chancellor Palpatine tempted Anakin Skywalker over to the Dark Side of the Force by telling him the tragedy of Darth Plagueis the Wise - a Sith Lord with the ability to prevent death and create life. This later prompts Anakin to betray his fellow Jedi Master Mace Windu: Anakin severs his hand, allowing Palpatine to blast Mace Windu through a window to his death with Force lightning.",
     "error": "This later prompts Anakin to betray his fellow Jedi Master Mace Windu:",
     "correction": "Um, actually, Anakin Skywalker isn't a Jedi Master. Anakin was appointed to the Jedi Council, but was not granted the rank of Master.",
@@ -464,7 +464,7 @@
   {
     "id": 43,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "Beowulf is a young warrior from Geatland who leaves his homeland to assist Hrothgar, king of the Danes, in defending his great hall from Grendel: a troll-like monster said to be descended from the biblical figure Cain. Beowulf engages in a violent battle with Grendel, eventually slaying him by stabbing him through the heart with his legendary sword Næġling.",
     "error": "eventually slaying him by stabbing him through the heart with his legendary sword Næġ1ling.",
     "correction": "Um, actually, Beowulf doesn't slay Grendel with a sword. Since Grendel is unarmed, Beowulf chooses to fight without any weapons. He defeats Grendel by tearing off Grendel's arm at the shoulder.",
@@ -475,7 +475,7 @@
   {
     "id": 44,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Cartoons & TV",
     "phrase_text": "You like Huey Lewis and the News? In an iconic scene, Patrick Bateman dons a raincoat to murder his co-worker Paul Allen with an axe. Oblivious, Allen asks, \"Hey Bateman - why are there copies of the style section all over the place?\", shortly before Bateman turns on his stereo and hacks Paul to death to the sound of \"Hip to Be Square\".",
     "error": "Oblivious, Allen asks, \"Hey Bateman - why are there copies of the style section all over the place?\",",
     "correction": "Um, actually, Paul doesn't refer to Patrick as Bateman. He refers to him as \"Halberstram\" - one of many instances throughout the film people mistake Patrick for someone else.",
@@ -541,7 +541,7 @@
   {
     "id": 50,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "After Samuel, the youngest son of a family living in a Puritan settlement, disappears while playing with his sister Thomasin; it begins a chain of events that causes Thomasin's family to devolve into paranoia and accuse her of being a witch. It is later revealed that the unbaptized Samuel had been stolen and killed by a watch, so his body could be used to make an ointment.",
     "error": "After Samuel, the youngest son of a family living in a Puritan settlement,",
     "correction": "Um, actually, the family don't live in a Puritan settlement. They were banished from the settlement over a religious dispute.",
@@ -618,7 +618,7 @@
   {
     "id": 57,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Sci-Fi",
     "phrase_text": "\"Annihilation\" follows five women who undergo an expedition into an anomalous zone in Florida known as the \"Shimmer\". Three of the expedition members - Cassie, Anya and Josie - are killed by a mutant bear, while the group's leader Dr. Ventress disintegrates into a shimmering cloud which transforms into a doppelganger of the fifth member Lena. It is left ambiguous if Lena survived the Shimmer, or if she was replaced by her doppelganger.",
     "error": "Three of the expedition members - Cassie, Anya and Josie - are killed by a mutant bear,",
     "correction": "Um, actually, one of the listed expedition members wasn't killed by the bear. Josie, after concluding that Cassie's dying mind was 'refracted' into the mutant bear, allows herself to 'refract' and turn into a humanoid plant to avoid a similar fate.",
@@ -662,7 +662,7 @@
   {
     "id": 61,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "The webseries \"Don't Hug Me I'm Scared\" and the TV series of the same name are surreal-musical-comedy-horror shows which combine puppetry with animation. In both the web and TV series, series co-creator Joseph Pelling plays 'Red Guy': a tall red creature who usually speaks in a monotone, inexpressive voice despite the horrific events that unfold around him - making it even more jarring when we hear him raise his voice for the first time in the opening theme of Episode 4 of the TV series, screaming, \"And we live in an ACTUAL NIGHTMARE!\"",
     "error": "making it even more jarring when we hear him raise his voice for the first time in the opening theme of Episode 4 of the TV series,",
     "correction": "Um, actually, that isn't the first time Red Guy raises his voice. Three episodes beforehand, in the series premiere 'Jobs', Red Guy learns how to scream down the phone to deal with customers.",
@@ -673,7 +673,7 @@
   {
     "id": 62,
     "author": "By Peter the Human",
-    "category": "Sci-Fi",
+    "category": "Cartoons & TV",
     "phrase_text": "Truman Burbank is unknowingly the star of a reality TV show that's been following him from birth. To prevent him from ever leaving the enormous studio of Seahaven Island, the show's creator Cristof discourages exploration - broadcasting messages about the dangers of air travel, preventing Truman ever learning how to swim to make leaving by water impossible, and preventing a spontaneous road trip by orchestrating a forest fire and a nuclear plant leak.",
     "error": "preventing Truman ever learning how to swim to make leaving by water impossible,",
     "correction": "Um, actually, Truman isn't prevented from learning how to swim. Truman develops an intense fear of water after his \"father\" supposedly dies at sea.",
@@ -695,7 +695,7 @@
   {
     "id": 64,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Sci-Fi",
     "phrase_text": "\"The Mist\" follows a group of people trapped in a supermarket when a mysterious mist populated by tentacled beings, giant insects and pterodactyl-like creatures descends on their town. Although the supermarkets' patrons descend into religious fervor and begin sacrificing people to the monsters, the protagonist David and four other survivors make it to his car and are saved by the Army when the mist disperses.",
     "error": "the protagonist David and four other survivors make it to his car and are saved by the Army when the mist disperses.",
     "correction": "Um, actually, the four other survivors aren't rescued by the Army. Thinking they're doomed, David mercy kills his fellow survivors before stepping out the car to be killed by the monsters, moments before the Army arrives.",
@@ -717,7 +717,7 @@
   {
     "id": 66,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "In order to test if an individual's awareness is stronger than their instincts, the Bene Gesserit issue a \"Test of Humanity\" involving the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it. When the Reverend Mother Mohiam tested Paul Atreides, he passed the test despite being exposed to more pain than anyone else before him.",
     "error": "the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it.",
     "correction": "Um, actually, the box isn't called the gom jabbar. The gom jabbar refers to the poison-tipped needle that's held against a person's neck while they put their hand in the box.",
@@ -761,7 +761,7 @@
   {
     "id": 70,
     "author": "By Shinitenshi",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "The stage musical, loosely based on the 1960 low-budget movie \"The Little Shop of Horrors\", follows Seymour Krelborn, who finds a strange plant that he names Audrey II after his co-worker. Audrey II must consume blood to survive and eventually plans world domination, but is defeated when Seymour electrocutes Audrey II, blowing it up.",
     "error": "but is defeated when Seymour electrocutes Audrey II, blowing it up.",
     "correction": "Um, actually, Seymour doesn't defeat Audrey II. The film adaptation ends with Audrey II's electrocution - but in the musical, it's implied that it succeeds in eating all of humanity.",
@@ -772,7 +772,7 @@
   {
     "id": 71,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "After a princess loses her golden ball in a well, a frog offers to retrieve it if the princess promises to love him, let him eat from her golden plate and sleep in her bed. The frog retrieves the ball, and (at her father's encouragement), the princess keeps her promises. When she kisses the frog, it breaks a curse, and he transforms back into a prince. The prince's servant Faithful Heinrich arrives the following morning to return the prince to his kingdom.",
     "error": "When she kisses the frog, it breaks a curse, and he transforms back into a prince.",
     "correction": "Um, actually, the frog wasn't transformed by a kiss. In the Grimm's Fairy Tale version, the frog is transformed after the princess throws him against a wall.",
@@ -794,7 +794,7 @@
   {
     "id": 73,
     "author": "By Peter the Human",
-    "category": "Sci-Fi",
+    "category": "Cartoons & TV",
     "phrase_text": "After detective Sam Tyler has a car accident in the year 2006 and wakes up in 1973, he questions if he's mad, in a coma or has gone back in time. While continuing his police work, he contends with outdated methods and attitudes of DCI Gene Hunt - and in a memorable finale, chooses to return to 2006 by gathering incriminating evidence on Hunt.",
     "error": "and in a memorable finale, chooses to return to 2006 by gathering incriminating evidence on Hunt.",
     "correction": "Um, actually, Sam doesn't submit the evidence against Gene Hunt. Sam wakes up from a gunfight in 1973 to find his brain tumor has been removed in 2006 - but then chooses to return to 1973 by jumping off the top of his police station.",
@@ -882,7 +882,7 @@
   {
     "id": 81,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "In the epic poem Inferno, Dante finds himself being guided through Hell by the Roman poet Virgil. The pair venture through the nine circles of hell, encountering mythological characters and historical figures such as Helen of Troy, the Minotaur, Medusa, Alexander the Great, Attila the Hun and Judas Iscariot before reaching the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "error": "the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "correction": "Um, actually, Satan isn't burning in a lake of fire. He is frozen in a lake of ice.",
@@ -981,7 +981,7 @@
   {
     "id": 90,
     "author": "By Ghostlight & Peter the Human",
-    "category": "Horror",
+    "category": "Sci-Fi",
     "phrase_text": "What initially appears to be a UFO hiding in a cloud and abducting horses near the Haywood Ranch turns out to be a highly territorial predatory organism, that OJ nicknames \"Jean Jacket\". Jean Jacket consumes living beings that look at it, and interferes with electronic equipment - but the Haywood siblings eventually get evidence of its existence using Holst's hand-cranked IMAX film camera.",
     "error": "but the Haywood siblings eventually get evidence of its existence using Holst's hand-cranked IMAX film camera.",
     "correction": "Um, actually, they don't get video evidence from Holst's camera. Jean Jacket eats the camera - but they get a picture of it from the analog camera in Jupe's theme park.",
@@ -1003,7 +1003,7 @@
   {
     "id": 92,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "Zeus often used his shapeshifting ability in his pursuit of lovers. Some examples include him turning into a cuckoo to seduce his wife Hera, a swan to seduce Aetolian princess Leda, an eagle to abduct the Trojan boy Ganymede, and a bull to seduce the princesses Io and Europa.",
     "error": "and a bull to seduce the princesses Io and Europa.",
     "correction": "Um, actually, Zeus didn't turn into a bull to seduce Io. Although he did turn into a bull to seduce Europa, he turned Io into a bull to disguise her from a jealous Hera.",
@@ -1124,7 +1124,7 @@
   {
     "id": 103,
     "author": "By Sierra, Mayor of Frog City",
-    "category": "Comics & Superheroes",
+    "category": "Sci-Fi",
     "phrase_text": "Mighty Morphin' Power Rangers featured teenagers with attitude being summoned by Zordon and Alpha-5 to fight off against the evil Rita Repulsa. The six initially summoned were Zack, Trini, Billy, Tommy, Kimberly and Jason; with Rocky, Adam and Aisha replacing Jason, Zack and Trini as the Red, Black and Yellow rangers respectively during Season 2, after the original rangers were selected to represent Angel Grove at the World Peace Conference in Geneva.",
     "error": "The six initially summoned were Zack, Trini, Billy, Tommy, Kimberly and Jason;",
     "correction": "Um, actually, Tommy was not summoned by Zordon. Tommy was a teenager who was kidnapped and brainwashed by Rita Repulsa, becoming the Green Ranger. He later defected and joined the Power Rangers.",
@@ -1157,7 +1157,7 @@
   {
     "id": 106,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "In order to become The Supreme, the living embodiment of magic itself, a witch must master seven distinct magical abilities known as \"The Seven Wonders\". These include Concilium (controlling someone's mind through willpower), Descensum (projecting one's soul into Hell, portrayed on the show as a fiery realm of evil and chaos), and Vitalum Vitalis (the power to balance the scales of life and death).",
     "error": "Descensum (projecting one's soul into Hell, portrayed on the show as a fiery realm of evil and chaos),",
     "correction": "Um, actually, Hell isn't a fiery realm of evil. Hell in American Horror Story is unique to each person.",
@@ -1168,7 +1168,7 @@
   {
     "id": 107,
     "author": "By Xitel",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "\"Halloween III: Season of the Witch\" is the only film in the Halloween franchise where Michael Meyers doesn't appear. An attempt to turn the franchise into an anthology series; the plot instead centers around an evil company known as Silver Shamrock, who plans to channel the power of Stonehenge via Halloween masks, turning childrens' heads into snakes.",
     "error": "\"Halloween III: Season of the Witch\" is the only film in the Halloween franchise where Michael Meyers doesn't appear.",
     "correction": "Um, actually, Michael Myers does appear in Halloween III. In one scene, a clip of Michael Meyers from the original Halloween film can be seen on a TV in the background - Michael's mask is next to the TV in the same scene.",
@@ -1190,7 +1190,7 @@
   {
     "id": 109,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "To fend off two approaching zombies, Shaun and Ed begin throwing vinyl records at the zombies' heads. They start being more selective in their choice after Ed throws an original pressing of 'Blue Monday'; choosing not to throw 'Purple Rain', 'Sign o' the Times' or The Stone Roses' 'Second Coming', but throwing the 'Batman' soundtrack, a Dire Straits record, and a Coldplay record belonging to Shaun's ex Liz.",
     "error": "but throwing the 'Batman' soundtrack, a Dire Straits record, and a Coldplay record belonging to Shaun's ex Liz.",
     "correction": "Um, actually, they don't throw a Coldplay record. Liz's thrown record was \"Diamond Life\" by Sade",
@@ -1212,7 +1212,7 @@
   {
     "id": 111,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "In Hans Christian Andersen's fairy tale, the young boy Kai is captured by the Snow Queen after splinters of a troll's magic mirror get lodged into his heart and eye. Kai's friend Gerda searches for him, and with the help of two crows, a little robber girl, the reindeer Bae and a Finn woman who gives Gerda a potion that grants her \"the strength of twelve men\"; Gerda saves Kai.",
     "error": "a Finn woman who gives Gerda a potion that grants her \"the strength of twelve men\"; Gerda saves Kai.",
     "correction": "Um, actually, the Finn woman didn't give Gerda a potion. Bae asked for a potion, but the Finn said \"She cannot receive any power from me greater than she now has, which consists in her own purity and innocence of heart.\"",
@@ -1278,7 +1278,7 @@
   {
     "id": 117,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Cartoons & TV",
     "phrase_text": "Celebrity chef Julian Slowik invites guests to a private island to enact revenge on the people who made him lose passion for his craft, or who profit from artisans like him. His victims include the food critic Lillian Bloom, angel investor Doug Verrick who made Julian relinquish control of his restaurant, and the actor George Diaz who left a negative Yelp review for one of Julian's restaurants.",
     "error": "and the actor George Diaz who left a negative Yelp review for one of Julian's restaurants.",
     "correction": "Um, actually, George didn't leave Julian a bad Yelp review. Slovik enacts his revenge on George because of how much he hated a movie he starred in and seeing him phone in his performance ruined his one day off in months.",
@@ -1289,7 +1289,7 @@
   {
     "id": 118,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "The Questing Beast is a creature with the head of a snake, the body of a leopard, the haunches of a lion and the feet of a hart. The Beast appeared to Arthur after he conceived Mordred in an affair with his half-sister Morgause; and although King Pellinore attempted futile quests to hunt the beast, it was finally slain by Arthur after he chased it into a lake.",
     "error": "it was finally slain by Arthur after he chased it into a lake.",
     "correction": "Um, actually, Arthur didn't slay the Questing Beast. It was slain by Sir Palamedes.",
@@ -1388,7 +1388,7 @@
   {
     "id": 127,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Games",
     "phrase_text": "In indie horror game \"Choo-Choo Charles\", the player controls a monster-hunting archivist. Players must upgrade their train's defences in order to fight and defeat the titular character, Charles; an evil spider-train hybrid monster that lives on the Isle of Sodor and wanders the landscape looking for people to eat.",
     "error": "an evil spider-train hybrid monster that lives on the Isle of Sodor and wanders the landscape looking for people to eat.",
     "correction": "Um, actually, Charles doesn't live on the Isle of Sodor. The Isle of Sodor is where Thomas the Tank Engine lives. Charles lives on the island of Aranearum.",
@@ -1476,7 +1476,7 @@
   {
     "id": 135,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "Katniss Everdeen, and her love interests Peeta Mellark and Gale Hawthorne all hail from District 12 of Panem. Having only produced 2 winners before the events of the first book and its film adaptation (Haymitch Abernathy and another unnamed winner who died of natural causes); Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "error": "Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "correction": "Um, actually, Katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose.",
@@ -1509,7 +1509,7 @@
   {
     "id": 138,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Comics & Superheroes",
     "phrase_text": "The first season of \"Misfits\" follows a group of young offenders who gain special abilities after an electrical storm. While most of the group gain superpowers - such as Kelly who becomes telepathic and Alisha who sends people into a sexual frenzy when they touch her skin - Nathan Young does not gain superpowers, and eventually dies fighting superpowered cult leader Rachel.",
     "error": "Nathan Young does not gain superpowers, and eventually dies fighting superpowered cult leader Rachel.",
     "correction": "Um, actually, Nathan does have a superpower. After he wakes up in his coffin, alive, he realizes his superpower is immortality.",
@@ -1531,7 +1531,7 @@
   {
     "id": 140,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "The short story \"The Call of Cthulhu\" tells the story of several characters' experiences with a cult that worships the Great Old One, Cthulhu, who is trapped in the sunken city of Innsmouth. The narrator describes a statue of Cthulhu as \"[yielding] simultaneous pictures of an octopus, a dragon, and a human caricature. ... A pulpy, tentacled head surmounted a grotesque and scaly body with rudimentary wings.\"",
     "error": "the Great Old One, Cthulhu, who is trapped in the sunken city of Innsmouth.",
     "correction": "Um, actually, the sunken city isn't called Innsmouth. Innsmouth is home to a different cult that worships the god Dagon in the story \"The Shadow Over Innsmouth\". Cthulhu lives in R'lyeh.",
@@ -1608,7 +1608,7 @@
   {
     "id": 147,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Cartoons & TV",
     "phrase_text": "On their way to the Great Valley, Littlefoot and friends encounter the Tyrannosaurus - or \"sharptooth\" - that killed Littlefoot's mother several times. The group eventually defeats the sharptooth by using the tar pits in the Mountains that Burn to make themselves resemble a tar monster, scaring the sharptooth away.",
     "error": "The group eventually defeats the sharptooth by using the tar pits in the Mountains that Burn to make themselves resemble a tar monster,",
     "correction": "Um, actually, that isn't how they defeat the sharptooth. The group disguises themselves as a tar monster to scare away the \"domeheads\"; but Cera defeats the sharptooth by headbutting a boulder into him causing him to drown.",
@@ -1619,7 +1619,7 @@
   {
     "id": 148,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Cartoons & TV",
     "phrase_text": "As well as playing the titular character, Jenna Ortega also played Goody Addams, who Wednesday sees in her visions. A distant ancestor of her father Gomez; Goody Addams also had similar psychic powers to Wednesday and killed the villainous founder of the town of Jericho, Joseph Crackstone.",
     "error": "A distant ancestor of her father Gomez; Goody Addams also had similar psychic powers to Wednesday",
     "correction": "Um, actually, Goody Addams isn't an ancestor of Gomez. She's an ancestor of Morticia.",
@@ -1685,7 +1685,7 @@
   {
     "id": 154,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Fantasy",
     "phrase_text": "Send in the clowns! While some evil clowns are just serial killers who dress as clowns, like Twisty from \"American Horror Story\" or Captain Spaulding from \"House of 1000 Corpses\"; others are undead like the titular \"Stitches\", aliens like the \"Killer Klowns from Outer Space\" or more eldritch or demonic beings who assume the form of clowns like Pennywise from \"It\", Slappy from \"Poltergeist\", The Violator from \"Spawn\" and Art the Clown from \"Terrifier\".",
     "error": "demonic beings who assume the form of clowns like Pennywise from \"It\", Slappy from \"Poltergeist\", The Violator from \"Spawn\"",
     "correction": "Um, actually, Slappy isn't an eldritch clown. While Robbie does own an unnamed clown doll in Poltergeist which becomes possessed, Slappy was the name of the doll in the Goosebumps book \"Night of the Living Dummy\".",
@@ -1718,7 +1718,7 @@
   {
     "id": 157,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "Some of the most dangerous dinosaurs in Jurassic Park were the Velociraptors. According to Muldoon, raptors are lethal at eight months old, able to reach speeds of 60 mph, and are astonishing jumpers. They also proved to be smart enough set traps and learn how to open doors, so if you encounter one of these 'clever girls', your best strategy is to keep absolutely still, as their vision is based on movement.",
     "error": "your best strategy is to keep absolutely still, as their vision is based on movement.",
     "correction": "Um, actually, velociraptors don't have vision-based movement. T-Rexes have vision-based movement. If you encounter a raptor... just hide!",
@@ -1751,7 +1751,7 @@
   {
     "id": 160,
     "author": "By Peter the Human",
-    "category": "Cartoons & TV",
+    "category": "Comics & Superheroes",
     "phrase_text": " In \"The Greatest American Hero\", substitute teacher Ralph Hinkley encounters extra-terrestrials who give him a suit which endows him with superhuman abilities. Shortly thereafter, Ralph meets FBI Special Agent Bill Maxwell. Bill uses his FBI connections to change Ralph's surname to \"Hanley\" to preserve his secret identity, and Ralph uses the suit to fight crime and injustice, per the aliens' instructions.",
     "error": "Bill uses his FBI connections to change Ralph's surname to \"Hanley\" to preserve his secret identity,",
     "correction": "Um, actually, Ralph's surname wasn't changed to preserve a secret identity. The surname \"Hinkley\" was temporarily changed to \"Hanley\", following the assassination attempt of Ronald Reagan by John Hinckley Jr.",
@@ -1795,7 +1795,7 @@
   {
     "id": 164,
     "author": "By Peter the Human",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "Walking experimental ethics violation Eleven has demonstrated her powers many times over the course of Stranger Things. Her powers include telekinesis (such as when she flipped a van), the ability to manipulate others muscles (such as when she made the bully Troy beat himself up after an assembly), and telepathic abilities (such as when she viewed Billy's memories to find the Mind Flayer's lair).",
     "error": "the ability to manipulate others muscles (such as when she made the bully Troy beat himself up after an assembly),",
     "correction": "Um, actually, she didn't make Troy beat himself up. She made Troy pee his pants.",
@@ -1817,7 +1817,7 @@
   {
     "id": 166,
     "author": "By Peter the Human",
-    "category": "Horror",
+    "category": "Sci-Fi",
     "phrase_text": "\"Signs\" follows Episcopal priest Graham and his family amidst an alien invasion. The movie's director M. Night Shyamalan cameos as Ray Reddy, a vet responsible for the accidental death of Graham's wife. Ray subtly foreshadows the aliens' weakness by saying that he is fleeing \"over the rainbow\" - both the aliens and the Wicked Witch of the West can be killed by water.",
     "error": "Ray subtly foreshadows the aliens' weakness by saying that he is fleeing \"over the rainbow\" - both the aliens and the Wicked Witch of the West can be killed by water.",
     "correction": "Um, actually, Ray doesn't say he's fleeing \"over the rainbow\". Ray says that he's fleeing to a lakeside, and straight up says \"I don't think they like water\".",
@@ -1828,7 +1828,7 @@
   {
     "id": 167,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "One of the nine realms surrounding the world tree Yggdrasil in Norse cosmology, Asgard is the home of the Aesir tribe of gods, and also the site of Valhalla - a majestic, enormous hall presided over by Odin, where all warriors who die in combat will be led by Valkyries to prepare for the apocalyptic events of Ragnarök.",
     "error": "where all warriors who die in combat will be led by Valkyries to prepare for the apocalyptic events of Ragnarök.",
     "correction": "Um, actually, not all warriors who die in battle go to Valhalla Only half the warriors that die in battle go to Valhalla. The other half go to Freyja's field Folkvangr.",
@@ -1861,7 +1861,7 @@
   {
     "id": 170,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "The Minotaur was a part-man, part-bull monster that dwelt at the centre of a labyrinth. It was created after the King Minos refused to sacrifice a beautiful snow-white bull to Poseidon, causing Poseidon to transform the bull into the hideous Minotaur. The Minotaur was killed by Theseus, aided by Minos' daughter Ariadne, who gave Theseus a ball of thread to help him navigate the maze.",
     "error": "causing Poseidon to transform the bull into the hideous Minotaur.",
     "correction": "Um, actually, the minotaur wasn't a cursed bull. Poseidon asked Aphrodite to curse Minos' wife Pasiphaë to fall in love with the bull... and thus, the Minotaur was born.",
@@ -1971,7 +1971,7 @@
   {
     "id": 180,
     "author": "By Peter the Human",
-    "category": "History & Mythology",
+    "category": "Fantasy",
     "phrase_text": "A jealous Set murdered his brother Osiris by tricking him into getting into a sarcophagus that Set sealed shut and threw into the Nile. Osiris' wife Isis gathered the fourteen scattered pieces of his corpse, reconstituting the body to make it whole again. This allowed Isis to briefly revive Osiris and conceive their son Horus; with Osiris living on as God of the underworld thereafter.",
     "error": "Osiris' wife Isis gathered the fourteen scattered pieces of his corpse, reconstituting the body to make it whole again.",
     "correction": "Um, actually, Isis didn't reassemble Osiris' whole body. She found thirteen pieces, but was missing his genitals; so she had to make a temporary replacement.",
@@ -1993,7 +1993,7 @@
   {
     "id": 182,
     "author": "By OchiFan327",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "The furthest forward we ever go in time in Star Wars: Legends is in the \"Legacy\" comic series, where the reigning Sith Lord is Darth Krayt, a former Tusken Raider, Jedi Knight, Bounty Hunter, with parts of his body replaced by extra-galactic Yuuzhan Vong invaders, who has lived for over five hundred years.",
     "error": "who has lived for over five hundred years",
     "correction": "Um, actually, at the beginning of the \"Legacy\" series, Darth Krayt is \"only\" just over 180 years old.",
@@ -2081,7 +2081,7 @@
   {
     "id": 190,
     "author": "By bluArrowhead",
-    "category": "Comics & Superheroes",
+    "category": "Anime & Manga",
     "phrase_text": "In the world of One Piece, one of the most sought after treasures are Devil Fruits, which give supernatural abilities to whoever consumes them. These powers can range from giving your body the properties of rubber, generating fire, and even turning into animals. However, Devil Fruits do have some rules to them: A person may only have one devil fruit ability and they lose the ability to swim in saltwater.",
     "error": "A person may only have one devil fruit ability",
     "correction": "Um, actually, it is technically possible for someone to have 2 devil fruits. The pirate Blackbeard currently posses the powers of the Yami Yami no Mi and the Gura Gura no Mi, though it is currently unknown how he was able to do this.",
@@ -2103,7 +2103,7 @@
   {
     "id": 192,
     "author": "By ashw92",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "The Star Wars prequel films cover the war between the Galactic Republic and the Separatists. Some in the Star Wars universe believe that the bureaucracy of the Senate is harming their efforts in the war. To counteract this, Sheev Palpatine was elected as the first Supreme Chancellor of the Republic, granting him emergency powers to allow the use of the Clone Army without needing a vote.",
     "error": "Sheev Palpatine was elected as the first Supreme Chancellor of the Republic",
     "correction": "Um, actually, Palpetine was not the first Supreme Chancellor, that title was used for hundreds of years. He was the first given emergency powers.",
@@ -2147,7 +2147,7 @@
   {
     "id": 196,
     "author": "By ashw92",
-    "category": "Fantasy",
+    "category": "Games",
     "phrase_text": "In the early streamed episodes of Critical Role the party of Percy the fighter, Scanlan the bard, Keyleth the druid, Grog the barbarian, Vax the rogue, Vex the ranger and Pike the cleric venture into the mines below Kraghammer in search of Lady Kima of Vord at the request of Allura Vysoren.",
     "error": "the party of Percy the fighter, Scanlan the bard, Keyleth the druid, Grog the barbarian, Vax the rogue, Vex the ranger and Pike the cleric venture",
     "correction": "Um, actually, at this point the party also included Tiberius the Sorcerer.",
@@ -2169,7 +2169,7 @@
   {
     "id": 198,
     "author": "By ashw92",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "Many Star Wars ships used by the Rebel Alliance are named after the letter of the alphabet they most closely resemble. The most iconic of these are the X-Wing and Y-Wing first seen in Episode IV: A New Hope but many others have appeared in the franchise including the U-Wing which was introduced in Rogue One and the B and A Wings which were first seen in The Empire Strikes Back.",
     "error": "the B and A Wings which were first seen in The Empire Strikes Back",
     "correction": "Um, actually, the B and A wings were first seen in Return of the Jedi",
@@ -2378,7 +2378,7 @@
   {
     "id": 217,
     "author": "By ashw92",
-    "category": "Fantasy",
+    "category": "Sci-Fi",
     "phrase_text": "In Star Wars Episode 2: Attack of the Clones, Obi-Wan Kenobi visits Kamino where he learns of a clone army being created for the Galactic Empire under the approval of Sifo-Dyas, a deceased Jedi Master. The bounty hunter Jango Fett serves as the genetic template for these clones who as part of his payment request an unaltered clone for himself.",
     "error": "a clone army being created for the Galactic Empire",
     "correction": "Um, actually, the Clone Army was created for the Galactic Republic. It does not become the Galactic Empire until the climax of Revenge of the Sith.",
@@ -2404,7 +2404,7 @@
     "phrase_text": "The Red Dead Redemption games are both set in a fictional version of the American Wild West but they do venture from these places. In the first game you visit Mexico while hunting down Javier Escuela and end up embroiled in an attempted coup, playing both sides. In the sequel, after a bank heist turns bloody the surviving members of the gang flee to Cuba but end up on the fictional island of Guarma instead.",
     "error": "In the sequel, after a bank heist turns bloody",
     "correction": "Um, actually, Red Dead Redemption 2 isn’t a sequel, it’s a prequel.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 7,
     "title": "Red Dead Redemption"
   },
@@ -2543,7 +2543,7 @@
   {
     "id": 232,
     "author": "By CB Johnny",
-    "category": "Cartoons & TV",
+    "category": "Music & Real World",
     "phrase_text": "Prior to becoming a professional recording artist, \"Weird Al\" Yankovic enjoyed submitting amateur home-recorded songs to the comedy radio program \"The Dr. Demento Show.\" There, his future drummer Jon \"Bermuda\" Schwartz met Al outside the sound booth and offered to bang on his accordion case for a live in-studio performance of \"My Bologna.\"",
     "error": "a live in-studio performance of \"My Bologna.\"",
     "correction": "Um, actually, that live 1980 studio performance was \"Another One Rides the Bus.\" \"My Bologna\" was an earlier solo demo Al recorded by himself in a college bathroom, not a live in-studio recording.",
@@ -2653,7 +2653,7 @@
   {
     "id": 242,
     "author": "By SuperCJM",
-    "category": "Cartoons & TV",
+    "category": "Music & Real World",
     "phrase_text": "Walt Disney holds the record for both the most Oscar nominations and the most Oscar wins of any individual person, at 59 and 22, respectively. Though he was given Honorary Oscars for Snow White and the Seven Dwarfs and Fantasia, all of his competitive nominations were in the Documentary and Short Film categories.",
     "error": "all of his competitive nominations were in the Documentary and Short Film categories",
     "correction": "Um, actually, he received one competitive nomination for a feature-length narrative film - a Best Picture nomination for \"Mary Poppins\" at the 1965 Academy Awards.",
