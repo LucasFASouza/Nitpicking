@@ -6,8 +6,8 @@
     "phrase_text": "In the mission \"A House Divided\", Shepard faces off against a faction of Geth, a race of sentient machines. This faction, called the Heretics, are set to annihilate organic life. To stop them, Shepard must choose between peacefully negotiating with the Heretics, which awards Paragon points, or destroying the Heretics base using an antimatter bomb, which awards Renegade points.",
     "error": "Shepard must choose between peacefully negotiating with the Heretics, which awards Paragon points,",
     "correction": "Um, actually, Shepherd doesn't peacefully negotiate with the Geth in the \"Paragon\" route. The option that earns you Paragon Points is releasing an EMP that forcibly rewrites their minds.",
-    "likes": 3,
-    "dislikes": 0,
+    "likes": 6,
+    "dislikes": 2,
     "title": "Mass Effect 2"
   },
   {
@@ -17,8 +17,8 @@
     "phrase_text": "The various Spider-People in \"Spider-Man: Into the Spider-Verse\" may have all been bitten by a radioactive spider and consider themselves the \"one and only\" Spidey in their universe, but they couldn't be more different: Peter B. Parker is a divorcee living in a one-bedroom apartment, Spider Man Noir is a P.I. living in 1933 who likes to drink egg creams and fight Nazis, and Peter Porker is a photographer for the Daily Beagle.",
     "error": "may have all been bitten by a radioactive spider and consider themselves the \"one and only\" Spidey in their universe,",
     "correction": "Um, actually, not all of the Spider-Men were bitten by a radioactive spider. Peter Porker was a spider who was bitten by a radioactive pig.",
-    "likes": 16,
-    "dislikes": 1,
+    "likes": 25,
+    "dislikes": 2,
     "title": "Spider-Man: Into the Spider-Verse"
   },
   {
@@ -28,7 +28,7 @@
     "phrase_text": "Everybody's got secrets! Yor Forger is secretly an assassin, her husband Loid is secretly a spy from Westalis, and her adopted daughter Anya is secretly psychic. When Yor has to explain to her younger brother Yuri (who is secretly a member of Ostiana's Secret Police) why she hadn't told him about her marriage, she explains she needed to keep the marriage secret to help Anya get a scholarship at Eden Academy.",
     "error": "she explains she needed to keep the marriage secret to help Anya get a scholarship at Eden Academy.",
     "correction": "Um, actually, Yor doesn't give an explanation relating to Anya's scholarship. Yor's cover is simply that she forgot to tell Yuri. And then that she forgot that she had forgotten to tell Yuri.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 1,
     "title": "Spy X Family"
   },
@@ -39,7 +39,7 @@
     "phrase_text": "The female descendants of Sun Yee are afflicted with the ability to transform into giant red pandas when they experience strong emotions - a curse that manifests on a descendant's thirteenth birthday. The red panda spirit can be sealed away by performing a ritual that encases it in an object under a red moon; but protagonist Meilin Lee learns to control her power by thinking about her friends.",
     "error": "a curse that manifests on a descendant's thirteenth birthday.",
     "correction": "Um, actually, the curse doesn't manifest on their 13th birthdays. There's no clear timescale for when the curse manifests - in fact, the curse manifesting so early catches Meilin's parents off-guard, with her father saying, \"It's happened already?!\"",
-    "likes": 2,
+    "likes": 4,
     "dislikes": 0,
     "title": "Turning Red"
   },
@@ -50,7 +50,7 @@
     "phrase_text": "Have you got a \"Clue\"? In 2023, Hasbro released a new version of the classic board game. Prior to this, the British edition of the game (titled \"Cluedo\", shortened from the original title of \"Cluedunnit?\") differed slightly from the American version - the British version had Reverend Green and the deceased Dr. Black; while some American editions had Mr. Green and Mr. Boddy. The 2023 game, in both the UK and America, now have Mayor Green and Boden 'Boddy' Black Jr.",
     "error": "the British edition of the game (titled \"Cluedo\", shortened from the original title of \"Cluedunnit?\")",
     "correction": "Um, actually, Cluedo isn't short for Cluedunnit. The title Cluedo comes from a combination of \"Clue\" and \"Ludo\" - the British name for Parcheesi.",
-    "likes": 7,
+    "likes": 9,
     "dislikes": 0,
     "title": "Clue / Cluedo"
   },
@@ -61,8 +61,8 @@
     "phrase_text": "Shortly after \"Portal\" players are given their Weighted Companion Cube - a waist-high crate with a pink love heart on each side - GLaDOS informs the player character, Chell, that the cube must be euthanised in an Emergency Intelligence Incinerator to proceed. After doing so, GLaDOS informs Chell that she euthanised her companion cube more quickly than any test subject on record, the Cube is burnt up, never to be seen again.",
     "error": "and the Cube is burnt up, never to be seen again.",
     "correction": "Um, actually, the Companion Cube is seen again. The Cube is seen after the end credits of Portal, and a burnt Companion Cube (implied to be Chell's) is seen at the very end of Portal 2.",
-    "likes": 7,
-    "dislikes": 0,
+    "likes": 17,
+    "dislikes": 1,
     "title": "Portal"
   },
   {
@@ -72,7 +72,7 @@
     "phrase_text": "Westley, the farm-boy turned Dread Pirate Roberts, rescues Buttercup from her kidnapping by defeating three outlaws. He knocks out Inigo after defeating him in a fencing duel, chokes the giant Fezzik into unconsciousness, and drinks the poison-free goblet in his \"Battle of Wits\" against Vizzini.",
     "error": "and drinks the poison-free goblet in his \"Battle of Wits\" against Vizzini.",
     "correction": "Um, actually, Westley's goblet wasn't poison free. Westley poisoned both goblets, but had built up a resistance to the poisonous iocane powder.",
-    "likes": 9,
+    "likes": 16,
     "dislikes": 0,
     "title": "The Princess Bride"
   },
@@ -83,7 +83,7 @@
     "phrase_text": "Barbarians in \"Dungeons & Dragons\" are archetypically strong fighters, defined by their primal instincts and their unbridled rage. Although players have little control over their character's rage, it offers several advantages in combat, including advantage on Strength checks and saving throws and resistance to bludgeoning, piercing and slashing damage.",
     "error": "Although players have little control over their character's rage, it offers several advantages in combat,",
     "correction": "Um, actually, Barbarians can control their rage. They can enter a rage during combat as a Bonus Action during combat.",
-    "likes": 7,
+    "likes": 15,
     "dislikes": 0,
     "title": "Dungeons & Dragons"
   },
@@ -94,7 +94,7 @@
     "phrase_text": "In a famous scene, the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea. This prompts resistance members to start suggesting things the Romans have given them, including the aqueduct, sanitation, the roads, irrigation, medicine, education, wine, public order and bringing peace.",
     "error": "the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea.",
     "correction": "Um, actually, the question wasn't asked by the leader of the Judean People's Front. It was asked by the leader of the People's Front of Judea - who hates the Judean People's Front.",
-    "likes": 8,
+    "likes": 14,
     "dislikes": 0,
     "title": "Monty Python's Life of Brian"
   },
@@ -127,7 +127,7 @@
     "phrase_text": "The Cenobites are disfigured, humanoid creatures who can no longer differentiate between pain and pleasure. Their leader describes them as \"explorers in the further reaches of experience, demons to some, angels to others\". The Cenobites were summoned when the hedonistic Frank Cotton was revived by his former lover Julia bringing men to her attic, so Frank could drain their life force and regenerate his body.",
     "error": "The Cenobites were summoned when the hedonistic Frank Cotton was revived by his former lover Julia bringing men to her attic,",
     "correction": "Um, actually, the Cenobites weren't summoned by Julia reviving Frank. They were summoned by Julia's step-daughter Kirsty solving the Lament Configuration - a puzzle box that summons the Cenobites.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Hellraiser"
   },
@@ -138,7 +138,7 @@
     "phrase_text": "In \"The Avengers\", Loki steals the Tesseract from a S.H.I.E.L.D. research facility and uses it to control the mind of Clint \"Hawkeye\" Barton. This prompts Nick Fury to activate the Avengers Initiative, to capture Loki and retrieve the Tesseract. The plan seems to be successful when Loki is imprisoned on the Helicarrier, until he escapes and successfully uses the Tesseract to open a wormhole allowing a Chitauri fleet to invade New York.",
     "error": "Loki steals the Tesseract from a S.H.I.E.L.D. research facility and uses it to control the mind of Clint \"Hawkeye\" Barton.",
     "correction": "Um, actually, Loki doesn't use the Tesseract to control Hawkeye's mind. He uses the Mind Stone in his scepter, not the Space Stone in the Tesseract.",
-    "likes": 6,
+    "likes": 7,
     "dislikes": 0,
     "title": "The Avengers"
   },
@@ -149,7 +149,7 @@
     "phrase_text": "Gandalf is a wizard of the Istari order. As a member of the Fellowship of the Ring, he was one of the companions Elrond chose to aid Frodo's quest to destroy the One Ring. After Gandalf the Grey died falling from a ledge in the Mines of Moria while fighting the Balrog known as Durin's Bane; he later returned as Gandalf the White.",
     "error": "After Gandalf the Grey died falling from a ledge in the Mines of Moria while fighting the Balrog",
     "correction": "Um, actually, Gandalf doesn't die from the fall in the Mines of Moria. He survives the fall and dies ten days later after fighting the Balrog.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 1,
     "title": "Lord of the Rings"
   },
@@ -193,7 +193,7 @@
     "phrase_text": "The Batman villain Bane debuted in the Knightfall storyline, where he had a diabolical plan for defeating Batman. After escaping from Arkham Asylum, he freed other inmates (including Joker, Poison Ivy and Scarecrow) to wreak havoc on Gotham - causing Batman to spend 3 months rounding them up and running himself to exhaustion, after which Bane fought him in the Batcave and broke his back.",
     "error": "After escaping from Arkham Asylum, he freed other inmates",
     "correction": "Um, actually, Bane wasn't imprisoned in Arkham. Bane was raised in an entirely separate prison in South America called Peña Duro.",
-    "likes": 4,
+    "likes": 5,
     "dislikes": 0,
     "title": "Batman"
   },
@@ -237,7 +237,7 @@
     "phrase_text": "\"The Fifth Element\" begins in 1914, with aliens known as Mondoshawans taking a weapon for safekeeping. The weapon is designed to destroy a fireball set to collide with Earth, known as the Wolf-Beiderman comet; and consists of four classical elements as four engraved 'stones', and the titular fifth element contained in a sarcophagus. In 2263, this 'fifth element' is recreated using biotechnology as Milla Jovovich's character Leelo.",
     "error": "The weapon is designed to destroy a fireball set to collide with Earth, known as the Wolf-Beiderman comet;",
     "correction": "Um, actually, the fireball isn't called the Wolf-Beiderman comet. The comet is simply known as \"The Great Evil\". The Wolf-Beiderman comet is from Deep Impact",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "The Fifth Element"
   },
@@ -248,7 +248,7 @@
     "phrase_text": "In the episode \"Hush\", Sunnydale is terrorised by a group of ghoulish figures with metal-toothed grins and black suits known as 'The Gentlemen' that render the townspeople unable to speak - allowing them to carve their victims' hearts out in near silence. Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone's stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "error": "Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone's stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "correction": "Um, actually, the Gentlemen aren't defeated with a stake through the heart. The Gentlemen are killed by Buffy screaming.",
-    "likes": 2,
+    "likes": 4,
     "dislikes": 0,
     "title": "Buffy the Vampire Slayer"
   },
@@ -281,7 +281,7 @@
     "phrase_text": "The character designs in the 1989 film The Little Mermaid came from a wide variety of sources: the sea witch Ursula's design was based on drag performer Divine, Ariel's father King Neptune was based on the mythological figure of the same name, and supervising animator Glen Keane once joked that his wife looked exactly like Ariel \"without the fins\".",
     "error": "Ariel's father King Neptune was based on the mythological figure of the same name,",
     "correction": "Um, actually, Ariel's father isn't called King Neptune. Ariel's father is called King Triton - King Neptune is from SpongeBob SquarePants.",
-    "likes": 6,
+    "likes": 8,
     "dislikes": 0,
     "title": "The Little Mermaid"
   },
@@ -303,7 +303,7 @@
     "phrase_text": "Years after being rejected as a sidekick by Bob Parr (AKA Mr. Incredible), Buddy Pine (AKA Syndrome) lures Mr. Incredible to an island to fight his robotic Omnidroid. There, he learns that Syndrome has been perfecting his Omnidroid in order to stage an attack, by hiring different superheroes to fight it, resulting in the deaths of many of Bob's former colleagues - including Thunderhead, Stratogale, Meta Man, Dynaguy and Splashdown.",
     "error": "resulting in the deaths of many of Bob's former colleagues - including Thunderhead, Stratogale, Meta Man, Dynaguy and Splashdown.",
     "correction": "Um, actually, the dead superheroes listed here didn't die fighting the Omnidroid. They all died in cape-related accidents, shown in a montage during Edna Mode's supersuit redesign for Mr. Incredible",
-    "likes": 10,
+    "likes": 14,
     "dislikes": 0,
     "title": "The Incredibles"
   },
@@ -348,7 +348,7 @@
     "error": "leaving her as the sole survivor of the Nostromo.",
     "correction": "Um, actually, Ripley wasn't the sole survivor of the Nostromo. The ship's cat, Jones, also survives.",
     "likes": 9,
-    "dislikes": 3,
+    "dislikes": 4,
     "title": "Alien"
   },
   {
@@ -402,8 +402,8 @@
     "phrase_text": "Toriel, the motherly, goat-like figure that players encounter early on in \"Undertale\" serves as a tutorial: teaching the player the mechanics of the game and encouraging them to show mercy to their enemies rather than attack them. After giving the player a phone with which to contact her, Toriel gleefully encourages the player to leave the Ruins and explore the world.",
     "error": "Toriel gleefully encourages the player to leave the Ruins and explore the world.",
     "correction": "Um, actually, Toriel doesn't encourage the player to leave. Toriel actively tries to stop you from leaving the ruins.",
-    "likes": 3,
-    "dislikes": 1,
+    "likes": 5,
+    "dislikes": 3,
     "title": "Undertale"
   },
   {
@@ -424,7 +424,7 @@
     "phrase_text": "Supreme Chancellor Palpatine tempted Anakin Skywalker over to the Dark Side of the Force by telling him the tragedy of Darth Plagueis the Wise - a Sith Lord with the ability to prevent death and create life. This later prompts Anakin to betray his fellow Jedi Master Mace Windu: Anakin severs his hand, allowing Palpatine to blast Mace Windu through a window to his death with Force lightning.",
     "error": "This later prompts Anakin to betray his fellow Jedi Master Mace Windu:",
     "correction": "Um, actually, Anakin Skywalker isn't a Jedi Master. Anakin was appointed to the Jedi Council, but was not granted the rank of Master.",
-    "likes": 6,
+    "likes": 7,
     "dislikes": 1,
     "title": "Star Wars: Episode III - Revenge of the Sith"
   },
@@ -468,7 +468,7 @@
     "phrase_text": "Beowulf is a young warrior from Geatland who leaves his homeland to assist Hrothgar, king of the Danes, in defending his great hall from Grendel: a troll-like monster said to be descended from the biblical figure Cain. Beowulf engages in a violent battle with Grendel, eventually slaying him by stabbing him through the heart with his legendary sword Næġling.",
     "error": "eventually slaying him by stabbing him through the heart with his legendary sword Næġ1ling.",
     "correction": "Um, actually, Beowulf doesn't slay Grendel with a sword. Since Grendel is unarmed, Beowulf chooses to fight without any weapons. He defeats Grendel by tearing off Grendel's arm at the shoulder.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Beowulf"
   },
@@ -479,7 +479,7 @@
     "phrase_text": "You like Huey Lewis and the News? In an iconic scene, Patrick Bateman dons a raincoat to murder his co-worker Paul Allen with an axe. Oblivious, Allen asks, \"Hey Bateman - why are there copies of the style section all over the place?\", shortly before Bateman turns on his stereo and hacks Paul to death to the sound of \"Hip to Be Square\".",
     "error": "Oblivious, Allen asks, \"Hey Bateman - why are there copies of the style section all over the place?\",",
     "correction": "Um, actually, Paul doesn't refer to Patrick as Bateman. He refers to him as \"Halberstram\" - one of many instances throughout the film people mistake Patrick for someone else.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "American Psycho"
   },
@@ -491,7 +491,7 @@
     "error": "and replenishes health without expending a first aid kit in Silent Hill 3.",
     "correction": "Um, actually, the Konami Code doesn't replenish health in Silent Hill 3. Entering the Konami Code in Silent Hill 3 makes the character Douglas Cartland appear in his underpants during cutscenes.",
     "likes": 1,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Konami Code"
   },
   {
@@ -534,7 +534,7 @@
     "phrase_text": "The Injustice comics follow an alternate timeline in which Superman becomes a dictator. Superman's descent begins when Joker lures him into a trap: Joker had stolen a nuclear weapon which he placed in the center of Metropolis, set to detonate when Doomsday's heart stopped. After Superman finds Doomsday and launches him into outer space, he inadvertently detonates the device and kills the citizens of Metropolis.",
     "error": "set to detonate when Doomsday's heart stopped. After Superman finds Doomsday and launches him into outer space,",
     "correction": "Um, actually, Doomsday wasn't part of Joker's plan. The device was linked to Lois Lane's heart. Superman killed Lois Lane, thinking she was Doomsday under the influence of Scarecrow's Fear Toxin.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Injustice: Gods Among Us"
   },
@@ -556,7 +556,7 @@
     "phrase_text": "With the exception of the \"data-dog\" Ein, the crew of the Bebop all had significant life events occur in 2068, three years prior to the events of the series: Spike Spiegel and Jet Black formed their partnership, con artist Faye Valentine was placed into cryofreeze after a space shuttle accident, and juvenile hacker Ed Wong departed from her orphanage.",
     "error": "con artist Faye Valentine was placed into cryofreeze after a space shuttle accident,",
     "correction": "Um, actually, faye wasn't placed into cryofreeze in 2068. She was placed into cryofreeze in 2014 - she was woken in 2068",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Cowboy Bebop"
   },
@@ -578,7 +578,7 @@
     "phrase_text": "Cubone is a Generation I Ground Type Pokémon, which evolves into Marowak at level 28. A small, bipedal, dinosaur-like creature; it wields a bone as a weapon (allowing it to learn the unique moves Bone Club and Bonemerang), and has a tough, skull-like exoskeleton attached to its head, which may explain its Battle Armour ability.",
     "error": "and has a tough, skull-like exoskeleton attached to its head,",
     "correction": "Um, actually, Cubone doesn't have an exoskeleton. Cubone wears its dead mother's head as a helmet.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 1,
     "title": "Pokémon"
   },
@@ -589,7 +589,7 @@
     "phrase_text": "In \"The Legend of Zelda: Ocarina of Time\", Link uses the titular ocarina to travel through time between the \"child\" and \"adult\" timelines. Link must travel back and forth across the two times, set 7 years apart, in order to awaken the sages and ultimately defeat Ganondorf.",
     "error": "Link uses the titular ocarina to travel through time between the \"child\" and \"adult\" timelines.",
     "correction": "Um, actually, Link doesn't use the Ocarina to travel through time. Link uses the Ocarina to open the Temple of Time which contains the Master Sword - which allows him to travel through time.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "The Legend of Zelda: Ocarina of Time"
   },
@@ -644,7 +644,7 @@
     "phrase_text": "Prince Adam is endowed with fabulous secret powers whenever he holds the Sword of Power aloft and proclaims, \"By the Power of Grayskull!\", transforming him into He-Man. He uses this power to defend the planet Etheria from the forces of the villainous Skeletor, who seeks to conquer Castle Grayskull and become powerful enough to rule the Universe.",
     "error": "He uses this power to defend the planet Etheria from the forces of the villainous Skeletor,",
     "correction": "Um, actually, He-Man doesn't live on Etheria. He-Man's planet is called Eternia. His sister She-Ra's planet is called Etheria.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 2,
     "title": "He-Man and the Masters of the Universe"
   },
@@ -666,7 +666,7 @@
     "phrase_text": "The webseries \"Don't Hug Me I'm Scared\" and the TV series of the same name are surreal-musical-comedy-horror shows which combine puppetry with animation. In both the web and TV series, series co-creator Joseph Pelling plays 'Red Guy': a tall red creature who usually speaks in a monotone, inexpressive voice despite the horrific events that unfold around him - making it even more jarring when we hear him raise his voice for the first time in the opening theme of Episode 4 of the TV series, screaming, \"And we live in an ACTUAL NIGHTMARE!\"",
     "error": "making it even more jarring when we hear him raise his voice for the first time in the opening theme of Episode 4 of the TV series,",
     "correction": "Um, actually, that isn't the first time Red Guy raises his voice. Three episodes beforehand, in the series premiere 'Jobs', Red Guy learns how to scream down the phone to deal with customers.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Don't Hug Me I'm Scared"
   },
@@ -699,7 +699,7 @@
     "phrase_text": "\"The Mist\" follows a group of people trapped in a supermarket when a mysterious mist populated by tentacled beings, giant insects and pterodactyl-like creatures descends on their town. Although the supermarkets' patrons descend into religious fervor and begin sacrificing people to the monsters, the protagonist David and four other survivors make it to his car and are saved by the Army when the mist disperses.",
     "error": "the protagonist David and four other survivors make it to his car and are saved by the Army when the mist disperses.",
     "correction": "Um, actually, the four other survivors aren't rescued by the Army. Thinking they're doomed, David mercy kills his fellow survivors before stepping out the car to be killed by the monsters, moments before the Army arrives.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "The Mist"
   },
@@ -721,7 +721,7 @@
     "phrase_text": "In order to test if an individual's awareness is stronger than their instincts, the Bene Gesserit issue a \"Test of Humanity\" involving the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it. When the Reverend Mother Mohiam tested Paul Atreides, he passed the test despite being exposed to more pain than anyone else before him.",
     "error": "the gom jabbar - a box that inflicts great physical pain on anyone who inserts their hand into it.",
     "correction": "Um, actually, the box isn't called the gom jabbar. The gom jabbar refers to the poison-tipped needle that's held against a person's neck while they put their hand in the box.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 0,
     "title": "Dune"
   },
@@ -754,7 +754,7 @@
     "phrase_text": "In \"Diamond is Unbreakable\", Josuke meets Okuyasu, a Stand user who can use his hands to erase anything from the universe, be it physical matter or space itself. Okuyasu eventually befriends Josuke, enrolling in their high school and seeking revenge against the Stand named Red Hot Chili Pepper.",
     "error": "Josuke meets Okuyasu, a Stand user who can use his hands to erase anything from the universe,",
     "correction": "Um, actually, Okuyasu doesn't use his hands to activate his Stand. His ability only works with his right hand - not both his hands.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "JoJo's Bizarre Adventure"
   },
@@ -765,7 +765,7 @@
     "phrase_text": "The stage musical, loosely based on the 1960 low-budget movie \"The Little Shop of Horrors\", follows Seymour Krelborn, who finds a strange plant that he names Audrey II after his co-worker. Audrey II must consume blood to survive and eventually plans world domination, but is defeated when Seymour electrocutes Audrey II, blowing it up.",
     "error": "but is defeated when Seymour electrocutes Audrey II, blowing it up.",
     "correction": "Um, actually, Seymour doesn't defeat Audrey II. The film adaptation ends with Audrey II's electrocution - but in the musical, it's implied that it succeeds in eating all of humanity.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Little Shop of Horrors"
   },
@@ -810,7 +810,7 @@
     "error": "a moonbase called Hyperion, which he uses to control the ECHOnet system and place the planet under full surveillance.",
     "correction": "Um, actually, handsome Jack doesn't control ECHONet using the Hyperion moonbase. He gains control of ECHOnet and surveillance using his daughter Angel - who can 'phaseshift' to act like an Artificial Intelligence.",
     "likes": 1,
-    "dislikes": 2,
+    "dislikes": 4,
     "title": "Borderlands 2"
   },
   {
@@ -876,7 +876,7 @@
     "error": "including Scarlet Witch, Valkyrie, Okoye, Pepper Potts, Mantis, Black Widow, Shuri, Wasp, Gamora and Nebula.",
     "correction": "Um, actually, Black Widow wasn't present at the battle against Thanos. Black Widow had died earlier in the film, sacrificing herself to retrieve the Soul Stone.",
     "likes": 6,
-    "dislikes": 2,
+    "dislikes": 3,
     "title": "Avengers: Endgame"
   },
   {
@@ -920,7 +920,7 @@
     "error": "Seita retrieves some supplies that he buried before the bombing, but ultimately turns all his supplies over to his aunt.",
     "correction": "Um, actually, Seita didn't give his aunt all his supplies. He saved one thing - a tin of Sakuma drops (a type of hard candy).",
     "likes": 1,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Grave of the Fireflies"
   },
   {
@@ -974,7 +974,7 @@
     "phrase_text": "\"Perfect Blue\" follows Mima Kirigoe, who leaves her idol group to become an actress. Unfortunately, this earns the wrath of a lone stalker, who starts killing people involved in Mima's new career. The stalker also impersonates Mima online, demonstrating knowledge about the most intimate details of her life (including her shopping habits and how she steps off the train) - causing Mima to question her own sanity.",
     "error": "Unfortunately, this earns the wrath of a lone stalker, who starts killing people involved in Mima's new career.",
     "correction": "Um, actually, Mima isn't harassed by a lone stalker. Mima has two stalkers - an obsessive fan, and her manager who has begun to see herself as the \"real\" Mima and impersonates her online",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 1,
     "title": "Perfect Blue"
   },
@@ -1029,7 +1029,7 @@
     "phrase_text": "Uncle Ruckus is a self-loathing black man who holds extremely racist views towards all non-white people. Frequently antagonistic towards the Freeman family, he lives in a one-room shack on the outskirts of Woodcrest. At various times he has claimed to be a Caucasian man with \"re-vitiligo\"; and uses his French and Irish ancestry (confirmed in his DNA test) as evidence of his whiteness.",
     "error": "and uses his French and Irish ancestry (confirmed in his DNA test) as evidence of his whiteness.",
     "correction": "Um, actually, the DNA test didn't confirm Ruckus' French or Irish ancestry. Uncle Ruckus' DNA test told him he's 102% African with a 2% margin of error.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 0,
     "title": "The Boondocks"
   },
@@ -1073,7 +1073,7 @@
     "phrase_text": "\"Inside Job\" is a workplace comedy set in a world where many conspiracy theories are real. The series follows Reagan Ridley, a scientist working at Cognito Inc. - one of six organizations that secretly control the world. The other five organizations are the Atlanteans, the Reptoids, the Catholic Church, Vampires (such as Keanu Reeves) and the Illuminati (whose members include Jay-Z and Beyoncé).",
     "error": "Vampires (such as Keanu Reeves) and the Illuminati (whose members include Jay-Z and Beyoncé).",
     "correction": "Um, actually, vampires aren't one of the organizations that control the world. The fifth group not mentioned here are the Juggalos - fans of the band Insane Clown Posse who control all the world's finances.",
-    "likes": 4,
+    "likes": 6,
     "dislikes": 0,
     "title": "Inside Job"
   },
@@ -1172,7 +1172,7 @@
     "phrase_text": "\"Halloween III: Season of the Witch\" is the only film in the Halloween franchise where Michael Meyers doesn't appear. An attempt to turn the franchise into an anthology series; the plot instead centers around an evil company known as Silver Shamrock, who plans to channel the power of Stonehenge via Halloween masks, turning childrens' heads into snakes.",
     "error": "\"Halloween III: Season of the Witch\" is the only film in the Halloween franchise where Michael Meyers doesn't appear.",
     "correction": "Um, actually, Michael Myers does appear in Halloween III. In one scene, a clip of Michael Meyers from the original Halloween film can be seen on a TV in the background - Michael's mask is next to the TV in the same scene.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Halloween III: Season of the Witch"
   },
@@ -1249,8 +1249,8 @@
     "phrase_text": "Thanos is a particularly quotable villain. Some of his lines from Infinity War include: \"The hardest choices require the strongest wills\", \"A simple spell, but quite unbreakable\", \"Dread it, run from it, destiny arrives all the same\", and \"Perfectly balanced, as all things should be\".",
     "error": "Some of his lines from Infinity War include: \"The hardest choices require the strongest wills\", \"A simple spell, but quite unbreakable\",",
     "correction": "Um, actually, \"A simple spell, but quite unbreakable\" wasn't said by Thanos. It was said by Doctor Strange - but, like many of Thanos' lines, it became a meme.",
-    "likes": 8,
-    "dislikes": 0,
+    "likes": 9,
+    "dislikes": 1,
     "title": "Avengers: Infinity War"
   },
   {
@@ -1261,7 +1261,7 @@
     "error": "and then travelled back in time to the date of the funeral on March 25th 2019, still aged 15.",
     "correction": "Um, actually, Five isn't still 15 years old. Five Hargreaves lived for 45 years after the apocalypse without aging, time travelling back to the date of the funeral from the year 2064. Five is 77 years old, but still appears to be 15.",
     "likes": 3,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "The Umbrella Academy"
   },
   {
@@ -1316,7 +1316,7 @@
     "error": "Other ships in One Piece include Sexy Foxy, Nostra Castello, Oro Jackson, Queen Anne's Revenge, Shark Superb,",
     "correction": "Um, actually, Queen Anne's Revenge isn't a ship from One Piece. It was an actual pirate ship captained by Blackbeard.",
     "likes": 4,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "One Piece"
   },
   {
@@ -1348,7 +1348,7 @@
     "phrase_text": "After computer hacker Thomas Anderson (aka Neo) takes the red pill, he learns that he lives a simulated reality known as 'The Matrix' - modelled on Earth in the year 1999. The Matrix was created after intelligent machines won the war against humanity by blocking out the Sun via a nuclear winter, causing Earth's ecosystems to collapse. Humanity was then kept alive in The Matrix while the machines harvested their bioelectric power.",
     "error": "The Matrix was created after intelligent machines won the war against humanity by blocking out the Sun via a nuclear winter,",
     "correction": "Um, actually, the machines didn't block out the sun. Humans blocked out the sun in an attempt to kill the machines, which ran on solar power.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 0,
     "title": "The Matrix"
   },
@@ -1403,7 +1403,7 @@
     "phrase_text": "Marceline the Vampire Queen is a half-vampire/half-demon who plays a bass guitar, which she crafted from her family's heirloom battle-axe. At a little over a thousand years old, her immortality is sustained by drinking blood; and she has gained several supernatural powers from absorbing the essence of powerful vampires - including the powers of flight, invisibility, shape-shifting and rapid healing.",
     "error": "t a little over a thousand years old, her immortality is sustained by drinking blood;",
     "correction": "Um, actually, Marceline's immortality isn't sustained by drinking blood. Marceline can drink the color red instead of blood.",
-    "likes": 6,
+    "likes": 7,
     "dislikes": 0,
     "title": "Adventure Time"
   },
@@ -1425,7 +1425,7 @@
     "phrase_text": "In the episode \"Pickle Rick\", Rick turns himself into a pickle to avoid going to family therapy. A series of bizarre events leads to Rick, as a pickle in an exo-suit made from rat parts, doing battle with a group of Russian agents who mistake him for the legendary assassin Baba Yaga. Rick ultimately defeats the Agency Director by teaming up with a fighter known as Jaguar, that had been sent to kill him.",
     "error": "doing battle with a group of Russian agents who mistake him for the legendary assassin Baba Yaga.",
     "correction": "Um, actually, the agents didn't mistake Rick for Baba Yaga. Baba Yaga was the nickname given to John Wick, which this episode is partly an homage to. Pickle Rick was actually called \"Solen'ya\" - a pickle man who crawls from bowls of soup and steals the dreams of wasteful children.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 0,
     "title": "Rick and Morty"
   },
@@ -1436,8 +1436,8 @@
     "phrase_text": "The Teenage Mutant Ninja Turtles are four turtles who were exposed to a mutagenic \"ooze\" and adopted by Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi. Master Splinter adopts the turtles as his sons: naming them after Italian Renaissance artists and training them in the art of ninjitsu.",
     "error": "Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi.",
     "correction": "Um, actually, Master Splinter wasn't a rat belonging to Hamato Yoshi. This is Splinter's origin in the original comic books and some other adaptations - in the 1987 cartoon, Master Splinter is Hamato Yoshi. He mutated when the ooze combined his DNA with that of sewer rats.",
-    "likes": 4,
-    "dislikes": 8,
+    "likes": 5,
+    "dislikes": 10,
     "title": "Teenage Mutant Ninja Turtles"
   },
   {
@@ -1480,8 +1480,8 @@
     "phrase_text": "Katniss Everdeen, and her love interests Peeta Mellark and Gale Hawthorne all hail from District 12 of Panem. Having only produced 2 winners before the events of the first book and its film adaptation (Haymitch Abernathy and another unnamed winner who died of natural causes); Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "error": "Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "correction": "Um, actually, Katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose.",
-    "likes": 10,
-    "dislikes": 5,
+    "likes": 11,
+    "dislikes": 6,
     "title": "The Hunger Games"
   },
   {
@@ -1491,7 +1491,7 @@
     "phrase_text": "The Boys are a vigilante group including Hughie, who joined the team after his girlfriend was killed by the superhero A-Train, weapons expert Frenchie, Butcher, who leads the team and earned his nickname from his violent methods, military veteran Mother's Milk, and The Female, a selectively mute woman - although nameless in the original comics, her name was revealed to be Kimiko Miyashiro in the TV adaptation.",
     "error": "weapons expert Frenchie, Butcher, who leads the team and earned his nickname from his violent methods,",
     "correction": "Um, actually, Butcher's nickname doesn't come from his violent methods. Butcher's actual name is Billy Butcher.",
-    "likes": 4,
+    "likes": 5,
     "dislikes": 0,
     "title": "The Boys"
   },
@@ -1547,7 +1547,7 @@
     "error": "an intense obstacle course that remained unbeaten throughout the show's original ten seasons.",
     "correction": "Um, actually, the Way of the Warrior wasn't unbeaten. The course was only ever beaten four times in ten seasons - by the warriors Ishal, Varna, Worjo and Kinsa.",
     "likes": 2,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Raven"
   },
   {
@@ -1568,7 +1568,7 @@
     "phrase_text": "\"Super Smash Bros. Ultimate\" players are spoilt for choice of female characters with playable characters such as Peach, Zelda, Bayonetta, Isabelle and Lucina - but in the original \"Super Smash Bros. 64\", options were far more limited, with a choice of only ten male characters and two Pokémon: Pikachu and Jigglypuff.",
     "error": "with a choice of only ten male characters and two Pokémon: Pikachu and Jigglypuff.",
     "correction": "Um, actually, there was a female character in the original Super Smash Bros. Samus Aran from Metroid is female, and was in the original Super Smash Bros.",
-    "likes": 4,
+    "likes": 6,
     "dislikes": 0,
     "title": "Super Smash Bros."
   },
@@ -1590,7 +1590,7 @@
     "phrase_text": "You probably know the first and second rules of Fight Club - but what about the others? Among Fight Club's other six rules are \"Only two guys to a fight\", \"No biting, no gouging\", \"Fights will go on as long as they have to\" and \"If this is your first night at Fight Club, you have to fight\".",
     "error": "Among Fight Club's other six rules are \"Only two guys to a fight\", \"No biting, no gouging\",",
     "correction": "Um, actually, \"No biting, no gouging\" is not a rule of Fight Club. That's a rule of Ancient Greek wrestling",
-    "likes": 5,
+    "likes": 8,
     "dislikes": 0,
     "title": "Fight Club"
   },
@@ -1612,7 +1612,7 @@
     "phrase_text": "On their way to the Great Valley, Littlefoot and friends encounter the Tyrannosaurus - or \"sharptooth\" - that killed Littlefoot's mother several times. The group eventually defeats the sharptooth by using the tar pits in the Mountains that Burn to make themselves resemble a tar monster, scaring the sharptooth away.",
     "error": "The group eventually defeats the sharptooth by using the tar pits in the Mountains that Burn to make themselves resemble a tar monster,",
     "correction": "Um, actually, that isn't how they defeat the sharptooth. The group disguises themselves as a tar monster to scare away the \"domeheads\"; but Cera defeats the sharptooth by headbutting a boulder into him causing him to drown.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 6,
     "title": "The Land Before Time"
   },
@@ -1645,7 +1645,7 @@
     "phrase_text": "Let's talk about Pokémon evolution chains! Geodude evolves into Graveler who evolves into Golem. Slowpoke evolves into Slowbro, who evolves into Slowking. Elekid evolves into Electabuzz, who evolves into Electivire. Cleffa evolves into Clefairy, who evolves into Cleafable. And, of course, Igglybuff evolves into Jigglypuff, who evolves into Wigglytuff.",
     "error": "Slowpoke evolves into Slowbro, who evolves into Slowking.",
     "correction": "Um, actually, Slowbro doesn't evolve into Slowking. Slowpoke can either evolve into Slowbro or Slowking, but it's not an evolution chain like the other three listed here.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 1,
     "title": "Pokémon"
   },
@@ -1656,7 +1656,7 @@
     "phrase_text": "The NES game \"Super Mario Bros. 3\" gave players a series of brand-new power-ups: the \"Frog Suit\" increases Mario's jumping height as well as his underwater speed and agility. The \"Super Leaf\" suit gives Mario the ability fly for a short period of time and turn into a statue to 'ground pound' enemies; and the \"Hammer Suit\" allows Mario to throw hammers at enemies and resist fire attacks when crouching.",
     "error": "The \"Super Leaf\" suit gives Mario the ability fly for a short period of time and turn into a statue to 'ground pound' enemies;",
     "correction": "Um, actually, the Super Leaf Suit doesn't let Mario ground pound. The Tanooki Suit allows Mario to ground pound, the Super Leaf suit only gives him the ability to fly.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 0,
     "title": "Super Mario Bros. 3"
   },
@@ -1678,7 +1678,7 @@
     "phrase_text": "The Brain Spawn are a species of sentient, flying brains that were responsible for the extinction of the dinosaurs, and invaded planet Earth during the 31st century. The species has the ability to render nearly all humans stupid - the sole exception being Fry; who is immune to this power because he lacks the delta brainwave, as a result of being cryogenically frozen.",
     "error": "who is immune to this power because he lacks the delta brainwave, as a result of being cryogenically frozen.",
     "correction": "Um, actually, Fry doesn't lack the delta brainwave because of being frozen. He lacks the brainwave because he is his own grandfather (due to some \"nasty in the past-y\")",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 1,
     "title": "Futurama"
   },
@@ -1700,7 +1700,7 @@
     "phrase_text": "The titular Princess Mononoke was abandoned by her parents as a child after the wolf goddess Moro attacked them for destroying the forest. Moro gave Mononoke her name and raised her as her own daughter - and as such, she is also very concerned with protecting the forest and the animals and spirits she lives with from the citizens of Irontown, who are clearcutting the forest to mine iron.",
     "error": "Moro gave Mononoke her name and raised her as her own daughter",
     "correction": "Um, actually, Moro didn't give her the name Mononoke. \"Princess Mononoke\" is a title that the residents of Iron Town gave her. Mononoke are supernatural, shape-shifting beings. The name Moro gave to her is San - Japanese for \"three\".",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 1,
     "title": "Princess Mononoke"
   },
@@ -1711,7 +1711,7 @@
     "phrase_text": "Set in the Forgotten Realms setting of D&D, \"Honor Among Thieves\" opens with a scenario familiar to all D&D players. The bard Edgin Darvis recounts his backstory to the uninterested Absolution Council of the prison Revel's End while waiting on an absent member - the aarakocra, Jarnathan. After he is denied parole, he escapes (along with the barbarian Holga Kilgore) when Jarnathan arrives by grabbing him and jumping through a window.",
     "error": "After he is denied parole, he escapes (along with the barbarian Holga Kilgore)",
     "correction": "Um, actually, Edgin and Holga aren't denied parole. They escape before they're read the verdict on their parole - which was approved.",
-    "likes": 7,
+    "likes": 8,
     "dislikes": 0,
     "title": "Dungeons & Dragons: Honor Among Thieves"
   },
@@ -1788,7 +1788,7 @@
     "phrase_text": "The town of Gravity Falls is home to all kinds of peculiar creatures: including the hyper-masculine Manotaurs, the Trickster that emerges every Halloween to punish children who don't show respect to the Halloween spirit, the Lilliputtians (small, golf-ball headed hominids who secretly run Ye Royal Discount Putt Hutt) and gnomes who can stack themselves together to form a giant, gnome-like monster.",
     "error": "the Trickster that emerges every Halloween to punish children who don't show respect to the Halloween spirit,",
     "correction": "Um, actually, the Trickster doesn't come out on Halloween. The Trickster comes out on Summerween - a summer festival that uses jack-o-melons instead of jack-o-lanterns.",
-    "likes": 11,
+    "likes": 12,
     "dislikes": 0,
     "title": "Gravity Falls"
   },
@@ -1876,8 +1876,8 @@
     "phrase_text": "The Guardians of the Galaxy from the film of the same name consist of Peter \"Star-Lord\" Quill, a half-human man who was raised by the Ravagers; Gamora, who was trained to be a personal assassin for the Mad Titan Thanos; the warrior Drax, who seeks to avenge his family's death at the hands of Ronin the Accuser; and two bounty hunters - humanoid tree-like creature Groot, who we only ever hear say \"I am Groot\"; and Rocket, a genetically engineered raccoon.",
     "error": "humanoid tree-like creature Groot, who we only ever hear say \"I am Groot\";",
     "correction": "Um, actually, Groot doesn't only say \"I am Groot\". He says \"We are Groot\" when he sacrifices himself in \"Guardians of the Galaxy\" and \"I love you guys\" in \"Guardians of the Galaxy: Vol. 3\"",
-    "likes": 1,
-    "dislikes": 4,
+    "likes": 2,
+    "dislikes": 5,
     "title": "Guardians of the Galaxy"
   },
   {
@@ -1887,7 +1887,7 @@
     "phrase_text": "\"The Death of Superman\" was a trilogy of story arcs that ran through the early 90s. In the third and final story arc, after the Justice League International, Professor Emil Hamilton and Bibbo Bibbowski fail to stop the supervillain Doomsday; Doomsday and Superman kill each other. The arc concludes with Superman's funeral being attended by a variety of superheroes and supervillains, as well as Bill and Hillary Clinton.",
     "error": "In the third and final story arc, after the Justice League International, Professor Emil Hamilton and Bibbo Bibbowski fail to stop the supervillain Doomsday;",
     "correction": "Um, actually, those events didn't occur during the third story arc. Superman dies at the end of the first arc. The second arc deals with Superman's funeral and the fallout from his death, and he returns in the third arc.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 1,
     "title": "The Death of Superman"
   },
@@ -1898,8 +1898,8 @@
     "phrase_text": "Professor Charles Xavier turned his family mansion into the Xavier School for Gifted Youngsters, where he could train mutants to use their powers to benefit mankind. He assembled a team under the name 'X-Men', originally consisting of Cyclops, Iceman, Beast, Angel and Marvel Girl. Later additions to the team included Wolverine, Jean Grey, Storm, Rogue and Gambit.",
     "error": "Later additions to the team included Wolverine, Jean Grey, Storm, Rogue and Gambit.",
     "correction": "Um, actually, Jean Grey wasn't a later addition to the team. Jean Grey is the same person as Marvel Girl.",
-    "likes": 6,
-    "dislikes": 1,
+    "likes": 7,
+    "dislikes": 2,
     "title": "X-Men"
   },
   {
@@ -1909,8 +1909,8 @@
     "phrase_text": "Springfield might not strike you as the first place you'd go for a primer on classic and modern literature, but many of The Simpsons' Treehouse of Horror episodes have referenced literary works; including W. W. Jacobs' \"The Monkey's Paw\", H. G. Wells' \"The Island of Doctor Moreau\", Edgar Allen Poe's \"The Tell-tale Heart\", Mary Shelly's \"Frankenstein\", Stephen King's \"The Shining\" and Ray Bradbury's \"A Sound of Thunder\".",
     "error": "including W. W. Jacobs' \"The Monkey's Paw\", H. G. Wells' \"The Island of Doctor Moreau\", Edgar Allen Poe's \"The Tell-tale Heart\",",
     "correction": "Um, actually, Treehouse of Horror never referenced \"The Tell-tale Heart\". The Tell-tale Heart was referenced in the episode \"Lisa's Rival\", but never as part of Treehouse of Horror",
-    "likes": 5,
-    "dislikes": 2,
+    "likes": 6,
+    "dislikes": 3,
     "title": "The Simpsons"
   },
   {
@@ -1920,7 +1920,7 @@
     "phrase_text": "The Nether is an eerie, Hell-like dimension that can only be accessed through a Nether Portal. Although dangerous, players may choose to venture into the Nether to find items useful in brewing potions, mine materials such as Glowstone or Nether Quartz, and obtain unique items from mobs such as Wither Skeletons and Blazes - and since night and day aren't visible in the Nether, players may sleep to set their spawn point at any time.",
     "error": "and since night and day aren't visible in the Nether, players may sleep to set their spawn point at any time.",
     "correction": "Um, actually, players cannot sleep in the Nether. If you sleep in the Nether, your bed will explode, insta-killing you.",
-    "likes": 12,
+    "likes": 15,
     "dislikes": 0,
     "title": "Minecraft"
   },
@@ -1931,7 +1931,7 @@
     "phrase_text": "\"Animal Crossing: New Horizons\" saw the return of Tom Nook - and his eye-wateringly high debts! Players find themselves and two villagers booked on the Nook Inc. Deserted Island Getaway Package. To progress in the game, players must pay the 49,800 Bells cost: although the package does include the brand new NookPhone.",
     "error": "To progress in the game, players must pay the 49,800 Bells cost:",
     "correction": "Um, actually, players don't have to pay Bells. Since the player has no Bells at the start of the game, Tom sets the cost of the package as being 5,000 NookMiles.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 0,
     "title": "Animal Crossing: New Horizons"
   },
@@ -1986,7 +1986,7 @@
     "phrase_text": "The vast majority of Avengers: Endgame takes place five years after the devastating \"Snap\", when Thanos extinguished half of life in the universe with the Infinity Gauntlet. The Avengers discover that they can still use the Time Stone to go back in time and put the remaining Infinity Stones together to reverse the effect of the Snap.",
     "error": "The Avengers discover that they can still use the Time Stone to go back in time",
     "correction": "Um, actually, the Time Stone is completely destroyed along with the other Infinity Stones post-\"Snap\". They actually use Pym Particles to go back in time.",
-    "likes": 8,
+    "likes": 9,
     "dislikes": 0,
     "title": "Avengers: Endgame"
   },
@@ -2140,7 +2140,7 @@
     "phrase_text": "In 2018’s God Of War, Kratos and his son Atreus travel throughout six of the nine realms of norse mythology including Alfheim, Helheim and Jotunheim. Despite the shift in pantheon, Kratos’ penchant for god killing continues with him claiming the lives of Magni, Modi and Baldur throughout the course of the game.",
     "error": "with him claiming the lives of Magni, Modi and Baldur",
     "correction": "Um, actually, Atreus - not Kratos, - kills Modi.",
-    "likes": 4,
+    "likes": 6,
     "dislikes": 0,
     "title": "God Of War"
   },
@@ -2206,7 +2206,7 @@
     "phrase_text": "Prior to the version of the Matrix we see in the first three films, the Architect had experimented with two known prototype versions. The first was designed to be a perfect world with no suffering and constant happiness but failed as many human minds did not accept the programming. The second version was the opposite, incorporating nightmarish elements and horror creatures to tap into humanity’s grotesque nature. Taking learnings from these failed attempts and a discovery from a program called The Analyst, the Architect built the version of the Matrix we see which offers choice to the humans, keeping them engaged with the virtual world.",
     "error": "Taking learnings from these failed attempts and a discovery from a program called The Analyst",
     "correction": "Um, actually, it was the Oracle who gave their findings. The Analyst is the replacement for the Architect in the fourth film.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "The Matrix"
   },
@@ -2240,7 +2240,7 @@
     "error": "when Woody, after addressing Sid directly with his internal voice box, turns his head 360 degrees and says to Sid “So play nice.”",
     "correction": "Um, actually, all of Sid’s toys come to life as well to try and scare him. Woody's quote is just the final bit.",
     "likes": 0,
-    "dislikes": 7,
+    "dislikes": 8,
     "title": "Toy Story"
   },
   {
@@ -2250,7 +2250,7 @@
     "phrase_text": "The Marvel Cinematic Universe now encompasses an enormous number of films and tv series with frequent crossovers and connections, even outside of direct sequels. This interconnectedness between different superheroes started in Iron Man 2 where the post credit scene shows the discovery of Thor’s hammer.",
     "error": "This interconnectedness between different superheroes started in Iron Man 2",
     "correction": "Um, actually, the interconnectedness was already stated in both Iron Man 1, with Nick Fury mentioning the Avenger Initiative, and The Incredible Hulk, with Tony Stark appearing in the post credits.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 1,
     "title": "Marvel"
   },
@@ -2284,7 +2284,7 @@
     "error": "the Honda Pod",
     "correction": "Um, actually, it was the Toyota Pod.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Gran Turismo"
   },
   {
@@ -2316,7 +2316,7 @@
     "phrase_text": "Pokemon games have a tendency to introduce a new gimmick to the gameplay with each new generation of games. Generation 3 introduced double battles with Ruby and Sapphire, Mega Evolutions were introduced in Generation 6’s Pokemon X and Y and the mid generation 7 upgraded games Ultra Sun and Ultra Moon introduced Dynamaxing and Gigantamaxing.",
     "error": "and the mid generation 7 upgraded games Ultra Sun and Ultra Moon introduced Dynamaxing and Gigantamaxing",
     "correction": "Um, actually, Dynamaxing and Gigantamaxing were introduced in Generation 8 with Sword and Shield",
-    "likes": 6,
+    "likes": 7,
     "dislikes": 1,
     "title": "Pokemon"
   },
@@ -2339,7 +2339,7 @@
     "error": "led by Cloud’s childhood friend Tifa Lockhart",
     "correction": "Um, acutally, Barret leads this cell of Avalanche, not Tifa.",
     "likes": 2,
-    "dislikes": 1,
+    "dislikes": 2,
     "title": "Final Fantasy VII Remake"
   },
   {
@@ -2349,7 +2349,7 @@
     "phrase_text": "In the events of Portal 2, the main character, Chell, defeats Wheatley, the rogue AI who temporarily gained control of the underground facility, by teleporting him to the moon, but escapes the facility before the GLaDoS, the main villain of the series, can regain control and trap Chell in the testing chambers indefinitely.",
     "error": "but escapes the facility before the GLaDoS, the main villain of the series, can regain control",
     "correction": "Um, actually, GLaDoS just lets Chell go - claiming she is just too hard to kill.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Portal 2"
   },
@@ -2371,7 +2371,7 @@
     "phrase_text": "The Assassin’s Creed series of games began with the player taking charge of Desmond Miles as he uses the Animus to access the memories of his ancestors including Altair, Ezio, Haytham Kenway and Edward Kenway. After Desmond’s death, the present day character role is filled by a rotating selection of characters including Abstergo researchers.",
     "error": "Edward Kenway",
     "correction": "Um, actually, Desmond didn’t control Edward Kenway - as he was killed in Assassins Creed 3, and Edward is the protagonist of the fourth entry in the series.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Assassin’s Creed"
   },
@@ -2416,7 +2416,7 @@
     "error": "Terminator 3: Dawn of the Machines",
     "correction": "Um, actually, the third film is called Terminator 3: Rise of the Machines",
     "likes": 1,
-    "dislikes": 1,
+    "dislikes": 2,
     "title": "Terminator"
   },
   {
@@ -2470,7 +2470,7 @@
     "phrase_text": "2023’s Mortal Kombat 1 served as the third reboot for the series’ timeline. Following Liu Kang becoming the Keeper of Time he strives to maintain peace between all the realms as well as continuing the Mortal Kombat Tournaments. While Raiden wins the tournament and becomes Eathrealm’s Champion the previously powerless Shang Tsung regains his abilities thanks to a mysterious individual named Damashi.",
     "error": "the third reboot for the series’ timeline",
     "correction": "Um, actually, the game is the second reboot - after 2011’s Mortal Kombat.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 1,
     "title": "Mortal Kombat"
   },
@@ -2504,7 +2504,7 @@
     "error": "the player takes control of Peter Parker, Miles Morales and Mary Jane Watson throughout the story",
     "correction": "Um, actually, the player also take control of Harry Osborne/Venom.",
     "likes": 4,
-    "dislikes": 2,
+    "dislikes": 3,
     "title": "Marvel’s Spider-Man 2"
   },
   {
@@ -2547,7 +2547,7 @@
     "phrase_text": "Prior to becoming a professional recording artist, \"Weird Al\" Yankovic enjoyed submitting amateur home-recorded songs to the comedy radio program \"The Dr. Demento Show.\" There, his future drummer Jon \"Bermuda\" Schwartz met Al outside the sound booth and offered to bang on his accordion case for a live in-studio performance of \"My Bologna.\"",
     "error": "a live in-studio performance of \"My Bologna.\"",
     "correction": "Um, actually, that live 1980 studio performance was \"Another One Rides the Bus.\" \"My Bologna\" was an earlier solo demo Al recorded by himself in a college bathroom, not a live in-studio recording.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "\"Weird Al\" Yankovic"
   },
@@ -2603,7 +2603,7 @@
     "error": "crash into Isle Delfino",
     "correction": "Um, actually, they don't crash into Isle Delfino. Their plane, the Toad Express, makes a rough landing on the Delfino Airstrip after goop and a Piranha Plant block the runway.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Super Mario Sunshine"
   },
   {
@@ -2635,8 +2635,8 @@
     "phrase_text": "Among the three hidden opponents in Mortal Kombat II is Noob Saibot. Though his name is that of Mortal Kombat's creator, Tobias Boon, spelled backwards, it would later be revealed in Mortal Kombat: Deception that he is actually the undead wraith form of Bi-Han, the original Sub-Zero.",
     "error": "Mortal Kombat's creator, Tobias Boon, spelled backwards",
     "correction": "Um, actually, Mortal Kombat wasn't created by one person named Tobias Boon. It has two creators - Ed Boon and John Tobias - whose surnames spelled backwards form the name Noob Saibot.",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 1,
+    "dislikes": 1,
     "title": "Mortal Kombat"
   },
   {
@@ -2669,7 +2669,7 @@
     "error": "a painting's wooden back simply reuses one of the existing wood textures in the game",
     "correction": "Um, actually, a painting's back matches none of the game's wood types. It uses its own plank-style texture with a yellowish tint similar to a chest, and it always has.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 3,
     "title": "Minecraft"
   },
   {
@@ -2691,7 +2691,7 @@
     "error": "season 4, episode 14, \"Living the Dream,\" when a celebrity that House likes comes down with the disease.",
     "correction": "Um, actually, that was not the lupus case. House's only lupus diagnosis came in season 4, episode 8, \"You Don't Want To Know,\" where the patient is an illusionist treated by fellowship candidates Kutner and Cole.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "House MD"
   },
   {
@@ -2701,7 +2701,7 @@
     "phrase_text": "The 2012 Teenage Mutant Ninja Turtles series features many mutant villains alongside its human and alien foes. Bebop and Rocksteady are thieves mutated into a rhinoceros and warthog, Dogpound (later Rahzar) and Fishface were the humans Chris Bradford and Xever Montes before their mutations, and Karai - Shredder's biological daughter - was mutated into a snake.",
     "error": "Karai - Shredder's biological daughter - was mutated into a snake",
     "correction": "Um, actually, Karai is not Shredder's biological daughter. She was born Hamato Miwa, the daughter of Hamato Yoshi (Splinter), and was kidnapped as an infant by Oroku Saki - who raised her as his own out of revenge.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Teenage Mutant Ninja Turtles"
   },
@@ -2833,7 +2833,7 @@
     "phrase_text": "The first trilogy of the \"Ace Attorney\" series follows defense attorney Phoenix Wright as he takes on courtroom cases, most of them involving clients accused of murder. A recurring hallmark across these three games is that every client Phoenix defends ultimately turns out to be innocent, with the true culprit exposed before the trial ends.",
     "error": "every client Phoenix defends ultimately turns out to be innocent",
     "correction": "Um, actually, there is one glaring exception. In \"Justice for All,\" the second game, the final case \"Farewell, My Turnabout\" forces Phoenix to defend Matt Engarde - who is genuinely guilty of hiring the assassin Shelly de Killer.",
-    "likes": 0,
+    "likes": 2,
     "dislikes": 0,
     "title": "Ace Attorney"
   },
@@ -2867,7 +2867,7 @@
     "error": "The second game in the series, \"The Secret of Monkey Island\"",
     "correction": "Um, actually, \"The Secret of Monkey Island\" is the first game in the series, released in 1990. The second game is \"Monkey Island 2: LeChuck's Revenge\".",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Monkey Island"
   },
   {
@@ -2922,7 +2922,7 @@
     "error": "Jack survives a plane crash near a mysterious lighthouse",
     "correction": "Um, actually, Jack isn't a crash victim. Under the hypnotic trigger \"Would you kindly\", he hijacks the plane himself and deliberately crashes it beside the lighthouse.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "BioShock"
   },
   {
@@ -2932,7 +2932,7 @@
     "phrase_text": "In \"South Park\", Eric Cartman is known for his manipulative, often villainous streak. One of his most infamous schemes comes in the episode \"Scott Tenorman Must Die\", where he tricks Scott into eating chili secretly made from Scott's pet pony - widely regarded as one of the darkest moments in the series.",
     "error": "chili secretly made from Scott's pet pony",
     "correction": "Um, actually, the chili isn't made from the pony. Cartman has Scott's parents killed and grinds them into the chili; the pony was just bait in an earlier scheme to lull Scott.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "South Park"
   },
@@ -2987,7 +2987,7 @@
     "phrase_text": "The children's animated show \"Bluey\" follows a six-year-old Blue Heeler puppy and her family: dad Bandit, mum Chilli and little sister Bingo. Her extended family includes aunts and uncles Radley, Frisky, Brandy, Stripe and Trixie; cousins Muffin and Socks; and grandparents Mort, Kate, Bob and Christine.",
     "error": "grandparents Mort, Kate, Bob and Christine",
     "correction": "Um, actually, Bluey's maternal grandmother is never named on the show. \"Kate\" is actually the name of her voice actress, Kate Miller-Heidke, not the character.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Bluey"
   },
@@ -3064,7 +3064,7 @@
     "phrase_text": "Like most Pixar films, \"Cars\" is full of Easter eggs, including the Pizza Planet truck and the A113 code. Several racers' numbers are references too: Strip Weathers wears 43 as a nod to Richard Petty, Chick Hicks wears 86 for Pixar's founding year, and Lightning McQueen sports 95 to mark the year Disney acquired Pixar.",
     "error": "95 to mark the year Disney acquired Pixar",
     "correction": "Um, actually, McQueen's 95 refers to 1995, the year \"Toy Story\" - Pixar's first feature film - was released. Disney didn't acquire Pixar until 2006.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Cars"
   },
@@ -3076,7 +3076,7 @@
     "error": "letting all PS3 owners enjoy their old PS2 titles on the new system without any issues",
     "correction": "Um, actually, only the earliest PS3 models were backward compatible with PS2 games. Later revisions dropped the feature entirely, so most PS3 owners couldn't play PS2 discs.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "PlayStation"
   },
   {
@@ -3152,7 +3152,7 @@
     "phrase_text": "The Marvel Cinematic Universe is split into Phases. Phase 1 began with \"Iron Man\" in 2008 and culminated in \"The Avengers\" in 2012. Phase 3 built the Infinity Saga to its climax, with \"Infinity War\" and \"Endgame\" closing out the phase in 2018 and 2019. Phases 4 and 5 form the Multiverse Saga, with Phase 5 ending on \"Thunderbolts\" in May 2025.",
     "error": "with \"Infinity War\" and \"Endgame\" closing out the phase in 2018 and 2019",
     "correction": "Um, actually, Endgame didn't close Phase 3. \"Spider-Man: Far From Home\" was the final Phase 3 film, and \"Ant-Man and the Wasp\" was released between \"Infinity War\" and \"Endgame\".",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Marvel Cinematic Universe"
   },
@@ -3229,8 +3229,8 @@
     "phrase_text": "Pokemon has a long tradition of remaking older games and tweaking their names. The first time was the Generation 3 remakes of the Generation 1 titles \"Red\" and \"Blue\", released as \"Pokemon Fire Red\" and \"Pokemon Water Blue\".",
     "error": "\"Pokemon Fire Red\" and \"Pokemon Water Blue\"",
     "correction": "Um, actually, the remakes were \"Pokemon FireRed\" and \"LeafGreen\". There has never been a \"Water Blue\" version.",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 1,
+    "dislikes": 1,
     "title": "Pokemon"
   },
   {
@@ -3251,7 +3251,7 @@
     "phrase_text": "The board game \"Root\" has received several expansions adding factions and mechanics. The Riverfolk Expansion added the Riverfolk Company and Lizard Cult, and the Marauder Expansion added the Lord of the Hundreds and Keepers in Iron plus the hirelings mechanic. The Clockwork Expansion lets you play against bot versions of the four base-game factions as well as those from the Riverfolk Expansion.",
     "error": "as well as those from the Riverfolk Expansion",
     "correction": "Um, actually, the Clockwork Expansion only added bots for the four base-game factions - the Marquise, Eyrie, Woodland Alliance and Vagabond. It didn't include the Riverfolk Expansion factions.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Root"
   },
@@ -3262,7 +3262,7 @@
     "phrase_text": "In \"Death Note\", Light Yagami finds the titular notebook after Ryuk drops it into the human world out of boredom. Later, Misa Amane gains her own Death Note from a shinigami named Rem. After L deduces Misa is the second Kira and has her detained, Rem threatens to kill Ryuk unless Light finds a way to save her.",
     "error": "Rem threatens to kill Ryuk unless Light finds a way to save her",
     "correction": "Um, actually, Rem threatens to kill Light, not Ryuk. Rem is devoted to Misa and warns that she will end Light's life if Misa comes to harm.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Death Note"
   },
@@ -3306,7 +3306,7 @@
     "phrase_text": "The Nintendo Game Boy went through several iterations across its lifespan. Starting with the Game Boy in 1989, it was superseded by the Game Boy Color in 1998. The pace of evolution then increased, with the Game Boy Advance launching in 2001. With a new form factor, smaller cartridges and shoulder buttons, the Advance was the first in the line to offer a backlit screen. Two years later the Game Boy Advance SP added a clamshell folding design, and in 2005 the Game Boy Micro was the last of the line before the Nintendo DS took over.",
     "error": "the Advance was the first in the line to offer a backlit screen",
     "correction": "Um, actually, the Advance had no backlight at all - its screen was unlit and reflective. The first backlit Game Boy was the AGS-101 revision of the Game Boy Advance SP in 2005.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Game Boy"
   },
@@ -3351,7 +3351,7 @@
     "error": "Thor 2: The Dark World",
     "correction": "Um, actually, the second Thor film isn't called 'Thor 2'. Its official title is simply 'Thor: The Dark World'.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 2,
     "title": "Thor"
   },
   {
@@ -3361,7 +3361,7 @@
     "phrase_text": "In Disney's Aladdin, the Genie grants whoever rubs his lamp three wishes. Aladdin's first wish frees himself, Abu, the Genie and the carpet from the Cave of Wonders. His second wish is to become a prince so he has a chance with Jasmine, while his third wish is more altruistic - he wishes for the Genie's freedom.",
     "error": "Aladdin's first wish frees himself, Abu, the Genie and the carpet from the Cave of Wonders.",
     "correction": "Um, actually, that wasn't a wish. Aladdin tricks the Genie into getting them out of the cave without officially wishing for it, so he still has all three wishes afterwards.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Aladdin"
   },
@@ -3394,7 +3394,7 @@
     "phrase_text": "Wii Sports was a major factor in the Wii's success. It featured five playable sports. Tennis allowed up to four players in doubles, with computer-controlled movement; baseball used the Wii Remote to swing, while fielding was handled by AI. Bowling allowed a full 10-frame game, golf offered a nine-hole round, and boxing used two Wii Remotes per player to track both hands.",
     "error": "boxing used two Wii Remotes per player to track both hands",
     "correction": "Um, actually, boxing wasn't played with two Wii Remotes. Each player used one Wii Remote plus the Nunchuk, one controller for each hand.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Wii Sports"
   },
@@ -3538,7 +3538,7 @@
     "error": "GLaDOS tries to kill Chell with live-fire military turrets on completion of the tests",
     "correction": "Um, actually, that's not how the tests end. GLaDOS tries to incinerate Chell and floods the room with neurotoxin - turrets are a threat earlier in the chambers, not at the finale.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Portal"
   },
   {
@@ -3548,7 +3548,7 @@
     "phrase_text": "The Metal Gear series has not been released in chronological order, with the games and spin-offs jumping around its fictional timeline. The earliest game chronologically is Metal Gear Solid 3: Snake Eater, set in 1964. The first game released, Metal Gear Solid, takes place in 2005, and the most modern entry is Metal Gear Rising: Revengeance, set in 2018.",
     "error": "The first game released, Metal Gear Solid, takes place in 2005",
     "correction": "Um, actually, Metal Gear Solid wasn't the first release. That was Metal Gear, launched in 1987 and set in 1995; Metal Gear Solid followed in 1998.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Metal Gear"
   },
@@ -3571,7 +3571,7 @@
     "error": "or Krieg the Psycho",
     "correction": "Um, actually, Krieg wasn't in the first game. The original four Vault Hunters are Brick, Lilith, Mordecai and Roland - Krieg was a DLC character added to Borderlands 2.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Borderlands"
   },
   {
@@ -3691,7 +3691,7 @@
     "phrase_text": "Over their lifespan, the Guitar Hero games drifted away from the rock focus of the early entries. The first game, released on the PS3 and Xbox 360, featured 30 rock songs by artists such as Black Sabbath, Deep Purple, Sum 41, Jimi Hendrix and Queen. The most recent, Guitar Hero Live, came to PS3, PS4, Wii U, Xbox 360 and Xbox One with 42 launch songs by the likes of Skrillex, Eminem, Rihanna, Katy Perry and Imagine Dragons.",
     "error": "The first game, released on the PS3 and Xbox 360",
     "correction": "Um, actually, the first Guitar Hero was a PlayStation 2 exclusive. The series only went multi-platform from Guitar Hero II onward.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Guitar Hero"
   },
@@ -3724,8 +3724,8 @@
     "phrase_text": "Balatro is a poker-inspired roguelike in which players build hands of up to five cards to score points. Because you can alter the cards in your deck, unconventional hands become possible, such as Five of a Kind, Flush House - a full house all of one suit - Flush Five, five identical cards, and Royal Family, a King, Queen and three Jacks.",
     "error": "and Royal Family, a King, Queen and three Jacks",
     "correction": "Um, actually, Royal Family isn't a hand in Balatro. Besides, that combination could be dealt from a standard deck, so it wouldn't need any custom cards anyway.",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 1,
+    "dislikes": 1,
     "title": "Balatro"
   },
   {
@@ -3768,7 +3768,7 @@
     "phrase_text": "The four films in The Twilight Saga chart Bella Swan's relationship with the vampire Edward Cullen. In the second, New Moon, the Cullens' departure from Forks, Washington sends Bella into a depression and closer to the newly lycanthropic Jacob Black. In the third, Eclipse, the love triangle deepens as Edward and Jacob vie for Bella, and she ultimately agrees to marry Edward.",
     "error": "The four films in The Twilight Saga",
     "correction": "Um, actually, there are five Twilight films, not four. The final book, Breaking Dawn, was split into two movies, Part 1 and Part 2.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Twilight"
   },
@@ -3823,7 +3823,7 @@
     "phrase_text": "Getting your virtual humans in The Sims series to enter a pool and then remove the ladder has become a well known trope of the series. This deathtrap was finally removed with the launch of The Sims 4, where Sims gained the ability to climb out of a pool without needing a ladder. Drowning is still a possibility, however, if walls block their exit from the swimming pool.",
     "error": "finally removed with the launch of The Sims 4",
     "correction": "Um, actually, Sims could already climb out without a ladder in The Sims 3. On top of that, The Sims 4 launched with no pools at all - they were only added in a free update two months later.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "The Sims"
   },
@@ -3845,7 +3845,7 @@
     "phrase_text": "The owners of Paddy's Pub - Mac, Dennis, Frank and Charlie - employ Dee as the primary waitress. While she does not own a stake in the pub, she was given merchandising rights as part of the agreement for working there. Unfortunately the contract on which this was signed was eaten by Mac before the merchandising rights were later unwittingly signed over to the lawyer.",
     "error": "Mac, Dennis, Frank and Charlie",
     "correction": "Um, actually, Charlie is no longer an owner. He was an original investor in Paddy's but was tricked into giving up his shares over the years - most infamously selling a stake to Mac for half a sandwich.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "It's Always Sunny in Philadelphia"
   },
@@ -3922,7 +3922,7 @@
     "phrase_text": "As the McCallister family prepares to spend Christmas in Paris, Kevin is sent to the attic as punishment for ruining dinner. He wakes the next morning to find the house empty and believes his wish for his family to disappear has come true. While home alone, the McCallister house is targeted by Henry and Marv, the Wet Bandits, who have been breaking into other vacant houses in the neighbourhood.",
     "error": "Henry and Marv",
     "correction": "Um, actually, the burglars are Harry and Marv. Harry, played by Joe Pesci, and Marv, played by Daniel Stern, earn the \"Wet Bandits\" nickname by leaving the taps running in the houses they rob.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Home Alone"
   },
@@ -3977,7 +3977,7 @@
     "phrase_text": "In Super Mario Galaxy, the mustachioed plumber boards the Starship Rosalina. From here Mario is launched to a number of galaxies to collect their Grand Stars. Controlled by Rosalina, it serves as home to both her and the Lumas, one of whom transformed into a beacon, giving the hub the power to travel across the universe.",
     "error": "Starship Rosalina",
     "correction": "Um, actually, the hub is called the Comet Observatory. The name Starship Mario belongs to the hub in the sequel, Super Mario Galaxy 2, not the first game.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Super Mario Galaxy"
   },
@@ -4109,7 +4109,7 @@
     "phrase_text": "Sauropods are a clade of dinosaurs with very long necks, small heads and four pillar-like legs. They are notable for their enormous size, and the group includes the largest and heaviest known animals to have ever lived. While Brachiosaurus and Diplodocus are arguably better known, Argentinosaurus is the largest known sauropod, measuring around 30 metres in length with an estimated weight of up to 100 tons.",
     "error": "the largest and heaviest known animals to have ever lived",
     "correction": "Um, actually, they're the longest, but not the heaviest. The living blue whale is comparable in length to Argentinosaurus yet can weigh roughly twice as much, making it the heaviest animal known to have ever lived.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Dinosaurs"
   },
@@ -4153,7 +4153,7 @@
     "phrase_text": "In this Ancient Greek-based roguelike, players control Zagreus, son of Hades, as he attempts to escape the Underworld. Across his runs, Zagreus is aided by various Olympians as well as the primordial Chaos, who offer boons. Through the game's four main biomes you also encounter other iconic underworld residents, including Sisyphus, Eurydice, Patroclus, Achilles, Charon and Cerberus.",
     "error": "Sisyphus, Eurydice, Patroclus, Achilles, Charon and Cerberus",
     "correction": "Um, actually, Achilles isn't found out in the biomes. He is Zagreus' mentor and stays in the House of Hades; only later, once reunited, does he visit Patroclus, the shade who lives in Elysium.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Hades"
   },
@@ -4219,7 +4219,7 @@
     "phrase_text": "In The Curse of the Black Pearl, Hector Barbossa captains the titular ship. Thanks to a curse, the pirates become undead who can feel neither pleasure nor pain. To lift the curse they need to locate and return all 882 pieces of Aztec gold to the Isle of Tortuga, along with a blood offering from each of the coins' original owners, or a living relative.",
     "error": "the Isle of Tortuga",
     "correction": "Um, actually, the gold had to be returned to its stone chest on Isla de Muerta. Tortuga is the lawless pirate port where Jack Sparrow recruits his crew, not the resting place of the cursed treasure.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Pirates of the Caribbean"
   }
