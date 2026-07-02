@@ -1,32 +1,33 @@
 #!/usr/bin/env node
 /*
  * Reads from the Neon DB for the `suggestion-editor` agent (companion to push.mjs).
- * Everything is printed to stdout as JSON so the agent can parse it.
  *
- * Usage (run from the repo root):
+ * The agent's workflow is: refresh the local phrase backup ONCE, pull the pending
+ * suggestion queue, then do all dedup/maxid work locally against the backup file
+ * (no per-phrase network calls). So this script does exactly two things:
+ *
+ *   node scripts/fetch.mjs backup [--out backup/phrase.json]
+ *       Downloads EVERY published phrase and (re)writes it to backup/phrase.json,
+ *       sorted by id. Run this first. Prints a one-line summary to stdout.
+ *
  *   node scripts/fetch.mjs suggestions [--status "In analysis"] [--id N] [--ids 1,2,3]
- *   node scripts/fetch.mjs phrases --grep "<term>"        # dedup search (ILIKE, published phrases)
- *   node scripts/fetch.mjs phrase --id N                  # one published phrase by id
- *   node scripts/fetch.mjs maxid                          # { "maxid": N } — current max phrase id
+ *       The pending queue to triage. Defaults to status "In analysis"; pass --status
+ *       to override, or --id/--ids for specific rows. Returns ALL fields (id, title,
+ *       author, category, phrase_text, error, correction, notes, status) as JSON on
+ *       stdout — read notes/category/title too, not just phrase_text.
  *
- *   suggestions : pending submissions to triage. Defaults to status "In analysis";
- *                 pass --status to override, or --id/--ids to fetch specific rows.
- *                 Returns ALL fields (id, title, author, category, phrase_text,
- *                 error, correction, notes, status) — read notes/category/title too.
- *   phrases     : published phrases for duplicate detection. --grep matches the term
- *                 (case-insensitive) against title/phrase_text/error/correction.
- *   maxid       : the highest published phrase id (for the provisional next id).
- *
- * Reads DATABASE_URL from .env at the repo root, same as push.mjs.
+ * Both commands hit the network. Reads DATABASE_URL from .env at the repo root.
  */
 
+import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { config } from "dotenv";
 import { neon } from "@neondatabase/serverless";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
-config({ path: resolve(scriptDir, "..", ".env") });
+const repoRoot = resolve(scriptDir, "..");
+config({ path: resolve(repoRoot, ".env") });
 
 const args = process.argv.slice(2);
 const cmd = args.find((a) => !a.startsWith("--"));
@@ -36,9 +37,7 @@ const flag = (name) => {
 };
 
 if (!cmd) {
-  console.error(
-    "Usage: node scripts/fetch.mjs <suggestions|phrases|phrase|maxid> [--status S] [--id N] [--ids 1,2] [--grep term]"
-  );
+  console.error("Usage: node scripts/fetch.mjs <backup|suggestions> [--out F] [--status S] [--id N] [--ids 1,2]");
   process.exit(1);
 }
 if (!process.env.DATABASE_URL) {
@@ -65,7 +64,19 @@ async function withRetry(fn, retries = 5, delayMs = 300) {
 const out = (v) => process.stdout.write(JSON.stringify(v, null, 2) + "\n");
 
 try {
-  if (cmd === "suggestions") {
+  if (cmd === "backup") {
+    const rel = flag("out") ?? "backup/phrase.json";
+    const path = resolve(repoRoot, rel);
+    const rows = await withRetry(
+      () => sql`
+        SELECT id, author, category, phrase_text, error, correction, likes, dislikes, title
+        FROM phrase
+        ORDER BY id`
+    );
+    writeFileSync(path, JSON.stringify(rows, null, 2) + "\n");
+    const maxid = rows.reduce((m, r) => Math.max(m, Number(r.id)), 0);
+    out({ written: rows.length, maxid, path: rel });
+  } else if (cmd === "suggestions") {
     const id = flag("id");
     const ids = flag("ids");
     const status = flag("status") ?? "In analysis";
@@ -79,35 +90,8 @@ try {
       rows = await withRetry(() => sql`SELECT * FROM suggestion WHERE status = ${status} ORDER BY id`);
     }
     out(rows);
-  } else if (cmd === "phrases") {
-    const grep = flag("grep");
-    if (!grep) {
-      console.error('phrases requires --grep "<term>" (avoid dumping the whole table).');
-      process.exit(1);
-    }
-    const like = `%${grep}%`;
-    const rows = await withRetry(
-      () => sql`
-        SELECT id, title, category, phrase_text, error, correction
-        FROM phrase
-        WHERE title ILIKE ${like} OR phrase_text ILIKE ${like}
-           OR error ILIKE ${like} OR correction ILIKE ${like}
-        ORDER BY id`
-    );
-    out(rows);
-  } else if (cmd === "phrase") {
-    const id = flag("id");
-    if (!id) {
-      console.error("phrase requires --id N.");
-      process.exit(1);
-    }
-    const rows = await withRetry(() => sql`SELECT * FROM phrase WHERE id = ${Number(id)}`);
-    out(rows[0] ?? null);
-  } else if (cmd === "maxid") {
-    const rows = await withRetry(() => sql`SELECT COALESCE(MAX(id), 0) AS maxid FROM phrase`);
-    out({ maxid: Number(rows[0].maxid) });
   } else {
-    console.error(`Unknown command "${cmd}". Use suggestions | phrases | phrase | maxid.`);
+    console.error(`Unknown command "${cmd}". Use backup | suggestions.`);
     process.exit(1);
   }
 } catch (e) {
