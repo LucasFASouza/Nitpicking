@@ -8,6 +8,7 @@ import { phrase } from "@/db/schema";
 import { sql } from "drizzle-orm/sql";
 import { cache } from "react";
 import type { SortOption } from "@/lib/searchParams";
+import { parseSearchQuery, stripByPrefix } from "@/lib/searchQuery";
 
 // Expressão de ordenação da listagem. Padrão: id ascendente.
 function orderByFor(sort: SortOption) {
@@ -106,18 +107,27 @@ export const getPhrasesByIds = async (ids: number[]) => {
 const escapeLike = (term: string) => term.replace(/[\\%_]/g, (c) => `\\${c}`);
 
 // Busca por termos no corpo e no título da frase. Cada termo precisa casar (AND);
-// dentro de um termo, casa em phrase_text OU title (case-insensitive).
+// dentro de um termo, casa em phrase_text OU title (case-insensitive). Um token
+// `author:"..."` na query filtra por autor com LIKE (substring, ignorando o
+// prefixo "By "), então co-autores "A & B" também casam pelo nome de cada um.
 export const searchPhrases = cache(
   async (query: string, sort: SortOption = "id", category: string | null = null) => {
-    const terms = query.trim().split(/\s+/).filter(Boolean);
-    if (terms.length === 0) return [];
+    const { author, text } = parseSearchQuery(query);
+    const terms = text.split(/\s+/).filter(Boolean);
 
     const conditions = terms.map((term) => {
       const pattern = `%${escapeLike(term)}%`;
       return or(ilike(phrase.phrase_text, pattern), ilike(phrase.title, pattern));
     });
 
+    const authorNeedle = author ? stripByPrefix(author) : "";
+    if (authorNeedle) {
+      conditions.push(ilike(phrase.author, `%${escapeLike(authorNeedle)}%`));
+    }
     if (category) conditions.push(eq(phrase.category, category));
+
+    // Sem nenhum critério (query vazia, sem autor/categoria) não há o que buscar.
+    if (conditions.length === 0) return [];
 
     const data = await withRetry(() =>
       db

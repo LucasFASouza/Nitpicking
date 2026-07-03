@@ -908,7 +908,7 @@
     "phrase_text": "The Silence were an alien religious order whose existence on Earth was kept secret, because anyone who saw them immediately forgot after looking away, but retained suggestions the Silence had made to them - allowing them to secretly influence human history. The Silence were defeated when the Eleventh Doctor faked his death at the hands of River Song, causing a paradox that erased the order from history.",
     "error": "The Silence were defeated when the Eleventh Doctor faked his death at the hands of River Song, causing a paradox that erased the order from history.",
     "correction": "Um, actually, the Silence weren't defeated by the Doctor faking his death. They were defeated by inserting a clip of one of the Silence saying \"You should kill us all on sight\" into the Moon Landing - with humanity proceeding to do just that before forgetting.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Doctor Who"
   },
@@ -1711,7 +1711,7 @@
     "phrase_text": "Set in the Forgotten Realms setting of D&D, \"Honor Among Thieves\" opens with a scenario familiar to all D&D players. The bard Edgin Darvis recounts his backstory to the uninterested Absolution Council of the prison Revel's End while waiting on an absent member - the aarakocra, Jarnathan. After he is denied parole, he escapes (along with the barbarian Holga Kilgore) when Jarnathan arrives by grabbing him and jumping through a window.",
     "error": "After he is denied parole, he escapes (along with the barbarian Holga Kilgore)",
     "correction": "Um, actually, Edgin and Holga aren't denied parole. They escape before they're read the verdict on their parole - which was approved.",
-    "likes": 9,
+    "likes": 10,
     "dislikes": 0,
     "title": "Dungeons & Dragons: Honor Among Thieves"
   },
@@ -1810,7 +1810,7 @@
     "phrase_text": "In the episode \"Fifteen Million Merits\", Bing Madsen buys a ticket so his friend Abi can enter the talent contest Hot Shot. After Abi fails to impress the judges, but is cast for a porn channel, Bing saves up to purchase another ticket and enter Hot Shot himself. The episode concludes with Bing slitting his own throat onstage with a shard of broken glass, and a judge declaring that it was the greatest act in the show's history.",
     "error": "The episode concludes with Bing slitting his own throat onstage with a shard of broken glass, and a judge declaring that it was the greatest act in the show's history.",
     "correction": "Um, actually, Bing doesn't kill himself. He is given his own show where he rants against the cruelty of the system - but has increased his social status significantly.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Black Mirror"
   },
@@ -3394,7 +3394,7 @@
     "phrase_text": "Wii Sports was a major factor in the Wii's success. It featured five playable sports. Tennis allowed up to four players in doubles, with computer-controlled movement; baseball used the Wii Remote to swing, while fielding was handled by AI. Bowling allowed a full 10-frame game, golf offered a nine-hole round, and boxing used two Wii Remotes per player to track both hands.",
     "error": "boxing used two Wii Remotes per player to track both hands",
     "correction": "Um, actually, boxing wasn't played with two Wii Remotes. Each player used one Wii Remote plus the Nunchuk, one controller for each hand.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Wii Sports"
   },
@@ -3537,7 +3537,7 @@
     "phrase_text": "Portal takes place inside the Aperture Science Enrichment Center and follows test subject Chell as she solves puzzles with the Aperture Science Handheld Portal Device. She is guided by an AI called GLaDOS, who promises cake for completing every test chamber. But when GLaDOS tries to kill Chell with live-fire military turrets on completion of the tests, it becomes clear the cake is a lie.",
     "error": "GLaDOS tries to kill Chell with live-fire military turrets on completion of the tests",
     "correction": "Um, actually, that's not how the tests end. GLaDOS tries to incinerate Chell and floods the room with neurotoxin - turrets are a threat earlier in the chambers, not at the finale.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 1,
     "title": "Portal"
   },
@@ -3658,7 +3658,7 @@
     "phrase_text": "In Skyrim, the player can collect a set of Daedric Artifacts tied to the Daedric Princes, each earned through a Daedric quest. One of the most memorable is the Jabberwock, a staff of Sheogorath, the Prince of Madness, that casts random spells - from total disintegration to turning enemies into wheels of cheese.",
     "error": "the Jabberwock, a staff of Sheogorath",
     "correction": "Um, actually, the staff is called the Wabbajack. Its name is a playful nod to the Jabberwock, the nonsense creature from Lewis Carroll's poem.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Skyrim"
   },
@@ -3724,7 +3724,7 @@
     "phrase_text": "Balatro is a poker-inspired roguelike in which players build hands of up to five cards to score points. Because you can alter the cards in your deck, unconventional hands become possible, such as Five of a Kind, Flush House - a full house all of one suit - Flush Five, five identical cards, and Royal Family, a King, Queen and three Jacks.",
     "error": "and Royal Family, a King, Queen and three Jacks",
     "correction": "Um, actually, Royal Family isn't a hand in Balatro. Besides, that combination could be dealt from a standard deck, so it wouldn't need any custom cards anyway.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 1,
     "title": "Balatro"
   },
@@ -3736,7 +3736,7 @@
     "error": "Green pegs are worth 50x more points but move every turn, while purple pegs grant a perk based on your chosen Peggle Master.",
     "correction": "Um, actually, those are the wrong way round. The green peg triggers your Peggle Master's power, while the purple peg is the roaming one worth 50 times the points.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Peggle"
   },
   {
@@ -3944,7 +3944,7 @@
     "phrase_text": "In Uncharted 4: A Thief's End, Nathan Drake, his brother Sam, his mentor Sully and his girlfriend Elena Fisher set out to track down the pirate utopia of Libertalia. After trips to Italy, Scotland and Madagascar - and some separation - the group reunites on Libertalia and uncovers the civil war that unfolded there, which killed all of the pirates.",
     "error": "his girlfriend Elena Fisher",
     "correction": "Um, actually, Elena is Nate's wife by this point. The two married between Uncharted 2 and 3, and A Thief's End opens with them living together as a married couple.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Uncharted"
   },
@@ -3966,7 +3966,7 @@
     "phrase_text": "The first two games in the RCT series were developed almost single-handedly by Chris Sawyer, with only the graphics and music made by others. The third game, developed by Frontier, ditched the iconic isometric style for a full 3D view, letting the player ride all of the game's coasters and flat rides as one of the park's visitors.",
     "error": "ride all of the game's coasters and flat rides",
     "correction": "Um, actually, the first-person camera only worked on tracked rides. You could ride coasters and other tracked attractions, but not non-tracked flat rides such as motion simulators.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "RollerCoaster Tycoon"
   },
@@ -3977,7 +3977,7 @@
     "phrase_text": "In Super Mario Galaxy, the mustachioed plumber boards the Starship Rosalina. From here Mario is launched to a number of galaxies to collect their Grand Stars. Controlled by Rosalina, it serves as home to both her and the Lumas, one of whom transformed into a beacon, giving the hub the power to travel across the universe.",
     "error": "Starship Rosalina",
     "correction": "Um, actually, the hub is called the Comet Observatory. The name Starship Mario belongs to the hub in the sequel, Super Mario Galaxy 2, not the first game.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Super Mario Galaxy"
   },
@@ -3989,7 +3989,7 @@
     "error": "a crossbow that allows for silent ranged kills",
     "correction": "Um, actually, Ezio doesn't get a crossbow in Assassin's Creed II. The weapon wasn't introduced to the series until the sequel, Assassin's Creed: Brotherhood.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Assassin's Creed"
   },
   {
@@ -4153,7 +4153,7 @@
     "phrase_text": "In this Ancient Greek-based roguelike, players control Zagreus, son of Hades, as he attempts to escape the Underworld. Across his runs, Zagreus is aided by various Olympians as well as the primordial Chaos, who offer boons. Through the game's four main biomes you also encounter other iconic underworld residents, including Sisyphus, Eurydice, Patroclus, Achilles, Charon and Cerberus.",
     "error": "Sisyphus, Eurydice, Patroclus, Achilles, Charon and Cerberus",
     "correction": "Um, actually, Achilles isn't found out in the biomes. He is Zagreus' mentor and stays in the House of Hades; only later, once reunited, does he visit Patroclus, the shade who lives in Elysium.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Hades"
   },
@@ -4219,7 +4219,7 @@
     "phrase_text": "In The Curse of the Black Pearl, Hector Barbossa captains the titular ship. Thanks to a curse, the pirates become undead who can feel neither pleasure nor pain. To lift the curse they need to locate and return all 882 pieces of Aztec gold to the Isle of Tortuga, along with a blood offering from each of the coins' original owners, or a living relative.",
     "error": "the Isle of Tortuga",
     "correction": "Um, actually, the gold had to be returned to its stone chest on Isla de Muerta. Tortuga is the lawless pirate port where Jack Sparrow recruits his crew, not the resting place of the cursed treasure.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Pirates of the Caribbean"
   },
@@ -4365,5 +4365,159 @@
     "likes": 0,
     "dislikes": 0,
     "title": "Content Warning"
+  },
+  {
+    "id": 398,
+    "author": "Fan Submitted",
+    "category": "Music & Real World",
+    "phrase_text": "WWE's King of the Ring, while not held every year during its existence, has been a long-standing tournament since 1993 when it was first won by Bret \"Hitman\" Hart. Since then, Kings of the Ring have included Ken Shamrock, Wade Barrett, Xavier Woods, Billy Gunn (who was known as \"Mr. Ass\" at the time), and Bret's youngest brother, Owen.",
+    "error": "long-standing tournament since 1993 when it was first won by Bret \"Hitman\" Hart",
+    "correction": "Um, actually, the King of the Ring tournament dates back to 1985; those early editions were held at house shows and thus went largely unpromoted on then-WWF television. The first King of the Ring was Don Muraco.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Professional Wrestling"
+  },
+  {
+    "id": 399,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "Theoretical physicist Dr. Gordon Freeman is the primary protagonist of the Half-Life series, but other spin-off games put you in control of other protagonists. Blue Shift introduces security guard Barney Calhoun, who returns as an NPC in Half-Life 2, and Opposing Force introduces Adrian Shephard, a US Marine Corporal. Both spin-offs take place in the same location and roughly the same time frame as the original game.",
+    "error": "Blue Shift introduces security guard Barney Calhoun",
+    "correction": "Um, actually, a Barney-model security guard already appears in the original Half-Life - he can be seen banging on a door during Gordon's opening tram ride - so the character predates his own spin-off.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Half-Life"
+  },
+  {
+    "id": 400,
+    "author": "By CowAboutThat",
+    "category": "Fantasy",
+    "phrase_text": "In HBO's Game of Thrones spin-off House of the Dragon, based on George R.R. Martin's Fire and Blood, King Viserys Targaryen (played by Paddy Considine) breaks many years of precedent by naming his daughter Rhaenyra (played by Emma D'Arcy) as his successor. He remains firm in this choice, even when he later has a legitimate male heir, Aegon (played by Tom Glynn-Carney), who many believe has a stronger claim to the Iron Throne.",
+    "error": "naming his daughter Rhaenyra (played by Emma D'Arcy) as his successor",
+    "correction": "Um, actually, when Viserys names Rhaenyra his heir in the first episode she is played by Milly Alcock; Emma D'Arcy takes over the adult Rhaenyra only from episode 6, after a time skip.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "House of the Dragon"
+  },
+  {
+    "id": 401,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "In the hit indie metroidvania \"Hollow Knight,\" players control the Hollow Knight, a vessel designed to have \"No mind to think. No will to break. No voice to cry suffering.\" Yet there are hints it is less hollow than intended: it can equip the Void Heart charm, whose description says it unifies the void under the bearer's will.",
+    "error": "players control the Hollow Knight",
+    "correction": "Um, actually, the character you play is not the Hollow Knight but a different vessel called the Knight, or Ghost. The Hollow Knight is a separate sibling vessel, sealed away in the Temple of the Black Egg.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Hollow Knight"
+  },
+  {
+    "id": 402,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "Hearthstone's Battlegrounds mode swaps the usual collectible-card gameplay for an auto-battler: you face 7 other players and assemble a team of minions between rounds. During the recruit phase you know little about a rival's board beyond their most common minion type, and once combat starts you have to direct your minions' attacks on the fly. Placing anywhere in the top 4 counts as a win.",
+    "error": "once combat starts you have to direct your minions' attacks on the fly",
+    "correction": "Um, actually, players have no control at all during the combat phase. Once it begins, minions attack automatically in a largely random order while you simply watch.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Hearthstone"
+  },
+  {
+    "id": 403,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "Supermassive Games develops the horror series \"The Dark Pictures Anthology.\" Beginning with their hit game Until Dawn, these titles task players with making decisions for a whole cast of characters, played solo or split among a group of friends. Choose well, and your characters build their relationships while surviving the horrors; choose poorly, and some may not make it to the final credits.",
+    "error": "Beginning with their hit game Until Dawn",
+    "correction": "Um, actually, Until Dawn is a separate Supermassive game and is not part of The Dark Pictures Anthology, which actually began in 2019 with Man of Medan.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Dark Pictures Anthology"
+  },
+  {
+    "id": 404,
+    "author": "By merkon",
+    "category": "Sci-Fi",
+    "phrase_text": "In the hit YA book series Animorphs, the main villain Visser 3 (later promoted to Visser 1) is a brain-controlling slug named Esplin 9266. Esplin famously controls the Andalite Alloran-Semitur-Corrass, but has also controlled the bodies of multiple Hork-Bajir, a Gedd, and a human.",
+    "error": "Esplin 9266",
+    "correction": "Um, actually, Visser Three's designation is Esplin 9466, not 9266. He is the only Yeerk ever to hold an Andalite host, the war-prince Alloran-Semitur-Corrass.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Animorphs"
+  },
+  {
+    "id": 405,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "Myst is an iconic point-and-click adventure game set partly on Myst Island, where Atrus wrote some of his linking books, which can send people to other worlds called \"Ages.\" To beat the game, players must travel to several of these Ages to gather the information needed to finish back on Myst Island.",
+    "error": "To beat the game, players must travel to several of these Ages",
+    "correction": "Um, actually, if you already know the fireplace code, you can reach the good ending in a matter of minutes without ever leaving Myst Island - speedrunners exploit exactly this shortcut.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Myst"
+  },
+  {
+    "id": 406,
+    "author": "By merkon",
+    "category": "Sci-Fi",
+    "phrase_text": "In the classic YA book series Animorphs, five human teenagers and one Andalite famously turn into animals to fight invading brain slugs. Along the way, a few others also gain the morphing power - a new kid at their school named David, a group of disabled teenagers, a buffalo, an ant, and their vice principal. Unfortunately, everyone else who gains the morphing ability is ultimately killed.",
+    "error": "and their vice principal",
+    "correction": "Um, actually, the vice principal, Hedrick Chapman, never received the morphing power. In book 39, a Cape buffalo touches the Escafil device and gains the ability, then acquires Chapman as one of its morphs - but Chapman himself never morphs.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Animorphs"
+  },
+  {
+    "id": 407,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "John-117, better known as Master Chief, is the protagonist of most Halo games. He has secured many crucial victories against the alien coalition known as the Covenant, but at what cost? John, like his fellow Spartan-IIs, was kidnapped as a young child and indoctrinated into obedient military servitude, leaving his caretakers to wonder what happened to him.",
+    "error": "leaving his caretakers to wonder what happened to him",
+    "correction": "Um, actually, each abducted Spartan-II child was replaced with a flash clone. The clones soon sickened and died of seemingly natural causes, so their families and caretakers never suspected a kidnapping.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Halo"
+  },
+  {
+    "id": 408,
+    "author": "By ozyzero",
+    "category": "Games",
+    "phrase_text": "The tabletop actual-play series Dimension 20: A Starstruck Odyssey features a campaign set in a sci-fi universe originally co-created by Elaine Lee and Michael Kaluta, following a ragtag spaceship crew trying to save the galaxy. Notably, it was the first Dimension 20 campaign to use a system other than Dungeons & Dragons 5th Edition.",
+    "error": "it was the first Dimension 20 campaign to use a system other than Dungeons & Dragons 5th Edition",
+    "correction": "Um, actually, Misfits and Magic beat it to that by half a year - it aired in mid-2021 using the Kids on Brooms system, whereas A Starstruck Odyssey did not run until early 2022.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Dimension 20"
+  },
+  {
+    "id": 409,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "The foppish author Volo can be found early in Baldur's Gate 3, forced to serve as a jester for a camp of goblins. Later, he may offer to surgically remove the mind flayer parasite through your eye. If things go wrong and you let him keep working despite repeated warnings, Volo will accidentally carve your eye out, leading to permanent vision penalties.",
+    "error": "leading to permanent vision penalties",
+    "correction": "Um, actually, Volo immediately hands you a magical replacement - Volo's Ersatz Eye - which grants permanent See Invisibility. Losing the eye is an upgrade, not a penalty.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Baldur's Gate 3"
+  },
+  {
+    "id": 410,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "Papers, Please casts players as a border-control agent who must verify immigration documents for citizens and foreigners hoping to enter Arstotzka. Follow your corrupt government's constantly changing rules and you'll be promoted to a higher rank; the game also has many other outcomes, from helping a resistance group topple the regime, to watching your family starve, fleeing to Obristan, or being arrested or executed. Glory to Arstotzka!",
+    "error": "Follow your corrupt government's constantly changing rules and you'll be promoted to a higher rank",
+    "correction": "Um, actually, obeying the state earns you no promotion - there is no inspector rank to climb. The only promotion, to agent of the New Arstotzka, comes from helping the EZIC resistance; playing by the rules instead just unlocks Endless mode.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Papers, Please"
+  },
+  {
+    "id": 411,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "The X-COM series began in 1994 with UFO: Enemy Unknown. The franchise later came to be known as X-COM rather than UFO, and was rebooted after an 11-year hiatus as XCOM: Enemy Unknown. The games put you in control of XCOM, the paramilitary force tasked with fighting off an alien invasion.",
+    "error": "the paramilitary force tasked with fighting off an alien invasion",
+    "correction": "Um, actually, not every game is about repelling an invasion. In XCOM 2 the aliens have already won and you lead a resistance to overthrow them, while XCOM: Chimera Squad puts you in charge of a joint human-alien squad policing a city.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "X-COM"
   }
 ]

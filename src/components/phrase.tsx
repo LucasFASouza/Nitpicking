@@ -1,11 +1,13 @@
 "use client";
 import { FC, useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
 import Button from "@/components/button";
 import ContextBanner from "@/components/context-banner";
 import { getContextIds } from "@/actions/phraseAction";
 import { PhraseType } from "@/types/phraseType";
 import { SortOption } from "@/lib/searchParams";
+import { authorQuery, parseSearchQuery, stripByPrefix } from "@/lib/searchQuery";
 import {
   faArrowLeft,
   faArrowRight,
@@ -290,12 +292,26 @@ const Phrase: FC<Props> = ({
 
   const currentIndex = contextIds.indexOf(phrase.id);
   const position = currentIndex >= 0 ? currentIndex + 1 : null;
-  // Combina busca E categoria (ex.: “frog” in History & Mythology), como na home.
+  // Rótulo do contexto (busca de texto, autor e/ou categoria), sem vazar o token
+  // cru `author:"..."`. Ex.: “frog” · by Rachel Tan · History & Mythology.
+  const { author: ctxAuthor, text: ctxText } = parseSearchQuery(q);
   const contextLabel =
-    q || category
-      ? [q ? `“${q}”` : null, category].filter(Boolean).join(" in ")
-      : null;
+    [
+      ctxText ? `“${ctxText}”` : null,
+      ctxAuthor ? `by ${stripByPrefix(ctxAuthor)}` : null,
+      category,
+    ]
+      .filter(Boolean)
+      .join(" · ") || null;
   const backHref = ctxQuery ? `/?${ctxQuery}` : "/";
+  // Link para a home já filtrada pela categoria da frase.
+  const categoryHref = `/?${new URLSearchParams({
+    category: phrase.category,
+  }).toString()}`;
+  // Link para a home com o filtro de autor (token author:"..." na busca).
+  const authorHref = phrase.author
+    ? `/?${new URLSearchParams({ q: authorQuery(phrase.author) }).toString()}`
+    : null;
 
   return (
     <div className="container mx-auto px-4">
@@ -346,10 +362,21 @@ const Phrase: FC<Props> = ({
             </div>
 
             <h2 className="pt-6 sm:pt-12 text-sm sm:text-base">
-              #{phrase.id} - {phrase.category}
+              #{phrase.id} -{" "}
+              <Link href={categoryHref} className="highlight-link font-semibold">
+                {phrase.category}
+              </Link>
             </h2>
 
-            <p className="text-sm sm:text-base">{phrase.author}</p>
+            <p className="text-sm sm:text-base">
+              {phrase.author && authorHref ? (
+                <Link href={authorHref} className="highlight-link">
+                  {phrase.author}
+                </Link>
+              ) : (
+                phrase.author
+              )}
+            </p>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import PhraseCard from "@/components/phrase-card";
 import Pagination from "@/components/pagination";
 import BrowseControls from "@/components/browse-controls";
 import { browseParsers } from "@/lib/searchParams";
+import { parseSearchQuery, stripByPrefix } from "@/lib/searchQuery";
 import { PhraseType } from "@/types/phraseType";
 
 interface Props {
@@ -55,11 +56,14 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount, total }) => {
     setParams({ q: value || null, page: null }, { scroll: false });
 
   // Contagem de resultados do filtro/busca atual (conjunto inteiro, não só a página),
-  // combinando busca E categoria quando ambos estão ativos.
+  // combinando texto, autor E categoria. Parseia o token author:"..." para não
+  // exibir a query crua no rótulo.
+  const { author, text } = parseSearchQuery(q);
   const countLabel =
-    q || category
+    text || author || category
       ? `${total} ${total === 1 ? "result" : "results"}` +
-        (q ? ` for “${q}”` : "") +
+        (text ? ` for “${text}”` : "") +
+        (author ? ` by ${stripByPrefix(author)}` : "") +
         (category ? ` in ${category}` : "")
       : `${total} ${total === 1 ? "sentence" : "sentences"}`;
 
@@ -109,7 +113,7 @@ const BrowseView: FC<Props> = ({ phrases, currentPage, pageCount, total }) => {
                     key={phrase.id}
                     phrase={phrase}
                     href={cardHref(phrase.id)}
-                    highlight={q}
+                    highlight={text}
                   />
                 ))}
           </div>
