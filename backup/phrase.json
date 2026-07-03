@@ -806,9 +806,9 @@
     "id": 74,
     "author": "By Peter the Human",
     "category": "Games",
-    "phrase_text": "\"Borderlands 2\" villain Handsome Jack is more than just a pretty face - he has taken over the Hyperion corporation, declared himself the dictator of the planet Pandora and has launched a moonbase called Hyperion, which he uses to control the ECHOnet system and place the planet under full surveillance. His ultimate goal, however, is to cleanse Pandora of bandits using The Warrior - a dragon-like Eridian superweapon. ",
-    "error": "a moonbase called Hyperion, which he uses to control the ECHOnet system and place the planet under full surveillance.",
-    "correction": "Um, actually, handsome Jack doesn't control ECHONet using the Hyperion moonbase. He gains control of ECHOnet and surveillance using his daughter Angel - who can 'phaseshift' to act like an Artificial Intelligence.",
+    "phrase_text": "\"Borderlands 2\" villain Handsome Jack is more than just a pretty face - he has taken over the Hyperion corporation, declared himself the dictator of the planet Pandora and has launched a moonbase called Helios, which he uses to control the ECHOnet system and place the planet under full surveillance. His ultimate goal, however, is to cleanse Pandora of bandits using The Warrior - a dragon-like Eridian superweapon. ",
+    "error": "a moonbase called Helios, which he uses to control the ECHOnet system and place the planet under full surveillance.",
+    "correction": "Um, actually, handsome Jack doesn't control ECHONet using the Helios moonbase. He gains control of ECHOnet and surveillance using his daughter Angel - who can 'phaseshift' to act like an Artificial Intelligence.",
     "likes": 2,
     "dislikes": 5,
     "title": "Borderlands 2"
@@ -1433,9 +1433,9 @@
     "id": 131,
     "author": "By Peter the Human",
     "category": "Cartoons & TV",
-    "phrase_text": "The Teenage Mutant Ninja Turtles are four turtles who were exposed to a mutagenic \"ooze\" and adopted by Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi. Master Splinter adopts the turtles as his sons: naming them after Italian Renaissance artists and training them in the art of ninjitsu.",
+    "phrase_text": "In the 1987 animated series, the Teenage Mutant Ninja Turtles are four turtles who were exposed to a mutagenic \"ooze\" and adopted by Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi. Master Splinter adopts the turtles as his sons: naming them after Italian Renaissance artists and training them in the art of ninjitsu.",
     "error": "Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi.",
-    "correction": "Um, actually, Master Splinter wasn't a rat belonging to Hamato Yoshi. This is Splinter's origin in the original comic books and some other adaptations - in the 1987 cartoon, Master Splinter is Hamato Yoshi. He mutated when the ooze combined his DNA with that of sewer rats.",
+    "correction": "Um, actually, in the 1987 series Master Splinter isn't a rat that belonged to Hamato Yoshi - he IS Yoshi. Yoshi himself mutated into a humanoid rat when the ooze combined his DNA with that of the sewer rats he lived among. (Splinter being Yoshi's pet rat is his origin in the original comics and some other adaptations.)",
     "likes": 5,
     "dislikes": 11,
     "title": "Teenage Mutant Ninja Turtles"
@@ -1964,7 +1964,7 @@
     "phrase_text": "Wildfire is a flammable liquid that burns with a distinctive bright green flame. The Mad King's uncle Prince Aerion Targaryen perished in a Wildfire blast during Robert's Rebellion, Stannis Baratheon's fleet was damaged by a Wildfire explosion at the Battle of the Blackwater, and Cersei Lannister and Qyburn used Wildfire to destroy the Great Sept of Baelor.",
     "error": "The Mad King's uncle Prince Aerion Targaryen perished in a Wildfire blast during Robert's Rebellion,",
     "correction": "Um, actually, prince Aerion Targaryen didn't die in a Wildfire blast. Prince Aerion Targaryen died after trying to drink Wildfire, which (in his madness) he thought would turn him into a dragon.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 2,
     "title": "A Song of Ice and Fire"
   },
@@ -2669,7 +2669,7 @@
     "error": "a painting's wooden back simply reuses one of the existing wood textures in the game",
     "correction": "Um, actually, a painting's back matches none of the game's wood types. It uses its own plank-style texture with a yellowish tint similar to a chest, and it always has.",
     "likes": 0,
-    "dislikes": 7,
+    "dislikes": 8,
     "title": "Minecraft"
   },
   {
@@ -3406,7 +3406,7 @@
     "error": "to keep every Pokemon at or below the next Gym Leader or Elite Four member's highest level,",
     "correction": "Um, actually, the level cap isn't a core rule. A standard Nuzlocke has just two: catch the first Pokemon in each area, and treat fainted Pokemon as dead. Level caps are a common optional add-on.",
     "likes": 1,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Pokémon"
   },
   {
@@ -3526,7 +3526,7 @@
     "phrase_text": "In the Pokemon games, your Pokedex records an entry for every Pokemon you encounter, including a short bio. Some of these bios are unsettling, such as Froslass, said to freeze humans it likes and keep them in its den as decorations, or Drowzee, which prefers to eat the dreams of children because they taste better than adults'.",
     "error": "your Pokedex records an entry for every Pokemon you encounter, including a short bio",
     "correction": "Um, actually, merely encountering a Pokemon only logs it as 'Seen', with no bio. The full data and description are recorded only once you actually catch it.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Pokémon"
   },
@@ -4263,7 +4263,7 @@
     "phrase_text": "In a flashback to Truman's college days in \"The Truman Show,\" he is drawn to Sylvia, who goes by the stage name Lauren. Insisting it has to happen now, she slips away from the cameras with him, out to the forest bordering Seahaven for a brief, authentic moment together. A man Sylvia has never met soon arrives to drag her away - off to Fiji - leaving behind only her red sweater.",
     "error": "the forest bordering Seahaven",
     "correction": "Um, actually, they don't run to a forest - Truman leads Sylvia down to the beach, dodging the cameras so deftly that it foreshadows his eventual escape by sea.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "The Truman Show"
   },
@@ -4519,5 +4519,115 @@
     "likes": 1,
     "dislikes": 0,
     "title": "X-COM"
+  },
+  {
+    "id": 412,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "In the Hitman series you play as Agent 47, an assassin for the International Contract Agency who blends into any environment by disguising himself - sometimes in the clothes of his own victims. In the World of Assassination trilogy, 47 and his handler Diana Burnwood work to topple Providence, the shadowy organization that trained him, digging up his past along the way - including the Institute for Human Betterment where he was raised, his birth name Tobias Rieper, and Lucas Grey, an old ally he knew as a child before his memory was tampered with.",
+    "error": "his birth name Tobias Rieper",
+    "correction": "Um, actually, Tobias Rieper (pronounced \"reaper\") is just an on-the-nose alias 47 frequently uses. Agent 47 is a clone - the 47th made - so he has no birth name.",
+    "likes": 1,
+    "dislikes": 0,
+    "title": "Hitman"
+  },
+  {
+    "id": 413,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "The Arkham Horror Files tabletop games were inspired by the RPG \"Call of Cthulhu\", so you're bound to encounter nasty monsters and locales of both the New England and otherworldly varieties. The line includes the Arkham Horror card game, a dice game (Elder Sign), and two board games: Betrayal at House on the Hill, which even has a companion app, and Eldritch Horror. All four games, unless played solo, are cooperative.",
+    "error": "Betrayal at House on the Hill, which even has a companion app",
+    "correction": "Um, actually, the board game with a companion app is Mansions of Madness. Betrayal at House on the Hill is a similarly themed horror board game that also has an app, but it isn't part of the Arkham Horror Files.",
+    "likes": 1,
+    "dislikes": 0,
+    "title": "Arkham Horror Files"
+  },
+  {
+    "id": 414,
+    "author": "By Loyd",
+    "category": "Games",
+    "phrase_text": "In Minecraft, the Ender Dragon is the only boss that naturally spawns in the game. Defeating it for the first time opens the exit portal and causes a dragon egg to appear on top of the exit portal, and every time you respawn and defeat the Ender Dragon again, another dragon egg is generated.",
+    "error": "every time you respawn and defeat the Ender Dragon again, another dragon egg is generated",
+    "correction": "Um, actually, only the first Ender Dragon defeat generates a dragon egg. Respawned dragons - summoned with end crystals - drop no additional eggs.",
+    "likes": 1,
+    "dislikes": 0,
+    "title": "Minecraft"
+  },
+  {
+    "id": 415,
+    "author": "By WhatTheDevin",
+    "category": "Comics & Superheroes",
+    "phrase_text": "In Homestuck, troll romance is broader than the human kind, comprising four relationship dynamics - quadrants - each tied to a playing-card suit. The flushed quadrant (heart) is analogous to human romance; the ichorous quadrant (spade) is a vicious rivalry; the pale quadrant (diamond) is a platonic \"best friends\" bond; and the ashen quadrant (club) involves two would-be rivals and a mediator.",
+    "error": "the ichorous quadrant",
+    "correction": "Um, actually, there is no ichorous quadrant - the black, concupiscent (spade) quadrant is called caliginous, home to kismesissitude, a rivalry-driven pitch romance.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Homestuck"
+  },
+  {
+    "id": 416,
+    "author": "By Ymbirtt",
+    "category": "Games",
+    "phrase_text": "Being a sci-fi series, reloading is a thing of the past in the first Mass Effect game. Rather than using disposable ammo, its mass-accelerator guns strip tiny metal slivers from a block and accumulate heat as they fire, cooling down passively without any player interaction. For gameplay reasons, though, Mass Effect 2 and 3 switch back to disposable ammo magazines, which the player must reload just like in any other game.",
+    "error": "disposable ammo magazines",
+    "correction": "Um, actually, they aren't ammo magazines - they're disposable heat sinks called thermal clips. Your guns still overheat; you just eject a spent clip and slot in a fresh one. It's mechanically identical to reloading, but more sci-fi.",
+    "likes": 1,
+    "dislikes": 0,
+    "title": "Mass Effect"
+  },
+  {
+    "id": 417,
+    "author": "By Ymbirtt",
+    "category": "Games",
+    "phrase_text": "Twilight Imperium is an epic board game that wears its Star Wars influences on its sleeve. Just like in Star Wars, players wage battle with fleets of varied ships, from the lowly cruiser to the mighty destroyer, meet at a galactic council to designate holy planets and sanction rivals, and trade goods and promises to keep their allies wealthy and their enemies poor.",
+    "error": "the lowly cruiser to the mighty destroyer",
+    "correction": "Um, actually, that has it backwards - cruisers are much larger warships than destroyers, which are relatively small. The same ranking holds in Twilight Imperium, where the cruiser outclasses the destroyer.",
+    "likes": 1,
+    "dislikes": 0,
+    "title": "Twilight Imperium"
+  },
+  {
+    "id": 418,
+    "author": "By luc",
+    "category": "Games",
+    "phrase_text": "The Brothers' War pitted artificer brothers Urza and Mishra against each other after they split a Thran powerstone into the Mightstone and Weakstone. Their feud became a war of ornithopters and dragon engines across Terisiare, while the Phyrexian Gix corrupted Mishra from within. It ended at Argoth, where Urza's forces recovered the Golgothian Sylex and set off its blast - killing Mishra, starting the Ice Age, and igniting his planeswalker spark.",
+    "error": "Urza's forces recovered the Golgothian Sylex",
+    "correction": "Um, actually, Urza didn't recover the Sylex, it came from Ashnod, Mishra's own lieutenant, who defected on discovering Phyrexia's grip on Mishra and passed the relic to Urza's camp.",
+    "likes": 2,
+    "dislikes": 0,
+    "title": "Magic: The Gathering"
+  },
+  {
+    "id": 419,
+    "author": "By luc",
+    "category": "Games",
+    "phrase_text": "War of the Spark saw Nicol Bolas lure the Multiverse's planeswalkers to Ravnica, trap them with the Immortal Sun, and use the Elderspell to harvest their sparks toward godhood. The fighting was brutal: Dack Fayden and Domri Rade were among the fallen, Niv-Mizzet was reborn as the Living Guildpact to fight back, and Gideon Jura was cut down dueling Bolas himself. In the end Bolas's own spark was ripped away, and Ugin sealed the powerless dragon away.",
+    "error": "Gideon Jura was cut down dueling Bolas himself",
+    "correction": "Um, actually, Gideon didn't die fighting Bolas, he died for Liliana. When Bolas voided her pact to kill her, Gideon gave her his own invulnerability and absorbed the lethal magic himself.",
+    "likes": 2,
+    "dislikes": 0,
+    "title": "Magic: The Gathering"
+  },
+  {
+    "id": 420,
+    "author": "By luc",
+    "category": "Games",
+    "phrase_text": "Ponza is a famous Magic the Gathering mono-red land-destruction deck, built to blow up the opponent's lands with Stone Rain and Molten Rain, then win with a single oversized threat. Deckbuilder Brian Kowal brought it to fame at Pro Tour Rome in the late 1990s, and named it for Ponza, the volcanic Italian island in the Tyrrhenian Sea. Its modern heir splashes green for ramp like Arbor Elf, but the plan of stranding opponents without lands is unchanged.",
+    "error": "named it for Ponza, the volcanic Italian island in the Tyrrhenian Sea",
+    "correction": "Um, actually, it's named after the Ponza Rotta, a deep-fried calzone from a Wisconsin pizzeria - Kowal said it matched his deck's mix of lands, creatures, burn, and land destruction.",
+    "likes": 2,
+    "dislikes": 0,
+    "title": "Magic: The Gathering"
+  },
+  {
+    "id": 421,
+    "author": "By luc",
+    "category": "Games",
+    "phrase_text": "In Magic, indestructible is often misread as \"unkillable,\" but the keyword only prevents destruction, which leaves several outs. You can pile on enough damage to overwhelm the creature's toughness, exile it with a Swords to Plowshares, or force its controller to sacrifice it to an edict. Reducing its toughness to 0 with -1/-1 counters works too, since a creature at 0 toughness is put into the graveyard as a state-based action - never actually \"destroyed.\"",
+    "error": "pile on enough damage to overwhelm the creature's toughness",
+    "correction": "Um, actually, no amount of damage kills an indestructible creature - it ignores all lethal damage. You must sidestep destruction instead: exile it, force a sacrifice, or drop its toughness to 0.",
+    "likes": 2,
+    "dislikes": 0,
+    "title": "Magic: The Gathering"
   }
 ]
