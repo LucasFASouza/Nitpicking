@@ -425,15 +425,17 @@ const Phrase: FC<Props> = ({
               </div>
             </div>
 
-            <div className="pt-3">
-              <button
-                type="button"
-                onClick={() => setShowCorrection(true)}
-                className="highlight-link text-xs sm:text-sm"
-              >
-                Um, actually&hellip; this isn&apos;t quite right?
-              </button>
-            </div>
+            {showDetails && (
+              <div className="pt-3">
+                <button
+                  type="button"
+                  onClick={() => setShowCorrection(true)}
+                  className="highlight-link text-xs sm:text-sm"
+                >
+                  Um, actually&hellip; this isn&apos;t quite right?
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
