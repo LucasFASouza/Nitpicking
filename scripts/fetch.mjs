@@ -16,7 +16,14 @@
  *       author, category, phrase_text, error, correction, notes, status) as JSON on
  *       stdout — read notes/category/title too, not just phrase_text.
  *
- * Both commands hit the network. Reads DATABASE_URL from .env at the repo root.
+ *   node scripts/fetch.mjs corrections [--status "In analysis"] [--id N] [--ids 1,2,3]
+ *       The pending queue of user corrections about ALREADY-PUBLISHED phrases (for
+ *       the `correction-editor` agent). Each row carries the correction fields
+ *       (id, phrase_id, body, source_url, status, created_at) PLUS a join with the
+ *       target phrase (phrase_title/phrase_author/phrase_category/phrase_text/
+ *       phrase_error/phrase_correction) so the agent sees what it must rewrite.
+ *
+ * All commands hit the network. Reads DATABASE_URL from .env at the repo root.
  */
 
 import { writeFileSync } from "node:fs";
@@ -37,7 +44,7 @@ const flag = (name) => {
 };
 
 if (!cmd) {
-  console.error("Usage: node scripts/fetch.mjs <backup|suggestions> [--out F] [--status S] [--id N] [--ids 1,2]");
+  console.error("Usage: node scripts/fetch.mjs <backup|suggestions|corrections> [--out F] [--status S] [--id N] [--ids 1,2]");
   process.exit(1);
 }
 if (!process.env.DATABASE_URL) {
@@ -90,8 +97,43 @@ try {
       rows = await withRetry(() => sql`SELECT * FROM suggestion WHERE status = ${status} ORDER BY id`);
     }
     out(rows);
+  } else if (cmd === "corrections") {
+    // Fila de correções de usuários sobre frases publicadas, para o agente
+    // `correction-editor`. Faz join com a frase alvo (aliases `phrase_*`) para o
+    // agente ver o estado atual do que precisa reescrever, sem outra query.
+    const id = flag("id");
+    const ids = flag("ids");
+    const status = flag("status") ?? "In analysis";
+    let rows;
+    if (id) {
+      rows = await withRetry(() => sql`
+        SELECT c.id, c.phrase_id, c.body, c.source_url, c.status, c.created_at,
+               p.title AS phrase_title, p.author AS phrase_author,
+               p.category AS phrase_category, p.phrase_text AS phrase_text,
+               p.error AS phrase_error, p.correction AS phrase_correction
+        FROM correction c LEFT JOIN phrase p ON p.id = c.phrase_id
+        WHERE c.id = ${Number(id)}`);
+    } else if (ids) {
+      const list = ids.split(",").map((n) => Number(n.trim())).filter((n) => !Number.isNaN(n));
+      rows = await withRetry(() => sql`
+        SELECT c.id, c.phrase_id, c.body, c.source_url, c.status, c.created_at,
+               p.title AS phrase_title, p.author AS phrase_author,
+               p.category AS phrase_category, p.phrase_text AS phrase_text,
+               p.error AS phrase_error, p.correction AS phrase_correction
+        FROM correction c LEFT JOIN phrase p ON p.id = c.phrase_id
+        WHERE c.id = ANY(${list}) ORDER BY c.id`);
+    } else {
+      rows = await withRetry(() => sql`
+        SELECT c.id, c.phrase_id, c.body, c.source_url, c.status, c.created_at,
+               p.title AS phrase_title, p.author AS phrase_author,
+               p.category AS phrase_category, p.phrase_text AS phrase_text,
+               p.error AS phrase_error, p.correction AS phrase_correction
+        FROM correction c LEFT JOIN phrase p ON p.id = c.phrase_id
+        WHERE c.status = ${status} ORDER BY c.id`);
+    }
+    out(rows);
   } else {
-    console.error(`Unknown command "${cmd}". Use backup | suggestions.`);
+    console.error(`Unknown command "${cmd}". Use backup | suggestions | corrections.`);
     process.exit(1);
   }
 } catch (e) {

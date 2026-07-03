@@ -5,10 +5,15 @@ import Link from "next/link";
 import Button from "@/components/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContextBanner from "@/components/context-banner";
+import CorrectionModal from "@/components/correction-modal";
 import { getContextIds } from "@/actions/phraseAction";
 import { PhraseType } from "@/types/phraseType";
 import { SortOption } from "@/lib/searchParams";
-import { authorQuery, parseSearchQuery, stripByPrefix } from "@/lib/searchQuery";
+import {
+  authorQuery,
+  parseSearchQuery,
+  stripByPrefix,
+} from "@/lib/searchQuery";
 import {
   faArrowLeft,
   faArrowRight,
@@ -44,7 +49,7 @@ declare global {
     gtag: (
       event: string,
       action: string,
-      params: { event_category: string; event_label: string; value: number }
+      params: { event_category: string; event_label: string; value: number },
     ) => void;
   }
 }
@@ -60,6 +65,7 @@ const Phrase: FC<Props> = ({
   const [isLoading, setIsLoading] = useState(true);
   const [showDetails, setShowDetails] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
+  const [showCorrection, setShowCorrection] = useState(false);
   const [contextIds, setContextIds] = useState<number[]>([]);
   const [likedIds, setLikedIds] = useState<number[]>([]);
   const [dislikedIds, setDislikedIds] = useState<number[]>([]);
@@ -230,7 +236,7 @@ const Phrase: FC<Props> = ({
 
     const beforeError = phrase.phrase_text.slice(0, errorIndex);
     const afterError = phrase.phrase_text.slice(
-      errorIndex + phrase.error.length
+      errorIndex + phrase.error.length,
     );
 
     return (
@@ -242,8 +248,8 @@ const Phrase: FC<Props> = ({
             !hasInteracted
               ? ""
               : showDetails
-              ? "highlight-animation"
-              : "unhighlight-animation"
+                ? "highlight-animation"
+                : "unhighlight-animation"
           }
         >
           {phrase.error}
@@ -336,7 +342,11 @@ const Phrase: FC<Props> = ({
             navigatePhrase(false);
           }}
         />
-        <Button icon={faShuffle} ariaLabel="Random phrase" onClick={randomPhrase} />
+        <Button
+          icon={faShuffle}
+          ariaLabel="Random phrase"
+          onClick={randomPhrase}
+        />
         <Button
           icon={faArrowRight}
           ariaLabel="Next phrase"
@@ -371,21 +381,30 @@ const Phrase: FC<Props> = ({
               <div className="flex items-center gap-4 text-sm sm:text-lg text-foreground">
                 <button
                   onClick={() => handleLike(phrase.id)}
-                  aria-label={likedIds.includes(phrase.id) ? "Remove like" : "Like"}
+                  aria-label={
+                    likedIds.includes(phrase.id) ? "Remove like" : "Like"
+                  }
                   aria-pressed={likedIds.includes(phrase.id)}
                   className={`highlight-link flex items-center gap-2 px-1 ${
                     likedIds.includes(phrase.id) ? "font-semibold" : ""
                   }`}
                 >
                   <FontAwesomeIcon
-                    icon={likedIds.includes(phrase.id) ? faThumbsUpSolid : faThumbsUp}
+                    icon={
+                      likedIds.includes(phrase.id)
+                        ? faThumbsUpSolid
+                        : faThumbsUp
+                    }
                   />
                   {phrase.likes}
                 </button>
+
                 <button
                   onClick={() => handleDislike(phrase.id)}
                   aria-label={
-                    dislikedIds.includes(phrase.id) ? "Remove dislike" : "Dislike"
+                    dislikedIds.includes(phrase.id)
+                      ? "Remove dislike"
+                      : "Dislike"
                   }
                   aria-pressed={dislikedIds.includes(phrase.id)}
                   className={`highlight-link flex items-center gap-2 px-1 ${
@@ -401,12 +420,27 @@ const Phrase: FC<Props> = ({
                   />
                   {phrase.dislikes}
                 </button>
+
+                {showDetails && (
+                  <div>
+                    <button
+                      type="button"
+                      onClick={() => setShowCorrection(true)}
+                      className="highlight-link text-xs sm:text-sm"
+                    >
+                      Um, actually&hellip; this isn&apos;t quite right?
+                    </button>
+                  </div>
+                )}
               </div>
 
               <div>
                 <h2 className="text-xs sm:text-base">
                   #{phrase.id} -{" "}
-                  <Link href={categoryHref} className="highlight-link font-semibold">
+                  <Link
+                    href={categoryHref}
+                    className="highlight-link font-semibold"
+                  >
                     {phrase.category}
                   </Link>
                 </h2>
@@ -434,6 +468,12 @@ const Phrase: FC<Props> = ({
           onClick={handleToggleDetails}
         />
       </div>
+
+      <CorrectionModal
+        phraseId={phrase.id}
+        open={showCorrection}
+        onClose={() => setShowCorrection(false)}
+      />
     </div>
   );
 };
