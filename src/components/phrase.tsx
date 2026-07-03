@@ -428,7 +428,7 @@ const Phrase: FC<Props> = ({
                       onClick={() => setShowCorrection(true)}
                       className="highlight-link text-xs sm:text-sm"
                     >
-                      Um, actually&hellip; this isn&apos;t quite right?
+                      Um, actually, the answer is wrong &rarr;
                     </button>
                   </div>
                 )}
@@ -460,13 +460,21 @@ const Phrase: FC<Props> = ({
         </div>
       </div>
 
-      {/* Reveal correction */}
+      {/* Reveal correction — primary action: labeled + wider than the icon-only
+          nav buttons so it reads as the main thing to do. Kept below the card. */}
       <div className="flex items-center py-4 justify-center">
-        <Button
-          icon={showDetails ? faEyeSlash : faEye}
-          ariaLabel={showDetails ? "Hide correction" : "Reveal correction"}
+        <button
           onClick={handleToggleDetails}
-        />
+          aria-label={showDetails ? "Hide" : "Reveal"}
+          aria-expanded={showDetails}
+          className="button-shadowed border-black border-2 flex items-center gap-3 px-5 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold active:bg-neutral-200"
+        >
+          <FontAwesomeIcon
+            icon={showDetails ? faEyeSlash : faEye}
+            className="fa-fw text-base sm:text-2xl"
+          />
+          {showDetails ? "Hide" : "Reveal"}
+        </button>
       </div>
 
       <CorrectionModal
