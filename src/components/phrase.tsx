@@ -5,6 +5,7 @@ import Link from "next/link";
 import Button from "@/components/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContextBanner from "@/components/context-banner";
+import CorrectionModal from "@/components/correction-modal";
 import { getContextIds } from "@/actions/phraseAction";
 import { PhraseType } from "@/types/phraseType";
 import { SortOption } from "@/lib/searchParams";
@@ -60,6 +61,7 @@ const Phrase: FC<Props> = ({
   const [isLoading, setIsLoading] = useState(true);
   const [showDetails, setShowDetails] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
+  const [showCorrection, setShowCorrection] = useState(false);
   const [contextIds, setContextIds] = useState<number[]>([]);
   const [likedIds, setLikedIds] = useState<number[]>([]);
   const [dislikedIds, setDislikedIds] = useState<number[]>([]);
@@ -422,6 +424,16 @@ const Phrase: FC<Props> = ({
                 </p>
               </div>
             </div>
+
+            <div className="pt-3">
+              <button
+                type="button"
+                onClick={() => setShowCorrection(true)}
+                className="highlight-link text-xs sm:text-sm"
+              >
+                Um, actually&hellip; this isn&apos;t quite right?
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -434,6 +446,12 @@ const Phrase: FC<Props> = ({
           onClick={handleToggleDetails}
         />
       </div>
+
+      <CorrectionModal
+        phraseId={phrase.id}
+        open={showCorrection}
+        onClose={() => setShowCorrection(false)}
+      />
     </div>
   );
 };

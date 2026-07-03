@@ -15,6 +15,13 @@
       "when": 1734370452818,
       "tag": "0001_vengeful_cannonball",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1783093015972,
+      "tag": "0002_add_correction_table",
+      "breakpoints": true
     }
   ]
 }
