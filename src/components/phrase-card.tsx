@@ -55,13 +55,18 @@ const PhraseCard: FC<Props> = ({ phrase, href, highlight }) => {
         {highlightTerms(phrase.phrase_text, highlight)}
       </p>
 
-      <div className="flex gap-4 text-xs text-neutral-600">
-        <span className="flex items-center gap-1">
-          <FontAwesomeIcon icon={faThumbsUp} /> {phrase.likes}
-        </span>
-        <span className="flex items-center gap-1">
-          <FontAwesomeIcon icon={faThumbsDown} /> {phrase.dislikes}
-        </span>
+      <div className="flex items-center justify-between gap-4 text-xs text-neutral-600">
+        <div className="flex gap-4">
+          <span className="flex items-center gap-1">
+            <FontAwesomeIcon icon={faThumbsUp} /> {phrase.likes}
+          </span>
+          <span className="flex items-center gap-1">
+            <FontAwesomeIcon icon={faThumbsDown} /> {phrase.dislikes}
+          </span>
+        </div>
+        {phrase.author && (
+          <span className="truncate">— {phrase.author}</span>
+        )}
       </div>
     </Link>
   );
