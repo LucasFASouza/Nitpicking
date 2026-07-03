@@ -125,8 +125,7 @@ const CorrectionModal: FC<Props> = ({ phraseId, open, onClose }) => {
               Um, actually&hellip;
             </h2>
             <p className="mb-4 text-sm text-neutral-600">
-              Spotted a mistake in this nitpick? Tell us what&apos;s off &mdash;
-              we read every one.
+              Spotted a mistake in this nitpick? Tell us what&apos;s off
             </p>
 
             <div className="mb-4">

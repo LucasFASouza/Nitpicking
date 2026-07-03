@@ -116,6 +116,11 @@ export default function AboutPage() {
               <li>
                 Give a thumbs up to sentences you found helpful or interesting
               </li>
+              <li>
+                Think our correction is off? Once the answer is revealed, hit the{" "}
+                <span className="font-bold">&ldquo;Um, actually&hellip;&rdquo;</span>{" "}
+                link to send us your own nitpick — we read every one
+              </li>
             </ol>
 
             <h3 className="mt-6 mb-2">Playing with Friends</h3>
