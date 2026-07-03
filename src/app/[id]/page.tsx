@@ -17,10 +17,12 @@ export async function generateMetadata(props: {
   searchParams: SearchParams;
 }) {
   const params = await props.params;
-  const id = params.id;
+  const id = Number(params.id);
+  // getPhraseById is React-cached, so this doesn't double-fetch with the page.
+  const phrase = Number.isNaN(id) ? null : await getPhraseById(id);
 
   return {
-    title: `Nitpicking #${id}`,
+    title: phrase ? `#${phrase.id} - ${phrase.title}` : `Nitpicking #${params.id}`,
     description: "Find and correct the error",
   };
 }
