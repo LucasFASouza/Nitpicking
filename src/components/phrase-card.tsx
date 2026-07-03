@@ -40,23 +40,23 @@ const PhraseCard: FC<Props> = ({ phrase, href, highlight }) => {
   return (
     <Link
       href={href}
-      className="button-shadowed border-black border-2 p-4 flex flex-col gap-3 h-full"
+      className="button-shadowed border-black border-2 p-3 sm:p-4 flex flex-col gap-2 sm:gap-3 h-full"
     >
       <div>
-        <h2 className="text-base sm:text-lg leading-tight">
+        <h2 className="text-sm sm:text-lg leading-tight">
           {highlightTerms(phrase.title, highlight)}
         </h2>
-        <p className="text-xs text-neutral-600">
+        <p className="text-[11px] sm:text-xs text-neutral-600">
           #{phrase.id} · {phrase.category}
         </p>
       </div>
 
-      <p className="text-sm italic line-clamp-4 flex-1">
+      <p className="text-xs sm:text-sm italic line-clamp-3 sm:line-clamp-4 flex-1">
         {highlightTerms(phrase.phrase_text, highlight)}
       </p>
 
-      <div className="flex items-center justify-between gap-4 text-xs text-neutral-600">
-        <div className="flex gap-4">
+      <div className="flex items-center justify-between gap-3 text-[11px] sm:text-xs text-neutral-600">
+        <div className="flex gap-3 sm:gap-4">
           <span className="flex items-center gap-1">
             <FontAwesomeIcon icon={faThumbsUp} /> {phrase.likes}
           </span>

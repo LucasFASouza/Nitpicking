@@ -376,65 +376,64 @@ const Phrase: FC<Props> = ({
               </div>
             </div>
 
-            {/* Like/dislike inline, com o sweep amarelo do highlight-link no hover. */}
-            <div className="flex items-end justify-between gap-4 pt-4 sm:pt-12">
-              <div className="flex items-center gap-4 text-sm sm:text-lg text-foreground">
-                <button
-                  onClick={() => handleLike(phrase.id)}
-                  aria-label={
-                    likedIds.includes(phrase.id) ? "Remove like" : "Like"
-                  }
-                  aria-pressed={likedIds.includes(phrase.id)}
-                  className={`highlight-link flex items-center gap-2 px-1 ${
-                    likedIds.includes(phrase.id) ? "font-semibold" : ""
-                  }`}
-                >
-                  <FontAwesomeIcon
-                    icon={
-                      likedIds.includes(phrase.id)
-                        ? faThumbsUpSolid
-                        : faThumbsUp
+            <div className="flex flex-col gap-3 pt-4 text-start sm:flex-row sm:items-end sm:justify-between sm:gap-4 sm:pt-12">
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-4 text-sm sm:text-lg text-foreground">
+                  <button
+                    onClick={() => handleLike(phrase.id)}
+                    aria-label={
+                      likedIds.includes(phrase.id) ? "Remove like" : "Like"
                     }
-                  />
-                  {phrase.likes}
-                </button>
+                    aria-pressed={likedIds.includes(phrase.id)}
+                    className={`highlight-link flex items-center gap-2 px-1 ${
+                      likedIds.includes(phrase.id) ? "font-semibold" : ""
+                    }`}
+                  >
+                    <FontAwesomeIcon
+                      icon={
+                        likedIds.includes(phrase.id)
+                          ? faThumbsUpSolid
+                          : faThumbsUp
+                      }
+                    />
+                    {phrase.likes}
+                  </button>
 
-                <button
-                  onClick={() => handleDislike(phrase.id)}
-                  aria-label={
-                    dislikedIds.includes(phrase.id)
-                      ? "Remove dislike"
-                      : "Dislike"
-                  }
-                  aria-pressed={dislikedIds.includes(phrase.id)}
-                  className={`highlight-link flex items-center gap-2 px-1 ${
-                    dislikedIds.includes(phrase.id) ? "font-semibold" : ""
-                  }`}
-                >
-                  <FontAwesomeIcon
-                    icon={
+                  <button
+                    onClick={() => handleDislike(phrase.id)}
+                    aria-label={
                       dislikedIds.includes(phrase.id)
-                        ? faThumbsDownSolid
-                        : faThumbsDown
+                        ? "Remove dislike"
+                        : "Dislike"
                     }
-                  />
-                  {phrase.dislikes}
-                </button>
+                    aria-pressed={dislikedIds.includes(phrase.id)}
+                    className={`highlight-link flex items-center gap-2 px-1 ${
+                      dislikedIds.includes(phrase.id) ? "font-semibold" : ""
+                    }`}
+                  >
+                    <FontAwesomeIcon
+                      icon={
+                        dislikedIds.includes(phrase.id)
+                          ? faThumbsDownSolid
+                          : faThumbsDown
+                      }
+                    />
+                    {phrase.dislikes}
+                  </button>
+                </div>
 
                 {showDetails && (
-                  <div>
-                    <button
-                      type="button"
-                      onClick={() => setShowCorrection(true)}
-                      className="highlight-link text-xs sm:text-sm"
-                    >
-                      Um, actually, the answer is wrong &rarr;
-                    </button>
-                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setShowCorrection(true)}
+                    className="highlight-link self-start text-xs sm:text-sm"
+                  >
+                    Um, actually, the answer is wrong &rarr;
+                  </button>
                 )}
               </div>
 
-              <div>
+              <div className="sm:text-end">
                 <h2 className="text-xs sm:text-base">
                   #{phrase.id} -{" "}
                   <Link
