@@ -64,14 +64,18 @@ export default function AboutPage() {
                 Github
               </a>{" "}
               to know more. If you’re not a developer, you can still nitpick our
-              typos, bugs, incorrect statements and suggest new features.{" "}
+              typos, bugs, incorrect statements and suggest new features. Spotted
+              a mistake in one of our sentences? Once you reveal the answer, hit
+              the{" "}
+              <span className="font-bold">&ldquo;Um, actually&hellip;&rdquo;</span>{" "}
+              link right on the sentence to flag it. For anything else,{" "}
               <a
                 className="highlight-link font-bold"
                 href="https://github.com/LucasFASouza/Nitpicking/issues/new/choose"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Open an issue
+                open an issue
               </a>{" "}
               and let us know!
             </p>
@@ -115,11 +119,6 @@ export default function AboutPage() {
               <li>Check if you spotted the mistake correctly</li>
               <li>
                 Give a thumbs up to sentences you found helpful or interesting
-              </li>
-              <li>
-                Think our correction is off? Once the answer is revealed, hit the{" "}
-                <span className="font-bold">&ldquo;Um, actually&hellip;&rdquo;</span>{" "}
-                link to send us your own nitpick — we read every one
               </li>
             </ol>
 
