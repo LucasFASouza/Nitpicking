@@ -222,7 +222,7 @@ const Phrase: FC<Props> = ({
     const errorIndex = phrase.phrase_text.indexOf(phrase.error);
     if (errorIndex === -1)
       return (
-        <p className="text-base sm:text-xl italic pb-12">
+        <p className="text-sm sm:text-xl italic pb-8 sm:pb-12">
           <span className="font-bold">{phrase.title} — </span>
           {phrase.phrase_text}
         </p>
@@ -234,7 +234,7 @@ const Phrase: FC<Props> = ({
     );
 
     return (
-      <p className="text-base sm:text-xl italic pb-12">
+      <p className="text-sm sm:text-xl italic pb-8 sm:pb-12">
         <span className="font-bold">{phrase.title} — </span>
         {beforeError}
         <span
@@ -261,15 +261,15 @@ const Phrase: FC<Props> = ({
 
         {/* Navigation Buttons */}
         <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4 justify-center">
-          <div className="button-shadowed border-black border-2 w-14 h-14" />
-          <div className="button-shadowed border-black border-2 w-14 h-14" />
-          <div className="button-shadowed border-black border-2 w-14 h-14" />
+          <div className="button-shadowed border-black border-2 w-11 h-11 sm:w-14 sm:h-14" />
+          <div className="button-shadowed border-black border-2 w-11 h-11 sm:w-14 sm:h-14" />
+          <div className="button-shadowed border-black border-2 w-11 h-11 sm:w-14 sm:h-14" />
         </div>
 
         {/* Main Content */}
         <div className="flex items-center py-2 sm:py-4 justify-around">
           <div className="box-shadowed border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3">
-            <div className="space-y-3 pb-12 animate-pulse">
+            <div className="space-y-3 pb-8 sm:pb-12 animate-pulse">
               <div className="h-4 sm:h-5 w-full bg-neutral-200" />
               <div className="h-4 sm:h-5 w-full bg-neutral-200" />
               <div className="h-4 sm:h-5 w-5/6 bg-neutral-200" />
@@ -290,7 +290,7 @@ const Phrase: FC<Props> = ({
 
         {/* Reveal correction */}
         <div className="flex items-center py-4 justify-center">
-          <div className="button-shadowed border-black border-2 w-14 h-14" />
+          <div className="button-shadowed border-black border-2 w-11 h-11 sm:w-14 sm:h-14" />
         </div>
       </div>
     );
@@ -360,15 +360,15 @@ const Phrase: FC<Props> = ({
               }`}
             >
               <div className="overflow-hidden">
-                <p className="transition-all duration-300 ease-out text-base sm:text-xl">
+                <p className="transition-all duration-300 ease-out text-sm sm:text-xl">
                   {phrase.correction}
                 </p>
               </div>
             </div>
 
             {/* Like/dislike inline, com o sweep amarelo do highlight-link no hover. */}
-            <div className="flex items-end justify-between gap-4 pt-6 sm:pt-12">
-              <div className="flex items-center gap-4 text-base sm:text-lg text-foreground">
+            <div className="flex items-end justify-between gap-4 pt-4 sm:pt-12">
+              <div className="flex items-center gap-4 text-sm sm:text-lg text-foreground">
                 <button
                   onClick={() => handleLike(phrase.id)}
                   aria-label={likedIds.includes(phrase.id) ? "Remove like" : "Like"}
@@ -404,14 +404,14 @@ const Phrase: FC<Props> = ({
               </div>
 
               <div>
-                <h2 className="text-sm sm:text-base">
+                <h2 className="text-xs sm:text-base">
                   #{phrase.id} -{" "}
                   <Link href={categoryHref} className="highlight-link font-semibold">
                     {phrase.category}
                   </Link>
                 </h2>
 
-                <p className="text-sm sm:text-base">
+                <p className="text-xs sm:text-base">
                   {phrase.author && authorHref ? (
                     <Link href={authorHref} className="highlight-link">
                       {phrase.author}

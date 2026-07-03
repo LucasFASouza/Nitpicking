@@ -23,7 +23,7 @@ const SkeletonCard = () => (
     className="button-shadowed border-black border-2 p-4 flex flex-col gap-3 h-full animate-pulse"
   >
     <div className="space-y-2">
-      <div className="h-5 w-2/3 bg-neutral-200" />
+      <div className="h-4 sm:h-5 w-2/3 bg-neutral-200" />
       <div className="h-3 w-1/3 bg-neutral-200" />
     </div>
     <div className="space-y-2 flex-1">

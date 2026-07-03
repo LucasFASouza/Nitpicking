@@ -52,9 +52,9 @@ export default function ContributePage() {
     <main>
       <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4">
         <div className="box-shadowed border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3 mx-auto">
-          <h1 className="text-xl sm:text-2xl mb-2 sm:mb-4">Suggest a nitpick</h1>
+          <h1 className="text-lg sm:text-2xl mb-2 sm:mb-4">Suggest a nitpick</h1>
 
-          <div className="space-y-4 text-base sm:text-lg py-2 sm:py-4">
+          <div className="space-y-4 text-sm sm:text-lg py-2 sm:py-4">
             <p>
               Found an interesting mistake in pop culture? Help us grow our
               collection by submitting your own nitpick!

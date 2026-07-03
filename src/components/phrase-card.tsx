@@ -43,7 +43,7 @@ const PhraseCard: FC<Props> = ({ phrase, href, highlight }) => {
       className="button-shadowed border-black border-2 p-4 flex flex-col gap-3 h-full"
     >
       <div>
-        <h2 className="text-lg leading-tight">
+        <h2 className="text-base sm:text-lg leading-tight">
           {highlightTerms(phrase.title, highlight)}
         </h2>
         <p className="text-xs text-neutral-600">

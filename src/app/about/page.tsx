@@ -12,9 +12,9 @@ export default function AboutPage() {
       <div className="flex items-center gap-4 sm:gap-6 py-2 sm:py-4">
         <div className="box-shadowed border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3 mx-auto">
           {/* About */}
-          <h2 className="text-xl sm:text-2xl mb-2 sm:mb-4">About</h2>
+          <h2 className="text-lg sm:text-2xl mb-2 sm:mb-4">About</h2>
 
-          <div className="space-y-4 text-base sm:text-lg py-2 sm:py-4">
+          <div className="space-y-4 text-sm sm:text-lg py-2 sm:py-4">
             <p>
               Nitpicking is inspired by the hilarious trivia game{" "}
               <a
@@ -89,12 +89,12 @@ export default function AboutPage() {
           {/* How to Play */}
           <h2
             id="how-to-play"
-            className="text-xl sm:text-2xl mt-8 mb-2 sm:mb-4 scroll-mt-24"
+            className="text-lg sm:text-2xl mt-8 mb-2 sm:mb-4 scroll-mt-24"
           >
             How to Play
           </h2>
 
-          <div className="space-y-4 text-base sm:text-lg py-2 sm:py-4">
+          <div className="space-y-4 text-sm sm:text-lg py-2 sm:py-4">
             <p>
               Each round presents you with a sentence about pop culture,
               science, or general nerd knowledge. While the sentence might seem
