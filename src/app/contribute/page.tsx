@@ -2,9 +2,12 @@
 
 import { useState } from "react";
 import { addSuggestion } from "@/actions/suggestionAction";
-import Button from "@/components/button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 import { categories } from "@/lib/categories";
+
+const inputClass =
+  "w-full border-2 border-black p-2 text-sm focus:shadow-[3px_3px] focus:outline-none sm:p-3 sm:text-base";
 
 export default function ContributePage() {
   const [formData, setFormData] = useState({
@@ -16,9 +19,12 @@ export default function ContributePage() {
     correction: "",
     notes: "",
   });
+  const [submitting, setSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (submitting) return;
+    setSubmitting(true);
     try {
       await addSuggestion(
         formData.author,
@@ -45,6 +51,7 @@ export default function ContributePage() {
     } catch (error) {
       console.error("Error submitting suggestion:", error);
       alert("Error submitting your suggestion. Please try again.");
+      setSubmitting(false);
     }
   };
 
@@ -54,19 +61,17 @@ export default function ContributePage() {
         <div className="box-shadowed border-black border-2 p-4 sm:p-6 w-[95%] sm:w-[85%] md:w-2/3 mx-auto">
           <h1 className="text-lg sm:text-2xl mb-2 sm:mb-4">Suggest a nitpick</h1>
 
-          <div className="space-y-4 text-sm sm:text-lg py-2 sm:py-4">
-            <p>
+          <div className="py-2 sm:py-4">
+            <p className="mb-6 text-sm text-neutral-600 sm:text-base">
               Found an interesting mistake in pop culture? Help us grow our
               collection by submitting your own nitpick!
             </p>
 
-            <form
-              onSubmit={handleSubmit}
-              className="space-y-4 sm:space-y-6 mt-4 sm:mt-6"
-            >
-              <div>
-                <label htmlFor="author" className="block mb-2">
-                  Your username (optional)
+            <form onSubmit={handleSubmit}>
+              <div className="mb-4">
+                <label htmlFor="author" className="mb-1 block text-sm">
+                  Your username{" "}
+                  <span className="text-neutral-600">(optional)</span>
                 </label>
                 <input
                   type="text"
@@ -75,12 +80,12 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, author: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
+                  className={inputClass}
                 />
               </div>
 
-              <div>
-                <label htmlFor="category" className="block mb-2">
+              <div className="mb-4">
+                <label htmlFor="category" className="mb-1 block text-sm">
                   Category *
                 </label>
                 <select
@@ -90,7 +95,7 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, category: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
+                  className={inputClass}
                 >
                   {categories.map((category) => (
                     <option key={category} value={category}>
@@ -100,10 +105,12 @@ export default function ContributePage() {
                 </select>
               </div>
 
-              <div>
-                <label htmlFor="title" className="block mb-2">
-                  Title (what is this statement about? E.g., Star Wars,
-                  Naruto etc.) *
+              <div className="mb-4">
+                <label htmlFor="title" className="mb-1 block text-sm">
+                  Title *{" "}
+                  <span className="text-neutral-600">
+                    (what is this statement about? E.g., Star Wars, Naruto etc.)
+                  </span>
                 </label>
                 <input
                   type="text"
@@ -113,12 +120,12 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, title: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
+                  className={inputClass}
                 />
               </div>
 
-              <div>
-                <label htmlFor="phrase_text" className="block mb-2">
+              <div className="mb-4">
+                <label htmlFor="phrase_text" className="mb-1 block text-sm">
                   Sentence *
                 </label>
                 <textarea
@@ -128,13 +135,16 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, phrase_text: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 sm:p-3 h-20 sm:h-24 text-sm sm:text-base"
+                  className={`${inputClass} h-24`}
                 />
               </div>
 
-              <div>
-                <label htmlFor="error" className="block mb-2">
-                  Error (what part of the sentence is wrong?) *
+              <div className="mb-4">
+                <label htmlFor="error" className="mb-1 block text-sm">
+                  Error *{" "}
+                  <span className="text-neutral-600">
+                    (what part of the sentence is wrong?)
+                  </span>
                 </label>
                 <input
                   type="text"
@@ -144,12 +154,12 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, error: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
+                  className={inputClass}
                 />
               </div>
 
-              <div>
-                <label htmlFor="correction" className="block mb-2">
+              <div className="mb-4">
+                <label htmlFor="correction" className="mb-1 block text-sm">
                   Correction *
                 </label>
                 <input
@@ -160,13 +170,14 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, correction: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 sm:p-3 text-sm sm:text-base"
+                  className={inputClass}
                 />
               </div>
 
-              <div>
-                <label htmlFor="notes" className="block mb-2">
-                  Additional Notes
+              <div className="mb-4">
+                <label htmlFor="notes" className="mb-1 block text-sm">
+                  Additional notes{" "}
+                  <span className="text-neutral-600">(optional)</span>
                 </label>
                 <textarea
                   id="notes"
@@ -174,17 +185,22 @@ export default function ContributePage() {
                   onChange={(e) =>
                     setFormData({ ...formData, notes: e.target.value })
                   }
-                  className="w-full border-2 border-black p-2 sm:p-3 h-20 sm:h-24 text-sm sm:text-base"
+                  className={`${inputClass} h-24`}
                 />
               </div>
 
-              <div className="flex justify-end items-end pt-4 sm:pt-6">
-                <Button
-                  icon={faPaperPlane}
-                  onClick={() => {}}
-                  ariaLabel="Submit suggestion"
-                  className="text-lg sm:text-xl"
-                />
+              <div className="flex items-center justify-end">
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  aria-label="Submit suggestion"
+                  className="button-shadowed flex aspect-square w-11 items-center justify-center border-2 border-black active:bg-neutral-200 disabled:cursor-not-allowed disabled:opacity-40 sm:w-12"
+                >
+                  <FontAwesomeIcon
+                    icon={faPaperPlane}
+                    className="fa-fw text-base sm:text-xl"
+                  />
+                </button>
               </div>
             </form>
           </div>
