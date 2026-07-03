@@ -3,6 +3,7 @@ import { FC, useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Button from "@/components/button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContextBanner from "@/components/context-banner";
 import { getContextIds } from "@/actions/phraseAction";
 import { PhraseType } from "@/types/phraseType";
@@ -274,17 +275,21 @@ const Phrase: FC<Props> = ({
               <div className="h-4 sm:h-5 w-5/6 bg-neutral-200" />
               <div className="h-4 sm:h-5 w-2/3 bg-neutral-200" />
             </div>
-            <div className="flex flex-col items-end gap-2 animate-pulse">
-              <div className="h-3 w-28 bg-neutral-200" />
-              <div className="h-3 w-20 bg-neutral-200" />
+            <div className="animate-pulse flex items-end justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="h-5 w-12 bg-neutral-200" />
+                <div className="h-5 w-12 bg-neutral-200" />
+              </div>
+              <div className="space-y-2">
+                <div className="h-3 w-28 bg-neutral-200 ml-auto" />
+                <div className="h-3 w-20 bg-neutral-200 ml-auto" />
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Action Buttons */}
-        <div className="flex items-start gap-4 sm:gap-6 py-4 justify-center">
-          <div className="button-shadowed border-black border-2 w-14 h-14" />
-          <div className="button-shadowed border-black border-2 w-14 h-14" />
+        {/* Reveal correction */}
+        <div className="flex items-center py-4 justify-center">
           <div className="button-shadowed border-black border-2 w-14 h-14" />
         </div>
       </div>
@@ -361,55 +366,73 @@ const Phrase: FC<Props> = ({
               </div>
             </div>
 
-            <h2 className="pt-6 sm:pt-12 text-sm sm:text-base">
-              #{phrase.id} -{" "}
-              <Link href={categoryHref} className="highlight-link font-semibold">
-                {phrase.category}
-              </Link>
-            </h2>
+            {/* Like/dislike inline, com o sweep amarelo do highlight-link no hover. */}
+            <div className="flex items-end justify-between gap-4 pt-6 sm:pt-12">
+              <div className="flex items-center gap-4 text-base sm:text-lg text-foreground">
+                <button
+                  onClick={() => handleLike(phrase.id)}
+                  aria-label={likedIds.includes(phrase.id) ? "Remove like" : "Like"}
+                  aria-pressed={likedIds.includes(phrase.id)}
+                  className={`highlight-link flex items-center gap-2 px-1 ${
+                    likedIds.includes(phrase.id) ? "font-semibold" : ""
+                  }`}
+                >
+                  <FontAwesomeIcon
+                    icon={likedIds.includes(phrase.id) ? faThumbsUpSolid : faThumbsUp}
+                  />
+                  {phrase.likes}
+                </button>
+                <button
+                  onClick={() => handleDislike(phrase.id)}
+                  aria-label={
+                    dislikedIds.includes(phrase.id) ? "Remove dislike" : "Dislike"
+                  }
+                  aria-pressed={dislikedIds.includes(phrase.id)}
+                  className={`highlight-link flex items-center gap-2 px-1 ${
+                    dislikedIds.includes(phrase.id) ? "font-semibold" : ""
+                  }`}
+                >
+                  <FontAwesomeIcon
+                    icon={
+                      dislikedIds.includes(phrase.id)
+                        ? faThumbsDownSolid
+                        : faThumbsDown
+                    }
+                  />
+                  {phrase.dislikes}
+                </button>
+              </div>
 
-            <p className="text-sm sm:text-base">
-              {phrase.author && authorHref ? (
-                <Link href={authorHref} className="highlight-link">
-                  {phrase.author}
-                </Link>
-              ) : (
-                phrase.author
-              )}
-            </p>
+              <div>
+                <h2 className="text-sm sm:text-base">
+                  #{phrase.id} -{" "}
+                  <Link href={categoryHref} className="highlight-link font-semibold">
+                    {phrase.category}
+                  </Link>
+                </h2>
+
+                <p className="text-sm sm:text-base">
+                  {phrase.author && authorHref ? (
+                    <Link href={authorHref} className="highlight-link">
+                      {phrase.author}
+                    </Link>
+                  ) : (
+                    phrase.author
+                  )}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Action Buttons */}
-      <div className="flex items-start gap-4 sm:gap-6 py-4 justify-center">
-        <div className="flex flex-col items-center gap-2">
-          <Button
-            icon={
-              dislikedIds.includes(phrase.id) ? faThumbsDownSolid : faThumbsDown
-            }
-            ariaLabel={
-              dislikedIds.includes(phrase.id) ? "Remove dislike" : "Dislike"
-            }
-            onClick={() => handleDislike(phrase.id)}
-          />
-          {phrase.dislikes}
-        </div>
-
+      {/* Reveal correction */}
+      <div className="flex items-center py-4 justify-center">
         <Button
           icon={showDetails ? faEyeSlash : faEye}
           ariaLabel={showDetails ? "Hide correction" : "Reveal correction"}
           onClick={handleToggleDetails}
         />
-
-        <div className="flex flex-col items-center gap-2">
-          <Button
-            icon={likedIds.includes(phrase.id) ? faThumbsUpSolid : faThumbsUp}
-            ariaLabel={likedIds.includes(phrase.id) ? "Remove like" : "Like"}
-            onClick={() => handleLike(phrase.id)}
-          />
-          {phrase.likes}
-        </div>
       </div>
     </div>
   );

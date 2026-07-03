@@ -17,7 +17,7 @@
     "phrase_text": "The various Spider-People in \"Spider-Man: Into the Spider-Verse\" may have all been bitten by a radioactive spider and consider themselves the \"one and only\" Spidey in their universe, but they couldn't be more different: Peter B. Parker is a divorcee living in a one-bedroom apartment, Spider Man Noir is a P.I. living in 1933 who likes to drink egg creams and fight Nazis, and Peter Porker is a photographer for the Daily Beagle.",
     "error": "may have all been bitten by a radioactive spider and consider themselves the \"one and only\" Spidey in their universe,",
     "correction": "Um, actually, not all of the Spider-Men were bitten by a radioactive spider. Peter Porker was a spider who was bitten by a radioactive pig.",
-    "likes": 26,
+    "likes": 30,
     "dislikes": 2,
     "title": "Spider-Man: Into the Spider-Verse"
   },
@@ -28,7 +28,7 @@
     "phrase_text": "Everybody's got secrets! Yor Forger is secretly an assassin, her husband Loid is secretly a spy from Westalis, and her adopted daughter Anya is secretly psychic. When Yor has to explain to her younger brother Yuri (who is secretly a member of Ostiana's Secret Police) why she hadn't told him about her marriage, she explains she needed to keep the marriage secret to help Anya get a scholarship at Eden Academy.",
     "error": "she explains she needed to keep the marriage secret to help Anya get a scholarship at Eden Academy.",
     "correction": "Um, actually, Yor doesn't give an explanation relating to Anya's scholarship. Yor's cover is simply that she forgot to tell Yuri. And then that she forgot that she had forgotten to tell Yuri.",
-    "likes": 4,
+    "likes": 5,
     "dislikes": 1,
     "title": "Spy X Family"
   },
@@ -39,7 +39,7 @@
     "phrase_text": "The female descendants of Sun Yee are afflicted with the ability to transform into giant red pandas when they experience strong emotions - a curse that manifests on a descendant's thirteenth birthday. The red panda spirit can be sealed away by performing a ritual that encases it in an object under a red moon; but protagonist Meilin Lee learns to control her power by thinking about her friends.",
     "error": "a curse that manifests on a descendant's thirteenth birthday.",
     "correction": "Um, actually, the curse doesn't manifest on their 13th birthdays. There's no clear timescale for when the curse manifests - in fact, the curse manifesting so early catches Meilin's parents off-guard, with her father saying, \"It's happened already?!\"",
-    "likes": 5,
+    "likes": 7,
     "dislikes": 0,
     "title": "Turning Red"
   },
@@ -50,7 +50,7 @@
     "phrase_text": "Have you got a \"Clue\"? In 2023, Hasbro released a new version of the classic board game. Prior to this, the British edition of the game (titled \"Cluedo\", shortened from the original title of \"Cluedunnit?\") differed slightly from the American version - the British version had Reverend Green and the deceased Dr. Black; while some American editions had Mr. Green and Mr. Boddy. The 2023 game, in both the UK and America, now have Mayor Green and Boden 'Boddy' Black Jr.",
     "error": "the British edition of the game (titled \"Cluedo\", shortened from the original title of \"Cluedunnit?\")",
     "correction": "Um, actually, Cluedo isn't short for Cluedunnit. The title Cluedo comes from a combination of \"Clue\" and \"Ludo\" - the British name for Parcheesi.",
-    "likes": 10,
+    "likes": 11,
     "dislikes": 0,
     "title": "Clue / Cluedo"
   },
@@ -61,7 +61,7 @@
     "phrase_text": "Shortly after \"Portal\" players are given their Weighted Companion Cube - a waist-high crate with a pink love heart on each side - GLaDOS informs the player character, Chell, that the cube must be euthanised in an Emergency Intelligence Incinerator to proceed. After doing so, GLaDOS informs Chell that she euthanised her companion cube more quickly than any test subject on record, the Cube is burnt up, never to be seen again.",
     "error": "and the Cube is burnt up, never to be seen again.",
     "correction": "Um, actually, the Companion Cube is seen again. The Cube is seen after the end credits of Portal, and a burnt Companion Cube (implied to be Chell's) is seen at the very end of Portal 2.",
-    "likes": 17,
+    "likes": 20,
     "dislikes": 1,
     "title": "Portal"
   },
@@ -72,7 +72,7 @@
     "phrase_text": "Westley, the farm-boy turned Dread Pirate Roberts, rescues Buttercup from her kidnapping by defeating three outlaws. He knocks out Inigo after defeating him in a fencing duel, chokes the giant Fezzik into unconsciousness, and drinks the poison-free goblet in his \"Battle of Wits\" against Vizzini.",
     "error": "and drinks the poison-free goblet in his \"Battle of Wits\" against Vizzini.",
     "correction": "Um, actually, Westley's goblet wasn't poison free. Westley poisoned both goblets, but had built up a resistance to the poisonous iocane powder.",
-    "likes": 16,
+    "likes": 19,
     "dislikes": 0,
     "title": "The Princess Bride"
   },
@@ -94,7 +94,7 @@
     "phrase_text": "In a famous scene, the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea. This prompts resistance members to start suggesting things the Romans have given them, including the aqueduct, sanitation, the roads, irrigation, medicine, education, wine, public order and bringing peace.",
     "error": "the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea.",
     "correction": "Um, actually, the question wasn't asked by the leader of the Judean People's Front. It was asked by the leader of the People's Front of Judea - who hates the Judean People's Front.",
-    "likes": 14,
+    "likes": 15,
     "dislikes": 0,
     "title": "Monty Python's Life of Brian"
   },
@@ -182,7 +182,7 @@
     "phrase_text": "Dust (also known as Rusakov particles, Shadows, Shadow-Particles, Dark Matter or Sraf) is an elementary particle responsible for consciousness. Dust is itself conscious, and while humans can see Dust through technology such as the Amber Spyglass or chemical photograms, the only known way of communicating with it is through the alethiometer. Only six alethiometers were ever made, one of which is owned by Lyra Silvertongue.",
     "error": "the only known way of communicating with it is through the alethiometer.",
     "correction": "Um, actually, the alethiometer isn't the only method of communicating with Dust. Other methods include \"The Cave\", a computer developed by Mary Malone, the I Ching (a form of Chinese divination) and talking directly to Angels, who are beings of pure Dust.",
-    "likes": 1,
+    "likes": 3,
     "dislikes": 0,
     "title": "His Dark Materials"
   },
@@ -248,7 +248,7 @@
     "phrase_text": "In the episode \"Hush\", Sunnydale is terrorised by a group of ghoulish figures with metal-toothed grins and black suits known as 'The Gentlemen' that render the townspeople unable to speak - allowing them to carve their victims' hearts out in near silence. Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone's stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "error": "Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone's stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "correction": "Um, actually, the Gentlemen aren't defeated with a stake through the heart. The Gentlemen are killed by Buffy screaming.",
-    "likes": 4,
+    "likes": 5,
     "dislikes": 0,
     "title": "Buffy the Vampire Slayer"
   },
@@ -281,7 +281,7 @@
     "phrase_text": "The character designs in the 1989 film The Little Mermaid came from a wide variety of sources: the sea witch Ursula's design was based on drag performer Divine, Ariel's father King Neptune was based on the mythological figure of the same name, and supervising animator Glen Keane once joked that his wife looked exactly like Ariel \"without the fins\".",
     "error": "Ariel's father King Neptune was based on the mythological figure of the same name,",
     "correction": "Um, actually, Ariel's father isn't called King Neptune. Ariel's father is called King Triton - King Neptune is from SpongeBob SquarePants.",
-    "likes": 9,
+    "likes": 10,
     "dislikes": 0,
     "title": "The Little Mermaid"
   },
@@ -303,7 +303,7 @@
     "phrase_text": "Years after being rejected as a sidekick by Bob Parr (AKA Mr. Incredible), Buddy Pine (AKA Syndrome) lures Mr. Incredible to an island to fight his robotic Omnidroid. There, he learns that Syndrome has been perfecting his Omnidroid in order to stage an attack, by hiring different superheroes to fight it, resulting in the deaths of many of Bob's former colleagues - including Thunderhead, Stratogale, Meta Man, Dynaguy and Splashdown.",
     "error": "resulting in the deaths of many of Bob's former colleagues - including Thunderhead, Stratogale, Meta Man, Dynaguy and Splashdown.",
     "correction": "Um, actually, the dead superheroes listed here didn't die fighting the Omnidroid. They all died in cape-related accidents, shown in a montage during Edna Mode's supersuit redesign for Mr. Incredible",
-    "likes": 14,
+    "likes": 16,
     "dislikes": 0,
     "title": "The Incredibles"
   },
@@ -314,7 +314,7 @@
     "phrase_text": "Telekinetic tyke Matilda Wormwood often got revenge on the adults in her life by playing practical jokes. She tormented her father by bleaching his hair and putting glue into his hat; and pranked villainous headmistress Miss Trunchball by putting a newt in her drinking water and using her telekinetic powers to pose as the vengeful spirit of Miss Honey's father Magnus.",
     "error": "and pranked villainous headmistress Miss Trunchball by putting a newt in her drinking water",
     "correction": "Um, actually, Matilda didn't put a newt into Miss Trunchball's water. Matilda's friend Lavender put the newt there - but Matilda used her powers to tip the water and newt onto Miss Trunchball.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Matilda"
   },
@@ -325,7 +325,7 @@
     "phrase_text": "Time travel doesn't always have to be high-tech! In \"Outlander\", Claire Randall is transported back in time by the standing stones at Craigh na Dun to the year 1743. In \"Kindred\", Dana meets her enslaved ancestors after she is transported back in time by a voodoo priestess. And in \"Army of Darkness\", Ash is transported back in time to the Middle Ages through a portal opened by an incantation in the Necronomicon.",
     "error": "In \"Kindred\", Dana meets her enslaved ancestors after she is transported back in time by a voodoo priestess.",
     "correction": "Um, actually, Dana wasn't transported back in time by a voodoo priestess. In the 1979 book, it's never explained how or why the time travel occurs. In the 2022 TV miniseries, it's caused by Dana experiencing fear.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Time Travel"
   },
@@ -347,7 +347,7 @@
     "phrase_text": "After an alien burst from Executive Officer Kane's chest, the android Ash was secretly instructed by the Weylan-Yutani corporation to return the alien, with the crew considered expendable. Dallas, Parker, Lambert and Brett were all killed by the xenomorph; but Warrant Officer Ripley deactivated Ash and blasted the xenomorph into space, leaving her as the sole survivor of the Nostromo.",
     "error": "leaving her as the sole survivor of the Nostromo.",
     "correction": "Um, actually, Ripley wasn't the sole survivor of the Nostromo. The ship's cat, Jones, also survives.",
-    "likes": 9,
+    "likes": 11,
     "dislikes": 4,
     "title": "Alien"
   },
@@ -402,7 +402,7 @@
     "phrase_text": "Toriel, the motherly, goat-like figure that players encounter early on in \"Undertale\" serves as a tutorial: teaching the player the mechanics of the game and encouraging them to show mercy to their enemies rather than attack them. After giving the player a phone with which to contact her, Toriel gleefully encourages the player to leave the Ruins and explore the world.",
     "error": "Toriel gleefully encourages the player to leave the Ruins and explore the world.",
     "correction": "Um, actually, Toriel doesn't encourage the player to leave. Toriel actively tries to stop you from leaving the ruins.",
-    "likes": 5,
+    "likes": 7,
     "dislikes": 3,
     "title": "Undertale"
   },
@@ -567,7 +567,7 @@
     "phrase_text": "Witchers, such as Geralt of Rivia, are monster slayers for hire that have undergone extensive training and repeated exposure to alchemical processes and mutagenic compounds. Witchers have cat-like eyes, white hair, exceptional strength, prolonged youthfulness and carry two swords on their back: a steel sword for normal threats, and a silver sword for fighting supernatural beings.",
     "error": "Witchers have cat-like eyes, white hair, exceptional strength,",
     "correction": "Um, actually, not all Witchers have white hair. Geralt does, due to the mutigens he was exposed to; but this is not common to all Witchers.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "The Witcher"
   },
@@ -578,7 +578,7 @@
     "phrase_text": "Cubone is a Generation I Ground Type Pokémon, which evolves into Marowak at level 28. A small, bipedal, dinosaur-like creature; it wields a bone as a weapon (allowing it to learn the unique moves Bone Club and Bonemerang), and has a tough, skull-like exoskeleton attached to its head, which may explain its Battle Armour ability.",
     "error": "and has a tough, skull-like exoskeleton attached to its head,",
     "correction": "Um, actually, Cubone doesn't have an exoskeleton. Cubone wears its dead mother's head as a helmet.",
-    "likes": 5,
+    "likes": 7,
     "dislikes": 1,
     "title": "Pokémon"
   },
@@ -688,7 +688,7 @@
     "phrase_text": "The Percy Jackson series follows the story of the children of deities from Greek mythology in the modern day. Demigods possess supernatural powers that develop in their teens. However, due to Pandora's Box being opened, Demigods are likely to have dyslexia and ADHD; and they begin to release a scent that attracts monsters with the onset of their powers.",
     "error": "However, due to Pandora's Box being opened, Demigods are likely to have dyslexia and ADHD;",
     "correction": "Um, actually, demigods' dyslexia and ADHD don't come from Pandora's Box. Demigods are dyslexic because their brains are hard-wired to read Ancient Greek, and their ADHD is to help them in battle.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Percy Jackson & the Olympians"
   },
@@ -710,7 +710,7 @@
     "phrase_text": "Nothing's scarier than bureaucracy! Vampire fiction has many clandestine orders, such as the New Orleans-based Authority in \"True Blood\"; The Elite Council in \"Underworld\" that guide the Vampire Elders; the Volturi in the \"Twilight\" Saga, based in Transylvania and sworn to prevent the creation of immortal children, and the Camarilla in the \"World of Darkness\" RPGs, that enforce the 'Masquerade' that keeps the existence of vampires secret.",
     "error": "the Volturi in the \"Twilight\" Saga, based in Transylvania and sworn to prevent the creation of immortal children,",
     "correction": "Um, actually, the Volturi aren't based in Transylvania. They are based in Volterra in Italy.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Vampires"
   },
@@ -787,7 +787,7 @@
     "phrase_text": "Season One of \"Arrow\" follows Oliver Queen hunting down individuals on 'The List' - a list of names that he obtained from his father, Robert. It is later revealed that 'The List' is the list of names of benefactors towards 'The Undertaking', a plan to destroy a crime-ridden neighbourhood of Star City called The Glades. Notable names on 'The List' include Guillermo \"Brutale\" Barrera and Hannibal \"Everyman\" Bates.",
     "error": "'The Undertaking', a plan to destroy a crime-ridden neighbourhood of Star City called The Glades.",
     "correction": "Um, actually, the city isn't called \"Star City\". At the time of The Undertaking, the city was known as Starling City. It was later renamed Star City after the apparent death of Ray Palmer.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 3,
     "title": "Arrow"
   },
@@ -809,7 +809,7 @@
     "phrase_text": "\"Borderlands 2\" villain Handsome Jack is more than just a pretty face - he has taken over the Hyperion corporation, declared himself the dictator of the planet Pandora and has launched a moonbase called Hyperion, which he uses to control the ECHOnet system and place the planet under full surveillance. His ultimate goal, however, is to cleanse Pandora of bandits using The Warrior - a dragon-like Eridian superweapon. ",
     "error": "a moonbase called Hyperion, which he uses to control the ECHOnet system and place the planet under full surveillance.",
     "correction": "Um, actually, handsome Jack doesn't control ECHONet using the Hyperion moonbase. He gains control of ECHOnet and surveillance using his daughter Angel - who can 'phaseshift' to act like an Artificial Intelligence.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 5,
     "title": "Borderlands 2"
   },
@@ -887,7 +887,7 @@
     "error": "the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "correction": "Um, actually, Satan isn't burning in a lake of fire. He is frozen in a lake of ice.",
     "likes": 1,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Dante's Inferno"
   },
   {
@@ -1018,7 +1018,7 @@
     "phrase_text": "The various Princesses in \"She-Ra\" are not necessarily all rulers or heirs of a kingdom, but they do all derive magical abilities from runestones: such as Perfuma's runestone Heart Blossom which gives her the ability to control plants, Mermista's runestone Pearl which gives her control of water, and Scorpia's runestone Black Garnet which gives her control of electricity.",
     "error": "but they do all derive magical abilities from runestones:",
     "correction": "Um, actually, the princesses don't all use magical abilities. One of the princesses, Entrapta, has no runestone or magical abilities - she is the monarch of Dryl, and she's just very good with technology.",
-    "likes": 0,
+    "likes": 2,
     "dislikes": 1,
     "title": "She-Ra and the Princesses of Power"
   },
@@ -1062,7 +1062,7 @@
     "phrase_text": "\"Animaniacs\" followed (among others) the Warner Brothers, Yakko and Wakko, and the Warner Sister Dot - anthropomorphic cartoon dogs that were created in the 1930s. After the trio ran amok throughout Warner Bros. Studios creating chaos, they were locked in the studio water tower until they escaped in the 90s. Frequently, the Warners were joined by Dr. Otto von Scratchansniff and Hello Nurse, who fruitlessly attempted to force the siblings to be \"less zany\".",
     "error": "\"Animaniacs\" followed (among others) the Warner Brothers, Yakko and Wakko, and the Warner Sister Dot - anthropomorphic cartoon dogs that were created in the 1930s.",
     "correction": "Um, actually, the Warner Siblings aren't dogs. Their species was never made clear. This fact was lampshaded in the song \"What Are We?\" where the siblings reached the conclusion that they were 'cute'.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 0,
     "title": "Animaniacs"
   },
@@ -1084,7 +1084,7 @@
     "phrase_text": "In \"Code Geass\", Lelouch vi Britannia is a young prince who was exiled from his nation and seeks to take revenge. With the help of a mysterious woman going by the name 02, he gains the use of \"Geass\", a power that lets him give someone a single command that must be followed. He uses this power to lead a rebellion against the Holy Britannian Empire and free the United States of Japan from subjugation.",
     "error": "With the help of a mysterious woman going by the name 02, he gains the use of \"Geass\",",
     "correction": "Um, actually, the mysterious woman isn't called 02. 02 is a mysterious woman from a different mecha anime series, \"Darling in the FRANXX\". The woman in Code Geass is named C2, sometimes spelled C.C.",
-    "likes": 4,
+    "likes": 5,
     "dislikes": 1,
     "title": "Code Geass"
   },
@@ -1117,7 +1117,7 @@
     "phrase_text": "The \"Professor Layton\" series consists of several games where the titular criminology professor and his young (self-proclaimed) apprentice Luke Triton solve mysteries; as well as a crossover game with Ace Attorney, and 2 games centred on Layton's children: a 3DS game with his adopted daughter Katrielle, and a mobile game featuring his biological son Alfendi.",
     "error": "the titular criminology professor and his young (self-proclaimed) apprentice Luke Triton solve mysteries;",
     "correction": "Um, actually, Layton isn't a criminology professor. He's an archaeology professor - a fact that never has any real relevance in the games.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Professor Layton"
   },
@@ -1227,7 +1227,7 @@
     "phrase_text": "The Crystal Gems are a group of rebels against The Great Diamond Authority on the Gem Homeworld, founded by Pink Diamond under the guise of Rose Quartz. Although others later join the group, at the beginning of the series the Gems consist of Pearl, Amethyst and Garnet (a fusion of Ruby and Sapphire) who all hail from the Gem Homeworld; and Steven - Rose Quartz's half-Gem, half-human son who was born on Earth.",
     "error": "the Gems consist of Pearl, Amethyst and Garnet (a fusion of Ruby and Sapphire) who all hail from the Gem Homeworld;",
     "correction": "Um, actually, Amethyst doesn't hail from the Gem Homeworld. Amethyst was created in an Earth Kindergarten.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 0,
     "title": "Steven Universe"
   },
@@ -1260,7 +1260,7 @@
     "phrase_text": "\"The Umbrella Academy\" follows the super-powered adopted children of billionaire Reginald Hargreeves, as they try to prevent an apocalyptic event. The siblings learn of the oncoming apocalypse at Reginald's funeral from their sibling Five. Five had gone missing in 2002 at age 15: he time travelled from 2002, to the apocalypse on April 1st 2019, and then travelled back in time to the date of the funeral on March 25th 2019, still aged 15.",
     "error": "and then travelled back in time to the date of the funeral on March 25th 2019, still aged 15.",
     "correction": "Um, actually, Five isn't still 15 years old. Five Hargreaves lived for 45 years after the apocalypse without aging, time travelling back to the date of the funeral from the year 2064. Five is 77 years old, but still appears to be 15.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 1,
     "title": "The Umbrella Academy"
   },
@@ -1272,7 +1272,7 @@
     "error": "Jyn Erso and Rebel captain Cassian Andor survive, and successfully deliver the schematics to the Rebel command ship.",
     "correction": "Um, actually, Jyn and Cassian don't survive. Scarif is blown up by the Death Star, killing Jyn and Cassian as well.",
     "likes": 3,
-    "dislikes": 2,
+    "dislikes": 4,
     "title": "Rogue One: A Star Wars Story"
   },
   {
@@ -1370,7 +1370,7 @@
     "phrase_text": "Janets are anthropomorphized vessels of knowledge that can be found throughout the afterlife. Although there are three distinct varieties of Janets - Good, Bad and Neutral Janets - they all share some common characteristics: they can summon items at will, hide items in their Voids and function as walkie-talkies.",
     "error": "Although there are three distinct varieties of Janets - Good, Bad and Neutral Janets",
     "correction": "Um, actually, there aren't three different varieties of Janets. There is a fourth type of Janet named \"Disco Janet\".",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 1,
     "title": "The Good Place"
   },
@@ -1403,7 +1403,7 @@
     "phrase_text": "Marceline the Vampire Queen is a half-vampire/half-demon who plays a bass guitar, which she crafted from her family's heirloom battle-axe. At a little over a thousand years old, her immortality is sustained by drinking blood; and she has gained several supernatural powers from absorbing the essence of powerful vampires - including the powers of flight, invisibility, shape-shifting and rapid healing.",
     "error": "t a little over a thousand years old, her immortality is sustained by drinking blood;",
     "correction": "Um, actually, Marceline's immortality isn't sustained by drinking blood. Marceline can drink the color red instead of blood.",
-    "likes": 7,
+    "likes": 8,
     "dislikes": 0,
     "title": "Adventure Time"
   },
@@ -1437,7 +1437,7 @@
     "error": "Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi.",
     "correction": "Um, actually, Master Splinter wasn't a rat belonging to Hamato Yoshi. This is Splinter's origin in the original comic books and some other adaptations - in the 1987 cartoon, Master Splinter is Hamato Yoshi. He mutated when the ooze combined his DNA with that of sewer rats.",
     "likes": 5,
-    "dislikes": 10,
+    "dislikes": 11,
     "title": "Teenage Mutant Ninja Turtles"
   },
   {
@@ -1480,8 +1480,8 @@
     "phrase_text": "Katniss Everdeen, and her love interests Peeta Mellark and Gale Hawthorne all hail from District 12 of Panem. Having only produced 2 winners before the events of the first book and its film adaptation (Haymitch Abernathy and another unnamed winner who died of natural causes); Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "error": "Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "correction": "Um, actually, Katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose.",
-    "likes": 11,
-    "dislikes": 6,
+    "likes": 12,
+    "dislikes": 8,
     "title": "The Hunger Games"
   },
   {
@@ -1645,7 +1645,7 @@
     "phrase_text": "Let's talk about Pokémon evolution chains! Geodude evolves into Graveler who evolves into Golem. Slowpoke evolves into Slowbro, who evolves into Slowking. Elekid evolves into Electabuzz, who evolves into Electivire. Cleffa evolves into Clefairy, who evolves into Cleafable. And, of course, Igglybuff evolves into Jigglypuff, who evolves into Wigglytuff.",
     "error": "Slowpoke evolves into Slowbro, who evolves into Slowking.",
     "correction": "Um, actually, Slowbro doesn't evolve into Slowking. Slowpoke can either evolve into Slowbro or Slowking, but it's not an evolution chain like the other three listed here.",
-    "likes": 7,
+    "likes": 8,
     "dislikes": 1,
     "title": "Pokémon"
   },
@@ -1711,7 +1711,7 @@
     "phrase_text": "Set in the Forgotten Realms setting of D&D, \"Honor Among Thieves\" opens with a scenario familiar to all D&D players. The bard Edgin Darvis recounts his backstory to the uninterested Absolution Council of the prison Revel's End while waiting on an absent member - the aarakocra, Jarnathan. After he is denied parole, he escapes (along with the barbarian Holga Kilgore) when Jarnathan arrives by grabbing him and jumping through a window.",
     "error": "After he is denied parole, he escapes (along with the barbarian Holga Kilgore)",
     "correction": "Um, actually, Edgin and Holga aren't denied parole. They escape before they're read the verdict on their parole - which was approved.",
-    "likes": 10,
+    "likes": 13,
     "dislikes": 0,
     "title": "Dungeons & Dragons: Honor Among Thieves"
   },
@@ -1920,7 +1920,7 @@
     "phrase_text": "The Nether is an eerie, Hell-like dimension that can only be accessed through a Nether Portal. Although dangerous, players may choose to venture into the Nether to find items useful in brewing potions, mine materials such as Glowstone or Nether Quartz, and obtain unique items from mobs such as Wither Skeletons and Blazes - and since night and day aren't visible in the Nether, players may sleep to set their spawn point at any time.",
     "error": "and since night and day aren't visible in the Nether, players may sleep to set their spawn point at any time.",
     "correction": "Um, actually, players cannot sleep in the Nether. If you sleep in the Nether, your bed will explode, insta-killing you.",
-    "likes": 16,
+    "likes": 17,
     "dislikes": 0,
     "title": "Minecraft"
   },
@@ -2217,7 +2217,7 @@
     "phrase_text": "Across both games and their expansions the Destiny series has featured a plethora of exotic weapons, initially available from the enigmatic Xur who appeared in the tower at weekends. These weapons have included the iconic Gjallahorn, Monte Carlo, Ace of Spades, Thunderlord, Jade Rabbit, Fatebringer, the Last Word and the Huckleberry.",
     "error": "Fatebringer",
     "correction": "Um, actually, Fatebringer was not an exotic but was the handcannon from the Vault of Glass that was the meta weapon for the early portion of Destiny 1.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 1,
     "title": "Destiny"
   },
@@ -2240,7 +2240,7 @@
     "error": "when Woody, after addressing Sid directly with his internal voice box, turns his head 360 degrees and says to Sid “So play nice.”",
     "correction": "Um, actually, all of Sid’s toys come to life as well to try and scare him. Woody's quote is just the final bit.",
     "likes": 0,
-    "dislikes": 8,
+    "dislikes": 9,
     "title": "Toy Story"
   },
   {
@@ -2295,7 +2295,7 @@
     "error": "Vorugal the Hope Devourer,and Umbrasyl the Frigid Doom",
     "correction": "Um, actually, Vorugal was the Frigid Doom and Umbrasyl was the Hope Devourer.",
     "likes": 2,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Legend of Vox Machina"
   },
   {
@@ -2316,7 +2316,7 @@
     "phrase_text": "Pokemon games have a tendency to introduce a new gimmick to the gameplay with each new generation of games. Generation 3 introduced double battles with Ruby and Sapphire, Mega Evolutions were introduced in Generation 6’s Pokemon X and Y and the mid generation 7 upgraded games Ultra Sun and Ultra Moon introduced Dynamaxing and Gigantamaxing.",
     "error": "and the mid generation 7 upgraded games Ultra Sun and Ultra Moon introduced Dynamaxing and Gigantamaxing",
     "correction": "Um, actually, Dynamaxing and Gigantamaxing were introduced in Generation 8 with Sword and Shield",
-    "likes": 7,
+    "likes": 8,
     "dislikes": 1,
     "title": "Pokemon"
   },
@@ -2404,7 +2404,7 @@
     "phrase_text": "The Red Dead Redemption games are both set in a fictional version of the American Wild West but they do venture from these places. In the first game you visit Mexico while hunting down Javier Escuela and end up embroiled in an attempted coup, playing both sides. In the sequel, after a bank heist turns bloody the surviving members of the gang flee to Cuba but end up on the fictional island of Guarma instead.",
     "error": "In the sequel, after a bank heist turns bloody",
     "correction": "Um, actually, Red Dead Redemption 2 isn’t a sequel, it’s a prequel.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 9,
     "title": "Red Dead Redemption"
   },
@@ -2547,7 +2547,7 @@
     "phrase_text": "Prior to becoming a professional recording artist, \"Weird Al\" Yankovic enjoyed submitting amateur home-recorded songs to the comedy radio program \"The Dr. Demento Show.\" There, his future drummer Jon \"Bermuda\" Schwartz met Al outside the sound booth and offered to bang on his accordion case for a live in-studio performance of \"My Bologna.\"",
     "error": "a live in-studio performance of \"My Bologna.\"",
     "correction": "Um, actually, that live 1980 studio performance was \"Another One Rides the Bus.\" \"My Bologna\" was an earlier solo demo Al recorded by himself in a college bathroom, not a live in-studio recording.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "\"Weird Al\" Yankovic"
   },
@@ -2570,7 +2570,7 @@
     "error": "who does not join a coven throughout the series",
     "correction": "Um, actually, Eda does join a coven. She is covenless at the start but is branded with a sigil in the final episode of Season 2 as part of a plan to stop a draining spell cast by Emperor Belos.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "The Owl House"
   },
   {
@@ -2669,7 +2669,7 @@
     "error": "a painting's wooden back simply reuses one of the existing wood textures in the game",
     "correction": "Um, actually, a painting's back matches none of the game's wood types. It uses its own plank-style texture with a yellowish tint similar to a chest, and it always has.",
     "likes": 0,
-    "dislikes": 6,
+    "dislikes": 7,
     "title": "Minecraft"
   },
   {
@@ -2844,7 +2844,7 @@
     "phrase_text": "In the 2006 film \"Idiocracy\", average man Joe is frozen as part of a military experiment, and awakens 500 years later to discover that average intelligence has plummeted and humans are now all crude and moronic. After taking an IQ test in prison, Joe is eventually appointed Secretary of Agriculture by President Dwayne Elizondo Mountain Dew Herbert Camacho, and must improve crop yields nation-wide, or face imprisonment.",
     "error": "appointed Secretary of Agriculture",
     "correction": "Um, actually, Joe is appointed Secretary of the Interior, not Agriculture. President Camacho still tasks him with fixing the nation's failing crop yields within a week or face prison.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Idiocracy"
   },
@@ -2855,7 +2855,7 @@
     "phrase_text": "In \"Pokemon Red\", \"Blue\" and \"Yellow\", most Gym Leaders specialise in a single type. Lt. Surge uses Electric types, Koga uses Poison types and Blaine uses Fire types. The final Gym Leader, Giovanni, is the exception - he fields a mixture of types rather than committing to one.",
     "error": "he fields a mixture of types rather than committing to one",
     "correction": "Um, actually, Giovanni is not a mixed-type Leader. As the Viridian City Gym Leader he specialises in Ground types, using Pokemon like Rhyhorn, Dugtrio and Nidoking.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Pokemon"
   },
@@ -2877,7 +2877,7 @@
     "phrase_text": "In the opening episode of \"Avatar: The Last Airbender\", the young Avatar Aang is discovered frozen inside an iceberg near the North Pole. He and his sky bison Appa are found by siblings Katara and Sokka, whose escapades soon draw the attention of the exiled Prince Zuko of the Fire Nation, tasked with capturing the Avatar to restore his honour.",
     "error": "frozen inside an iceberg near the North Pole",
     "correction": "Um, actually, Aang is frozen near the South Pole, not the North. Katara and Sokka are members of the Southern Water Tribe; the Northern Water Tribe is a separate community Aang visits later.",
-    "likes": 1,
+    "likes": 3,
     "dislikes": 0,
     "title": "Avatar: The Last Airbender"
   },
@@ -2899,7 +2899,7 @@
     "phrase_text": "In \"Dark Souls\" the player takes the role of the Chosen Undead and is guided to ring the two Bells of Awakening to gain access to Anor Londo through Sen's Fortress. One bell sits atop the Undead Church beyond the Bell Gargoyles, and ringing it then unlocks the second bell below Blighttown, reached after defeating Chaos Witch Quelaag.",
     "error": "ringing it then unlocks the second bell below Blighttown",
     "correction": "Um, actually, ringing one bell doesn't unlock the other. Both Bells of Awakening are accessible from the start and can be rung in either order.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Dark Souls"
   },
@@ -3086,7 +3086,7 @@
     "phrase_text": "In \"Stardew Valley\" players can raise farm animals including cows, chickens, sheep, pigs, ostriches, ducks and dinosaurs. The Auto-Grabber, sold at Marnie's Ranch once you reach Farming Level 10, automatically collects milk, eggs, wool, truffles and more from your animals.",
     "error": "automatically collects milk, eggs, wool, truffles and more",
     "correction": "Um, actually, the Auto-Grabber can't collect truffles. It only gathers products left inside a barn or coop, whereas pigs dig up truffles outside on the farm.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Stardew Valley"
   },
@@ -3097,7 +3097,7 @@
     "phrase_text": "In FromSoftware's \"Bloodborne\", players take the role of the Hunter in a nightmare world of eldritch horrors. The game begins in Old Yharnam, a district overrun by beasts, before the Hunter ventures out to surrounding areas such as the Forbidden Woods, Byrgenwerth and Cainhurst Castle.",
     "error": "The game begins in Old Yharnam",
     "correction": "Um, actually, the game opens in Central Yharnam, not Old Yharnam. Old Yharnam is a separate, abandoned district you can reach a little later.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Bloodborne"
   },
@@ -3130,7 +3130,7 @@
     "phrase_text": "Over the years many licensed properties have received Lego video game adaptations. The long list includes Star Wars, Harry Potter, The Lord of the Rings, Horizon, Minecraft, The Incredibles, The Avengers and Jurassic World.",
     "error": "Minecraft",
     "correction": "Um, actually, there has never been a Lego Minecraft video game. Lego has produced plenty of Minecraft building sets, but no game - unlike Horizon, which did get \"Lego Horizon Adventures\".",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Lego Games"
   },
@@ -3218,7 +3218,7 @@
     "phrase_text": "At WrestleMania 18 in Toronto, Canada, Vince McMahon and Shawn Michaels conspired to take the belt off WWF Champion Bret Hart in what became known as the Montreal Screwjob. Michaels locked Hart in his own finisher, the Sharpshooter, and the referee called for the bell, declaring Michaels the winner even though Hart never submitted.",
     "error": "At WrestleMania 18 in Toronto, Canada",
     "correction": "Um, actually, the Montreal Screwjob happened at the 1997 Survivor Series in Montreal, not WrestleMania. WrestleMania 18 was a separate event, held in Toronto in 2002.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "WWE"
   },
@@ -3229,7 +3229,7 @@
     "phrase_text": "Pokemon has a long tradition of remaking older games and tweaking their names. The first time was the Generation 3 remakes of the Generation 1 titles \"Red\" and \"Blue\", released as \"Pokemon Fire Red\" and \"Pokemon Water Blue\".",
     "error": "\"Pokemon Fire Red\" and \"Pokemon Water Blue\"",
     "correction": "Um, actually, the remakes were \"Pokemon FireRed\" and \"LeafGreen\". There has never been a \"Water Blue\" version.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 1,
     "title": "Pokemon"
   },
@@ -3295,7 +3295,7 @@
     "phrase_text": "In the second act of the 11-time Tony-winning musical \"Hamilton\", several Act 1 actors are double-cast in new roles. The actor who played John Laurens becomes Philip Hamilton, the Marquis de Lafayette becomes Thomas Jefferson, Hercules Mulligan becomes John Adams, and Peggy Schuyler becomes Maria Reynolds.",
     "error": "Hercules Mulligan becomes John Adams",
     "correction": "Um, actually, the actor who played Hercules Mulligan returns as James Madison, not John Adams. Adams is frequently name-dropped but never actually appears on stage.",
-    "likes": 0,
+    "likes": 3,
     "dislikes": 0,
     "title": "Hamilton"
   },
@@ -3306,7 +3306,7 @@
     "phrase_text": "The Nintendo Game Boy went through several iterations across its lifespan. Starting with the Game Boy in 1989, it was superseded by the Game Boy Color in 1998. The pace of evolution then increased, with the Game Boy Advance launching in 2001. With a new form factor, smaller cartridges and shoulder buttons, the Advance was the first in the line to offer a backlit screen. Two years later the Game Boy Advance SP added a clamshell folding design, and in 2005 the Game Boy Micro was the last of the line before the Nintendo DS took over.",
     "error": "the Advance was the first in the line to offer a backlit screen",
     "correction": "Um, actually, the Advance had no backlight at all - its screen was unlit and reflective. The first backlit Game Boy was the AGS-101 revision of the Game Boy Advance SP in 2005.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Game Boy"
   },
@@ -3350,7 +3350,7 @@
     "phrase_text": "The Marvel Cinematic Universe has seen a lot of success, though a few flops have appeared among its films. The Thor films have had mixed critical acclaim: the first, Thor, achieved moderate success, while its sequel, Thor 2: The Dark World, was less well received. The series was revived critically by Thor: Ragnarok in 2017, directed by Taika Waititi, while his follow-up, Thor: Love and Thunder, was much less enjoyed.",
     "error": "Thor 2: The Dark World",
     "correction": "Um, actually, the second Thor film isn't called 'Thor 2'. Its official title is simply 'Thor: The Dark World'.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 2,
     "title": "Thor"
   },
@@ -3405,7 +3405,7 @@
     "phrase_text": "A popular alternative way to play the Pokemon games is the Nuzlocke challenge. While variations abound, a standard Nuzlocke's core rules require you to catch only the first wild Pokemon encountered in each area (unless it's a duplicate), to keep every Pokemon at or below the next Gym Leader or Elite Four member's highest level, and to treat any Pokemon that faints as dead and unusable.",
     "error": "to keep every Pokemon at or below the next Gym Leader or Elite Four member's highest level,",
     "correction": "Um, actually, the level cap isn't a core rule. A standard Nuzlocke has just two: catch the first Pokemon in each area, and treat fainted Pokemon as dead. Level caps are a common optional add-on.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Pokémon"
   },
@@ -3504,7 +3504,7 @@
     "phrase_text": "The original Destiny cast players as Guardians, protectors of the last safe city on Earth, wielding a power called Light to defend it from alien races. These include the Fallen (also known as the Eliksni), the insect-like Hive, the robotic Vex and the militaristic Cabal. The Dark Below expansion also introduced the Taken, corrupted versions of existing enemies.",
     "error": "The Dark Below expansion also introduced the Taken",
     "correction": "Um, actually, the Taken weren't added in The Dark Below. They were introduced in the following expansion, The Taken King, alongside its villain Oryx.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Destiny"
   },
@@ -3538,7 +3538,7 @@
     "error": "GLaDOS tries to kill Chell with live-fire military turrets on completion of the tests",
     "correction": "Um, actually, that's not how the tests end. GLaDOS tries to incinerate Chell and floods the room with neurotoxin - turrets are a threat earlier in the chambers, not at the finale.",
     "likes": 1,
-    "dislikes": 1,
+    "dislikes": 2,
     "title": "Portal"
   },
   {
@@ -3625,7 +3625,7 @@
     "phrase_text": "Disneyland Paris first opened in 1992 as Euro Disney Resort. Like the American parks it was based on, it opened with both Big Thunder Mountain and Space Mountain. This Space Mountain was given a Jules Verne steampunk theme and is the only version of the ride to feature inversions and a launch. It has since been revised twice - first to Space Mountain: Mission 2, and later to Hyperspace Mountain with a Star Wars theme.",
     "error": "it opened with both Big Thunder Mountain and Space Mountain",
     "correction": "Um, actually, the park didn't open with Space Mountain. The ride was added in 1995, three years after opening, in an effort to draw more visitors to the struggling resort.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Disneyland Paris"
   },
@@ -3724,7 +3724,7 @@
     "phrase_text": "Balatro is a poker-inspired roguelike in which players build hands of up to five cards to score points. Because you can alter the cards in your deck, unconventional hands become possible, such as Five of a Kind, Flush House - a full house all of one suit - Flush Five, five identical cards, and Royal Family, a King, Queen and three Jacks.",
     "error": "and Royal Family, a King, Queen and three Jacks",
     "correction": "Um, actually, Royal Family isn't a hand in Balatro. Besides, that combination could be dealt from a standard deck, so it wouldn't need any custom cards anyway.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 1,
     "title": "Balatro"
   },
@@ -3757,7 +3757,7 @@
     "phrase_text": "Thomas is one of many anthropomorphised vehicles on the Island of Sodor. Of the main Steam Team, Thomas, Gordon and Edward all wear blue, while Percy, Henry and Toby are green. James is the odd one out, the only Steam Team member with a red colour scheme.",
     "error": "Percy, Henry and Toby are green",
     "correction": "Um, actually, Toby isn't green - he's a brown wooden tram engine. It's Percy and Henry who are painted green.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Thomas the Tank Engine"
   },
@@ -4010,7 +4010,7 @@
     "phrase_text": "The Kraken is a legendary sea monster believed to originate in Scandinavian folklore, often depicted as a giant octopus or squid capable of dragging entire ships under the sea. Early sailors reported sightings near Greenland and Norway, describing whirlpools and massive tentacles. Some light was shed on the legend when enormous squid carcasses began washing up on Nordic shores in the 1800s, suggesting the Kraken was likely based on the now-extinct giant squids of the North Atlantic.",
     "error": "the now-extinct giant squids of the North Atlantic",
     "correction": "Um, actually, giant squid are not extinct. The species is alive and well today - the IUCN lists it as 'least concern' - it is simply an elusive deep-sea animal that humans rarely observe.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "The Kraken"
   },
@@ -4230,7 +4230,7 @@
     "phrase_text": "The Victoria line is unusual among London Underground lines - it is often cited as the only tube line with more than two stops to have an interchange at every one of its stations. Running between Brixton and Walthamstow Central, it serves busy hubs including Victoria, Green Park and King's Cross St Pancras.",
     "error": "the only tube line with more than two stops to have an interchange at every one of its stations",
     "correction": "Um, actually, that isn't quite true - Pimlico is the only station on the Victoria line with no interchange recognised by TfL, sitting on its own between Victoria and Vauxhall.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "London Underground"
   },
@@ -4241,7 +4241,7 @@
     "phrase_text": "In May 2022, TfL officially opened the central section of the Elizabeth line, but one station - Tottenham Court Road - had not been completed on time, held up by tunnelling issues, changing fire-safety standards and the COVID-19 pandemic.",
     "error": "Tottenham Court Road",
     "correction": "Um, actually, the delayed station was Bond Street, not Tottenham Court Road. It finally opened on 24 October 2022, roughly 5 months after the rest of the central Elizabeth line.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Elizabeth Line"
   },
@@ -4252,8 +4252,8 @@
     "phrase_text": "Near the climax of \"The Truman Show,\" Marlon climbs out of the tunnel Truman dug from inside a cupboard and looks straight down a hidden camera to tell Christof \"He's gone.\" It's the same spot where, earlier in the film, Truman had been gardening while Meryl cheerfully advertised a new \"Elk Rotary\" to him - and really to the viewers at home.",
     "error": "\"Elk Rotary\"",
     "correction": "Um, actually, there's no \"Elk Rotary\" - Meryl was plugging the \"Chef's Pal,\" a dicer, grater and peeler in one that never needs sharpening and is dishwasher safe.",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 1,
+    "dislikes": 1,
     "title": "The Truman Show"
   },
   {
@@ -4263,7 +4263,7 @@
     "phrase_text": "In a flashback to Truman's college days in \"The Truman Show,\" he is drawn to Sylvia, who goes by the stage name Lauren. Insisting it has to happen now, she slips away from the cameras with him, out to the forest bordering Seahaven for a brief, authentic moment together. A man Sylvia has never met soon arrives to drag her away - off to Fiji - leaving behind only her red sweater.",
     "error": "the forest bordering Seahaven",
     "correction": "Um, actually, they don't run to a forest - Truman leads Sylvia down to the beach, dodging the cameras so deftly that it foreshadows his eventual escape by sea.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "The Truman Show"
   },
@@ -4274,7 +4274,7 @@
     "phrase_text": "In Taylor Swift's \"Death by a Thousand Cuts,\" she likens a breakup to a slow, painful death. In the bridge she names \"My heart, my hips, my body, my love\" as the parts of her this person irreversibly touched, then lists \"My time, my wine, my spirit, my fuss\" as she hunts for a part of herself they didn't take up.",
     "error": "\"My time, my wine, my spirit, my fuss\"",
     "correction": "Um, actually, the lyric is \"my spirit, my trust\" - not \"my fuss.\" She's mourning the trust this person took from her, which fits the song's theme of a love that quietly bled her dry.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Taylor Swift"
   },
@@ -4285,7 +4285,7 @@
     "phrase_text": "Taylor Swift's \"the last great american dynasty\" tells the story of Rebekah Harkness, a real socialite and arts patron who once owned the Rhode Island mansion Swift later bought. Recounting Rebekah's feud with her neighbours, the song claims \"She stole his dog and dyed it tangerine.\"",
     "error": "\"She stole his dog and dyed it tangerine.\"",
     "correction": "Um, actually, the lyric is \"She stole his dog and dyed it key lime green\" - not tangerine. It's one of the song's most vivid snapshots of Rebekah's scandalous reputation.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Taylor Swift"
   },
@@ -4296,7 +4296,7 @@
     "phrase_text": "On April 1, 2016, Apple Music released an ad in which Taylor Swift runs on a treadmill while expertly rapping along to Drake's \"One Dance.\" Mid-song she trips and tumbles off the treadmill, then keeps rapping from the floor. Drake later released his own spot, dancing along to Swift's \"Bad Blood\" in the gym.",
     "error": "Drake's \"One Dance.\"",
     "correction": "Um, actually, she was rapping Drake and Future's \"Jumpman,\" not \"One Dance.\" The ad was such a hit it reportedly boosted the song's iTunes sales by over 400%.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Taylor Swift"
   },
@@ -4307,7 +4307,7 @@
     "phrase_text": "Long before \"The Traitors\" hit our screens, \"The Mole\" was one of the first mainstream reality competitions built around a hidden-traitor mechanic. Contestants complete missions to add money to a shared pot while being secretly sabotaged by the titular \"Mole\" - a player chosen and coached by production, who wins any money the group fails to earn. Each episode, eliminations are decided by a quiz about the Mole, with the lowest scorer sent home.",
     "error": "who wins any money the group fails to earn",
     "correction": "Um, actually, the Mole doesn't pocket the group's lost money. They're a paid plant working for production - sabotaging purely to stay hidden - and can never win the prize pot themselves.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "The Mole"
   },
@@ -4351,7 +4351,7 @@
     "phrase_text": "Beyond its armless title character, the web cartoon \"Homestar Runner\" fills Free Country, USA with all sorts of odd creatures. Among its dozen or so regulars are Strong Bad, the boxing-gloved, wrestling-masked antagonist-turned-nuisance; Pom Pom, whom Homestar calls his \"best friend and confidant\" and the town hunk; and Marzipan, Homestar's long-suffering girlfriend.",
     "error": "\"best friend and confidant\"",
     "correction": "Um, actually, Homestar calls Pom Pom his \"best friend and concubine\" - then immediately admits he should probably look up what that word means. It's one of his many malapropisms.",
-    "likes": 0,
+    "likes": 4,
     "dislikes": 0,
     "title": "Homestar Runner"
   },
@@ -4384,7 +4384,7 @@
     "phrase_text": "Theoretical physicist Dr. Gordon Freeman is the primary protagonist of the Half-Life series, but other spin-off games put you in control of other protagonists. Blue Shift introduces security guard Barney Calhoun, who returns as an NPC in Half-Life 2, and Opposing Force introduces Adrian Shephard, a US Marine Corporal. Both spin-offs take place in the same location and roughly the same time frame as the original game.",
     "error": "Blue Shift introduces security guard Barney Calhoun",
     "correction": "Um, actually, a Barney-model security guard already appears in the original Half-Life - he can be seen banging on a door during Gordon's opening tram ride - so the character predates his own spin-off.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Half-Life"
   },
@@ -4395,7 +4395,7 @@
     "phrase_text": "In HBO's Game of Thrones spin-off House of the Dragon, based on George R.R. Martin's Fire and Blood, King Viserys Targaryen (played by Paddy Considine) breaks many years of precedent by naming his daughter Rhaenyra (played by Emma D'Arcy) as his successor. He remains firm in this choice, even when he later has a legitimate male heir, Aegon (played by Tom Glynn-Carney), who many believe has a stronger claim to the Iron Throne.",
     "error": "naming his daughter Rhaenyra (played by Emma D'Arcy) as his successor",
     "correction": "Um, actually, when Viserys names Rhaenyra his heir in the first episode she is played by Milly Alcock; Emma D'Arcy takes over the adult Rhaenyra only from episode 6, after a time skip.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "House of the Dragon"
   },
@@ -4406,7 +4406,7 @@
     "phrase_text": "In the hit indie metroidvania \"Hollow Knight,\" players control the Hollow Knight, a vessel designed to have \"No mind to think. No will to break. No voice to cry suffering.\" Yet there are hints it is less hollow than intended: it can equip the Void Heart charm, whose description says it unifies the void under the bearer's will.",
     "error": "players control the Hollow Knight",
     "correction": "Um, actually, the character you play is not the Hollow Knight but a different vessel called the Knight, or Ghost. The Hollow Knight is a separate sibling vessel, sealed away in the Temple of the Black Egg.",
-    "likes": 0,
+    "likes": 2,
     "dislikes": 0,
     "title": "Hollow Knight"
   },
@@ -4417,7 +4417,7 @@
     "phrase_text": "Hearthstone's Battlegrounds mode swaps the usual collectible-card gameplay for an auto-battler: you face 7 other players and assemble a team of minions between rounds. During the recruit phase you know little about a rival's board beyond their most common minion type, and once combat starts you have to direct your minions' attacks on the fly. Placing anywhere in the top 4 counts as a win.",
     "error": "once combat starts you have to direct your minions' attacks on the fly",
     "correction": "Um, actually, players have no control at all during the combat phase. Once it begins, minions attack automatically in a largely random order while you simply watch.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Hearthstone"
   },
@@ -4428,7 +4428,7 @@
     "phrase_text": "Supermassive Games develops the horror series \"The Dark Pictures Anthology.\" Beginning with their hit game Until Dawn, these titles task players with making decisions for a whole cast of characters, played solo or split among a group of friends. Choose well, and your characters build their relationships while surviving the horrors; choose poorly, and some may not make it to the final credits.",
     "error": "Beginning with their hit game Until Dawn",
     "correction": "Um, actually, Until Dawn is a separate Supermassive game and is not part of The Dark Pictures Anthology, which actually began in 2019 with Man of Medan.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Dark Pictures Anthology"
   },
@@ -4450,7 +4450,7 @@
     "phrase_text": "Myst is an iconic point-and-click adventure game set partly on Myst Island, where Atrus wrote some of his linking books, which can send people to other worlds called \"Ages.\" To beat the game, players must travel to several of these Ages to gather the information needed to finish back on Myst Island.",
     "error": "To beat the game, players must travel to several of these Ages",
     "correction": "Um, actually, if you already know the fireplace code, you can reach the good ending in a matter of minutes without ever leaving Myst Island - speedrunners exploit exactly this shortcut.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Myst"
   },
@@ -4472,7 +4472,7 @@
     "phrase_text": "John-117, better known as Master Chief, is the protagonist of most Halo games. He has secured many crucial victories against the alien coalition known as the Covenant, but at what cost? John, like his fellow Spartan-IIs, was kidnapped as a young child and indoctrinated into obedient military servitude, leaving his caretakers to wonder what happened to him.",
     "error": "leaving his caretakers to wonder what happened to him",
     "correction": "Um, actually, each abducted Spartan-II child was replaced with a flash clone. The clones soon sickened and died of seemingly natural causes, so their families and caretakers never suspected a kidnapping.",
-    "likes": 0,
+    "likes": 3,
     "dislikes": 0,
     "title": "Halo"
   },
@@ -4494,7 +4494,7 @@
     "phrase_text": "The foppish author Volo can be found early in Baldur's Gate 3, forced to serve as a jester for a camp of goblins. Later, he may offer to surgically remove the mind flayer parasite through your eye. If things go wrong and you let him keep working despite repeated warnings, Volo will accidentally carve your eye out, leading to permanent vision penalties.",
     "error": "leading to permanent vision penalties",
     "correction": "Um, actually, Volo immediately hands you a magical replacement - Volo's Ersatz Eye - which grants permanent See Invisibility. Losing the eye is an upgrade, not a penalty.",
-    "likes": 0,
+    "likes": 2,
     "dislikes": 0,
     "title": "Baldur's Gate 3"
   },
@@ -4505,7 +4505,7 @@
     "phrase_text": "Papers, Please casts players as a border-control agent who must verify immigration documents for citizens and foreigners hoping to enter Arstotzka. Follow your corrupt government's constantly changing rules and you'll be promoted to a higher rank; the game also has many other outcomes, from helping a resistance group topple the regime, to watching your family starve, fleeing to Obristan, or being arrested or executed. Glory to Arstotzka!",
     "error": "Follow your corrupt government's constantly changing rules and you'll be promoted to a higher rank",
     "correction": "Um, actually, obeying the state earns you no promotion - there is no inspector rank to climb. The only promotion, to agent of the New Arstotzka, comes from helping the EZIC resistance; playing by the rules instead just unlocks Endless mode.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Papers, Please"
   },
@@ -4516,7 +4516,7 @@
     "phrase_text": "The X-COM series began in 1994 with UFO: Enemy Unknown. The franchise later came to be known as X-COM rather than UFO, and was rebooted after an 11-year hiatus as XCOM: Enemy Unknown. The games put you in control of XCOM, the paramilitary force tasked with fighting off an alien invasion.",
     "error": "the paramilitary force tasked with fighting off an alien invasion",
     "correction": "Um, actually, not every game is about repelling an invasion. In XCOM 2 the aliens have already won and you lead a resistance to overthrow them, while XCOM: Chimera Squad puts you in charge of a joint human-alien squad policing a city.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "X-COM"
   }
