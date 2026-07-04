@@ -94,7 +94,7 @@
     "phrase_text": "In a famous scene, the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea. This prompts resistance members to start suggesting things the Romans have given them, including the aqueduct, sanitation, the roads, irrigation, medicine, education, wine, public order and bringing peace.",
     "error": "the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea.",
     "correction": "Um, actually, the question wasn't asked by the leader of the Judean People's Front. It was asked by the leader of the People's Front of Judea - who hates the Judean People's Front.",
-    "likes": 15,
+    "likes": 16,
     "dislikes": 0,
     "title": "Monty Python's Life of Brian"
   },
@@ -336,7 +336,7 @@
     "phrase_text": "The timeframe of Pixar's prequels and sequels varies a lot: \"Monsters University\" takes place years before the titular university was mentioned in \"Monsters Inc.\", whereas \"The Incredibles 2\" picks up immediately where the first film left off. \"Finding Dory\" takes place a year after the events of \"Finding Nemo\", and \"Toy Story 3\" takes place a full decade after \"Toy Story 2\", with a now 17-year-old Andy leaving for college.",
     "error": "\"Monsters University\" takes place years before the titular university was mentioned in \"Monsters Inc.\",",
     "correction": "Um, actually, Monster's University wasn't mentioned in Monsters Inc. This caused an unintentional plot hole: Mike says that Sully's been jealous of his good looks since fourth grade in \"Monsters Inc\".",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Pixar"
   },
@@ -380,7 +380,7 @@
     "phrase_text": "In the world of \"Fullmetal Alchemist\", alchemy is governed by a few rules: to obtain or create something, something of equal value must be lost or destroyed (the law of Equivalent Exchange), alchemy must be practiced using a transmutation circle (typically either drawn on the ground or tattooed onto an alchemist's body), and human transmutation is generally considered to be taboo.",
     "error": "alchemy must be practiced using a transmutation circle (typically either drawn on the ground or tattooed onto an alchemist's body),",
     "correction": "Um, actually, alchemy doesn't necessarily require a transmutation circle. The protagonist, Edward Elric, rarely uses one.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Fullmetal Alchemist: Brotherhood"
   },
@@ -809,7 +809,7 @@
     "phrase_text": "\"Borderlands 2\" villain Handsome Jack is more than just a pretty face - he has taken over the Hyperion corporation, declared himself the dictator of the planet Pandora and has launched a moonbase called Helios, which he uses to control the ECHOnet system and place the planet under full surveillance. His ultimate goal, however, is to cleanse Pandora of bandits using The Warrior - a dragon-like Eridian superweapon. ",
     "error": "a moonbase called Helios, which he uses to control the ECHOnet system and place the planet under full surveillance.",
     "correction": "Um, actually, handsome Jack doesn't control ECHONet using the Helios moonbase. He gains control of ECHOnet and surveillance using his daughter Angel - who can 'phaseshift' to act like an Artificial Intelligence.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 5,
     "title": "Borderlands 2"
   },
@@ -887,7 +887,7 @@
     "error": "the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "correction": "Um, actually, Satan isn't burning in a lake of fire. He is frozen in a lake of ice.",
     "likes": 1,
-    "dislikes": 1,
+    "dislikes": 0,
     "title": "Dante's Inferno"
   },
   {
@@ -1048,9 +1048,9 @@
     "id": 96,
     "author": "By Peter the Human",
     "category": "Sci-Fi",
-    "phrase_text": "The episode \"Blink\" focuses on Sally Sparrow, who discovers messages from the Doctor under wallpaper and in Easter Eggs in her DVDs. Trapped in 1969, he gives Sally these messages to help her return the TARDIS before it falls into the hands of the Weeping Angels: predatory creatures that turn to stone when observed but can instantly kill their victims the second they stop looking at them.",
-    "error": "predatory creatures that turn to stone when observed but can instantly kill their victims the second they stop looking at them.",
-    "correction": "Um, actually, the Weeping Angels don't instantly kill their victims. They send them back in time and make them 'live to death'.",
+    "phrase_text": "The episode \"Blink\" focuses on Sally Sparrow, who discovers messages from the Doctor under wallpaper and in Easter Eggs in her DVDs. Trapped in 1969, he gives Sally these messages to help her return the TARDIS before it falls into the hands of the Weeping Angels: predatory creatures that turn to stone when observed. When they catch Sally's friend Kathy Nightingale and detective Billy Shipton, they instantly kill them the second no one is looking.",
+    "error": "they instantly kill them the second no one is looking",
+    "correction": "Um, actually, the Angels don't kill Kathy and Billy - they zap them into the past to 'live to death'. Kathy is sent to 1920 and dies decades before the night she vanished; Billy, sent to 1969, lives on to die an old man the same night Sally last saw him young.",
     "likes": 6,
     "dislikes": 1,
     "title": "Doctor Who"
@@ -1107,7 +1107,7 @@
     "error": "By the time of the Fourth Era, the only Greybeards left are the four monks that dwell in High Hrothgar and Ulfric Stormcloak,",
     "correction": "Um, actually, those aren't the only remaining Greybeards. The list misses out the dragon Paarthurnax, who is the leader of the Greybeards.",
     "likes": 0,
-    "dislikes": 2,
+    "dislikes": 3,
     "title": "Skyrim"
   },
   {
@@ -1117,7 +1117,7 @@
     "phrase_text": "The \"Professor Layton\" series consists of several games where the titular criminology professor and his young (self-proclaimed) apprentice Luke Triton solve mysteries; as well as a crossover game with Ace Attorney, and 2 games centred on Layton's children: a 3DS game with his adopted daughter Katrielle, and a mobile game featuring his biological son Alfendi.",
     "error": "the titular criminology professor and his young (self-proclaimed) apprentice Luke Triton solve mysteries;",
     "correction": "Um, actually, Layton isn't a criminology professor. He's an archaeology professor - a fact that never has any real relevance in the games.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 0,
     "title": "Professor Layton"
   },
@@ -1436,7 +1436,7 @@
     "phrase_text": "In the 1987 animated series, the Teenage Mutant Ninja Turtles are four turtles who were exposed to a mutagenic \"ooze\" and adopted by Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi. Master Splinter adopts the turtles as his sons: naming them after Italian Renaissance artists and training them in the art of ninjitsu.",
     "error": "Master Splinter - a mutated rat who previously belonged to ninja master Hamato Yoshi.",
     "correction": "Um, actually, in the 1987 series Master Splinter isn't a rat that belonged to Hamato Yoshi - he IS Yoshi. Yoshi himself mutated into a humanoid rat when the ooze combined his DNA with that of the sewer rats he lived among. (Splinter being Yoshi's pet rat is his origin in the original comics and some other adaptations.)",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 11,
     "title": "Teenage Mutant Ninja Turtles"
   },
@@ -1480,7 +1480,7 @@
     "phrase_text": "Katniss Everdeen, and her love interests Peeta Mellark and Gale Hawthorne all hail from District 12 of Panem. Having only produced 2 winners before the events of the first book and its film adaptation (Haymitch Abernathy and another unnamed winner who died of natural causes); Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "error": "Katniss and Peeta are selected as tributes, and eventually end up both winning after refusing to kill the other.",
     "correction": "Um, actually, Katniss wasn't selected as a tribute. She volunteered as tribute in place of her sister Primrose.",
-    "likes": 12,
+    "likes": 13,
     "dislikes": 8,
     "title": "The Hunger Games"
   },
@@ -1568,7 +1568,7 @@
     "phrase_text": "\"Super Smash Bros. Ultimate\" players are spoilt for choice of female characters with playable characters such as Peach, Zelda, Bayonetta, Isabelle and Lucina - but in the original \"Super Smash Bros. 64\", options were far more limited, with a choice of only ten male characters and two Pokémon: Pikachu and Jigglypuff.",
     "error": "with a choice of only ten male characters and two Pokémon: Pikachu and Jigglypuff.",
     "correction": "Um, actually, there was a female character in the original Super Smash Bros. Samus Aran from Metroid is female, and was in the original Super Smash Bros.",
-    "likes": 7,
+    "likes": 8,
     "dislikes": 0,
     "title": "Super Smash Bros."
   },
@@ -1645,7 +1645,7 @@
     "phrase_text": "Let's talk about Pokémon evolution chains! Geodude evolves into Graveler who evolves into Golem. Slowpoke evolves into Slowbro, who evolves into Slowking. Elekid evolves into Electabuzz, who evolves into Electivire. Cleffa evolves into Clefairy, who evolves into Cleafable. And, of course, Igglybuff evolves into Jigglypuff, who evolves into Wigglytuff.",
     "error": "Slowpoke evolves into Slowbro, who evolves into Slowking.",
     "correction": "Um, actually, Slowbro doesn't evolve into Slowking. Slowpoke can either evolve into Slowbro or Slowking, but it's not an evolution chain like the other three listed here.",
-    "likes": 8,
+    "likes": 9,
     "dislikes": 1,
     "title": "Pokémon"
   },
@@ -2063,7 +2063,7 @@
     "phrase_text": "In Hades, Nyx - the goddess of the night, - plays a significant role in Zagreus’ journey. As Zagreus’s biological mother, she serves as his caretaker and mentor, offering guidance and wisdom. Nyx is also responsible for helping Zagreus establish contact with the Olympians, using her influence to ensure their messages reach him despite Hades’ interference.",
     "error": "As Zagreus’s biological mother",
     "correction": "Um, actually, Nyx is not Zagreus’ biological mother - Persephone is. Nyx is his adoptive mother, having raised him in the Underworld after Persephone left.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 0,
     "title": "Hades"
   },
@@ -2126,11 +2126,11 @@
     "id": 194,
     "author": "By ashw92",
     "category": "Games",
-    "phrase_text": "In Skyrim the player takes on the role of Dohavkin, the Dragonborn. After the Greybeards teach the player the Way of the Voice they are able to learn the words that make up draconic shouts by consuming the souls of dragons.",
+    "phrase_text": "In Skyrim the player takes on the role of Dovahkiin, the Dragonborn. After the Greybeards teach the player the Way of the Voice they are able to learn the words that make up draconic shouts by consuming the souls of dragons.",
     "error": "by consuming the souls of dragons.",
     "correction": "Um, actually, you learn the words from word walls. Dragon souls let you unlock the ability to use them.",
     "likes": 1,
-    "dislikes": 3,
+    "dislikes": 4,
     "title": "Skyrim"
   },
   {
@@ -2239,7 +2239,7 @@
     "phrase_text": "In Pixar’s Toy Story, Andy’s collection of toys are frequently seen playing dead when human characters are around. The only time this is subverted is near the climax of the film when Woody, after addressing Sid directly with his internal voice box, turns his head 360 degrees and says to Sid “So play nice.”",
     "error": "when Woody, after addressing Sid directly with his internal voice box, turns his head 360 degrees and says to Sid “So play nice.”",
     "correction": "Um, actually, all of Sid’s toys come to life as well to try and scare him. Woody's quote is just the final bit.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 9,
     "title": "Toy Story"
   },
@@ -2668,8 +2668,8 @@
     "phrase_text": "In Minecraft, many crafted objects take on the texture of the wood used to make them, so an oak chest and a spruce chest look different. Some blocks ignore this entirely - a bookshelf always uses the oak planks texture no matter what wood you craft it from, and a painting's wooden back simply reuses one of the existing wood textures in the game.",
     "error": "a painting's wooden back simply reuses one of the existing wood textures in the game",
     "correction": "Um, actually, a painting's back matches none of the game's wood types. It uses its own plank-style texture with a yellowish tint similar to a chest, and it always has.",
-    "likes": 0,
-    "dislikes": 8,
+    "likes": 1,
+    "dislikes": 9,
     "title": "Minecraft"
   },
   {
@@ -3296,7 +3296,7 @@
     "error": "Hercules Mulligan becomes John Adams",
     "correction": "Um, actually, the actor who played Hercules Mulligan returns as James Madison, not John Adams. Adams is frequently name-dropped but never actually appears on stage.",
     "likes": 3,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Hamilton"
   },
   {
@@ -3724,7 +3724,7 @@
     "phrase_text": "Balatro is a poker-inspired roguelike in which players build hands of up to five cards to score points. Because you can alter the cards in your deck, unconventional hands become possible, such as Five of a Kind, Flush House - a full house all of one suit - Flush Five, five identical cards, and Royal Family, a King, Queen and three Jacks.",
     "error": "and Royal Family, a King, Queen and three Jacks",
     "correction": "Um, actually, Royal Family isn't a hand in Balatro. Besides, that combination could be dealt from a standard deck, so it wouldn't need any custom cards anyway.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 1,
     "title": "Balatro"
   },
@@ -4154,7 +4154,7 @@
     "error": "Sisyphus, Eurydice, Patroclus, Achilles, Charon and Cerberus",
     "correction": "Um, actually, Achilles isn't found out in the biomes. He is Zagreus' mentor and stays in the House of Hades; only later, once reunited, does he visit Patroclus, the shade who lives in Elysium.",
     "likes": 2,
-    "dislikes": 0,
+    "dislikes": 2,
     "title": "Hades"
   },
   {
@@ -4251,7 +4251,7 @@
     "category": "Cartoons & TV",
     "phrase_text": "Near the climax of \"The Truman Show,\" Marlon climbs out of the tunnel Truman dug from inside a cupboard and looks straight down a hidden camera to tell Christof \"He's gone.\" It's the same spot where, earlier in the film, Truman had been gardening while Meryl cheerfully advertised a new \"Elk Rotary\" to him - and really to the viewers at home.",
     "error": "\"Elk Rotary\"",
-    "correction": "Um, actually, there's no \"Elk Rotary\" - Meryl was plugging the \"Chef's Pal,\" a dicer, grater and peeler in one that never needs sharpening and is dishwasher safe.",
+    "correction": "Um, actually, the \"Elk Rotary\" is a lawnmower Meryl pushes elsewhere in the film - in that scene she was plugging the \"Chef's Pal,\" a dicer, grater and peeler in one that never needs sharpening and is dishwasher safe.",
     "likes": 1,
     "dislikes": 1,
     "title": "The Truman Show"
@@ -4472,7 +4472,7 @@
     "phrase_text": "John-117, better known as Master Chief, is the protagonist of most Halo games. He has secured many crucial victories against the alien coalition known as the Covenant, but at what cost? John, like his fellow Spartan-IIs, was kidnapped as a young child and indoctrinated into obedient military servitude, leaving his caretakers to wonder what happened to him.",
     "error": "leaving his caretakers to wonder what happened to him",
     "correction": "Um, actually, each abducted Spartan-II child was replaced with a flash clone. The clones soon sickened and died of seemingly natural causes, so their families and caretakers never suspected a kidnapping.",
-    "likes": 3,
+    "likes": 4,
     "dislikes": 0,
     "title": "Halo"
   },
@@ -4505,7 +4505,7 @@
     "phrase_text": "Papers, Please casts players as a border-control agent who must verify immigration documents for citizens and foreigners hoping to enter Arstotzka. Follow your corrupt government's constantly changing rules and you'll be promoted to a higher rank; the game also has many other outcomes, from helping a resistance group topple the regime, to watching your family starve, fleeing to Obristan, or being arrested or executed. Glory to Arstotzka!",
     "error": "Follow your corrupt government's constantly changing rules and you'll be promoted to a higher rank",
     "correction": "Um, actually, obeying the state earns you no promotion - there is no inspector rank to climb. The only promotion, to agent of the New Arstotzka, comes from helping the EZIC resistance; playing by the rules instead just unlocks Endless mode.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Papers, Please"
   },
@@ -4629,5 +4629,115 @@
     "likes": 2,
     "dislikes": 0,
     "title": "Magic: The Gathering"
+  },
+  {
+    "id": 422,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "Super Meat Boy stars in his own brutally precise platformer, chasing his kidnapped girlfriend, Bandage Girl, who has been snatched by the evil Dr. Fetus. As he gushes blood across dozens of saw blades, Meat Boy faces bosses like C.H.A.D., a massive blob of animated blood; Lil' Slugger, a chainsaw mech designed for deforestation; Brownie, a sprinkled dessert come to life; and Dr. Fetus himself, a literal fetus in a tank with a suit and tie.",
+    "error": "Brownie, a sprinkled dessert come to life",
+    "correction": "Um, actually, Brownie is one of Dr. Fetus's turds come to life, and he ends up more of an antihero than a villain, ultimately sacrificing himself to save Super Meat Boy's life.",
+    "likes": 1,
+    "dislikes": 0,
+    "title": "Super Meat Boy"
+  },
+  {
+    "id": 423,
+    "author": "Fan Submitted",
+    "category": "Music & Real World",
+    "phrase_text": "In 2005, WWE introduced \"Money in the Bank\", a privilege the winner can use to challenge for any championship in the company at any time, without warning, for a year after winning it. Among those who have \"cashed in\" are Edge, Alexa Bliss, Brock Lesnar, Bayley, Drew McIntyre, and Nikki Cross. Among all winners, only two have ever won the match twice: CM Punk and Seth Rollins.",
+    "error": "only two have ever won the match twice: CM Punk and Seth Rollins",
+    "correction": "Um, actually, CM Punk is the only wrestler to win the Money in the Bank ladder match twice, taking it in 2008 and 2009. Seth Rollins has won it just once, back in 2014.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Professional Wrestling"
+  },
+  {
+    "id": 424,
+    "author": "By CowAboutThat",
+    "category": "Fantasy",
+    "phrase_text": "The final season of HBO's \"Game of Thrones\" divided fans, but the series still tried to reward longtime viewers. At the Dragonpit council, Tyrion Lannister proposes the crippled Bran Stark - Bran the Broken - as the next ruler of Westeros, and most of the realm swears fealty. Yara Greyjoy and Sansa Stark both refuse, demanding independence for the Iron Islands and the North, and the new king grants it without complaint.",
+    "error": "Yara Greyjoy and Sansa Stark both refuse, demanding independence for the Iron Islands and the North",
+    "correction": "Um, actually, only Sansa Stark demands independence, winning it for the North. Yara Greyjoy stays loyal and pledges the Iron Islands to King Bran, never asking to break away.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Game of Thrones"
+  },
+  {
+    "id": 425,
+    "author": "By CowAboutThat",
+    "category": "Fantasy",
+    "phrase_text": "When Jon Snow took the black and joined the Night's Watch, he never expected to lead armies away from the Wall - something his vows only allowed after he briefly died and was resurrected. He later fights the Battle of the Bastards partly on behalf of his half-siblings: bastard Jon against bastard Ramsay, illegitimate son of Lord Roose Bolton. Jon wins the day but lets his half-sister Sansa deliver the cruel Ramsay's death sentence.",
+    "error": "bastard Jon against bastard Ramsay, illegitimate son of Lord Roose Bolton",
+    "correction": "Um, actually, neither commander is really a bastard - Ramsay had been legitimized by royal decree before the battle, and Jon is later revealed as the trueborn son of Rhaegar Targaryen and Lyanna Stark.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Game of Thrones"
+  },
+  {
+    "id": 426,
+    "author": "By CowAboutThat",
+    "category": "Sci-Fi",
+    "phrase_text": "Someone's sensitivity to the Force has long been a fraught issue for the \"Star Wars\" fandom. Early fans were shocked that Luke Skywalker's power was tied to his father, Darth Vader, and many balked when \"The Phantom Menace\" blamed Anakin's ability on microscopic midichlorians. The sequel trilogy, episodes 7-9, made it clear that Force sensitivity is not based on bloodlines, when Kylo Ren forced Rey to admit her parents were \"nobody.\"",
+    "error": "The sequel trilogy, episodes 7-9, made it clear that Force sensitivity is not based on bloodlines",
+    "correction": "Um, actually, \"The Rise of Skywalker\" reverses that idea. Episode 9 reveals Rey is the granddaughter of Emperor Palpatine, tying her power directly to her bloodline after all.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Star Wars"
+  },
+  {
+    "id": 427,
+    "author": "By CowAboutThat",
+    "category": "Music & Real World",
+    "phrase_text": "Romance reality show \"Temptation Island\" follows couples unsure whether to continue their relationships. The pairs are separated and surrounded by attractive singles, and every so often the host, Mark Wahlberg (Marky Mark himself), shows the separated partners incriminating clips of their time with those singles. Predictably, many couples decide to split, and some leave with a new partner.",
+    "error": "Mark Wahlberg (Marky Mark himself)",
+    "correction": "Um, actually, \"Temptation Island\" is hosted by Mark L. Walberg, a game-show host best known for \"Antiques Roadshow\" - a completely different person from actor and rapper Mark Wahlberg.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Temptation Island"
+  },
+  {
+    "id": 428,
+    "author": "By mjr",
+    "category": "Games",
+    "phrase_text": "Bethesda's \"Fallout 3\" takes place in Washington, D.C., far from the series' West Coast origins, but it features familiar enemies. These include mutated creatures such as super mutants (from Vault 87), ghouls (survivors hideously disfigured by radiation), and deathclaws, mutated chameleons formed by the radiation from the bombs dropped in 2077.",
+    "error": "deathclaws, mutated chameleons formed by the radiation from the bombs dropped in 2077",
+    "correction": "Um, actually, deathclaws weren't created by the fallout - they were engineered before the Great War by the U.S. military as living weapons, built primarily from Jackson's Chameleons.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Fallout"
+  },
+  {
+    "id": 429,
+    "author": "By mjr",
+    "category": "Games",
+    "phrase_text": "In \"Outer Wilds,\" the player character is trapped in a 22-minute time loop that ends each cycle with the sun going supernova. Through exploration, the player learns about an ancient race called the Nomai, who were obsessed with finding the Eye of the Universe. The loop is caused when an ancient Sun Station finally functions, triggering the supernova and destroying the solar system and sending the traveler's consciousness back in time to explore again.",
+    "error": "The loop is caused when an ancient Sun Station finally functions, triggering the supernova",
+    "correction": "Um, actually, the Sun Station never worked; the Nomai built it to force a supernova, but it failed. The sun explodes only because the universe is dying and every star is naturally going supernova.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Outer Wilds"
+  },
+  {
+    "id": 430,
+    "author": "Fan Submitted",
+    "category": "Games",
+    "phrase_text": "Bethesda's \"Fallout 4\" marks the first appearance of Synths, artificial humans created by the Institute. While earlier-generation synths like the detective Nick Valentine look clearly robotic, third-generation models are so advanced they often pass as human. Some are even sleeper agents, unaware that they themselves are synths.",
+    "error": "marks the first appearance of Synths",
+    "correction": "Um, actually, a synth appears three years earlier in \"Fallout 3\": the android Harkness, hunted by his makers in the quest \"The Replicated Man.\"",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Fallout"
+  },
+  {
+    "id": 431,
+    "author": "By Witherblaze",
+    "category": "Games",
+    "phrase_text": "Everyone knows Dracula, but what was his real name? In \"Castlevania: Lament of Innocence,\" he began as a human named Mathias Cronqvist, a strategist who fought alongside Leon Belmont in the 11th century. Embittered after God took his wife Elisabetha, Mathias seized the Crimson Stone and a vampire's soul to become the immortal Dracula. The count has worn other guises too: in \"Castlevania 64,\" he disguises himself as a man named Gilles de Rais, before eventually being reincarnated as Soma Cruz after his death in 1999.",
+    "error": "he disguises himself as a man named Gilles de Rais",
+    "correction": "Um, actually, Dracula disguises himself as a boy named Malus in \"Castlevania 64.\" Gilles de Rais is one of his vampire servants, who separately poses as Dracula to fool the heroes.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Castlevania"
   }
 ]

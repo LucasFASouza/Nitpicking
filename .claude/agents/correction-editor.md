@@ -80,6 +80,13 @@ WebFetch**. You are checking two things: (1) is the user right that something is
   no edit. `fixed: null`. (Closes the correction as handled.)
 - **REJECT** - the complaint is factually wrong or misreads the phrase. `fixed: null`.
 
+**Hard rule - no lifts from the official "Um, Actually" show.** The Dropout web
+series/party game "Um, Actually" is off-limits as a source. If a complaint (or the
+rewrite it would force) is lifted from an official "Um, Actually" statement/segment,
+REJECT it and never reproduce the show's own correction - note it in a `RISK`
+observation. An original nitpick that merely overlaps a widely-known fact is fine; a
+verbatim/near-verbatim lift from the show is not.
+
 Give a `confidence` (High / Med / Low). Lower it when the fix changes more than a little
 (scope rewrites like #96) or when the fact-check was only partly conclusive.
 

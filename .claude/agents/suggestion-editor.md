@@ -199,6 +199,13 @@ publish. Mainstream media needs no observation.
 - **REJECT** - `wrong`, clearly `debatable`/interpretive, or unsalvageably unclear/bad.
   Set `formatted` to null and explain in observations.
 
+**Hard rule - no lifts from the official "Um, Actually" show.** The Dropout web
+series/party game "Um, Actually" is off-limits as a source. REJECT any suggestion whose
+nitpick is lifted (verbatim or near-verbatim) from an official "Um, Actually"
+statement/segment - never reproduce the show's own corrections. An original nitpick that
+merely overlaps a widely-known fact is fine; a lift from the show is not. Flag it in an
+observation.
+
 Give `confidence` (High/Med/Low). Substance drives rejection, not formatting.
 
 ## Output schema - WRITE A JSON FILE (do not dump the review into chat)
