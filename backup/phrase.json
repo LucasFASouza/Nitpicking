@@ -61,7 +61,7 @@
     "phrase_text": "Shortly after \"Portal\" players are given their Weighted Companion Cube - a waist-high crate with a pink love heart on each side - GLaDOS informs the player character, Chell, that the cube must be euthanised in an Emergency Intelligence Incinerator to proceed. After doing so, GLaDOS informs Chell that she euthanised her companion cube more quickly than any test subject on record, the Cube is burnt up, never to be seen again.",
     "error": "and the Cube is burnt up, never to be seen again.",
     "correction": "Um, actually, the Companion Cube is seen again. The Cube is seen after the end credits of Portal, and a burnt Companion Cube (implied to be Chell's) is seen at the very end of Portal 2.",
-    "likes": 20,
+    "likes": 21,
     "dislikes": 1,
     "title": "Portal"
   },
@@ -72,7 +72,7 @@
     "phrase_text": "Westley, the farm-boy turned Dread Pirate Roberts, rescues Buttercup from her kidnapping by defeating three outlaws. He knocks out Inigo after defeating him in a fencing duel, chokes the giant Fezzik into unconsciousness, and drinks the poison-free goblet in his \"Battle of Wits\" against Vizzini.",
     "error": "and drinks the poison-free goblet in his \"Battle of Wits\" against Vizzini.",
     "correction": "Um, actually, Westley's goblet wasn't poison free. Westley poisoned both goblets, but had built up a resistance to the poisonous iocane powder.",
-    "likes": 19,
+    "likes": 20,
     "dislikes": 0,
     "title": "The Princess Bride"
   },
@@ -83,7 +83,7 @@
     "phrase_text": "Barbarians in \"Dungeons & Dragons\" are archetypically strong fighters, defined by their primal instincts and their unbridled rage. Although players have little control over their character's rage, it offers several advantages in combat, including advantage on Strength checks and saving throws and resistance to bludgeoning, piercing and slashing damage.",
     "error": "Although players have little control over their character's rage, it offers several advantages in combat,",
     "correction": "Um, actually, Barbarians can control their rage. They can enter a rage during combat as a Bonus Action during combat.",
-    "likes": 16,
+    "likes": 17,
     "dislikes": 0,
     "title": "Dungeons & Dragons"
   },
@@ -94,7 +94,7 @@
     "phrase_text": "In a famous scene, the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea. This prompts resistance members to start suggesting things the Romans have given them, including the aqueduct, sanitation, the roads, irrigation, medicine, education, wine, public order and bringing peace.",
     "error": "the leader of the Judean People's Front rhetorically asks what the Romans have given the people of Judea.",
     "correction": "Um, actually, the question wasn't asked by the leader of the Judean People's Front. It was asked by the leader of the People's Front of Judea - who hates the Judean People's Front.",
-    "likes": 16,
+    "likes": 17,
     "dislikes": 0,
     "title": "Monty Python's Life of Brian"
   },
@@ -150,7 +150,7 @@
     "error": "After Gandalf the Grey died falling from a ledge in the Mines of Moria while fighting the Balrog",
     "correction": "Um, actually, Gandalf doesn't die from the fall in the Mines of Moria. He survives the fall and dies ten days later after fighting the Balrog.",
     "likes": 3,
-    "dislikes": 1,
+    "dislikes": 2,
     "title": "Lord of the Rings"
   },
   {
@@ -201,7 +201,7 @@
     "id": 19,
     "author": "By H2",
     "category": "Anime & Manga",
-    "phrase_text": "\"BNA: Brand New Animal\" and \"Beastars\" might have come out around the same time, but the two shows are very different. The characters in Beastars are anthropomorphic animals, while the characters in BNA are humans who can shift into an animal-like form. Beastars is a murder mystery/romance taking place in Cherryton Academy, while BNA revolves around a large government, religious, and corporate conspiracy in Anima city.",
+    "phrase_text": "\"BNA: Brand New Animal\" and \"Beastars\" might have come out around the same time, but the two shows are very different. The characters in Beastars are anthropomorphic animals, while the characters in BNA are humans who can shift into an animal-like form. Beastars is a murder mystery/romance mostly taking place in Cherryton Academy, while BNA revolves around a large government, religious, and corporate conspiracy in Anima city.",
     "error": "The characters in Beastars are anthropomorphic animals, while the characters in BNA are humans who can shift into an animal-like form. ",
     "correction": "Um, actually, the shapeshifting characters in BNA aren't human. They are a separate branch of humanity called Beastmen.",
     "likes": 1,
@@ -248,7 +248,7 @@
     "phrase_text": "In the episode \"Hush\", Sunnydale is terrorised by a group of ghoulish figures with metal-toothed grins and black suits known as 'The Gentlemen' that render the townspeople unable to speak - allowing them to carve their victims' hearts out in near silence. Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone's stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "error": "Buffy and Riley defeat The Gentlemen by destroying the box that was storing everyone's stolen voice, then driving a stake through the heart of the lead Gentleman.",
     "correction": "Um, actually, the Gentlemen aren't defeated with a stake through the heart. The Gentlemen are killed by Buffy screaming.",
-    "likes": 5,
+    "likes": 6,
     "dislikes": 0,
     "title": "Buffy the Vampire Slayer"
   },
@@ -883,7 +883,7 @@
     "id": 81,
     "author": "By Peter the Human",
     "category": "Fantasy",
-    "phrase_text": "In the epic poem Inferno, Dante finds himself being guided through Hell by the Roman poet Virgil. The pair venture through the nine circles of hell, encountering mythological characters and historical figures such as Helen of Troy, the Minotaur, Medusa, Alexander the Great, Attila the Hun and Judas Iscariot before reaching the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
+    "phrase_text": "In the epic poem Inferno, Dante finds himself being guided through Hell by the Roman poet Virgil. The pair venture through the nine circles of hell, encountering mythological characters and historical figures such as Helen of Troy, the Minotaur, Medusa, Alexander the Great and Attila the Hun before reaching the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "error": "the very center of Hell; where Satan himself is burning eternally in a lake of fire.",
     "correction": "Um, actually, Satan isn't burning in a lake of fire. He is frozen in a lake of ice.",
     "likes": 1,
@@ -1048,7 +1048,7 @@
     "id": 96,
     "author": "By Peter the Human",
     "category": "Sci-Fi",
-    "phrase_text": "The episode \"Blink\" focuses on Sally Sparrow, who discovers messages from the Doctor under wallpaper and in Easter Eggs in her DVDs. Trapped in 1969, he gives Sally these messages to help her return the TARDIS before it falls into the hands of the Weeping Angels: predatory creatures that turn to stone when observed. When they catch Sally's friend Kathy Nightingale and detective Billy Shipton, they instantly kill them the second no one is looking.",
+    "phrase_text": "The episode \"Blink\" focuses on Sally Sparrow, who receives messages from the Doctor under wallpaper and in Easter Eggs in her DVDs. Trapped in 1969, he gives Sally these messages to help her return the TARDIS before it falls into the hands of the Weeping Angels: predatory creatures that turn to stone when observed. When they catch Sally's friend Kathy Nightingale and detective Billy Shipton, they instantly kill them the second no one is looking.",
     "error": "they instantly kill them the second no one is looking",
     "correction": "Um, actually, the Angels don't kill Kathy and Billy - they zap them into the past to 'live to death'. Kathy is sent to 1920 and dies decades before the night she vanished; Billy, sent to 1969, lives on to die an old man the same night Sally last saw him young.",
     "likes": 6,
@@ -1151,7 +1151,7 @@
     "error": "ruled by the living god known as the Emperor of Mankind and the Senatorum Imperialis on the capital of Earth.",
     "correction": "Um, actually, the Emperor and Senatorum Imperialis aren't on Earth. The capital of the Imperium is Terra. In Warhammer 40k, \"Earth\" is an archaic name that hasn't been used in millennia.",
     "likes": 0,
-    "dislikes": 2,
+    "dislikes": 3,
     "title": "Warhammer 40,000"
   },
   {
@@ -1356,9 +1356,9 @@
     "id": 124,
     "author": "By Peter the Human",
     "category": "Sci-Fi",
-    "phrase_text": "The Serenity is a 03-K64-Firefly class ship that was acquired by Malcolm Reynolds in 2512, shortly after the end of the Unification War. Although Mal's First Mate Zoë was unimpressed by the vessel at first, the ship does boast some convenient features: 2 magnetic grappler hooks, 2 plasma cannons, 6 self-powered transmitter buoys, 3 one man escape pods, and 2 shuttles - one of which they hire out to Inara Serra.",
+    "phrase_text": "Serenity is a 03-K64-Firefly class ship that was acquired by Malcolm Reynolds in 2512, shortly after the end of the Unification War. Although Mal's First Mate Zoë was unimpressed by the vessel at first, the ship does boast some convenient features: 2 magnetic grappler hooks, 2 plasma cannons, 6 self-powered transmitter buoys, 3 one man escape pods, and 2 shuttles - one of which they hire out to Inara Serra.",
     "error": "the ship does boast some convenient features: 2 magnetic grappler hooks, 2 plasma cannons, 6 self-powered transmitter buoys,",
-    "correction": "Um, actually, the Serenity doesn't have 2 plasma cannons. In fact, it doesn't have weapons of any kind!",
+    "correction": "Um, actually, Serenity doesn't have 2 plasma cannons. In fact, it doesn't have weapons of any kind!",
     "likes": 1,
     "dislikes": 0,
     "title": "Firefly"
@@ -2240,7 +2240,7 @@
     "error": "when Woody, after addressing Sid directly with his internal voice box, turns his head 360 degrees and says to Sid “So play nice.”",
     "correction": "Um, actually, all of Sid’s toys come to life as well to try and scare him. Woody's quote is just the final bit.",
     "likes": 1,
-    "dislikes": 9,
+    "dislikes": 10,
     "title": "Toy Story"
   },
   {
@@ -2665,10 +2665,10 @@
     "id": 243,
     "author": "By goldpuffle",
     "category": "Games",
-    "phrase_text": "In Minecraft, many crafted objects take on the texture of the wood used to make them, so an oak chest and a spruce chest look different. Some blocks ignore this entirely - a bookshelf always uses the oak planks texture no matter what wood you craft it from, and a painting's wooden back simply reuses one of the existing wood textures in the game.",
+    "phrase_text": "In Minecraft, many crafted objects take on the texture of the wood used to make them, so an oak door and a spruce door look different. Some blocks ignore this entirely - a bookshelf always uses the oak planks texture no matter what wood you craft it from, and a painting's wooden back simply reuses one of the existing wood textures in the game.",
     "error": "a painting's wooden back simply reuses one of the existing wood textures in the game",
     "correction": "Um, actually, a painting's back matches none of the game's wood types. It uses its own plank-style texture with a yellowish tint similar to a chest, and it always has.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 9,
     "title": "Minecraft"
   },
@@ -2766,7 +2766,7 @@
     "category": "Games",
     "phrase_text": "In the Fallout series, Vault-Tec is the company that produces the vaults to preserve humanity after a nuclear war. However, most of these vaults were actually experiments on the human psyche, such as vaults pumped with hallucinogenic drugs, a vault with a man and a box of puppets, a vault with 999 men and one woman, a vault with 999 women and one man, and a vault where they elect a human sacrifice. The only vault without an experiment was Vault 101, seen in Fallout 3.",
     "error": "The only vault without an experiment was Vault 101",
-    "correction": "Um, actually, Vault 101 was also an experiment. It was deliberately designed to never open, in order to study the role of the Overseer in a vault that stayed sealed indefinitely.",
+    "correction": "Um, actually, Vault 101 was also an experiment - it was designed never to open, to study the Overseer's role in a vault sealed indefinitely. And it wasn't unique anyway: Vault-Tec also ran experiment-free 'control vaults' as a baseline.",
     "likes": 1,
     "dislikes": 0,
     "title": "Fallout"
@@ -2962,9 +2962,9 @@
     "id": 270,
     "author": "By ashw92",
     "category": "Cartoons & TV",
-    "phrase_text": "In \"The Simpsons\", the family's home at 742 Evergreen Terrace has been drawn both light pink and light brown across different episodes and seasons. The Flanders family live next door on one side, while the owners of the house on the other side are largely inconsistent and unimportant - the exception being Sideshow Bob, who briefly owned the property.",
-    "error": "at 742 Evergreen Terrace",
-    "correction": "Um, actually, the address is a running gag. Over the years the house has also been given numbers such as 94, 1094, 55 and 723 Evergreen Terrace, and even 430 Spalding Way.",
+    "phrase_text": "In \"The Simpsons\", the family's home at 94 Evergreen Terrace has been drawn both light pink and light brown across different episodes and seasons. The Flanders family live next door on one side, while the owners of the house on the other side are largely inconsistent and unimportant - the exception being Sideshow Bob, who briefly owned the property.",
+    "error": "at 94 Evergreen Terrace",
+    "correction": "Um, actually, the address is a running gag. Over the years the house has also been given numbers such as 742, 1094, 55 and 723 Evergreen Terrace, and even 430 Spalding Way.",
     "likes": 0,
     "dislikes": 0,
     "title": "The Simpsons"
@@ -3290,11 +3290,11 @@
   },
   {
     "id": 300,
-    "author": "By ashw92",
+    "author": "By luc",
     "category": "Music & Real World",
-    "phrase_text": "In the second act of the 11-time Tony-winning musical \"Hamilton\", several Act 1 actors are double-cast in new roles. The actor who played John Laurens becomes Philip Hamilton, the Marquis de Lafayette becomes Thomas Jefferson, Hercules Mulligan becomes John Adams, and Peggy Schuyler becomes Maria Reynolds.",
-    "error": "Hercules Mulligan becomes John Adams",
-    "correction": "Um, actually, the actor who played Hercules Mulligan returns as James Madison, not John Adams. Adams is frequently name-dropped but never actually appears on stage.",
+    "phrase_text": "Lin-Manuel Miranda's \"Hamilton\" turns Ron Chernow's biography into a hip-hop retelling of the founding father's life, and it sticks to the broad strokes of real history: Hamilton signs the Declaration of Independence, serves as George Washington's right-hand man through the Revolution, becomes the nation's first Secretary of the Treasury, and is killed in an 1804 duel with Aaron Burr in Weehawken, New Jersey.",
+    "error": "Hamilton signs the Declaration of Independence",
+    "correction": "Um, actually, Hamilton never signed the Declaration of Independence - in 1776 he was a young artillery captain. The founding document he did sign was the Constitution, as a New York delegate in 1787.",
     "likes": 3,
     "dislikes": 1,
     "title": "Hamilton"
@@ -3538,7 +3538,7 @@
     "error": "GLaDOS tries to kill Chell with live-fire military turrets on completion of the tests",
     "correction": "Um, actually, that's not how the tests end. GLaDOS tries to incinerate Chell and floods the room with neurotoxin - turrets are a threat earlier in the chambers, not at the finale.",
     "likes": 1,
-    "dislikes": 2,
+    "dislikes": 3,
     "title": "Portal"
   },
   {
@@ -3637,7 +3637,7 @@
     "error": "his native American accent",
     "correction": "Um, actually, Mike Myers is Canadian, not American. He recorded Shrek in his ordinary voice before switching to the now-famous Scottish accent.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Shrek"
   },
   {
@@ -4109,7 +4109,7 @@
     "phrase_text": "Sauropods are a clade of dinosaurs with very long necks, small heads and four pillar-like legs. They are notable for their enormous size, and the group includes the largest and heaviest known animals to have ever lived. While Brachiosaurus and Diplodocus are arguably better known, Argentinosaurus is the largest known sauropod, measuring around 30 metres in length with an estimated weight of up to 100 tons.",
     "error": "the largest and heaviest known animals to have ever lived",
     "correction": "Um, actually, they're the longest, but not the heaviest. The living blue whale is comparable in length to Argentinosaurus yet can weigh roughly twice as much, making it the heaviest animal known to have ever lived.",
-    "likes": 1,
+    "likes": 2,
     "dislikes": 0,
     "title": "Dinosaurs"
   },
@@ -4152,7 +4152,7 @@
     "category": "Games",
     "phrase_text": "In this Ancient Greek-based roguelike, players control Zagreus, son of Hades, as he attempts to escape the Underworld. Across his runs, Zagreus is aided by various Olympians as well as the primordial Chaos, who offer boons. Through the game's four main biomes you also encounter other iconic underworld residents, including Sisyphus, Eurydice, Patroclus, Achilles, Charon and Cerberus.",
     "error": "Sisyphus, Eurydice, Patroclus, Achilles, Charon and Cerberus",
-    "correction": "Um, actually, Achilles isn't found out in the biomes. He is Zagreus' mentor and stays in the House of Hades; only later, once reunited, does he visit Patroclus, the shade who lives in Elysium.",
+    "correction": "Um, actually, Achilles isn't a biome resident. He is Zagreus' mentor, stationed in the House of Hades; he only turns up in a biome later, once reunited with Patroclus, the shade who lives in Elysium.",
     "likes": 2,
     "dislikes": 2,
     "title": "Hades"
@@ -4348,7 +4348,7 @@
     "id": 396,
     "author": "By apetopac",
     "category": "Cartoons & TV",
-    "phrase_text": "Beyond its armless title character, the web cartoon \"Homestar Runner\" fills Free Country, USA with all sorts of odd creatures. Among its dozen or so regulars are Strong Bad, the boxing-gloved, wrestling-masked antagonist-turned-nuisance; Pom Pom, whom Homestar calls his \"best friend and confidant\" and the town hunk; and Marzipan, Homestar's long-suffering girlfriend.",
+    "phrase_text": "Beyond its armless title character, the web cartoon \"Homestar Runner\" fills Free Country, USA with all sorts of odd creatures. Among its dozen or so regulars are Strong Bad, the boxing-gloved, wrestling-masked antagonist-turned-nuisance; Pom Pom, the town hunk whom Homestar calls his \"best friend and confidant\"; and Marzipan, Homestar's long-suffering girlfriend.",
     "error": "\"best friend and confidant\"",
     "correction": "Um, actually, Homestar calls Pom Pom his \"best friend and concubine\" - then immediately admits he should probably look up what that word means. It's one of his many malapropisms.",
     "likes": 4,
@@ -4645,11 +4645,11 @@
     "id": 423,
     "author": "Fan Submitted",
     "category": "Music & Real World",
-    "phrase_text": "In 2005, WWE introduced \"Money in the Bank\", a privilege the winner can use to challenge for any championship in the company at any time, without warning, for a year after winning it. Among those who have \"cashed in\" are Edge, Alexa Bliss, Brock Lesnar, Bayley, Drew McIntyre, and Nikki Cross. Among all winners, only two have ever won the match twice: CM Punk and Seth Rollins.",
-    "error": "only two have ever won the match twice: CM Punk and Seth Rollins",
-    "correction": "Um, actually, CM Punk is the only wrestler to win the Money in the Bank ladder match twice, taking it in 2008 and 2009. Seth Rollins has won it just once, back in 2014.",
+    "phrase_text": "In 2005, WWE introduced \"Money in the Bank\", a privilege the winner can use to challenge for any championship in the company at any time, without warning, for a year after winning it. Among those who have \"cashed in\" are Edge, Alexa Bliss, Brock Lesnar, Bayley, Drew McIntyre, and Nikki Cross. Among all winners, only one has ever won the match twice: CM Punk, who took it in 2008 and 2009.",
+    "error": "only one has ever won the match twice: CM Punk",
+    "correction": "Um, actually, CM Punk is no longer the only two-time winner. Seth Rollins joined him in 2025, winning his second Money in the Bank ladder match 11 years after his first in 2014.",
     "likes": 0,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Professional Wrestling"
   },
   {
@@ -4659,7 +4659,7 @@
     "phrase_text": "The final season of HBO's \"Game of Thrones\" divided fans, but the series still tried to reward longtime viewers. At the Dragonpit council, Tyrion Lannister proposes the crippled Bran Stark - Bran the Broken - as the next ruler of Westeros, and most of the realm swears fealty. Yara Greyjoy and Sansa Stark both refuse, demanding independence for the Iron Islands and the North, and the new king grants it without complaint.",
     "error": "Yara Greyjoy and Sansa Stark both refuse, demanding independence for the Iron Islands and the North",
     "correction": "Um, actually, only Sansa Stark demands independence, winning it for the North. Yara Greyjoy stays loyal and pledges the Iron Islands to King Bran, never asking to break away.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Game of Thrones"
   },
@@ -4670,7 +4670,7 @@
     "phrase_text": "When Jon Snow took the black and joined the Night's Watch, he never expected to lead armies away from the Wall - something his vows only allowed after he briefly died and was resurrected. He later fights the Battle of the Bastards partly on behalf of his half-siblings: bastard Jon against bastard Ramsay, illegitimate son of Lord Roose Bolton. Jon wins the day but lets his half-sister Sansa deliver the cruel Ramsay's death sentence.",
     "error": "bastard Jon against bastard Ramsay, illegitimate son of Lord Roose Bolton",
     "correction": "Um, actually, neither commander is really a bastard - Ramsay had been legitimized by royal decree before the battle, and Jon is later revealed as the trueborn son of Rhaegar Targaryen and Lyanna Stark.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Game of Thrones"
   },
@@ -4681,7 +4681,7 @@
     "phrase_text": "Someone's sensitivity to the Force has long been a fraught issue for the \"Star Wars\" fandom. Early fans were shocked that Luke Skywalker's power was tied to his father, Darth Vader, and many balked when \"The Phantom Menace\" blamed Anakin's ability on microscopic midichlorians. The sequel trilogy, episodes 7-9, made it clear that Force sensitivity is not based on bloodlines, when Kylo Ren forced Rey to admit her parents were \"nobody.\"",
     "error": "The sequel trilogy, episodes 7-9, made it clear that Force sensitivity is not based on bloodlines",
     "correction": "Um, actually, \"The Rise of Skywalker\" reverses that idea. Episode 9 reveals Rey is the granddaughter of Emperor Palpatine, tying her power directly to her bloodline after all.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Star Wars"
   },
@@ -4692,7 +4692,7 @@
     "phrase_text": "Romance reality show \"Temptation Island\" follows couples unsure whether to continue their relationships. The pairs are separated and surrounded by attractive singles, and every so often the host, Mark Wahlberg (Marky Mark himself), shows the separated partners incriminating clips of their time with those singles. Predictably, many couples decide to split, and some leave with a new partner.",
     "error": "Mark Wahlberg (Marky Mark himself)",
     "correction": "Um, actually, \"Temptation Island\" is hosted by Mark L. Walberg, a game-show host best known for \"Antiques Roadshow\" - a completely different person from actor and rapper Mark Wahlberg.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Temptation Island"
   },
@@ -4703,7 +4703,7 @@
     "phrase_text": "Bethesda's \"Fallout 3\" takes place in Washington, D.C., far from the series' West Coast origins, but it features familiar enemies. These include mutated creatures such as super mutants (from Vault 87), ghouls (survivors hideously disfigured by radiation), and deathclaws, mutated chameleons formed by the radiation from the bombs dropped in 2077.",
     "error": "deathclaws, mutated chameleons formed by the radiation from the bombs dropped in 2077",
     "correction": "Um, actually, deathclaws weren't created by the fallout - they were engineered before the Great War by the U.S. military as living weapons, built primarily from Jackson's Chameleons.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Fallout"
   },
@@ -4736,8 +4736,52 @@
     "phrase_text": "Everyone knows Dracula, but what was his real name? In \"Castlevania: Lament of Innocence,\" he began as a human named Mathias Cronqvist, a strategist who fought alongside Leon Belmont in the 11th century. Embittered after God took his wife Elisabetha, Mathias seized the Crimson Stone and a vampire's soul to become the immortal Dracula. The count has worn other guises too: in \"Castlevania 64,\" he disguises himself as a man named Gilles de Rais, before eventually being reincarnated as Soma Cruz after his death in 1999.",
     "error": "he disguises himself as a man named Gilles de Rais",
     "correction": "Um, actually, Dracula disguises himself as a boy named Malus in \"Castlevania 64.\" Gilles de Rais is one of his vampire servants, who separately poses as Dracula to fool the heroes.",
-    "likes": 0,
+    "likes": 2,
     "dislikes": 0,
     "title": "Castlevania"
+  },
+  {
+    "id": 432,
+    "author": "By JustZip",
+    "category": "Cartoons & TV",
+    "phrase_text": "While episode tiebreaks are common enough, series tiebreaks are a lot rarer, only happening once as of 2026, in Series 20. At the end, Sanjeev Bhaskar came in last with 143 points, Phil Ellis came in fourth with 148 points, and Reece Shearsmith, Ania Magliano and Maisie Adam all tied with 151 points. After guessing how many T's were hidden in a painting, Maisie Adam ended up becoming the champion of the series.",
+    "error": "Phil Ellis came in fourth with 148 points, and Reece Shearsmith, Ania Magliano and Maisie Adam all tied with 151 points",
+    "correction": "Um, actually, Reece Shearsmith came in fourth with 148 points; it was Phil Ellis who tied with Ania Magliano and Maisie Adam at 151, forcing the three-way tiebreak that Maisie won.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Taskmaster"
+  },
+  {
+    "id": 433,
+    "author": "By Ymbirtt",
+    "category": "Games",
+    "phrase_text": "In Mass Effect 1 and 2, melee combat was fairly vestigial, but Mass Effect 3 changed that. The Omni-Tool, a small portable computer with a holographic display, was repurposed into an Omni-Blade, which used hard-light technology to project a lethal knife from the user's wrist. Different classes even used it differently - the Engineer's blade is infused with fire, the Infiltrator's with arcing electricity, and the Vanguard forgoes it for a giant biotically charged punch.",
+    "error": "hard-light technology",
+    "correction": "Um, actually, the Omni-Blade doesn't use hard-light. The omni-tool is essentially a tiny fabricator that flash-forges a disposable metal blade the instant the user initiates the attack.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Mass Effect 3"
+  },
+  {
+    "id": 434,
+    "author": "By Ymbirtt",
+    "category": "Games",
+    "phrase_text": "Despite being released in 1999, \"Age of Empires II\" has continued to receive substantial re-releases and support right up to the present day. While it only released with 13 civilisations, the latest version lets players choose from a diverse range of civilisations active during the European Middle Ages, including the Mayans, Britons, Ethiopians, Ottomans, Indians and Vietnamese.",
+    "error": "Indians",
+    "correction": "Um, actually, the Indians are no longer a playable civilisation. The 2025 Dynasties of India expansion split them into four: the Bengalis, Dravidians, Gurjaras and Hindustanis.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Age of Empires II"
+  },
+  {
+    "id": 435,
+    "author": "By CowAboutThat",
+    "category": "Games",
+    "phrase_text": "In the original \"Rayman\" and its closely related Game Boy Color remake, our hero frees cute pink spherical creatures, called Electoons, from the cages monsters have trapped them in. Later Rayman games also feature cages, though Rayman might instead free Lums or Teensies. Electoons make their grand return in the reboot \"Rayman Origins\", back in familiar cartoonish cages.",
+    "error": "and its closely related Game Boy Color remake",
+    "correction": "Um, actually, the Game Boy Color port renames them - there the freed creatures are simply called Toons, not Electoons.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Rayman"
   }
 ]
