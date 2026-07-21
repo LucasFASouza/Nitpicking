@@ -17,7 +17,7 @@
     "phrase_text": "The various Spider-People in \"Spider-Man: Into the Spider-Verse\" may have all been bitten by a radioactive spider and consider themselves the \"one and only\" Spidey in their universe, but they couldn't be more different: Peter B. Parker is a divorcee living in a one-bedroom apartment, Spider Man Noir is a P.I. living in 1933 who likes to drink egg creams and fight Nazis, and Peter Porker is a photographer for the Daily Beagle.",
     "error": "may have all been bitten by a radioactive spider and consider themselves the \"one and only\" Spidey in their universe,",
     "correction": "Um, actually, not all of the Spider-Men were bitten by a radioactive spider. Peter Porker was a spider who was bitten by a radioactive pig.",
-    "likes": 30,
+    "likes": 32,
     "dislikes": 2,
     "title": "Spider-Man: Into the Spider-Verse"
   },
@@ -292,7 +292,7 @@
     "phrase_text": "The episode \"Time Enough at Last\" features bankteller Henry Bemis, who is chastised for reading too much. After surviving an H-bomb explosion by hiding in his bank's vault, he finds that everyone has died. Thankfully for him, the books at the library survive and he has canned food to last him a life time. While he's happy to read to his heart's content, he falls into despair because books can't replace human connections.",
     "error": "While he's happy to read to his heart's content, he falls into despair because books can't replace human connections.",
     "correction": "Um, actually, Henry can't read the books in the library. Henry falls into despair because his spectacles break, leaving him unable to read the books.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "The Twilight Zone"
   },
@@ -381,7 +381,7 @@
     "error": "alchemy must be practiced using a transmutation circle (typically either drawn on the ground or tattooed onto an alchemist's body),",
     "correction": "Um, actually, alchemy doesn't necessarily require a transmutation circle. The protagonist, Edward Elric, rarely uses one.",
     "likes": 3,
-    "dislikes": 0,
+    "dislikes": 1,
     "title": "Fullmetal Alchemist: Brotherhood"
   },
   {
@@ -1151,7 +1151,7 @@
     "error": "ruled by the living god known as the Emperor of Mankind and the Senatorum Imperialis on the capital of Earth.",
     "correction": "Um, actually, the Emperor and Senatorum Imperialis aren't on Earth. The capital of the Imperium is Terra. In Warhammer 40k, \"Earth\" is an archaic name that hasn't been used in millennia.",
     "likes": 0,
-    "dislikes": 3,
+    "dislikes": 4,
     "title": "Warhammer 40,000"
   },
   {
@@ -1865,7 +1865,7 @@
     "phrase_text": "The Minotaur was a part-man, part-bull monster that dwelt at the centre of a labyrinth. It was created after the King Minos refused to sacrifice a beautiful snow-white bull to Poseidon, causing Poseidon to transform the bull into the hideous Minotaur. The Minotaur was killed by Theseus, aided by Minos' daughter Ariadne, who gave Theseus a ball of thread to help him navigate the maze.",
     "error": "causing Poseidon to transform the bull into the hideous Minotaur.",
     "correction": "Um, actually, the minotaur wasn't a cursed bull. Poseidon asked Aphrodite to curse Minos' wife Pasiphaë to fall in love with the bull... and thus, the Minotaur was born.",
-    "likes": 6,
+    "likes": 7,
     "dislikes": 0,
     "title": "The Minotaur"
   },
@@ -2918,11 +2918,11 @@
     "id": 266,
     "author": "By ashw92",
     "category": "Games",
-    "phrase_text": "In the first \"BioShock\", the protagonist Jack survives a plane crash near a mysterious lighthouse, which lets him descend by bathysphere to the undersea city of Rapture. Later it is revealed that Jack is the son of Rapture's founder, Andrew Ryan, whom he is ultimately forced to kill.",
-    "error": "Jack survives a plane crash near a mysterious lighthouse",
-    "correction": "Um, actually, Jack isn't a crash victim. Under the hypnotic trigger \"Would you kindly\", he hijacks the plane himself and deliberately crashes it beside the lighthouse.",
+    "phrase_text": "In the first \"BioShock\", the protagonist Jack survives an accidental plane crash near a mysterious lighthouse, which lets him descend by bathysphere to the undersea city of Rapture. Later it is revealed that Jack is the son of Rapture's founder, Andrew Ryan, whom he is ultimately forced to kill.",
+    "error": "Jack survives an accidental plane crash near a mysterious lighthouse",
+    "correction": "Um, actually, the crash wasn't an accident. Under the hypnotic trigger \"Would you kindly\", Jack hijacks the plane himself and deliberately crashes it beside the lighthouse.",
     "likes": 1,
-    "dislikes": 2,
+    "dislikes": 3,
     "title": "BioShock"
   },
   {
@@ -4736,7 +4736,7 @@
     "phrase_text": "Everyone knows Dracula, but what was his real name? In \"Castlevania: Lament of Innocence,\" he began as a human named Mathias Cronqvist, a strategist who fought alongside Leon Belmont in the 11th century. Embittered after God took his wife Elisabetha, Mathias seized the Crimson Stone and a vampire's soul to become the immortal Dracula. The count has worn other guises too: in \"Castlevania 64,\" he disguises himself as a man named Gilles de Rais, before eventually being reincarnated as Soma Cruz after his death in 1999.",
     "error": "he disguises himself as a man named Gilles de Rais",
     "correction": "Um, actually, Dracula disguises himself as a boy named Malus in \"Castlevania 64.\" Gilles de Rais is one of his vampire servants, who separately poses as Dracula to fool the heroes.",
-    "likes": 2,
+    "likes": 3,
     "dislikes": 0,
     "title": "Castlevania"
   },
@@ -4766,10 +4766,10 @@
     "id": 434,
     "author": "By Ymbirtt",
     "category": "Games",
-    "phrase_text": "Despite being released in 1999, \"Age of Empires II\" has continued to receive substantial re-releases and support right up to the present day. While it only released with 13 civilisations, the latest version lets players choose from a diverse range of civilisations active during the European Middle Ages, including the Mayans, Britons, Ethiopians, Ottomans, Indians and Vietnamese.",
+    "phrase_text": "Despite being released in 1999, \"Age of Empires II\" has continued to receive substantial re-releases and support right up to the present day. While it only released with 13 civilisations, the latest version lets players choose from a diverse range of civilisations active during the European Middle Ages, including the Mayans, Britons, Ethiopians, Turks, Indians and Vietnamese.",
     "error": "Indians",
-    "correction": "Um, actually, the Indians are no longer a playable civilisation. The 2025 Dynasties of India expansion split them into four: the Bengalis, Dravidians, Gurjaras and Hindustanis.",
-    "likes": 0,
+    "correction": "Um, actually, the Indians are no longer a playable civilisation. The 2022 Dynasties of India expansion split them into four: the Bengalis, Dravidians, Gurjaras and Hindustanis.",
+    "likes": 1,
     "dislikes": 0,
     "title": "Age of Empires II"
   },
@@ -4780,8 +4780,107 @@
     "phrase_text": "In the original \"Rayman\" and its closely related Game Boy Color remake, our hero frees cute pink spherical creatures, called Electoons, from the cages monsters have trapped them in. Later Rayman games also feature cages, though Rayman might instead free Lums or Teensies. Electoons make their grand return in the reboot \"Rayman Origins\", back in familiar cartoonish cages.",
     "error": "and its closely related Game Boy Color remake",
     "correction": "Um, actually, the Game Boy Color port renames them - there the freed creatures are simply called Toons, not Electoons.",
-    "likes": 0,
+    "likes": 1,
     "dislikes": 0,
     "title": "Rayman"
+  },
+  {
+    "id": 436,
+    "author": "By Ymbirtt",
+    "category": "Games",
+    "phrase_text": "In \"Age of Empires II\", one of the game's nicer historical flourishes is that units of each civilization speak a language fitting their culture and era. Frankish villagers greet you with \"Oe, que fais?\" (\"Yes? What shall I do?\"), Celtic warriors rally with the Irish cry \"Don chath!\" (\"To battle!\"), and Briton monks recite Bible passages in Middle English, such as \"Ye ben sauyd bi feith\" (\"Ye be saved by faith\").",
+    "error": "Briton monks recite Bible passages in Middle English, such as \"Ye ben sauyd bi feith\" (\"Ye be saved by faith\")",
+    "correction": "Um, actually, Briton monks speak Latin (\"Salve\"), not Middle English - only regular Britons use the vernacular; Medieval England's church conducted Mass in Latin.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Age of Empires II"
+  },
+  {
+    "id": 437,
+    "author": "By Fluitaire",
+    "category": "Fantasy",
+    "phrase_text": "In the Temeraire novels, Royal Navy Captain William Laurence captures a dragon egg from a French frigate during the Napoleonic Wars. Upon hatching, the dragon imprints on Laurence, and the two quickly become fast friends before leaving for Aerial Corps training. Together they serve throughout the war, traveling to five of the seven continents and surviving assassination attempts and accusations of treason.",
+    "error": "the two quickly become fast friends",
+    "correction": "Um, actually, Laurence is dismayed rather than delighted - the Aerial Corps is considered a disreputable posting, and the pair's bond starts out rocky before it warms over time.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Temeraire"
+  },
+  {
+    "id": 438,
+    "author": "By Ymbirtt",
+    "category": "Games",
+    "phrase_text": "In Team Fortress 2's zany lore, real historical figures are replaced with far more Mann-ly equivalents. Picasso is now Kickasso, a painter famous for paintings produced during his \"Hunted in the Jungle\" period. Abraham Lincoln is now a mighty 6 foot 4 inch wrestler, famous for chokeslamming bullies. Shakespearicles is the strongest writer who ever lived, famous for inventing the rocket launcher and America.",
+    "error": "Abraham Lincoln is now a mighty 6 foot 4 inch wrestler, famous for chokeslamming bullies",
+    "correction": "Um, actually, that's not invented lore - Lincoln really was 6 foot 4 and an accomplished amateur wrestler, once besting a local bully named Jack Armstrong in a legendary bout.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Team Fortress 2"
+  },
+  {
+    "id": 439,
+    "author": "By CowAboutThat",
+    "category": "Cartoons & TV",
+    "phrase_text": "In the episode \"Promortyus\", facehugger-like aliens called Glorzo take over Rick and Morty's bodies, though the hosts keep their own voices. The Glorzo normally have short lifespans, dying to lay a single egg soon after infecting a host. Believing Summer has a rare immunity to their parasitism, the Glorzo crown her leader; she decrees they build a society instead of reproducing - a ruse to get them to build her family a spaceship off-planet.",
+    "error": "Summer has a rare immunity to their parasitism",
+    "correction": "Um, actually, Summer isn't immune - she just keeps a toothpick in her mouth, which stops the Glorzo from latching onto her face when they try to attach.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Rick and Morty"
+  },
+  {
+    "id": 440,
+    "author": "By Fluitaire",
+    "category": "Fantasy",
+    "phrase_text": "In The Song of the Lioness quartet, twins Alanna and Thom swap the futures set out for them - she wants to be a knight, he wants to be a wizard. To pull off the switch, they use magic on their servants, Maude and Coram, to secure help, then trade places. Alanna trains as a knight by disguising her gender, while Thom studies sorcery by hiding his talent, and both become instrumental in defeating the evil Duke Roger, the king's nephew.",
+    "error": "they use magic on their servants, Maude and Coram, to secure help",
+    "correction": "Um, actually, only Coram needs magic - he's threatened into silence, while Maude, already their tutor, casts a seeing spell that convinces Alanna to proceed.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "The Song of the Lioness"
+  },
+  {
+    "id": 441,
+    "author": "By ConstantlyComic",
+    "category": "Comics & Superheroes",
+    "phrase_text": "Once the stronghold of the infamous Heterodyne family, Castle Heterodyne is now a high-security prison holding the most dangerous, mad, and dangerously mad prisoners of the Wulfenbach Empire. Guards stay outside, since the interior is full of deathtraps prisoners must survive while repairing the castle's machinery, alternately directed and tormented by Faustus, the cruel, fractured artificial intelligence that controls it.",
+    "error": "Faustus, the cruel, fractured artificial intelligence that controls it",
+    "correction": "Um, actually, the castle's intelligence is never named - it's called Castle Heterodyne, or just the Castle. Its personality is modeled on that of its creator, Faustus Heterodyne.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Girl Genius"
+  },
+  {
+    "id": 442,
+    "author": "By ConstantlyComic",
+    "category": "Comics & Superheroes",
+    "phrase_text": "Since it's a crossover between two huge superhero companies, the early 2000s miniseries \"JLA/Avengers\" settles several \"who would win\" arguments. Captain America can beat Batman, but only due to his enhanced stamina; Superman is deemed worthy of Mjolnir in the climactic battle against the cosmic despot Krona; and the Flash outraces Quicksilver in the DC universe but loses his superspeed in the Marvel universe, where the Speed Force doesn't exist.",
+    "error": "Superman is deemed worthy of Mjolnir in the climactic battle against the cosmic despot Krona",
+    "correction": "Um, actually, Superman isn't worthy of Mjolnir - Odin briefly lifts the hammer's enchantment so he can wield it against Krona, then restores it once the battle ends.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "JLA/Avengers"
+  },
+  {
+    "id": 443,
+    "author": "By ConstantlyComic",
+    "category": "Fantasy",
+    "phrase_text": "Gertrude Robinson, Jonathan Sims's predecessor as Head Archivist of the Magnus Institute, was a pretty dangerous person to work for - each of her five assistants ended up dead or worse. Michael Shelley was fed to the Distortion, a being of the Spiral; Emma Harvey died when her home was burned down by the Cult of the Lightless Flame; and Fiona Law was trapped in the Buried's coffin. Shockingly, she still isn't the worst boss at the Institute.",
+    "error": "Emma Harvey died when her home was burned down by the Cult of the Lightless Flame",
+    "correction": "Um, actually, the Cult of the Lightless Flame didn't set the fire - Gertrude did, after learning Emma had become an agent of the Web and was endangering other assistants.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "The Magnus Archives"
+  },
+  {
+    "id": 444,
+    "author": "By ConstantlyComic",
+    "category": "Games",
+    "phrase_text": "Sharlayan Archon Louisoix Leveilleur may have sacrificed himself to stop the primal Bahamut five years before the events of \"Final Fantasy XIV: A Realm Reborn\", but his influence is still strongly felt. His grandchildren, twins Alphinaud and Alisae, are major characters, and his former students Y'shtola Rhul, Thancred Waters, and Urianger Augurelt are all members of the Scions of the Seventh Dawn when the player first joins.",
+    "error": "his former students Y'shtola Rhul",
+    "correction": "Um, actually, Y'shtola never trained under Louisoix - she was raised and taught divination by the archon Matoya starting at age seven.",
+    "likes": 0,
+    "dislikes": 0,
+    "title": "Final Fantasy XIV"
   }
 ]
